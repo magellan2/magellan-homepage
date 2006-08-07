@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+  <!--#include virtual="metadata.ssi"-->
+</head>
+<body>
+  <div id="container">
+    <!--#include virtual="navigation.ssi"-->
+    <!--#include virtual="header.ssi"-->
+    <div id="center">
+
+    <h2>Neuigkeiten</h2>
+
+    <h3>2002.02.24 - Neues Feature</h3>
+    <p>Die Parteistatistik zeigt nun auch Statistiken über die Produktion der vergangenen Woche</p>
+
+    <h3>2002.02.13 - Probleme mit der Parteistatistik</h3>
+    <p>Es steht nun ein neues chart.jar auf der Magellandownloadseite zum Download bereit. Damit sollte alles wieder funktionieren.</p>
+
+    <h3>2002.02.13 - Probleme mit der Parteistatistik</h3>
+    <p>Bedingt durch die Umstellung auf die bevorstehenden &Auml;nderungen (Wegfall
+      der Talenttage) funktioniert die Talentbalkenstatistik (chart.jar) nicht korrekt.
+      Dies kann bewirken, dass bei einigen die Parteistatistik nicht mehr funktioniert.
+      Bitte in diesem Falle chart.jar aus den Resourcenpfaden entfernen und warten,
+      bis es eine neue Version davon gibt.</p>
+
+  	<h3>2001.12.29 - Englische &Uuml;bersetzung</h3>
+  	<p>Die Magellan Homepage ist nun zweisprachig: deutsch und englisch.</p>
+
+  	<h3>2001.12.20 - Magellan beliebtester Client</h3>
+  	<p>In der <a href="http://eressea.upb.de/~enno/cgi-bin/poll2001.py">Spielerumfrage</a> ging Magellan als das beliebteste Eressea Tool mit &uuml;ber 70% Nutzerquote erschreckenderweise noch vor E-Check hervor.</p>
+
+  	<h3>2001.11.14 - Verbesserte Patcher Version</h3>
+  	<p>Der <a href="download.html#patcher">Magellan Patcher</a> ist nun direkt von der Magellan Homepage verf&uuml;gbar und kann sowohl Magellan als auch die Hilfe sowie sich selbst aktualisieren.</p>
+
+  	<h3>2001.11.12 - Online-Hilfe am Start</h3>
+  	<p>Die neue Online-Hilfe kann man sich jetzt endlich <a href="download.html#help">herunterladen</a>.</p>
+
+  	<h3>2001.11.04 - Neue Online-Hilfe</h3>
+  	<p>Die Online-Hilfe ist fertig. Sie wird in ein paar Tagen hier verf&uuml;gbar sein.</p>
+
+  	<h3>2001.09.30 - PARTEI Befehl</h3>
+  	<p>Magellan verwendet schon seit l&auml;ngerem nur noch den Befehl ERESSEA, um die Befehle einer Partei einzuleiten. Daher hat die Abschaffung des PARTEI Befehls f&uuml;r Magellan User keine negativen Auswirkungen.</p>
+
+  	<h3>2001.09.18 - Regel-&Auml;nderungen und neue CR-Version</h3>
+  	<p>Die vergangenen Sonntag eingef&uuml;hrten Regel-&Auml;nderungen werden nun von Magellan unterst&uuml;tzt.</p>
+
+  	<h3>2001.09.12 - ECheck 4</h3>
+  	<p>Magellan unterst&uuml;tzt nun ECheck ab der Version 4.1.2. &Auml;ltere Versionen k&ouml;nnen leider nicht mehr verwendet werden.</p>
+
+  	<h3>2001.08.22 - Patcher</h3>
+  	<p>Das Magellan Update Utility heisst nun Magellan Patcher und ist auf der <a href="download.html">Download-Seite</a> zu finden.</p>
+
+  	<h3>2001.08.22 - Verdanon mit Magellan</h3>
+  	<p>Dank Shanneras Engagement gibt es nun ein <a href="download.html#pbems">Zusatzpaket</a>, um Magellan auch f&uuml;r Verdanon nutzen zu k&ouml;nnen.</p>
+
+  	<h3>2001.08.21 - ECheck 4.0</h3>
+  	<p>Das neue ECheck wird wohl noch ein paar &Auml;nderungen erhalten, um besser mit Magellan zusammen zu arbeiten, deswegen kann sich die Anpassung noch ein wenig hinausz&ouml;gern.</p>
+
+  	<h3>2001.08.16 - ECheck 4.0</h3>
+  	<p>Die neue Version von <a href="http://faroul.de/Eressea/ECheck/Download.html" target="_top">ECheck</a> ist da. Magellan wird in den n&auml;chsten Tagen angepasst werden.</p>
+
+  	<h3>2001.08.12 - Merging mit NewBaseClient</h3>
+  	<p>Die &Auml;nderungen aus dem bisherigen NewBaseClient sind nun in die offizielle Magellan Version eingeflossen.</p>
+
+  	<h3>2001.08.10 - GPL</h3>
+  	<p>Magellan tr&auml;gt nun offiziell die <a href="http://www.gnu.org/licenses/gpl.html" target="_top">GNU General Public License</a>. Wie man auf den Quellcode zugreift ist auf der <a href="../en/development.html">Entwickler-Seite</a> zu finden.</p>
+
+    </div>
+
+  </div>
+</body>
+</html>
