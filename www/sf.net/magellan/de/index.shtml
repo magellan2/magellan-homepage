@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--#include virtual="metadata.ssi"-->
+<title>Magellan</title>
+</head>
+<body>
+<div id="container">
+<!--#include virtual="navigation.ssi"-->
+<!--#include virtual="header.ssi"-->
+<div id="center">
+<h3>Was ist Magellan?</h3>
+
+<p><a href="../images/magellan.jpg"><img src="../images/magellan-small.jpg" width="250" height="182" align="right" vspace="3" hspace="5" alt="Klicken f&uuml;r Vergr&ouml;&szlig;erung (172Kb)" border=
+"0" /></a>Magellan ist ein vollst&auml;ndiger Client f&uuml;r <a href="http://www.eressea.de/" target="_top">Eressea</a>. Man kann damit seine Karte anzeigen, Suchen, Befehle geben, und
+&uuml;berhaupt braucht man das Programm fast nur noch zu verlassen, um Mails an die Verb&uuml;ndeten zu schreiben. Fast.</p>
+
+<h3>Was ist Magellan nicht?</h3>
+
+<p>Magellan ist nur eines von <a href="http://www.eressea.de/de/downloads.html" target="_top">vielen Client Programmen</a> f&uuml;r Eressea und steht in keinem Zusammenhang mit dem Eresseateam. Bitte
+wende dich daher bei Fragen und Problemen an die <a href="../downloads/pkg/help/de/Magellan/feedback.html">Magellan Community</a>.</p>
+
+<h3>L&auml;uft Magellan auf meinem Rechner?</h3>
+
+<p>Dank Java l&auml;uft Magellan auf MS Windows, Linux, MacOS X und diversen anderen Betriebssystemen. Ben&ouml;tigt wird allerdings ein etwas leistungsf&auml;higerer Rechner, gerade wenn die Partei
+w&auml;chst. Die Mindestausstattung liegt bei einem Prozessor mit 200 MHz und 64 MB Hauptspeicher, empfehlenswert sind jedoch 450 MHz und 128 MB Hauptspeicher. Magellan l&auml;uft ab Java 1.3.</p>
+
+<h3>Java? Das kann ich nicht!</h3>
+
+<p>Kein Problem, das ist auch nicht n&ouml;tig. Nach der einmaligen Installation von Java braucht man nur noch Magellan <a href="download.html">herunterladen</a> - eine Datei, die man im
+Windows-Explorer per Doppelklick starten kann. Mit Programmieren in Java hat das alles nichts zu tun, damit m&uuml;&szlig;en sich nur die Entwickler herumschlagen.</p>
+
+<h3>Ist Magellan gut?</h3>
+
+<p>Nun - immerhin konnte Magellan inzwischen Ennos <a href="http://eressea.upb.de/~enno/seal.html" target="_top">Seal of Excellence</a> einheimsen.<br />
+ Laut der <a href="http://eressea.upb.de/~enno/cgi-bin/poll2001.py" target="_top">Spielerumfrage Ende 2001</a> scheint Magellan au&szlig;erdem das bei den Eressea Spielern beliebteste Tool zu
+sein.</p>
+
+<h3>Wie sieht's mit der Weiterentwicklung aus?</h3>
+
+<p>Magellan ist ein Open-Source Projekt, an dem sich mehrere Entwickler beteiligen. Dadurch ist sichergestellt, dass Anpassungen z.B. an &Auml;nderungen im CR immer sehr schnell umgesetzt werden.
+Durch Vorschl&auml;ge und Hinweise k&ouml;nnen die User neue Ideen einbringen und Einfluss auf existierende Features nehmen.</p>
+</div>
+</div>
+</body>
+</html>
+
