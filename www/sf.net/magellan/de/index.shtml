@@ -19,7 +19,7 @@
 <h3>Was ist Magellan nicht?</h3>
 
 <p>Magellan ist nur eines von <a href="http://www.eressea.de/de/downloads.html" target="_top">vielen Client Programmen</a> f&uuml;r Eressea und steht in keinem Zusammenhang mit dem Eresseateam. Bitte
-wende dich daher bei Fragen und Problemen an die <a href="../downloads/pkg/help/de/Magellan/feedback.html">Magellan Community</a>.</p>
+wende dich daher bei Fragen und Problemen an die <a href="feedback.shtml">Magellan Community</a>.</p>
 
 <h3>L&auml;uft Magellan auf meinem Rechner?</h3>
 
@@ -28,19 +28,19 @@ w&auml;chst. Die Mindestausstattung liegt bei einem Prozessor mit 200 MHz und 64
 
 <h3>Java? Das kann ich nicht!</h3>
 
-<p>Kein Problem, das ist auch nicht n&ouml;tig. Nach der einmaligen Installation von Java braucht man nur noch Magellan <a href="download.html">herunterladen</a> - eine Datei, die man im
+<p>Kein Problem, das ist auch nicht n&ouml;tig. Nach der einmaligen Installation von Java braucht man nur noch Magellan <a href="download.shtml">herunterladen</a> - eine Datei, die man im
 Windows-Explorer per Doppelklick starten kann. Mit Programmieren in Java hat das alles nichts zu tun, damit m&uuml;&szlig;en sich nur die Entwickler herumschlagen.</p>
 
 <h3>Ist Magellan gut?</h3>
 
-<p>Nun - immerhin konnte Magellan inzwischen Ennos <a href="http://eressea.upb.de/~enno/seal.html" target="_top">Seal of Excellence</a> einheimsen.<br />
- Laut der <a href="http://eressea.upb.de/~enno/cgi-bin/poll2001.py" target="_top">Spielerumfrage Ende 2001</a> scheint Magellan au&szlig;erdem das bei den Eressea Spielern beliebteste Tool zu
+<p>Nun - immerhin konnte Magellan inzwischen Ennos <b>Seal of Excellence</b> einheimsen.<br />
+ Laut der <b>Spielerumfrage Ende 2001</b> scheint Magellan au&szlig;erdem das bei den Eressea Spielern beliebteste Tool zu
 sein.</p>
 
 <h3>Wie sieht's mit der Weiterentwicklung aus?</h3>
 
 <p>Magellan ist ein Open-Source Projekt, an dem sich mehrere Entwickler beteiligen. Dadurch ist sichergestellt, dass Anpassungen z.B. an &Auml;nderungen im CR immer sehr schnell umgesetzt werden.
-Durch Vorschl&auml;ge und Hinweise k&ouml;nnen die User neue Ideen einbringen und Einfluss auf existierende Features nehmen.</p>
+Durch Vorschl&auml;ge und Hinweise k&ouml;nnen die User neue Ideen einbringen und Einfluss auf existierende Features nehmen. (<a href = "feedback.shtml">Feedback</a>)</p>
 </div>
 </div>
 </body>

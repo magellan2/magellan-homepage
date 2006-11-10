@@ -20,6 +20,7 @@
 		<li><a href="#chart">Talentcharts Plug-In</a></li>
 		<li><a href="#pbems">Andere PBeMs</a></li>
 -->
+		<li><a href="#beta">Entwicklerversion (Betatest)</a></li>
 	</ul>
 	<hr>
 
@@ -28,11 +29,13 @@
 
  	<p><b>Die neuesten Versionen von Magellan befinden sich jetzt auf <a class="external" href="http://sourceforge.net/project/showfiles.php?group_id=91825/">SourceForge</a></b></p>
 
-	<p>Den Download <tt>magellan.jar</tt> sollte man als Datei auf dem eigenen Rechner abspeichern, diese Datei muss nicht dekomprimiert werden oder &auml;hnliches (siehe auch <a href="../downloads/pkg/help/de/Magellan/faq.shtml">F.A.Q.</a>)</p>
+	<p>Den Download <tt>magellan.jar</tt> sollte man als Datei auf dem eigenen Rechner abspeichern, diese Datei muss nicht dekomprimiert werden oder &auml;hnliches (siehe auch <a href="faq.shtml">F.A.Q.</a>)</p>
 
 	<a name="java"></a>
 	<h3>Java</h3>
 	<p>Um Magellan starten zu k&ouml;nnen, muss erst mal Java - das sogenannte <a href="http://java.sun.com/j2se/" target="_top">Java Runtime Environment (JRE)</a> - installiert werden. Man kann auch JREs von anderen Herstellern als SUN verwenden, es muss aber mindestens Version 1.3 sein - unter Linux hat sich &uuml;brigens anscheinend IBM's JRE besser bew&auml;hrt als das von SUN.</p>
+
+
 
 <!--
 	<a name="help" />
@@ -105,6 +108,11 @@
 		</ul>
 		</p>
 -->
+
+	<a name="java"></a>
+	<h3>Entwicklerversion - Beta Test</h3>
+	<p>Beginnend Mitte 2006 hat sich das Entwicklerteam veraendert. Fuer die Uebergangszeit (bis wir uns richtig in die Programmierung von Magellan eingearbeitet haben) werden Aenderungen an Magellan nicht sofort auf SourceForge verfuegbar gemacht. Die letzte halbwegs getestete Version findet sich auf der Seite von <a href = "http://www.fietefietz.de/magellan/">Fiete</a>. Tester sind hochwillkommen.<p>
+
 </div>
 </div>
 </body>
