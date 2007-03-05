@@ -1,9 +1,0 @@
-<div id="left">
-<p><a href="./"><img src="../images/logo.jpg" width=134 height=199 alt="Magellan-Logo" border="0"></a></p>
-<!--<p><a href="news.shtml">News</a></p>-->
-<p><a href="download.shtml">Download</a></p>
-<p><a href="feedback.shtml">Feedback und Support</a></p>
-<p><a href="faq.shtml">F.A.Q.</a></p>
-<p><a href="help.shtml">Dokumentation</a></p>
-<p><a class="external" href="http://sourceforge.net/projects/eressea">Entwicklung</a></p>
-</div>
