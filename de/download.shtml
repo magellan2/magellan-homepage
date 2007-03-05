@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--#include virtual="metadata.ssi"-->
+<title>Magellan</title>
+</head>
+<body>
+<div id="container">
+<!--#include virtual="navigation.ssi"-->
+<!--#include virtual="header.ssi"-->
+<div id="center">
+	<h2>Download</h2>
+
+	<ul>
+		<li><a href="#jar">Das Programm</a></li>
+		<li><a href="#java">Java</a></li>
+<!--		<li><a href="#grafiksets">Grafiksets</a></li>
+		<li><a href="#skins">Look&amp;Feel und Skins</a></li>
+		<li><a href="#chart">Talentcharts Plug-In</a></li>
+		<li><a href="#pbems">Andere PBeMs</a></li>
+-->
+		<li><a href="#beta">Entwicklerversion (Betatest)</a></li>
+	</ul>
+	<hr>
+
+	<a name="jar"></a>
+	<h3>Das Programm</h3>
+
+ 	<p><b>Die neuesten Versionen von Magellan befinden sich jetzt auf <a class="external" href="http://sourceforge.net/project/showfiles.php?group_id=174030/">SourceForge</a></b></p>
+
+	<p>Den Download <tt>magellan.jar</tt> sollte man als Datei auf dem eigenen Rechner abspeichern, diese Datei muss nicht dekomprimiert werden oder &auml;hnliches (siehe auch <a href="faq.shtml">F.A.Q.</a>)</p>
+
+	<a name="java"></a>
+	<h3>Java</h3>
+	<p>Um Magellan starten zu k&ouml;nnen, muss erst mal Java - das sogenannte <a href="http://java.sun.com/j2se/" target="_top">Java Runtime Environment (JRE)</a> - installiert werden. Man kann auch JREs von anderen Herstellern als SUN verwenden, es muss aber mindestens Version 1.3 sein - unter Linux hat sich &uuml;brigens anscheinend IBM's JRE besser bew&auml;hrt als das von SUN.</p>
+
+
+
+<!--
+	<a name="help" />
+	<h3>Die Dokumentation</h3>
+	<p>Die Hilfe dokumentiert alle Features von Magellan und ist &uuml;ber den Punkt <em>Hilfe</em> im <em>Extras</em> Men&uuml; aufrufbar.</p>
+	<p>Installation:
+		<ul>
+			<li>Lade das <a href="../downloads/jh.jar">JavaHelp Plug-In</a> herunter; es enth&auml;t alle notwendigen Komponenten um die Hilfe anzuzeigen.<br>
+				(Um die neueste Version von JavaHelp zu bekommen, l&auml;dt man das <a href="http://java.sun.com/products/javahelp/" target="_top">JavaHelp Paket</a> herunter und benutzt die Datei <tt>jh.jar</tt> aus dem <tt>javahelp\lib</tt> Unterverzeichnis)</li>
+			<li>Binde das JavaHelp Plug-In in Form der <tt>jh.jar</tt> Datei in einen <a href="../downloads/pkg/help/de/Magellan/reference_ressources.html">Ressourcenpfad</a> ein.</li>
+			<li>Lade die eigentliche <a href="../downloads/magellan-help.jar">Magellan Dokumentation</a> herunter.</li>
+			<li>Binde die Hilfe in Form der <tt>magellan-help.jar</tt> Datei in einen <a href="../downloads/pkg/help/de/Magellan/reference_ressources.html">Ressourcenpfad</a> ein.</li>
+			<li>Starte Magellan neu.</li>
+			<li>Nun ist die Hilfe &uuml;ber den Punkt <em>Hilfe</em> im <em>Extras</em> Men&uuml; zug&auml;nglich.</li>
+		</ul>
+	<p></p>
+	<p>Es ist empfehlenswert, den <a href="#patcher">Patcher</a> zu benutzen, um die Hilfe zu aktualisieren.</p>
+
+	<a name="grafiksets"></a>
+	<h3>Grafiksets</h3>
+	<p>Mit Grafiksets kann die Darstellung der Regionsgrafiken in der Karte variiert werden. Je nach Geschmack kann man andere Regionsgrafiken als die in Magellan eingebauten verwenden. Derzeit liegen drei fertige Grafiksets zum Download bereit:</p>
+	<ul>
+		<li><a href="../downloads/emap-theme.zip">E-Map Grafikset</a> von Henning Zahn, so sah Magellan fr&uuml;her aus. Letzte &Auml;nderung: 2001.01.06</li>
+		<li><a href="../downloads/nugman-theme.zip">Nugman Grafikset</a> von Roland Behme, enth&auml;lt Stra&szlig;en. Letzte &Auml;nderung: 2001.02.08</li>
+		<li><a href="../downloads/ageless-theme.zip">Ageless Grafikset</a> von Jake Hofer, enth&auml;lt Stra&szlig;en. Letzte &Auml;nderung: 2002.04.18</li>
+	</ul>
+	<p>Nach dem Download ist das Grafikset in einen <a href="../downloads/pkg/help/de/Magellan/reference_ressources.html">Ressourcenpfad</a> einzubinden und Magellan neuzustarten.</p>
+	<p>Wie man sich eigene Grafiksets bauen kann, steht in der <a href="../downloads/pkg/help/de/Magellan/reference_graphicsets_making.html">Dokumentation</a>.</p>
+
+
+	<a name="skins"></a>
+	<h3>Look&amp;Feel und Skins</h3>
+	<p>Man kann das Aussehen von Magellan, das sogenannte <cite>Look&amp;Feel</cite>, im <em>System</em> Tab in den Optionen &auml;ndern. Folgende drei Look&amp;Feels stehen standardm&auml;&szlig;ig zur Verf&uuml;gung: <em>Metal</em>, <em>CDE/Motif</em> und <em>Windows</em>. Das Skin Look&amp;Feel Plug-In macht es m&ouml;glich, eine ganze Reihe zus&auml;tzlicher Look&amp;Feels zu verwenden und Magellan ein individuelles Aussehen zu geben (z.B. wie <em>Windows XP</em>).</p>
+	<p>Installation:
+		<ul>
+			<li>Lade die Datei <a href="../downloads/skinlf.jar">skinlf.jar</a> herunter.<br>
+				(Um die neueste Version zu verwenden, die m&ouml;glicherweise f&uuml;r einige Skins notwendig ist, lade das <em>Skin Look and Feel</em> Paket von <a href="http://www.l2fprod.com" target="_top">L2F Productions</a> herunter und extrahiere die Datei <tt>skinlf.jar</tt>)</li>
+			<li>Speicher die Datei <tt>skinlf.jar</tt> im Magellan Verzeichnis (z.B. <tt>C:\magellan\</tt>).</li>
+			<li>Lade dir ein Themepack von <a href="http://www.javootoo.com/" target="_top">javootoo.com</a> herunter.</li>
+			<li>Speichere die Themepacks im skins Unterverzeichnis des Magellan Verzeichnis (z.B. <tt>C:\magellan\skins\</tt>).</li>
+			<li>Starte Magellan neu.</li>
+			<li>W&auml;hle das Themepack aus der Look&amp;Feel Liste im <em>System</em> Tab in den Magellan Optionen aus.</li>
+		</ul>
+	<p></p>
+
+
+	<a name="chart"></a>
+	<h3>Talentcharts Plug-In</h3>
+	<p>Mit einem zus&auml;tzlichen Paket ist es m&ouml;glich, sich in der Parteistatistik Balkendiagramme zu den Talenten seiner Einheiten anzuschauen. Damit bekommt man sowohl einen schnellen &Uuml;berblick als auch viele Details &uuml;ber die vorhandenen Talente und das Wissen in seiner Partei.
+
+<p>Installation: Einfach die Datei <a href="http://eressea.upb.de/magellan/downloads/chart.jar">chart.jar</a>
+  herunterladen und in einen <a href="../downloads/pkg/help/de/Magellan/reference_ressources.html">Ressourcenpfad</a>
+  einbinden. Danach Magellan neustarten. <br>
+  Den Source für dieses Paket gibt es <a href="http://eressea.upb.de/magellan/downloads/chartsource.zip">hier</a>.
+  </p>
+<p></p>
+
+
+	<a name="pbems"></a>
+	<h3>Unterst&uuml;tzung f&uuml;r andere PBeMs</h3>
+	<p>Bei anderen PBeMs als Eressea muss Magellan mit anderen Regeln und Befehlen arbeiten. Diese Daten sind als Erweiterungen verf&uuml;gbar:</p>
+	<ul>
+		<li><a href="http://www.shannera.de/ressources/" target="_top">Verdanon-Erweiterung</a>, wird von <a href="mailto:shannera@shannera.de">Jens Schulze</a> gepflegt.</li>
+	</ul>
+	<p>Installation:
+		<ul>
+			<li>Lade die Erweiterung herunter.</li>
+			<li>Binde sie in einen <a href="../downloads/pkg/help/de/Magellan/reference_ressources.html">Ressourcenpfad</a> ein.</li>
+			<li>Starte Magellan neu.</li>
+		</ul>
+		</p>
+-->
+
+	<a name="java"></a>
+	<h3>Entwicklerversion - Beta Test</h3>
+	<p>Beginnend Mitte 2006 hat sich das Entwicklerteam veraendert. Fuer die Uebergangszeit (bis wir uns richtig in die Programmierung von Magellan eingearbeitet haben) werden Aenderungen an Magellan nicht sofort auf SourceForge verfuegbar gemacht. Die letzte halbwegs getestete Version findet sich auf der Seite von <a href = "http://www.fietefietz.de/magellan/">Fiete</a>. Tester sind hochwillkommen.<p>
+
+</div>
+</div>
+</body>
+</html>
