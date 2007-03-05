@@ -25,7 +25,6 @@
 
     <li><a href="#Kommandozeilenstart">Wie starte ich Magellan von der Kommandozeile?</a>
 	<li><a href="#MacMagellan">Wie bekomme ich Magellan auf einem Mac zum laufen?</a>
-	<li><a href="#Resourcenpfade">Wie gehe ich mit Resourcenpfaden um?</a>
 	<li><a href="#Speichermangel">Obwohl ich genug RAM habe, meldet Magellan Speichermangel. Wieso?</a>
 </ol>
 <br>
@@ -124,12 +123,6 @@
 <p><b>F: Wie bekomme ich Magellan auf einem Mac zum laufen?</b></p>
 <p><b>A:</b> Leider hat Apple erst mit dem Mac OS X eine aktuelle Java-Version ver&ouml;ffentlicht, unter der auch Magellan funktioniert. Zum Laden von Magellan geht man an der Konsole so vor, wie unter Windows an der <a href="#4">Kommandozeile</a>.</p>
 <p>Zus&auml;tzlich empfiehlt es sich jedoch, eine speziell f&uuml;r den Mac konvertierte Regel-Datei, die alle grundlegenden Eressea-Informationen enth&auml;t, zu verwenden. Nachdem man sie heruntergeladen unter <a href="http://eressea.upb.de/magellan/rules.cr">http://eressea.upb.de/magellan/rules.cr</a> hat, muss man sie in einem Ordner speichern, der <tt>rules</tt> heisst. Angenommen, die Datei <tt>rules.cr</tt> liegt nun unter <tt>magellan/rules/rules.cr</tt> ruft man in Magellan in den Optionen (Men&uuml; Extras) den Tab '<a href="reference_ressources.html">Ressourcen</a>' auf und legt einen neuen Pfad an, der auf den Ordner <tt>magellan</tt> zeigt. Nach dem Neustart von Magellan, sollte es die neue Regeldatei verwenden, was man daran erkennen kann, dass z.B. das m&ouml;gliche Einkommen in einer Region korrekt berechnet wird.</p>
-
-<a name="Resourcenpfade"></a>
-<p>&nbsp;</p>
-<p><b>F: Wie gehe ich mit Resourcenpfaden um?</b></p>
-<p><b>A:</b> Die Resourcenpfade sind auf einer <a href="reference_ressources.html">eigenen Seite</a> beschrieben.</p>
-
 
 <a name="Speichermangel"></a>
 <p>&nbsp;</p>
