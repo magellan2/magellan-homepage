@@ -22,7 +22,7 @@
 <p>F&uuml;r uns Entwickler sind bei Problemen die Fehlermeldungen von Magellan immer ein guter Anhaltspunkt. Sie sind in der Datei errors.txt im Magellanverzeichnis zu finden; bitte schickt uns diese Fehlermeldungen mit, wenn ihr ein Problem mit Magellan habt. Oft kann es zur Reproduktion des Fehlers n&ouml;tig sein, den benutzten CR (oder einen Auszug daraus) zu haben. Diese CRs werden selbstverst&auml;ndlich vertraulich behandelt und nach der Beseitigung des Fehlers gel&ouml;scht.</p>
 
 <h4>Bugtracking und Featurew&uuml;nsche = Weiterentwicklung</h4>
-<p>Wir versuchen, die Entwicklung von Magellan an den W&uuml;nschen der Benutzer zu orientieren. Dazu koennen Eintraege auf den Projektseiten bei SourceForge erstellt werden in den Rubriken <a href="http://sourceforge.net/tracker/?group_id=91825&atid=598517">Bugs</a> und <a href="http://sourceforge.net/tracker/?group_id=91825&atid=598520">Feature Requests</a>. </p>
+<p>Wir versuchen, die Entwicklung von Magellan an den W&uuml;nschen der Benutzer zu orientieren. Zu diesem Zweck wurde ein Bugtrackingtool namens <a href="http://magellan-client.sourceforge.net/mantis/">Mantis</a> installiert. Dort k&oumlnnen Bugs und Feature Request <b>kommuniziert</b> werden. </p>
 
 
 <h3>Newsgroup</h3>
