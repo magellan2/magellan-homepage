@@ -116,13 +116,12 @@
 <p><b>A:</b> Magellan (bzw. Java) gibt Fehlermeldungen oft nur in der Eingabeaufforderung aus, deshalb kann es n&uuml;tzlich sein, Magellan von der Kommandozeile aus zu starten, um solche Fehlermeldungen zu sehen.</p>
 
 <p>Dazu startet man zun&auml;chst die MS-DOS-Eingabeaufforderung (unter Windows ME im Startmen&uuml; den Punkt 'Ausf&uuml;hren' &ouml;ffnen, <tt>command</tt> eingeben und auf OK klicken). Danach gibt man folgenden Befehl ein: <tt>javaw -jar "(Pfad zu Magellan)\magellan.jar"</tt> also z.B. <tt>javaw -jar "C:\Eigene Dateien\magellan.jar"</tt>.</p>
-<p>Die Kommandozeilen-Parameter von Magellan sind in der <a href="reference_commandline.html">Referenz</a> beschrieben.</p>
 
 <a name="MacMagellan"></a>
 <p>&nbsp;</p>
 <p><b>F: Wie bekomme ich Magellan auf einem Mac zum laufen?</b></p>
 <p><b>A:</b> Leider hat Apple erst mit dem Mac OS X eine aktuelle Java-Version ver&ouml;ffentlicht, unter der auch Magellan funktioniert. Zum Laden von Magellan geht man an der Konsole so vor, wie unter Windows an der <a href="#4">Kommandozeile</a>.</p>
-<p>Zus&auml;tzlich empfiehlt es sich jedoch, eine speziell f&uuml;r den Mac konvertierte Regel-Datei, die alle grundlegenden Eressea-Informationen enth&auml;t, zu verwenden. Nachdem man sie heruntergeladen unter <a href="http://eressea.upb.de/magellan/rules.cr">http://eressea.upb.de/magellan/rules.cr</a> hat, muss man sie in einem Ordner speichern, der <tt>rules</tt> heisst. Angenommen, die Datei <tt>rules.cr</tt> liegt nun unter <tt>magellan/rules/rules.cr</tt> ruft man in Magellan in den Optionen (Men&uuml; Extras) den Tab '<a href="reference_ressources.html">Ressourcen</a>' auf und legt einen neuen Pfad an, der auf den Ordner <tt>magellan</tt> zeigt. Nach dem Neustart von Magellan, sollte es die neue Regeldatei verwenden, was man daran erkennen kann, dass z.B. das m&ouml;gliche Einkommen in einer Region korrekt berechnet wird.</p>
+<p>Zus&auml;tzlich empfiehlt es sich jedoch, eine speziell f&uuml;r den Mac konvertierte Regel-Datei, die alle grundlegenden Eressea-Informationen enth&auml;t, zu verwenden. Nachdem man sie heruntergeladen hat (aktuell kein Quelle bekannt), muss man sie in einem Ordner speichern, der <tt>rules</tt> heisst. Angenommen, die Datei <tt>rules.cr</tt> liegt nun unter <tt>magellan/rules/rules.cr</tt> ruft man in Magellan in den Optionen (Men&uuml; Extras) den Tab <b>Ressourcen</b> auf und legt einen neuen Pfad an, der auf den Ordner <tt>magellan</tt> zeigt. Nach dem Neustart von Magellan, sollte es die neue Regeldatei verwenden, was man daran erkennen kann, dass z.B. das m&ouml;gliche Einkommen in einer Region korrekt berechnet wird.</p>
 
 <a name="Speichermangel"></a>
 <p>&nbsp;</p>
