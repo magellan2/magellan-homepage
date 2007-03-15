@@ -9,6 +9,7 @@
 <div id="container">
 <!--#include virtual="navigation.ssi"-->
 <!--#include virtual="header.ssi"-->
+<div id="right"><a href="http://magellan-client.sourceforge.net/en">english page</a></div>
 <div id="center">
 <h3>Was ist Magellan?</h3>
 
@@ -28,12 +29,12 @@ w&auml;chst. Die Mindestausstattung liegt bei einem Prozessor mit 200 MHz und 64
 
 <h3>Java? Das kann ich nicht!</h3>
 
-<p>Kein Problem, das ist auch nicht n&ouml;tig. Nach der einmaligen Installation von Java braucht man nur noch Magellan <a href="download.shtml">herunterladen</a> - eine Datei, die man im
+<p>Kein Problem, das ist auch nicht n&ouml;tig. Nach der einmaligen Installation von Java braucht man nur noch Magellan <a href="download.shtml">herunterzuladen</a> - eine Datei, die man im
 Windows-Explorer per Doppelklick starten kann. Mit Programmieren in Java hat das alles nichts zu tun, damit m&uuml;&szlig;en sich nur die Entwickler herumschlagen.</p>
 
 <h3>Ist Magellan gut?</h3>
 
-<p>Nun - immerhin konnte Magellan inzwischen Ennos <b>Seal of Excellence</b> einheimsen.<br />
+<p>Nun - immerhin konnte Magellan inzwischen Ennos <b>Seal of Excellence</b> einheimsen.
  Laut der <b>Spielerumfrage Ende 2001</b> scheint Magellan au&szlig;erdem das bei den Eressea Spielern beliebteste Tool zu
 sein.</p>
 

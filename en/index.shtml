@@ -9,6 +9,7 @@
 <div id="container">
 <!--#include virtual="navigation.ssi"-->
 <!--#include virtual="header.ssi"-->
+<div id="right"><a href="http://magellan-client.sourceforge.net/de">deutsche Seite</a></div>
 <div id="center">
 <h3>What is Magellan?</h3>
 
@@ -26,7 +27,7 @@
 
 <h3>Java? What's That?</h3>
 
-<p>Java is a platform independent programming system. Actually, you do not really have to worry about that. After installing Java on your computer once, all you need is to <a href="download.shtml">download</a> Magellan. Consisting only of a single file, you can run it like any other program from then on.
+<p><a href="http://www.sun.com/java/">Java</a> is a platform independent programming system. Actually, you do not really have to worry about that. After installing Java on your computer once, all you need is to <a href="download.shtml">download</a> Magellan. Consisting only of a single file, you can run it like any other program from then on.
 </p>
 
 <h3>Is Magellan a Quality Product?</h3>

@@ -19,14 +19,14 @@
 
 <h3>Bugs in Magellan</h3>
 
-<p>A good starting point in searching for bugs are the error messages produced by Magellan. They are in the file errors.txt in the Magellan directory. Plz provide us with this file. We allways try to reproduce a problem and this file can help a lot. Sometimes we hardly need a CR to reproduce a problem - we will keep them save and warm and will delete them after solving the problem.</p>
+<p>A good starting point in searching for bugs are the error messages produced by Magellan. They are in the file errors.txt in the Magellan directory. Please provide us with this file. We need to reproduce your problem and this file can help a lot. Sometimes we also need CRs to reproduce a problem - we will keep them save and warm and will delete them after solving the problem.</p>
 
 <h4>Bugs and Feature-requests = Development</h4>
-<p>We try to use the wishes of Magelan-users to keep a good direction in the Magellan development process. For this reason we installed a bugtracker named <a href="http://magellan-client.sourceforge.net/mantis/">Mantis</a>. That's the right place for bugs and feature request - allthough it´s in german, we will be able to read your mind ;-) </p>
+<p>We try to use the wishes of Magelan-users to keep a good direction in the Magellan development process. For this reason we installed a bugtracker named <a href="http://magellan-client.sourceforge.net/mantis/">Mantis</a>. This is the right place for bugs and feature request - allthough it is in German, feel free to post in English, we will be able to read your mind ;-) </p>
 
 
 <h3>Newsgroup</h3>
-<p>Via the <a href="news://eressea.upb.de/">Eressea News-Server</a> (news://eressea.upb.de) it is possible to take part on another part of the community. For authorization you need<br>
+<p>Via the <a href="news://eressea.upb.de/">Eressea News-Server</a> (news://eressea.upb.de) it is possible to take part in another part of the community. For authorization you need<br>
 Username: Number of your eressea-faction<br>
 Password: password of your eressea-faction</p>
 
