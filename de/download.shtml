@@ -14,6 +14,7 @@
 
 	<ul>
 		<li><a href="#jar">Das Programm</a></li>
+		<li><a href="#magellan2">Magellan v2</a></li>
 		<li><a href="#java">Java</a></li>
 <!--		<li><a href="#grafiksets">Grafiksets</a></li>
 		<li><a href="#skins">Look&amp;Feel und Skins</a></li>
@@ -30,6 +31,13 @@
  	<p><b>Die neuesten Versionen von Magellan befinden sich jetzt auf <a class="external" href="http://sourceforge.net/project/showfiles.php?group_id=174030/">SourceForge</a></b></p>
 
 	<p>Den Download <tt>magellan.jar</tt> sollte man als Datei auf dem eigenen Rechner abspeichern, diese Datei muss nicht dekomprimiert werden oder &auml;hnliches (siehe auch <a href="faq.shtml">F.A.Q.</a>)</p>
+	
+	<a name="magellan2"><h3>Magellan v2</h3>
+	<p>
+		Magellan2 ist eine konsequente Weiterentwicklung des Magellan Clients. Die Änderungen an diesem Client sind so umfassend, dass wir uns entschlossen haben, eine neue Versionsnummer zu vergeben.
+		Du kannst dieses Programm von der aktuellen <a class="external" href="http://magellan2.log-out.net/#download">Entwicklungssite</a> herunterladen. 
+		Es befindet sich momentan noch im Beta-Stadium, besitzt aber alle Funktionen des alten Clients und einige neue Features.
+	</p>
 
 	<a name="java"></a>
 	<h3>Java</h3>
@@ -112,7 +120,7 @@
 	<a name="java"></a>
 	<h3>Entwicklerversion - Beta Test</h3>
 	<p>Beginnend Mitte 2006 hat sich das Entwicklerteam veraendert. Fuer die Uebergangszeit (bis wir uns richtig in die Programmierung von Magellan eingearbeitet haben) werden Aenderungen an Magellan nicht sofort auf SourceForge verfuegbar gemacht. Die letzte halbwegs getestete Version findet sich auf der Seite von <a href = "http://www.fietefietz.de/magellan/">Fiete</a>. Tester sind hochwillkommen.<p>
-
+    <p>Die neueste Entwicklungsversion von Magellan v2 gibt es auf <a class="external" href="http://magellan2.log-out.net/#download">Thoralfs Server</a>.
 </div>
 </div>
 </body>

@@ -14,6 +14,7 @@
 
 	<ul>
 		<li><a href="#jar">The Program</a></li>
+		<li><a href="#magellan2">Magellan v2</a></li>
 		<li><a href="#java">Java</a></li>
 <!--		<li><a href="#grafiksets">Grafiksets</a></li>
 		<li><a href="#skins">Look&amp;Feel und Skins</a></li>
@@ -30,6 +31,13 @@
  	<p><b>Newest Version of Magellan can be found at <a class="external" href="http://sourceforge.net/project/showfiles.php?group_id=174030/">SourceForge</a></b></p>
 
 	<p>The Download <tt>magellan.jar</tt> should be saved as a file, you do not need to unzip it or use other decompressing-tools (see <a href="faq.shtml">F.A.Q.</a>)</p>
+
+	<a name="magellan2"><h3>Magellan v2</h3>
+	<p>
+		Magellan2 is a consistent further development of the original Magellan client. The changes are so extensive, that we've decided to give it a new version number.
+		You can download the current version of it from the <a class="external" href="http://magellan2.log-out.net/#download">development site</a>. 
+		It is currently a beta version but contains all functions of Magellan v1 and some more new features.
+	</p>
 
 	<a name="java"></a>
 	<h3>Java</h3>
@@ -111,8 +119,8 @@
 
 	<a name="beta"></a>
 	<h3>Development Version - Beta Test</h3>
-	<p>In mid 2006 the team of developers has changed. For now (until we �ve learned enough in and from Magellan) changes in Magellan will not be made public here on Source Forge. Latest Beta-version (tested and running - as far as I know ;-) is located on a site managed by <a href = "http://www.fietefietz.de/magellan/">Fiete</a>. You are welcome as Beta-Tester.<p>
-
+	<p>In mid 2006 the team of developers has changed. For now (until we've learned enough in and from Magellan) changes in Magellan will not be made public here on Source Forge. Latest Beta-version (tested and running - as far as I know ;-) is located on a site managed by <a href = "http://www.fietefietz.de/magellan/">Fiete</a>. You are welcome as Beta-Tester.<p>
+    <p>The newest nightly build of Magellan v2 is available from <a class="external" href="http://magellan2.log-out.net/#download">Thoralfs server</a>.
 </div>
 </div>
 </body>
