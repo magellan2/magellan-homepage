@@ -28,7 +28,7 @@
 	<p>The Download <tt>magellan.jar</tt> should be saved as a file, you do not need to unzip it or use other decompressing-tools (see <a href="faq.shtml">F.A.Q.</a>)</p>
 	<p>The complete changelog regarding the last changes on Magellan is available at the website of <a href = "http://www.fietefietz.de/magellan/">Fiete</a>.</p>
 
-	<a name="magellan2"><h3>Magellan v2</h3>
+	<a name="magellan2"><h3>Magellan v2</h3></a>
 	<p>
 		Magellan2 is a consistent further development of the original Magellan client. The changes are so extensive, that we've decided to give it a new version number.
 		You can download the current version of it from the <a class="external" href="http://magellan2.log-out.net/#download">development site</a>. 
