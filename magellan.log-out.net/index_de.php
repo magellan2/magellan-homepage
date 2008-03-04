@@ -81,11 +81,7 @@ if (file_exists("release/VERSION")) {
           <a class="external" href="http://sourceforge.net/projects/magellan-client">Entwicklung</a>
         </p>
       </div>
-      <div id="head">
-        <a href="http://magellan-client.sourceforge.net/" target="_top">
-          <img src="http://magellan-client.sourceforge.net/images/header.gif" alt="Magellan - Eressea Java-Client" border="0" />
-        </a>
-      </div>
+<?php include_once "header.php"; ?>
       <div id="center">
         <h3>
           Was ist Magellan2?
