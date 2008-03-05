@@ -23,9 +23,10 @@
         </p>
         <p>
           Magellan2 benötigt, im Gegensatz zu Magellan1 nun Java5 (1.5.0 oder
-          höher). Außerdem wird es nun nicht mehr ein einzelnes JAR geben, dass
-          alles enthält, sondern eine ZIP Datei, die man auf seinem Rechner
-          auspacken muss. Das bietet Euch recht einfach die Möglichkeit, Texte
+          höher). Außerdem handelt es sich bei der angebotenen JAR Datei
+          nun um einen Setup-Programm, das den Client auspackt und auf Deinem
+          PC installiert. Das Programm ist aufgeteilt in viele Dateien.
+          Das bietet Euch recht einfach die Möglichkeit, Texte
           oder Icons an Eure Bedürfnisse anzupassen.
         </p>
         <p>
