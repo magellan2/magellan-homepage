@@ -14,10 +14,10 @@
 <?php include_once "header.php"; ?>
       <div id="center">
         <h3>
-          Was ist Magellan2?
+          Was ist Magellan 2.x?
         </h3>
         <p>
-          Magellan2 ist eine konsequente Weiterentwicklung des Magellan
+          Magellan 2.x ist eine konsequente Weiterentwicklung des Magellan
           Clients. Die Änderungen an diesem Client sind so umfassend, dass wir
           uns entschlossen haben, eine neue Versionsnummer zu vergeben.
         </p>
