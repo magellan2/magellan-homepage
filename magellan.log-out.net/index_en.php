@@ -5,6 +5,7 @@
     <link rel="SHORTCUT ICON" href="/magellan2/favicon.ico" />
     <link rel="alternate stylesheet" href="http://eressea.sourceforge.net/magellan/classic.css" type="text/css" title="Classic" />
     <link rel="stylesheet" href="http://eressea.sourceforge.net/magellan/default.css" type="text/css" title="Default" />
+    <link rel="stylesheet" href="theme.css" type="text/css" title="Theme" />
     <title>Magellan</title>
   </head>
   <body>
