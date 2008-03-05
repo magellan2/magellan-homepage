@@ -28,7 +28,7 @@
           oder Icons an Eure Bedürfnisse anzupassen.
         </p>
         <p>
-          <a href="magellan2.png"><img src="magellan2-preview.png" border="0" /></a>
+          <a href="images/magellan2.png"><img src="images/magellan2-preview.png" border="0" /></a>
         </p>
         <p>
           Außerdem bietet Magellan2 noch einige Besonderheiten. Mit Hilfe des
