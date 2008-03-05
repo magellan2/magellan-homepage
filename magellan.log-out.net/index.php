@@ -20,13 +20,13 @@
             if ($part == 'en') break;
             $part = 'en';
     }
-    echo "<meta http-equiv=\"refresh\"CONTENT=\"0;URL=index_".$part.".php/\">";
+    echo "<meta http-equiv=\"refresh\"CONTENT=\"0;URL=index_".$part.".php\">";
     ?>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
   </head>
   <body bgcolor="#D5A983">
-    <tt><a href="index_en.php/">Click here</a> to get to the english pages.<br>
-    <a href="index_de.php/">Hier klicken</a> um zu den deutschen Seiten zu gelangen.<br>
+    <tt><a href="index_en.php">Click here</a> to get to the english pages.<br>
+    <a href="index_de.php">Hier klicken</a> um zu den deutschen Seiten zu gelangen.<br>
     </tt>
   </body>
 </html>

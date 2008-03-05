@@ -32,19 +32,12 @@
           <li>
             <a href="./release/magellan_v2.0.rc1.zip">ZIP</a> (10.4MB)
           </li>
-          <li>
-            <a href="./release/magellan_v2.0.rc1.tar.gz">Tar GZ</a> (10.3MB)
-          </li>
-          <li>
-            <a href="./release/magellan_v2.0.rc1.tar.bz2">Tar BZip2</a> (10.1MB)
-          </li>
         </ul>
         <ul>
           <li>
             <a href="./release/magellan2-src.zip">Source</a> (16.4MB)
           </li>
         </ul>
-        <br />
         <br />
          
         <h3>
@@ -66,12 +59,6 @@
         <ul>
           <li>
             <a href="./nightly-build/magellan_v2.0.rc1.zip">ZIP</a> (10.4MB)
-          </li>
-          <li>
-            <a href="./nightly-build/magellan_v2.0.rc1.tar.gz">Tar GZ</a> (10.3MB)
-          </li>
-          <li>
-            <a href="./nightly-build/magellan_v2.0.rc1.tar.bz2">Tar BZip2</a> (10.1MB)
           </li>
         </ul>
         <ul>
