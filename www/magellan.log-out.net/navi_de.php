@@ -39,6 +39,6 @@ if($homepage == "true") {
           <a href="http://magellan-client.sourceforge.net/mantis/">Bug melden (Mantis)</a>
         </p>
         <p>
-          <a class="external" href="http://sourceforge.net/projects/magellan-client">Entwicklung</a>
+          <a class="externalLink" href="http://sourceforge.net/projects/magellan-client">Entwicklung</a>
         </p>
       </div>

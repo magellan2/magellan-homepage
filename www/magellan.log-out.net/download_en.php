@@ -5,6 +5,7 @@
     <link rel="SHORTCUT ICON" href="/magellan2/favicon.ico" />
     <link rel="alternate stylesheet" href="http://eressea.sourceforge.net/magellan/classic.css" type="text/css" title="Classic" />
     <link rel="stylesheet" href="http://eressea.sourceforge.net/magellan/default.css" type="text/css" title="Default" />
+    <link rel="stylesheet" href="theme.css" type="text/css" title="Theme" />
     <title>Magellan Download</title>
   </head>
   <body>
@@ -17,11 +18,11 @@
           Download
         </h3>
         <p>
-          Hier findest Du die aktuelle installierbare Version von Magellan2. 
+          Here you find the current installable release version of Magellan 2.x.
           <a href="./release/CHANGELOG.txt">CHANGELOG</a>.<br />
           <br />
           Version: <?php echo $RELEASE_VERSION; ?><br />
-          Stand: <?php echo $RELEASE; ?><br />
+          Status: <?php echo $RELEASE; ?><br />
         </p>
         <ul>
           <li>
@@ -42,12 +43,13 @@
           Nightly Build
         </h3>
         <p>
-          Hier findest Du die aktuellste Version von Magellan2. Sie wird jede
-          Nacht neu kompiliert und hier auf dem Server zur Verfügung gestellt.
+          Here you can find the latest version of Magellan 2.x. This version
+          will be compiled every night and is placed here on the server for 
+          your disposal.
           <a href="./nightly-build/CHANGELOG.txt">CHANGELOG</a>.<br />
           <br />
           Version: <?php echo $LATEST_VERSION; ?><br />
-          Stand: <?php echo $NIGHTLY_BUILD; ?><br />
+          Status: <?php echo $NIGHTLY_BUILD; ?><br />
         </p>
         <ul>
           <li>
