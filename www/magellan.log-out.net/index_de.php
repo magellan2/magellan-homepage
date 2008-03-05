@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="container">
-<?php $index = true; ?>
+<?php $homepage = "true"; ?>
 <?php include_once "navi_de.php"; ?>
 <?php include_once "header.php"; ?>
       <div id="center">

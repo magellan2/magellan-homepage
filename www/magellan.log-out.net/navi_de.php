@@ -3,7 +3,7 @@
           <a href="http://magellan-client.sourceforge.net/"><img src="http://magellan-client.sourceforge.net/images/logo.jpg" width="134" alt="Magellan-Logo" border="0" /></a>
         </p>
 <?php
-if($index) {
+if($homepage == "true") {
 ?>
         <p>
           <a href="http://magellan-client.sourceforge.net/">Magellan Home</a>
