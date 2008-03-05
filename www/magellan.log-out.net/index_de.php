@@ -7,80 +7,9 @@
     <link rel="stylesheet" href="http://eressea.sourceforge.net/magellan/default.css" type="text/css" title="Default" />
     <title>Magellan</title>
   </head>
-<?php
-if(file_exists("nightly-build/VERSION")) {
-  $stat = @stat("nightly-build/VERSION");
-  $NIGHTLY_BUILD = date("d.m.Y H:i:s P",$stat["mtime"]);
-} else {
-  $NIGHTLY_BUILD = "-?-";
-}
-
-if (file_exists("nightly-build/VERSION")) {
-  $lines = file("nightly-build/VERSION");
-  foreach ($lines as $lineNumber => $line) {
-    $line = trim($line);
-    if (!(substr($line,0,1) == "#")) {
-      $LATEST_VERSION = substr($line,8);
-    } 
-  }
-} else {
-  $LATEST_VERSION = "-?-";
-}
-
-if(file_exists("release/VERSION")) {
-  $stat = @stat("release/VERSION");
-  $RELEASE = date("d.m.Y H:i:s P",$stat["mtime"]);
-} else {
-  $RELEASE = "-?-";
-}
-
-if (file_exists("release/VERSION")) {
-  $lines = file("release/VERSION");
-  foreach ($lines as $lineNumber => $line) {
-    $line = trim($line);
-    if (!(substr($line,0,1) == "#")) {
-      $RELEASE_VERSION = substr($line,8);
-    } 
-  }
-} else {
-  $RELEASE_VERSION = "-?-";
-}
-
-?>
   <body>
     <div id="container">
-      <div id="left">
-        <p>
-          <a href="http://magellan-client.sourceforge.net/"><img src="http://magellan-client.sourceforge.net/images/logo.jpg" width="134" alt="Magellan-Logo" border="0" /></a>
-        </p>
-        <p>
-          <a href="http://magellan-client.sourceforge.net/">Magellan Home</a>
-        </p>
-        <p>
-          <a href="http://magellan-client.sourceforge.net/de/download.shtml">Download Magellan1</a>
-        </p>
-        <p>
-          <a href="#download">Download Magellan2</a>
-        </p>
-        <p>
-          <a href="http://magellan-client.sourceforge.net/de/feedback.shtml">Feedback &amp; Support</a>
-        </p>
-        <p>
-          <a href="http://magellan-client.sourceforge.net/de/faq.shtml">F.A.Q.</a>
-        </p>
-        <p>
-          <a href="http://magellan-client.sourceforge.net/de/help.shtml">Dokumentation</a>
-        </p>
-        <p>
-          <a href="./javadoc/">JavaDoc</a>
-        </p>
-        <p>
-          <a href="http://magellan-client.sourceforge.net/mantis/">Bug melden (Mantis)</a>
-        </p>
-        <p>
-          <a class="external" href="http://sourceforge.net/projects/magellan-client">Entwicklung</a>
-        </p>
-      </div>
+<?php include_once "navi_de.php"; ?>
 <?php include_once "header.php"; ?>
       <div id="center">
         <h3>
@@ -109,80 +38,6 @@ if (file_exists("release/VERSION")) {
           Darüberhinaus verfügt Magellan2 nun über eine getrennte
           Code-Struktur, um Server- oder Konsolen-basierte Anwendungen zu
           ermöglichen, ohne eine GUI Oberfläche haben zu müssen.
-        </p>
-        <h3>
-          Download
-        </h3>
-        <p>
-          Hier findest Du die aktuelle installierbare Version von Magellan2. 
-          <a href="./release/CHANGELOG.txt">CHANGELOG</a>.<br />
-          <br />
-          Version: <?php echo $RELEASE_VERSION; ?><br />
-          Stand: <?php echo $RELEASE; ?><br />
-        </p>
-        <ul>
-          <li>
-            <a href="./release/magellan_v2.0.rc1.jar">JAR installer</a> (11.5MB)
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <a href="./release/magellan_v2.0.rc1.zip">ZIP</a> (10.4MB)
-          </li>
-          <li>
-            <a href="./release/magellan_v2.0.rc1.tar.gz">Tar GZ</a> (10.3MB)
-          </li>
-          <li>
-            <a href="./release/magellan_v2.0.rc1.tar.bz2">Tar BZip2</a> (10.1MB)
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <a href="./release/magellan2-src.zip">Source</a> (16.4MB)
-          </li>
-        </ul>
-        <br />
-        <br />
-         
-        <h3>
-          Nightly Build
-        </h3>
-        <p>
-          Hier findest Du die aktuellste Version von Magellan2. Sie wird jede
-          Nacht neu kompiliert und hier auf dem Server zur Verfügung gestellt.
-          <a href="./nightly-build/CHANGELOG.txt">CHANGELOG</a>.<br />
-          <br />
-          Version: <?php echo $LATEST_VERSION; ?><br />
-          Stand: <?php echo $NIGHTLY_BUILD; ?><br />
-        </p>
-        <ul>
-          <li>
-            <a href="./nightly-build/magellan_v2.0.rc1.jar">JAR installer</a> (11.5MB)
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <a href="./nightly-build/magellan_v2.0.rc1.zip">ZIP</a> (10.4MB)
-          </li>
-          <li>
-            <a href="./nightly-build/magellan_v2.0.rc1.tar.gz">Tar GZ</a> (10.3MB)
-          </li>
-          <li>
-            <a href="./nightly-build/magellan_v2.0.rc1.tar.bz2">Tar BZip2</a> (10.1MB)
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <a href="./nightly-build/magellan2-src.zip">Source</a> (16.4MB)
-          </li>
-        </ul>
-        <br />
-        <br />
-         
-        <p>
-          Bugs können im Mantis von Magellan eingetragen werden. Der Link
-          lautet: <a class="external" href=
-          "http://magellan-client.sourceforge.net/mantis/">http://magellan-client.sourceforge.net/mantis/</a>.
         </p>
       </div>
     </div>
