@@ -3,7 +3,7 @@ a.externalLink:link,
 a.externalLink:visited, 
 a.externalLink:active, 
 a.externalLink:hover {
-  background: url(../images/external.png) right center no-repeat;
+  background: url(images/external.png) right center no-repeat;
   padding-right: 15px;
   color: #700;
   border: 0px;
