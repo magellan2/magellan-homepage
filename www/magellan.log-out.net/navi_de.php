@@ -2,26 +2,44 @@
         <p>
           <a href="."><img src="http://magellan-client.sourceforge.net/images/logo.jpg" width="134" alt="Magellan-Logo" border="0" /></a>
         </p>
-<?php
-if($homepage == "true") {
-?>
         <p>
+<?php
+if($page == "home") {
+?>
           <a href="http://magellan-client.sourceforge.net/">Magellan Home</a>
-        </p>
 <?php
 } else {
 ?>
-        <p>
           <a href="index_de.php">Magellan Home</a>
-        </p>
 <?php
 }
 ?>
-        <p>
-          <a href="download_de.php">Download</a>
         </p>
         <p>
-          <a href="plugins_de.php">Plugins</a>
+          <a href="download_de.php">Download</a><br/>
+<?php
+if($page == "download") {
+?>
+          <a href="#magellan1">Magellan 1.x</a>&nbsp;&laquo;<br/>
+          <a href="#magellan2">Magellan 2.x</a>&nbsp;&laquo;<br/>
+<?php
+}
+?>
+        </p>
+        <p>
+          <a href="plugins_de.php">Plugins</a><br/>
+<?php
+if($page == "plugins") {
+?>
+          <a href="plugins_alliance_de.php">Alliance Plugin</a>&nbsp;&laquo;<br/>
+          <a href="plugins_extcmds_de.php">Extended Commands</a>&nbsp;&laquo;<br/>
+          <a href="plugins_mapcleaner_de.php">MapCleaner Plugin</a>&nbsp;&laquo;<br/>
+          <a href="plugins_mapedit_de.php">MapEdit Plugin</a>&nbsp;&laquo;<br/>
+          <a href="plugins_teacher_de.php">Teacher Plugin</a>&nbsp;&laquo;<br/>
+          <a href="plugins_memorywatch_de.php">MemoryWatch Plugin</a>&nbsp;&laquo;<br/>
+<?php
+}
+?>
         </p>
         <p>
           <a href="http://magellan-client.sourceforge.net/de/feedback.shtml">Feedback &amp; Support</a>

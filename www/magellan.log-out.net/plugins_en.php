@@ -10,6 +10,7 @@
   </head>
   <body>
     <div id="container">
+<?php $page = "plugins"; ?>
 <?php include_once "navi_en.php"; ?>
 <?php include_once "header.php"; ?>
       <div id="center">
