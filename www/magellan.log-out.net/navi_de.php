@@ -1,4 +1,4 @@
-      <div id="left">
+      <div id="left" style="white-space:nowrap;">
         <p>
           <a href="."><img src="http://magellan-client.sourceforge.net/images/logo.jpg" width="134" alt="Magellan-Logo" border="0" /></a>
         </p>
@@ -6,7 +6,7 @@
 <?php
 if($page == "home") {
 ?>
-          <a href="http://magellan-client.sourceforge.net/">Magellan Home</a>
+          <a class="externalLink" href="http://magellan-client.sourceforge.net/">Magellan Home</a>
 <?php
 } else {
 ?>
@@ -20,8 +20,8 @@ if($page == "home") {
 <?php
 if($page == "download") {
 ?>
-          <a href="#magellan1">Magellan 1.x</a>&nbsp;&laquo;<br/>
-          <a href="#magellan2">Magellan 2.x</a>&nbsp;&laquo;<br/>
+          <a class="sublink" href="#magellan1">Magellan 1.x</a>&nbsp;&laquo;<br/>
+          <a class="sublink" href="#magellan2">Magellan 2.x</a>&nbsp;&laquo;<br/>
 <?php
 }
 ?>
@@ -31,12 +31,12 @@ if($page == "download") {
 <?php
 if($page == "plugins") {
 ?>
-          <a href="plugins_alliance_de.php">Alliance Plugin</a>&nbsp;&laquo;<br/>
-          <a href="plugins_extcmds_de.php">Extended Commands</a>&nbsp;&laquo;<br/>
-          <a href="plugins_mapcleaner_de.php">MapCleaner Plugin</a>&nbsp;&laquo;<br/>
-          <a href="plugins_mapedit_de.php">MapEdit Plugin</a>&nbsp;&laquo;<br/>
-          <a href="plugins_teacher_de.php">Teacher Plugin</a>&nbsp;&laquo;<br/>
-          <a href="plugins_memorywatch_de.php">MemoryWatch Plugin</a>&nbsp;&laquo;<br/>
+          <a class="sublink" href="plugins_alliance_de.php">Alliance Plugin</a>&nbsp;&middot;<br/>
+          <a class="sublink" href="plugins_extcmds_de.php">Extended Commands</a>&nbsp;&middot;<br/>
+          <a class="sublink" href="plugins_mapcleaner_de.php">MapCleaner Plugin</a>&nbsp;&middot;<br/>
+          <a class="sublink" href="plugins_mapedit_de.php">MapEdit Plugin</a>&nbsp;&middot;<br/>
+          <a class="sublink" href="plugins_teacher_de.php">Teacher Plugin</a>&nbsp;&middot;<br/>
+          <a class="sublink" href="plugins_memorywatch_de.php">MemoryWatch Plugin</a>&nbsp;&middot;<br/>
 <?php
 }
 ?>
@@ -54,7 +54,8 @@ if($page == "plugins") {
           <a href="./javadoc/">JavaDoc</a>
         </p>
         <p>
-          <a href="http://magellan-client.sourceforge.net/mantis/">Bug melden (Mantis)</a>
+          <a class="externalLink" href="http://magellan-client.sourceforge.net/mantis/">Bug 
+melden (Mantis)</a>
         </p>
         <p>
           <a class="externalLink" href="http://sourceforge.net/projects/magellan-client">Entwicklung</a>
