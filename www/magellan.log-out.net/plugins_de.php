@@ -4,8 +4,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <link rel="SHORTCUT ICON" href="/magellan2/favicon.ico" />
     <link rel="alternate stylesheet" href="http://eressea.sourceforge.net/magellan/classic.css" type="text/css" title="Classic" />
-    <link rel="stylesheet" href="http://eressea.sourceforge.net/magellan/default.css" type="text/css" title="Default" />
-    <link rel="stylesheet" href="theme.css" type="text/css" title="Theme" />
+    <link rel="stylesheet" href="http://eressea.sourceforge.net/magellan/default.css" type="text/css" />
+    <link rel="stylesheet" href="theme.css" type="text/css" />
     <title>Magellan Download</title>
   </head>
   <body>
