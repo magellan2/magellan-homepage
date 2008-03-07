@@ -10,6 +10,7 @@
   </head>
   <body>
     <div id="container">
+<?php $page = "download"; ?>
 <?php include_once "functions.php"; ?>
 <?php include_once "navi_de.php"; ?>
 <?php include_once "header.php"; ?>

@@ -10,7 +10,7 @@
   </head>
   <body>
     <div id="container">
-<?php $homepage = "true"; ?>
+<?php $page = "home"; ?>
 <?php include_once "navi_de.php"; ?>
 <?php include_once "header.php"; ?>
       <div id="center">
