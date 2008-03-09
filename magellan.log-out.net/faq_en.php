@@ -6,19 +6,19 @@
     <link rel="alternate stylesheet" href="http://eressea.sourceforge.net/magellan/classic.css" type="text/css" />
     <link rel="stylesheet" href="http://eressea.sourceforge.net/magellan/default.css" type="text/css" />
     <link rel="stylesheet" href="theme.css" type="text/css" />
-    <title>Magellan Hilfe</title>
+    <title>Magellan F.A.Q.</title>
   </head>
   <body>
     <div id="container">
 <?php 
-  $page = "help";
-  $language = "de";
-  include_once "navi_de.php";
+  $page = "faq";
+  $language = "en";
+  include_once "navi_en.php";
   include_once "header.php"; 
 ?>
       <div id="center">
-       <iframe src="help/de/magellan/index.html" width="120%" height="400" frameborder="0" marginheigh="0" marginwidth="0">
-          <p>Dieser Bereich ist <a href="help/de/magellan/index.html">hier</a> erreichbar.
+        <iframe src="help/en/magellan/faq.html" width="120%" height="400" frameborder="0" marginheigh="0" marginwidth="0">
+          <p>Die F.A.Q. ist <a href="help/en/magellan/faq.html">hier</a> erreichbar.
         </iframe>
       </div>
     </div>

@@ -35,7 +35,7 @@ if($page == "download") {
 }
 ?>
         <p>
-          <a href="feedback_en.">Feedback &amp; Support</a>
+          <a href="feedback_en.php">Feedback &amp; Support</a>
         </p>
         <p>
           <a href="faq_en.php">F.A.Q.</a>
