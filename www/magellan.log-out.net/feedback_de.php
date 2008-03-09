@@ -6,19 +6,19 @@
     <link rel="alternate stylesheet" href="http://eressea.sourceforge.net/magellan/classic.css" type="text/css" />
     <link rel="stylesheet" href="http://eressea.sourceforge.net/magellan/default.css" type="text/css" />
     <link rel="stylesheet" href="theme.css" type="text/css" />
-    <title>Magellan Plugins</title>
+    <title>Magellan Feedback</title>
   </head>
   <body>
     <div id="container">
 <?php
-  $page = "plugins"; 
-  $language = "en";
-  include_once "navi_en.php";
+  $page = "feedback";
+  $language = "de";
+  include_once "navi_de.php";
   include_once "header.php"; 
 ?>
       <div id="center">
         <h3>
-          Plugins
+          Feedback &amp; Support
         </h3>
         <p>
           ...
