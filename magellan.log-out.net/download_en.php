@@ -2,17 +2,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-    <link rel="SHORTCUT ICON" href="/magellan2/favicon.ico" />
-    <link rel="alternate stylesheet" href="http://eressea.sourceforge.net/magellan/classic.css" type="text/css" title="Classic" />
-    <link rel="stylesheet" href="http://eressea.sourceforge.net/magellan/default.css" type="text/css" title="Default" />
-    <link rel="stylesheet" href="theme.css" type="text/css" title="Theme" />
+    <link rel="SHORTCUT ICON" href="/favicon.ico" />
+    <link rel="alternate stylesheet" href="http://eressea.sourceforge.net/magellan/classic.css" type="text/css" />
+    <link rel="stylesheet" href="http://eressea.sourceforge.net/magellan/default.css" type="text/css" />
+    <link rel="stylesheet" href="theme.css" type="text/css" />
     <title>Magellan Download</title>
   </head>
   <body>
     <div id="container">
-<?php include_once "functions.php"; ?>
-<?php include_once "navi_en.php"; ?>
-<?php include_once "header.php"; ?>
+<?php 
+  $page = "download";
+  $language = "en";
+  include_once "functions.php";
+  include_once "navi_en.php";
+  include_once "header.php"; 
+?>
       <div id="center">
         <h3>
           Download

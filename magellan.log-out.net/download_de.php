@@ -2,21 +2,25 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-    <link rel="SHORTCUT ICON" href="/magellan2/favicon.ico" />
-    <link rel="alternate stylesheet" href="http://eressea.sourceforge.net/magellan/classic.css" type="text/css" title="Classic" />
-    <link rel="stylesheet" href="http://eressea.sourceforge.net/magellan/default.css" type="text/css" title="Default" />
-    <link rel="stylesheet" href="theme.css" type="text/css" title="Theme" />
+    <link rel="SHORTCUT ICON" href="/favicon.ico" />
+    <link rel="alternate stylesheet" href="http://eressea.sourceforge.net/magellan/classic.css" type="text/css" />
+    <link rel="stylesheet" href="http://eressea.sourceforge.net/magellan/default.css" type="text/css" />
+    <link rel="stylesheet" href="theme.css" type="text/css" />
     <title>Magellan Download</title>
   </head>
   <body>
     <div id="container">
-<?php $page = "download"; ?>
-<?php include_once "functions.php"; ?>
-<?php include_once "navi_de.php"; ?>
-<?php include_once "header.php"; ?>
+<?php 
+  $page = "download";
+  $language = "de";
+  include_once "functions.php";
+  include_once "navi_de.php";
+  include_once "header.php";
+?>
       <div id="center">
+        <a name="magellan2"></a>
         <h3>
-          Download
+          Download Magellan 2.x
         </h3>
         <p>
           Hier findest Du die aktuelle installierbare Version von Magellan2. 
@@ -65,12 +69,28 @@
           </li>
         </ul>
         <br />
-        <br />
          
+        <a name="magellan1"></a>
+        <h3>
+          Download Magellan 1.x
+        </h3>
         <p>
-          Bugs können im Mantis von Magellan eingetragen werden. Der Link
-          lautet: <a class="external" href=
-          "http://magellan-client.sourceforge.net/mantis/">http://magellan-client.sourceforge.net/mantis/</a>.
+          Die Entwicklung des bisherigen Magellan Clients wurde eingestellt.
+          Die letzte Version lautet 1.2.5e.
+        </p>
+        <p>
+          Die aktuelle Version kann bei 
+          <a class="externalLink" href="http://sourceforge.net/project/showfiles.php?group_id=174030/">SourceForge</a> 
+          heruntergeladen werden.
+        </p>
+        <br />
+
+        <a name="plugins"></a>
+        <h3>
+          Download Plugins
+        </h3>
+        <p>
+          ...
         </p>
       </div>
     </div>
