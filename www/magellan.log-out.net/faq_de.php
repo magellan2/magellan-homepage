@@ -17,12 +17,9 @@
   include_once "header.php"; 
 ?>
       <div id="center">
-        <h3>
-          F.A.Q.
-        </h3>
-        <p>
-          ...
-        </p>
+        <iframe src="help/de/magellan/faq.html" width="120%" height="400" frameborder="0" marginheigh="0" marginwidth="0">
+          <p>Die F.A.Q. ist <a href="help/de/magellan/faq.html">hier</a> erreichbar.
+        </iframe>
       </div>
     </div>
   </body>
