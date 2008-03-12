@@ -8,3 +8,8 @@
 #left a.sublink {
   color: #aa0000;
 }
+
+li {
+  padding-left: 2px;
+  padding-right: 2px;
+}
