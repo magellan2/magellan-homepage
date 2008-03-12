@@ -25,9 +25,9 @@ if($language == "en") {
 <?php
 if($page == "download") {
 ?>
-          <a class="sublink" href="#magellan1">Magellan 1.x</a>&nbsp;&middot;<br/>
-          <a class="sublink" href="#magellan2">Magellan 2.x</a>&nbsp;&middot;<br/>
-          <a class="sublink" href="#plugins">Plugins</a>&nbsp;&middot;<br/>
+          <a class="sublink" href="#magellan1">Magellan 1.x</a>&nbsp;&middot;&nbsp;&nbsp;<br/>
+          <a class="sublink" href="#magellan2">Magellan 2.x</a>&nbsp;&middot;&nbsp;&nbsp;<br/>
+          <a class="sublink" href="#plugins">Plugins</a>&nbsp;&middot;&nbsp;&nbsp;<br/>
 <?php
 }
 ?>
@@ -46,12 +46,12 @@ if($page == "download") {
 <?php
 if($page == "plugins") {
 ?>
-          <a class="sublink" href="plugins_alliance_de.php">Alliance Plugin</a>&nbsp;&middot;<br/>
-          <a class="sublink" href="plugins_extcmds_de.php">Extended Commands</a>&nbsp;&middot;<br/>
-          <a class="sublink" href="plugins_mapcleaner_de.php">MapCleaner Plugin</a>&nbsp;&middot;<br/>
-          <a class="sublink" href="plugins_mapedit_de.php">MapEdit Plugin</a>&nbsp;&middot;<br/>
-          <a class="sublink" href="plugins_memorywatch_de.php">MemoryWatch Plugin</a>&nbsp;&middot;<br/>
-          <a class="sublink" href="plugins_teacher_de.php">Teacher Plugin</a>&nbsp;&middot;<br/>
+          <a class="sublink" href="plugins_alliance_de.php">Alliance Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br/>
+          <a class="sublink" href="plugins_extcmds_de.php">ExtCmds Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br/>
+          <a class="sublink" href="plugins_mapcleaner_de.php">MapCleaner Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br/>
+          <a class="sublink" href="plugins_mapedit_de.php">MapEdit Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br/>
+          <a class="sublink" href="plugins_memorywatch_de.php">MemWatch Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br/>
+          <a class="sublink" href="plugins_teacher_de.php">Teacher Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br/>
 <?php
 }
 ?>
