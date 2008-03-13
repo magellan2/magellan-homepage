@@ -24,7 +24,7 @@ if($language == "en") {
           <a href="download_en.php">Download</a>
         </p>
 <?php
-if($page == "download") {
+//if($page == "download") {
 ?>
         <p>
           <a class="sublink" href="#magellan1">Magellan 1.x</a>&nbsp;&middot;<br/>
@@ -32,7 +32,7 @@ if($page == "download") {
           <a class="sublink" href="#plugins">Plugins</a>&nbsp;&middot;<br/>
         </p>
 <?php
-}
+//}
 ?>
         <p>
           <a href="feedback_en.php">Feedback &amp; Support</a>
@@ -47,7 +47,7 @@ if($page == "download") {
           <a href="plugins_en.php">Plugins</a>
         </p>
 <?php
-if($page == "plugins") {
+//if($page == "plugins") {
 ?>
         <p>
           <a class="sublink" href="plugins_alliance_de.php">Alliance Plugin</a>&nbsp;&middot;<br/>
@@ -58,7 +58,7 @@ if($page == "plugins") {
           <a class="sublink" href="plugins_teacher_de.php">Teacher Plugin</a>&nbsp;&middot;<br/>
         </p>
 <?php
-}
+//}
 ?>
         <p>
           <a href="./javadoc/">JavaDoc</a>

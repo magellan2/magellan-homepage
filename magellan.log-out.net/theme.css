@@ -1,12 +1,19 @@
 #left a.externalLink {
   background: url(images/external.png) right center no-repeat;
   padding-right: 14px;
-  color: #770000;
+  color: #cc0000;
   border: 0px;
 }
 
+#center a.externalLink {
+  background: url(images/external.png) right center no-repeat;
+  padding-right: 14px;
+  border: 0px;
+  text-decoration: underline;
+}
+
 #left a.sublink {
-  color: #aa0000;
+  color: #cc0000;
 }
 
 li {
