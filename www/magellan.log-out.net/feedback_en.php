@@ -17,7 +17,7 @@
   include_once "header.php"; 
 ?>
       <div id="center">
-        <iframe src="help/en/magellan/feedback.html" width="120%" height="400" frameborder="0" marginheigh="0" marginwidth="0">
+        <iframe src="help/en/magellan/feedback.html" width="100%" height="550" frameborder="0" marginheigh="0" marginwidth="0">
           <p>Dieser Bereich ist <a href="help/en/magellan/feedback.html">hier</a> erreichbar.
         </iframe>
       </div>
