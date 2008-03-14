@@ -49,7 +49,8 @@
           </table>
         </p>
         <p>
-          ...lange Beschreibung mit Screenshots...
+          Mit Hilfe des MapCleaners lässt sich die Karte eines geladenen Reports aufräumen.
+          Im Moment bedeutet das, dass bei allen Ozeanregionen die Namen entfernt werden.
         </p>
       </div>
     </div>

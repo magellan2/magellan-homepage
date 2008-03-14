@@ -17,9 +17,11 @@
   include_once "header.php"; 
 ?>
       <div id="center">
+       <p>
        <iframe src="help/de/magellan/index.html" width="100%" height="550" frameborder="0" marginheigh="0" marginwidth="0">
           <p>Dieser Bereich ist <a href="help/de/magellan/index.html">hier</a> erreichbar.
-        </iframe>
+       </iframe>
+       </p>
       </div>
     </div>
   </body>
