@@ -18,13 +18,24 @@
   include_once "header.php";
 ?>
       <div id="center">
+        <h2>
+          Download
+        </h2>
+        <p>
+          Auf dieser Seite findest du alle Downloads zu Magellan. Bis auf Magellan 1.x sind alle JAR Dateien,
+          die du herunterlädst, ausführbar. Startest du es, wird eine Installationsroutine ausgeführt, die
+          dich durch die erste Konfiguration führt. Magellan 2.x und seine Plugins verteilen sich über
+          mehrere Dateien, die in einem beliebigen Verzeichnis installiert werden können.
+        </p>
         <a name="magellan2"></a>
         <h3>
           Download Magellan 2.x
         </h3>
         <p>
-          Hier findest Du die aktuelle installierbare Version von Magellan2. 
-          <a href="./release/CHANGELOG.txt">CHANGELOG</a>.<br />
+          Hier findest Du die aktuelle installierbare Version von Magellan2. Diese Version wird von den
+          Entwicklern freigegeben und bezeichnet eine Version, die stabil ist. Im
+          <a href="./release/CHANGELOG.txt">CHANGELOG</a> findest du alle Änderungen, die seit der letzten
+          Release gemacht wurden.<br />
           <br />
           Version: <?php echo $RELEASE_VERSION; ?><br />
           Stand: <?php echo $RELEASE; ?><br />
@@ -50,7 +61,8 @@
         <p>
           Hier findest Du die aktuellste Version von Magellan2. Sie wird jede
           Nacht neu kompiliert und hier auf dem Server zur Verfügung gestellt.
-          <a href="./nightly-build/CHANGELOG.txt">CHANGELOG</a>.<br />
+          Im <a href="./nightly-build/CHANGELOG.txt">CHANGELOG</a> findest du
+          alle Änderungen, die seit der letzten Nacht gemacht wurden.<br />
           <br />
           Version: <?php echo $LATEST_VERSION; ?><br />
           Stand: <?php echo $NIGHTLY_BUILD; ?><br />

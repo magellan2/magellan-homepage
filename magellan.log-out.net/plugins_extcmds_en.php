@@ -12,8 +12,8 @@
     <div id="container">
 <?php
   $page = "plugins";
-  $language = "de";
-  include_once "navi_de.php";
+  $language = "en";
+  include_once "navi_en.php";
   include_once "header.php"; 
 ?>
       <div id="center">
@@ -48,6 +48,7 @@
             </tr>
           </table>
         </p>
+        <p><b>English version currently not available...coming soon...</b></p>
         <p>
           Bei den Extended Commands (oder kurz ExtCmds) handelt es sich um ein Plugin,
           mit dessen Hilfe man Einheiten scriptbasiert Befehle geben kann. Es erinnert

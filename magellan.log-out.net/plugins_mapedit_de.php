@@ -49,7 +49,13 @@
           </table>
         </p>
         <p>
-          ...lange Beschreibung mit Screenshots...
+          Mit Hilfe dieses Plugins lässt sich die Karte eines geladenen Reports bearbeiten.
+          Man kann für jede einzelne Region den Regionstyp festlegen, ihm fest einen Namen
+          geben, die Region komplett löschen oder eine neue Region erstellen. Damit lässt
+          sich die Karte nach belieben gestalten und modifizieren.
+        </p>
+        <p>
+          <img src="images/plugin_mapedit.png" alt="MapEdit" border="0"/>
         </p>
       </div>
     </div>

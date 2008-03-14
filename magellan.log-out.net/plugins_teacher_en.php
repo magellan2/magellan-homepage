@@ -12,8 +12,8 @@
     <div id="container">
 <?php
   $page = "plugins";
-  $language = "de";
-  include_once "navi_de.php";
+  $language = "en";
+  include_once "navi_en.php";
   include_once "header.php"; 
 ?>
       <div id="center">
@@ -48,6 +48,7 @@
             </tr>
           </table>
         </p>
+        <p><b>English version currently not available...coming soon...</b></p>
         <p>
           Das Teacher Plugin ermöglicht eine enge Kopplung zwischen Lehrer und Schüler.
           Durch die Definition von Metatags im Befehlsbereich einer Einheit werden Schüler
