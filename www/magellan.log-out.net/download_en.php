@@ -24,18 +24,18 @@
         </h2>
         <p>
           On this page you can find all available downloads for Magellan.
-          Except Magellan 1.x all this files are executable JAR files.
+          Except for Magellan 1.x all these files are executable JAR files.
           If you start one of them, an installation program is executed,
           that helps you with the first configuration. Magellan 2.x and
-          the plugins are devided into multiple files, that can be installed
-          on every directory (like a USB stick).
+          the plugins are divided into multiple files that can be installed
+          in any directory (for example also on a USB stick).
         </p>
         <a name="magellan2"></a> 
         <h3>
           Download Magellan 2.x
         </h3>
         <p>
-          Here you can finde the current stable release of Magellan 2.x.
+          Here you can find the current stable release of Magellan 2.x.
           This version is recommended for all users and mostly stable.
           In <a href=
           "./release/CHANGELOG.txt">CHANGELOG</a> you can find all the changes
@@ -65,13 +65,13 @@
         </h3>
         <p>
           Here you can find the latest version of Magellan 2.x. This version
-          is compiled every night and maybe unstable. So it is recommended
+          is compiled every night and may be unstable. So it is recommended
           for developers and beta testers only.
           In <a href="./nightly-build/CHANGELOG.txt">CHANGELOG</a> you can
           find all changes made since the last night.<br />
           <br />
-           Version: <?php echo $LATEST_VERSION; ?><br />
-           Status: <?php echo $NIGHTLY_BUILD; ?><br />
+           Version: 2.0.rc1 (build 173)<br />
+           Status: 15.03.2008 10:15:01 +01:00<br />
         </p>
         <ul>
           <li>
@@ -93,9 +93,9 @@
           Download Magellan 1.x
         </h3>
         <p>
-          The developing of the old Magellan client stops because of the
-          hugh amount of changes in the new release. It's not possible
-          to transfer all kind of patches to this version. The latest
+          The developing of the old Magellan client has stopped because of the
+          huge amount of changes in the new release. It's not possible
+          to transfer every necessary patch to this version. The latest
           version is 1.2.5e.
         </p>
         <p>
