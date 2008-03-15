@@ -1,32 +1,11 @@
-body {
-  background: url(images/background.jpg);
-  background-repeat: repeat-x;
-  background-color: #D5A983;
+table.plugin {
+  margin-left:10px;
 }
 
-#left a.externalLink {
-  background: url(images/external.png) right center no-repeat;
-  padding-right: 14px;
-  color: #cc0000;
-  border: 0px;
+tr.plugin {
+
 }
 
-#center a.externalLink {
-  background: url(images/external.png) right center no-repeat;
-  padding-right: 14px;
-  border: 0px;
-  text-decoration: underline;
-}
+td.plugin {
 
-#left a.sublink {
-  color: #cc0000;
-}
-
-li {
-  padding-left: 2px;
-  padding-right: 2px;
-}
-
-#center {
-  margin-right: 0px;
 }

@@ -1,48 +1,53 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-    <link rel="SHORTCUT ICON" href="/favicon.ico" />
-    <link rel="alternate stylesheet" href="http://eressea.sourceforge.net/magellan/classic.css" type="text/css" />
-    <link rel="stylesheet" href="http://eressea.sourceforge.net/magellan/default.css" type="text/css" />
-    <link rel="stylesheet" href="theme.css" type="text/css" />
-    <title>Magellan Download</title>
+    <?php
+    $page = "download";
+    $language = "de";
+    include_once "head.php";
+    ?>
+    <title>
+      Magellan Download
+    </title>
   </head>
   <body>
     <div id="container">
-<?php 
-  $page = "download";
-  $language = "de";
-  include_once "functions.php";
-  include_once "navi_de.php";
-  include_once "header.php";
-?>
+      <?php 
+        include_once "functions.php";
+        include_once "navi_".$language.".php";
+        include_once "header.php";
+      ?>
       <div id="center">
         <h2>
           Download
         </h2>
         <p>
-          Auf dieser Seite findest du alle Downloads zu Magellan. Bis auf Magellan 1.x sind alle JAR Dateien,
-          die du herunterlädst, ausführbar. Startest du es, wird eine Installationsroutine ausgeführt, die
-          dich durch die erste Konfiguration führt. Magellan 2.x und seine Plugins verteilen sich über
-          mehrere Dateien, die in einem beliebigen Verzeichnis installiert werden können.
+          Auf dieser Seite findest du alle Downloads zu Magellan. Bis auf
+          Magellan 1.x sind alle JAR Dateien, die du herunterlädst, ausführbar.
+          Startest du es, wird eine Installationsroutine ausgeführt, die dich
+          durch die erste Konfiguration führt. Magellan 2.x und seine Plugins
+          verteilen sich über mehrere Dateien, die in einem beliebigen
+          Verzeichnis installiert werden können.
         </p>
-        <a name="magellan2"></a>
+        <a name="magellan2"></a> 
         <h3>
           Download Magellan 2.x
         </h3>
         <p>
-          Hier findest Du die aktuelle installierbare Version von Magellan2. Diese Version wird von den
-          Entwicklern freigegeben und bezeichnet eine Version, die stabil ist. Im
-          <a href="./release/CHANGELOG.txt">CHANGELOG</a> findest du alle Änderungen, die seit der letzten
-          Release gemacht wurden.<br />
+          Hier findest Du die aktuelle installierbare Version von Magellan2.x.
+          Diese Version wird von den Entwicklern freigegeben und bezeichnet
+          eine Version, die stabil ist. Im <a href=
+          "./release/CHANGELOG.txt">CHANGELOG</a> findest du alle Änderungen,
+          die seit der letzten Release gemacht wurden.<br />
           <br />
-          Version: <?php echo $RELEASE_VERSION; ?><br />
-          Stand: <?php echo $RELEASE; ?><br />
+           Version: <?php echo $RELEASE_VERSION; ?><br />
+           Stand: <?php echo $RELEASE; ?><br />
         </p>
         <ul>
           <li>
-            <a href="./release/magellan_v2.0.rc1.jar">JAR installer</a> (11.5MB)
+            <a href="./release/magellan_v2.0.rc1.jar">JAR installer</a>
+            (11.5MB)
           </li>
         </ul>
         <ul>
@@ -59,17 +64,18 @@
           Nightly Build
         </h3>
         <p>
-          Hier findest Du die aktuellste Version von Magellan2. Sie wird jede
+          Hier findest Du die aktuellste Version von Magellan 2.x. Sie wird jede
           Nacht neu kompiliert und hier auf dem Server zur Verfügung gestellt.
           Im <a href="./nightly-build/CHANGELOG.txt">CHANGELOG</a> findest du
           alle Änderungen, die seit der letzten Nacht gemacht wurden.<br />
           <br />
-          Version: <?php echo $LATEST_VERSION; ?><br />
-          Stand: <?php echo $NIGHTLY_BUILD; ?><br />
+           Version: <?php echo $LATEST_VERSION; ?><br />
+           Stand: <?php echo $NIGHTLY_BUILD; ?><br />
         </p>
         <ul>
           <li>
-            <a href="./nightly-build/magellan_v2.0.rc1.jar">JAR installer</a> (11.5MB)
+            <a href="./nightly-build/magellan_v2.0.rc1.jar">JAR installer</a>
+            (11.5MB)
           </li>
         </ul>
         <ul>
@@ -81,8 +87,7 @@
           </li>
         </ul>
         <br />
-         
-        <a name="magellan1"></a>
+         <a name="magellan1"></a> 
         <h3>
           Download Magellan 1.x
         </h3>
@@ -91,13 +96,12 @@
           Die letzte Version lautet 1.2.5e.
         </p>
         <p>
-          Die aktuelle Version kann bei 
-          <a class="externalLink" href="http://sourceforge.net/project/showfiles.php?group_id=174030/">SourceForge</a> 
+          Die aktuelle Version kann bei <a class="externalLink" href=
+          "http://sourceforge.net/project/showfiles.php?group_id=174030/">SourceForge</a>
           heruntergeladen werden.
         </p>
         <br />
-
-        <a name="plugins"></a>
+         <a name="plugins"></a> 
         <h3>
           Download Plugins
         </h3>
@@ -107,25 +111,28 @@
         </p>
         <ul>
           <li>
-            <b>MapCleaner Plugin</b><br/>
-            Repariert Reports<br/>
-            siehe <a href="plugins_mapcleaner_de.php">Beschreibung</a><br/>
-            Download: <a href="plugins/mapcleaner_installer.jar">Installer JAR</a><br/>
-            <br/>
+            <b>MapCleaner Plugin</b><br />
+             Repariert Reports<br />
+             siehe <a href="plugins_mapcleaner_de.php">Beschreibung</a><br />
+             Download: <a href="plugins/mapcleaner_installer.jar">Installer
+            JAR</a><br />
+            <br />
           </li>
           <li>
-            <b>MemoryWatch Plugin</b><br/>
-            Zeigt Magellan Speicherverbrauch an<br/>
-            siehe <a href="plugins_mapcleaner_de.php">Beschreibung</a><br/>
-            Download: <a href="plugins/memorywatch_installer.jar">Installer JAR</a><br/>
-            <br/>
+            <b>MemoryWatch Plugin</b><br />
+             Zeigt Magellan Speicherverbrauch an<br />
+             siehe <a href="plugins_mapcleaner_de.php">Beschreibung</a><br />
+             Download: <a href="plugins/memorywatch_installer.jar">Installer
+            JAR</a><br />
+            <br />
           </li>
           <li>
-            <b>Teacher Plugin</b><br/>
-            Vereinfachte Lehrer-Schüler Operation<br/>
-            siehe <a href="plugins_mapcleaner_de.php">Beschreibung</a><br/>
-            Download: <a href="plugins/teacher_installer.jar">Installer JAR</a><br/>
-            <br/>
+            <b>Teacher Plugin</b><br />
+             Vereinfachte Lehrer-Schüler Operation<br />
+             siehe <a href="plugins_mapcleaner_de.php">Beschreibung</a><br />
+             Download: <a href="plugins/teacher_installer.jar">Installer
+            JAR</a><br />
+            <br />
           </li>
         </ul>
       </div>

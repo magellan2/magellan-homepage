@@ -1,57 +1,84 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-    <link rel="SHORTCUT ICON" href="/favicon.ico" />
-    <link rel="alternate stylesheet" href="http://eressea.sourceforge.net/magellan/classic.css" type="text/css" />
-    <link rel="stylesheet" href="http://eressea.sourceforge.net/magellan/default.css" type="text/css" />
-    <link rel="stylesheet" href="theme.css" type="text/css" />
-    <title>Magellan Plugins - MapCleaner Plugin</title>
+    <?php
+      $page = "plugins";
+      $language = "en";
+      include_once "head.php";
+    ?>
+    <title>
+      Magellan Plugins - MapCleaner Plugin
+    </title>
   </head>
   <body>
     <div id="container">
-<?php
-  $page = "plugins";
-  $language = "en";
-  include_once "navi_en.php";
-  include_once "header.php"; 
-?>
+      <?php
+        include_once "navi_".$language.".php";
+        include_once "header.php"; 
+      ?>
       <div id="center">
         <h3>
           MapCleaner Plugin
         </h3>
+        <table summary="" cellspacing="0" cellpadding="1" border="0" class=
+        "plugin">
+          <tr class="plugin">
+            <td class="plugin">
+              Name:
+            </td>
+            <td class="plugin">
+              MapCleaner Plugin
+            </td>
+          </tr>
+          <tr class="plugin">
+            <td class="plugin">
+              Version:
+            </td>
+            <td class="plugin">
+              1.0
+            </td>
+          </tr>
+          <tr class="plugin">
+            <td class="plugin">
+              Kurzbeschreibung:
+            </td>
+            <td class="plugin">
+              Repariert Reports
+            </td>
+          </tr>
+          <tr class="plugin">
+            <td class="plugin">
+              Autor:
+            </td>
+            <td class="plugin">
+              -?-
+            </td>
+          </tr>
+          <tr class="plugin">
+            <td class="plugin">
+              Website:
+            </td>
+            <td class="plugin">
+              -
+            </td>
+          </tr>
+          <tr class="plugin">
+            <td class="plugin">
+              Download
+            </td>
+            <td class="plugin">
+              <a href="download_de.php#plugins">http://magellan.log-out.net</a>
+            </td>
+          </tr>
+        </table>
         <p>
-          <table summary="" cellspacing="0" cellpadding="1" border="0" style="margin-left:10px;">
-            <tr>
-              <td>Name:</td>
-              <td>MapCleaner Plugin</td>
-            </tr>
-            <tr>
-              <td>Version:</td>
-              <td>1.0</td>
-            </tr>
-            <tr>
-              <td>Kurzbeschreibung:</td>
-              <td>Repariert Reports</td>
-            </tr>
-            <tr>
-              <td>Autor:</td>
-              <td>-?-</td>
-            </tr>
-            <tr>
-              <td>Website:</td>
-              <td>-</td>
-            </tr>
-            <tr>
-              <td>Download</td>
-              <td><a href="download_de.php#plugins">http://magellan.log-out.net</a></td>
-            </tr>
-          </table>
+          <b>English version currently not available...coming soon...</b>
         </p>
-        <p><b>English version currently not available...coming soon...</b></p>
         <p>
-          Mit Hilfe des MapCleaners lässt sich die Karte eines geladenen Reports aufräumen.
-          Im Moment bedeutet das, dass bei allen Ozeanregionen die Namen entfernt werden.
+          Mit Hilfe des MapCleaners lässt sich die Karte eines geladenen
+          Reports aufräumen. Im Moment bedeutet das, dass bei allen
+          Ozeanregionen die Namen entfernt werden.
         </p>
       </div>
     </div>
