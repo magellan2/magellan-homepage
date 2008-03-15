@@ -22,15 +22,15 @@
           What is Magellan 2.x?
         </h3>
         <p>
-          Magellan 2.x is an logical progression of the Magellan clients. The
-          changes in the software were so extensive, that we decided, to give
-          it a new much higher version number.
+          Magellan 2.x is a logical progression of the Magellan client. The
+          changes in the software were so extensive that we decided to give
+          it a new, much higher, version number.
         </p>
         <p>
-          Magellan 2.x needs, in comparison to Magellan 1.x now Java5 (1.5.0 or
+          Magellan 2.x now needs, contrary to Magellan 1.x, Java5 (1.5.0 or
           higher). Additionally it is now a JAR file that has a setup that
-          unpacks and installs a whole application on your computer. The
-          application is now split into multiple files. So you're able to
+          unpacks and installs the whole application on your computer. The
+          application is now split into multiple files, so you're able to
           change texts and icons as you want.
         </p>
         <p>
@@ -39,11 +39,11 @@
           onfocus="if(this.blur()){this.blur();}" /></a>
         </p>
         <p>
-          Magellan 2.x offers also some new features. With the help of the
+          Magellan 2.x also offers some new features. With the help of the
           Infonode Docking Framework you can now customize your Magellan
-          desktop as you want and as you need with a single mouse click. You
-          don't need to edit any configuration files any more. Furthermore
-          Magellan 2.x has now a split code structure and makes it possible to
+          desktop to your own tastes and needs with a single mouse click. You
+          don't need to edit any configuration files anymore. Furthermore
+          Magellan 2.x now has a split code structure, which makes it possible to
           develop server or console applications without a graphical user
           interface.
         </p>
