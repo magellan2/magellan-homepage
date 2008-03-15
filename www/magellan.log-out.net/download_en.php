@@ -1,36 +1,53 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-    <link rel="SHORTCUT ICON" href="/favicon.ico" />
-    <link rel="alternate stylesheet" href="http://eressea.sourceforge.net/magellan/classic.css" type="text/css" />
-    <link rel="stylesheet" href="http://eressea.sourceforge.net/magellan/default.css" type="text/css" />
-    <link rel="stylesheet" href="theme.css" type="text/css" />
-    <title>Magellan Download</title>
+    <?php
+    $page = "download";
+    $language = "en";
+    include_once "head.php";
+    ?>
+    <title>
+      Magellan Download
+    </title>
   </head>
   <body>
     <div id="container">
-<?php 
-  $page = "download";
-  $language = "en";
-  include_once "functions.php";
-  include_once "navi_en.php";
-  include_once "header.php"; 
-?>
+      <?php 
+        include_once "functions.php";
+        include_once "navi_".$language.".php";
+        include_once "header.php";
+      ?>
       <div id="center">
-        <h3>
+        <h2>
           Download
+        </h2>
+        <p>
+          On this page you can find all available downloads for Magellan.
+          Except Magellan 1.x all this files are executable JAR files.
+          If you start one of them, an installation program is executed,
+          that helps you with the first configuration. Magellan 2.x and
+          the plugins are devided into multiple files, that can be installed
+          on every directory (like a USB stick).
+        </p>
+        <a name="magellan2"></a> 
+        <h3>
+          Download Magellan 2.x
         </h3>
         <p>
-          Here you find the current installable release version of Magellan 2.x.
-          <a href="./release/CHANGELOG.txt">CHANGELOG</a>.<br />
+          Here you can finde the current stable release of Magellan 2.x.
+          This version is recommended for all users and mostly stable.
+          In <a href=
+          "./release/CHANGELOG.txt">CHANGELOG</a> you can find all the changes
+          since the last release.<br />
           <br />
-          Version: <?php echo $RELEASE_VERSION; ?><br />
-          Status: <?php echo $RELEASE; ?><br />
+           Version: <?php echo $RELEASE_VERSION; ?><br />
+           Status: <?php echo $RELEASE; ?><br />
         </p>
         <ul>
           <li>
-            <a href="./release/magellan_v2.0.rc1.jar">JAR installer</a> (11.5MB)
+            <a href="./release/magellan_v2.0.rc1.jar">JAR installer</a>
+            (11.5MB)
           </li>
         </ul>
         <ul>
@@ -48,16 +65,18 @@
         </h3>
         <p>
           Here you can find the latest version of Magellan 2.x. This version
-          will be compiled every night and is placed here on the server for 
-          your disposal.
-          <a href="./nightly-build/CHANGELOG.txt">CHANGELOG</a>.<br />
+          is compiled every night and maybe unstable. So it is recommended
+          for developers and beta testers only.
+          In <a href="./nightly-build/CHANGELOG.txt">CHANGELOG</a> you can
+          find all changes made since the last night.<br />
           <br />
-          Version: <?php echo $LATEST_VERSION; ?><br />
-          Status: <?php echo $NIGHTLY_BUILD; ?><br />
+           Version: <?php echo $LATEST_VERSION; ?><br />
+           Status: <?php echo $NIGHTLY_BUILD; ?><br />
         </p>
         <ul>
           <li>
-            <a href="./nightly-build/magellan_v2.0.rc1.jar">JAR installer</a> (11.5MB)
+            <a href="./nightly-build/magellan_v2.0.rc1.jar">JAR installer</a>
+            (11.5MB)
           </li>
         </ul>
         <ul>
@@ -69,13 +88,55 @@
           </li>
         </ul>
         <br />
-        <br />
-         
+         <a name="magellan1"></a> 
+        <h3>
+          Download Magellan 1.x
+        </h3>
         <p>
-          Bugs können im Mantis von Magellan eingetragen werden. Der Link
-          lautet: <a class="external" href=
-          "http://magellan-client.sourceforge.net/mantis/">http://magellan-client.sourceforge.net/mantis/</a>.
+          The developing of the old Magellan client stops because of the
+          hugh amount of changes in the new release. It's not possible
+          to transfer all kind of patches to this version. The latest
+          version is 1.2.5e.
         </p>
+        <p>
+          You can download the latest version at <a class="externalLink" href=
+          "http://sourceforge.net/project/showfiles.php?group_id=174030/">SourceForge</a>.
+        </p>
+        <br />
+         <a name="plugins"></a> 
+        <h3>
+          Download Plugins
+        </h3>
+        <p>
+          Here you can find some plugins that are available directly from
+          this server.
+        </p>
+        <ul>
+          <li>
+            <b>MapCleaner Plugin</b><br />
+             Repairs Reports<br />
+             see <a href="plugins_mapcleaner_de.php">Description</a><br />
+             Download: <a href="plugins/mapcleaner_installer.jar">Installer
+            JAR</a><br />
+            <br />
+          </li>
+          <li>
+            <b>MemoryWatch Plugin</b><br />
+             Shows Magellan memory usage<br />
+             see <a href="plugins_mapcleaner_de.php">Description</a><br />
+             Download: <a href="plugins/memorywatch_installer.jar">Installer
+            JAR</a><br />
+            <br />
+          </li>
+          <li>
+            <b>Teacher Plugin</b><br />
+             Simplifies teacher learner relations<br />
+             see <a href="plugins_mapcleaner_de.php">Description</a><br />
+             Download: <a href="plugins/teacher_installer.jar">Installer
+            JAR</a><br />
+            <br />
+          </li>
+        </ul>
       </div>
     </div>
   </body>

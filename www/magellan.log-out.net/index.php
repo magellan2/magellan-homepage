@@ -1,9 +1,13 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
 <html>
   <head>
-    <meta name="generator" content="HTML Tidy, see www.w3.org">
+<?php
+  $page = "";
+  $language = "";
+  include_once "head.php";
+?>
     <title>
-      Magellan Plugins
+      Magellan
     </title>
     <?php
     $acceptLang=(($_SERVER["HTTP_ACCEPT_LANGUAGE"] == '') ? '*' :
@@ -13,16 +17,15 @@
     foreach($alparts as $part) {
         $part=trim($part);
         if(preg_match("/;/", $part)) {
-                    $lang=@preg_split("/;/",$part);
-                    $part=$lang[0];
+            $lang=@preg_split("/;/",$part);
+            $part=$lang[0];
         }
-            if ($part == 'de') break;
-            if ($part == 'en') break;
-            $part = 'en';
+        if ($part == 'de') break;
+        if ($part == 'en') break;
+        $part = 'en';
     }
     echo "<meta http-equiv=\"refresh\"CONTENT=\"0;URL=index_".$part.".php\">";
     ?>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
   </head>
   <body bgcolor="#D5A983">
     <tt><a href="index_en.php">Click here</a> to get to the english pages.<br>
