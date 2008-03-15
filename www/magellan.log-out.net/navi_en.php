@@ -4,9 +4,9 @@
 $msie='/msie\s(5\.[5-9]|[6]\.[0-9]*).*(win)/i';
 if( !isset($_SERVER['HTTP_USER_AGENT']) || !preg_match($msie,$_SERVER['HTTP_USER_AGENT']) || preg_match('/opera/i',$_SERVER['HTTP_USER_AGENT'])) {
 ?>
-          <a href="."><img src="images/logo24.png" alt="Magellan-Logo" border="0" onfocus="if(this.blur()){this.blur();}"/></a>
+          <a href="." onfocus="if(this.blur()){this.blur();}"><img src="images/logo24.png" alt="Magellan-Logo" border="0"/></a>
 <?php } else { ?>
-          <a href="."><img src="images/logo8.png" alt="Magellan-Logo" border="0" onfocus="if(this.blur()){this.blur();}"/></a> 
+          <a href="." onfocus="if(this.blur()){this.blur();}"><img src="images/logo8.png" alt="Magellan-Logo" border="0"/></a> 
 <?php } ?>
         </p>
         <p style="text-align:left">

@@ -34,9 +34,8 @@
           change texts and icons as you want.
         </p>
         <p>
-          <a href="images/magellan2.png"><img src=
-          "images/magellan2-preview.png" border="0" alt="Magellan Desktop"
-          onfocus="if(this.blur()){this.blur();}" /></a>
+          <a href="images/magellan2.png" onfocus="if(this.blur()){this.blur();}"><img src=
+          "images/magellan2-preview.png" border="0" alt="Magellan Desktop"/></a>
         </p>
         <p>
           Magellan 2.x also offers some new features. With the help of the
