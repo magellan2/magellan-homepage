@@ -70,8 +70,8 @@
           In <a href="./nightly-build/CHANGELOG.txt">CHANGELOG</a> you can
           find all changes made since the last night.<br />
           <br />
-           Version: 2.0.rc1 (build 173)<br />
-           Status: 15.03.2008 10:15:01 +01:00<br />
+           Version: <?php echo $LATEST_VERSION; ?><br />
+           Status: <?php echo $NIGHTLY_BUILD; ?><br />
         </p>
         <ul>
           <li>
