@@ -79,35 +79,35 @@
         <br />
          
         <p>
-          <b>English version currently not available...coming soon...</b>
+          The Teacher Plugin allows automatic assignment of teachers to students.
+          You have to assign certain special orders to the unit and Teacher will
+          then try to assign teachers to students in the best possible way and 
+          set the units' orders accordingly.
         </p>
         <p>
-          Das Teacher Plugin ermöglicht eine enge Kopplung zwischen Lehrer und
-          Schüler. Durch die Definition von Metatags im Befehlsbereich einer
-          Einheit werden Schüler und Lehrer für bestimmte Talente definiert.
-          Das Plugin sucht dann die entsprechend beste
-          Schüler-Lehrer-Kombination heraus und setzt an beiden Seiten die
-          entsprechenden Befehle.
-        </p>
-        <p>
-          Damit eine Einheit in diesem Prozess abgearbeitet werden kann, muss
-          sie folgende Metatags enthalten.
+          You have to tell teacher which talents a unit should learn, how much
+          the different talents are worth and which units should be teachers. 
+          Teacher then tries to maximize the sum of all values of learning units. 
+          The values of units with a teacher are doubled (roughly), because they will 
+          learn twice as fast. You can specify (potential) teachers and students by 
+          adding one or more of the following meta orders to the unit's orders. 
         </p>
 <pre>
             // $$L Talent1 value1 Talent2 value2
 </pre>
          
         <p>
-          steht für einen Schüler, der zwei unterschiedliche Talente auf
-          unterschiedliche Level lernen soll.
+          denotes a student learning two skills of different values.
         </p>
 <pre>
              // $$L ALLES maxVal minVal
 </pre>
          
         <p>
-          steht für einen Schüler, der alle ihm bekannten Talente lernt. Der
-          höchste Wert wird maxValue werden und der niedrigste minVal.
+          denotes a student learning all the skills it already knows. Skills are given
+          values proportional to the level of the skill.The unit's skill with
+          the highest level will be given maxVal. The skill with the lowest level will
+          be given minVal.
         </p>
 <pre>
              // $$T Talent1 maxDiff1 Talent2 maxDiff2

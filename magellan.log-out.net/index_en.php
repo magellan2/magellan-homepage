@@ -76,7 +76,7 @@
           systems. However, it requires a rather powerful machine, especially 
           when your faction grows bigger. The minimum system requirements are 
           a 450 MHz processor and 128 MB RAM, but 800 MHz and 512 MB RAM are 
-          recommended. For Magellan Java 1.5 or newer is required.
+          recommended. For Magellan, Java 1.5 or newer is required.
         </p>
         <h3>
           Java? What's That?

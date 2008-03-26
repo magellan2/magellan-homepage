@@ -74,56 +74,59 @@
           </tr>
         </table>
         <p>
-          Das Teacher Plugin ermöglicht eine enge Kopplung zwischen Lehrer und
-          Schüler. Durch die Definition von Metatags im Befehlsbereich einer
-          Einheit werden Schüler und Lehrer für bestimmte Talente definiert.
-          Das Plugin sucht dann die entsprechend beste
-          Schüler-Lehrer-Kombination heraus und setzt an beiden Seiten die
-          entsprechenden Befehle.
+          Das Teacher-Plugin berechnet automatisch eine Zuweisung von Schülern
+          zu Lehrern. Um an diesem Prozess teilzunehmen, muss die Einheit
+          bestimmte Befehle erhalten, die für jedes Talent, das die Einheit lernen
+          soll einen Wert definieren. Teacher versucht Schülern so Lehrern zuzuweisen,
+          dass die Summe der Werte aller gelernten Talente maximiert wird. Schüler, die 
+          einen Lehrer haben, werden dabei (ungefähr) doppelt bewertet, da sie Talente
+          doppelt so schnell lernen.
         </p>
         <p>
-          Damit eine Einheit in diesem Prozess abgearbeitet werden kann, muss
-          sie folgende Metatags enthalten.
+          Damit eine Einheit in diesem Prozess abgearbeitet werden kann, müssen ihre
+          Befehle einen oder mehrere der folgenden Metabefehle enthalten:
         </p>
 <pre>
             // $$L Talent1 value1 Talent2 value2
 </pre>
          
         <p>
-          steht für einen Schüler, der zwei unterschiedliche Talente auf
-          unterschiedliche Level lernen soll.
+          steht für einen Schüler, der zwei unterschiedliche Talente mit 
+          unterschiedlichen Werten lernen soll. 
         </p>
 <pre>
              // $$L ALLES maxVal minVal
 </pre>
          
         <p>
-          steht für einen Schüler, der alle ihm bekannten Talente lernt. Der
-          höchste Wert wird maxValue werden und der niedrigste minVal.
+          steht für einen Schüler, der alle ihm bekannten Talente lernt. Die
+          Talente erhalten Werte in der Reihenfolge ihrer Stufen. Das Talent
+          mit der höchsten Stufe wird mit maxVal bewertet, das Talent mit der
+          niedrigesten Stufe mit minVal
         </p>
 <pre>
              // $$T Talent1 maxDiff1 Talent2 maxDiff2
 </pre>
          
         <p>
-          denotes a teacher teaching two skills. Students having a skill
-          differing more than maxDiff from the teachers talent are penalized.
-          maxDiff==0 has the special meaning that there is no such penalty.
-          maxDiff==1 means that the teacher will not teach this talent
+          steht für einen Lehrer, der zwei Talente lehrt. Schüler, deren Talentwert
+          um mehr als maxDiff vom Talentwert des Lehrers abweicht, werden gering
+          bewertet. maxDiff==0 bedeutet, dass der Talentunterschied egal ist. 
+          maxDiff==1 bedeutet, dass der Lehrer dieses Talent nicht lehren wird.
         </p>
 <pre>
             // $$T ALLES maxDiff
 </pre>
          
         <p>
-          denotes a teacher teaching all the skills he knows.
+          steht für einen Lehrer, der alle ihm bekannten Talente lehrt
         </p>
 <pre>
             // $$T ALLES 0 Hiebwaffen 2
 </pre>
          
         <p>
-          would also be feasible
+          ist auch zulässig.
         </p>
 <pre>
             // $namespace1$T ...
@@ -133,12 +136,12 @@
 </pre>
          
         <p>
-          defines an order belonging to a namespace; it can be used to teaching
-          only to units with certain namespace
+          definiert einen Metabefehl, der zu einem sog. Namensraum gehört. Man kann
+          den Einflussbereich der automatischen Lehre auf Einheiten in einem bestimmten
+          Namensraum eingrenzen.  
         </p>
         <p>
-          It is feasible (in fact, desirable) for a unit to be teacher and
-          student at the same time.
+          Eine Einheit, die Lehrer ist muss auch mindestens ein Talent lernen.
         </p>
       </div>
     </div>
