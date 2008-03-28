@@ -4,7 +4,7 @@
   <head>
     <?php
       $page = "home";
-      $language = "de";
+      $language = "en";
       include_once "head.php";
     ?>
     <title>
@@ -19,7 +19,7 @@
       ?>
       <div id="center">
         <h3>
-          Was sind Extended Commands?
+          What is Teacher?
         </h3>
         <p>
           Site under construction.

@@ -19,7 +19,7 @@
       ?>
       <div id="center">
         <h3>
-          Was sind Extended Commands?
+          Was ist das Teacher Plugin?
         </h3>
         <p>
           Site under construction.

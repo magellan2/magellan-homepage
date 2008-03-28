@@ -19,7 +19,7 @@
       ?>
       <div id="center">
         <h3>
-          Was sind Extended Commands?
+          Was ist das MapEdit Plugin?
         </h3>
         <p>
           Site under construction.
