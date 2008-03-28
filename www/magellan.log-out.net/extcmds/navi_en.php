@@ -21,4 +21,7 @@ if( !isset($_SERVER['HTTP_USER_AGENT']) || !preg_match($msie,$_SERVER['HTTP_USER
         <p>
           <a href="index_en.php">Home</a>
         </p>
+        <p>
+          <a href="../index_en.php">Magellan</a>
+        </p>
       </div>
