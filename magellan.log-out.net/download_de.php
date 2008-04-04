@@ -47,15 +47,15 @@
         <ul>
           <li>
             <a href="./release/magellan_v2.0.0.jar">JAR installer</a>
-            (11.5MB)
+            (12.9MB)
           </li>
         </ul>
         <ul>
           <li>
-            <a href="./release/magellan_v2.0.0.zip">ZIP</a> (10.4MB)
+            <a href="./release/magellan_v2.0.0.zip">ZIP</a> (12.3MB)
           </li>
           <li>
-            <a href="./release/magellan2-src.zip">Source</a> (16.4MB)
+            <a href="./release/magellan2-src.zip">Source</a> (17.7MB)
           </li>
         </ul>
         <br />
@@ -75,15 +75,15 @@
         <ul>
           <li>
             <a href="./nightly-build/magellan_v2.0.0.jar">JAR installer</a>
-            (11.5MB)
+            (12.9MB)
           </li>
         </ul>
         <ul>
           <li>
-            <a href="./nightly-build/magellan_v2.0.0.zip">ZIP</a> (10.4MB)
+            <a href="./nightly-build/magellan_v2.0.0.zip">ZIP</a> (12.3MB)
           </li>
           <li>
-            <a href="./nightly-build/magellan2-src.zip">Source</a> (16.4MB)
+            <a href="./nightly-build/magellan2-src.zip">Source</a> (17.7MB)
           </li>
         </ul>
         <br />
