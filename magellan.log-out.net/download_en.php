@@ -115,7 +115,7 @@
           <li>
             <b>MapCleaner Plugin</b><br />
              Repairs Reports<br />
-             see <a href="plugins_mapcleaner_de.php">Description</a><br />
+             see <a href="plugins_mapcleaner_en.php">Description</a><br />
              Download: <a href="plugins/mapcleaner-installer.jar">Installer
             JAR</a><br />
             <br />
@@ -123,7 +123,7 @@
           <li>
             <b>MemoryWatch Plugin</b><br />
              Shows Magellan memory usage<br />
-             see <a href="plugins_memorywatch_de.php">Description</a><br />
+             see <a href="plugins_memorywatch_en.php">Description</a><br />
              Download: <a href="plugins/memorywatch-installer.jar">Installer
             JAR</a><br />
             <br />
@@ -131,7 +131,7 @@
           <li>
             <b>Teacher Plugin</b><br />
              Simplifies teacher learner relations<br />
-             see <a href="plugins_teacher_de.php">Description</a><br />
+             see <a href="plugins_teacher_en.php">Description</a><br />
              Download: <a href="plugins/teacher-installer.jar">Installer
             JAR</a><br />
             <br />
