@@ -121,7 +121,7 @@
           <li>
             <b>MemoryWatch Plugin</b><br />
              Zeigt Magellan Speicherverbrauch an<br />
-             siehe <a href="plugins_mapcleaner_de.php">Beschreibung</a><br />
+             siehe <a href="plugins_memorywatch_de.php">Beschreibung</a><br />
              Download: <a href="plugins/memorywatch-installer.jar">Installer
             JAR</a><br />
             <br />
@@ -129,7 +129,7 @@
           <li>
             <b>Teacher Plugin</b><br />
              Vereinfachte Lehrer-Schüler Operation<br />
-             siehe <a href="plugins_mapcleaner_de.php">Beschreibung</a><br />
+             siehe <a href="plugins_teacher_de.php">Beschreibung</a><br />
              Download: <a href="plugins/teacher-installer.jar">Installer
             JAR</a><br />
             <br />
