@@ -25,8 +25,8 @@ if( !isset($_SERVER['HTTP_USER_AGENT']) || !preg_match($msie,$_SERVER['HTTP_USER
           <a href="download_en.php">Download</a>
         </p>
         <p>
-          <a class="sublink" href="download_en.php#magellan1">Magellan 1.x</a>&nbsp;&middot;<br/>
           <a class="sublink" href="download_en.php#magellan2">Magellan 2.x</a>&nbsp;&middot;<br/>
+          <a class="sublink" href="download_en.php#magellan1">Magellan 1.x</a>&nbsp;&middot;<br/>
         </p>
         <p>
           <a href="feedback_en.php">Feedback &amp; Support</a>
@@ -52,12 +52,9 @@ if( !isset($_SERVER['HTTP_USER_AGENT']) || !preg_match($msie,$_SERVER['HTTP_USER
           <a href="./javadoc/">JavaDoc</a>
         </p>
         <p>
-          <a class="externalLink" href="http://magellan-client.sourceforge.net/">Magellan</a>
+          <a class="externalLink" href="http://magellan-client.sourceforge.net/mantis/">Report a bug</a>
         </p>
         <p>
-          <a class="externalLink" href="http://magellan-client.sourceforge.net/mantis/">Report a bug</a>&nbsp;&middot;
-        </p>
-        <p>
-          <a class="externalLink" href="http://sourceforge.net/projects/magellan-client">SourceForge</a>&nbsp;&middot;
+          <a class="externalLink" href="http://sourceforge.net/projects/magellan-client">SourceForge</a>
         </p>
       </div>
