@@ -78,6 +78,46 @@
          So lassen sich einfach zu Beginn jeder Runde die Scripte ausführen und so
          für gut 70%-80% der Einheiten Befehle vordefinieren. Das spart doch Zeit, oder?
         </p>
+        <h3>BeanShell Syntax</h3>
+        <p>
+         Die Scriptsprache, in der man schreibt, nennt sich BeanShell. Sie ist Java
+         sehr ähnlich und ist auch in Java selbst geschrieben. Die Sprache ist mehr
+         oder weniger irgendwo zwischen Java 1.4 und Java 1.5. Es gibt Konstrukte
+         für foreach, so wie man sie bei neueren Java's kennt. Andere Teile wie Generics
+         kennt es aber nicht. Das ist aber nicht schlimm, man kann trotzdem darauf
+         vertrauen.
+        </p>
+        <p>
+          Ein paar Besonderheiten: Wenn man ernsthaft groß angelegt Scripte schreiben
+          will, sollte man in der Bibliothek zumindest die folgenden beiden Packages
+          importieren. Damit hat man die gröbste Klassendefinitionen von Magellan
+          importiert.
+        </p>
+        <pre class="example">
+
+import magellan.library.*;
+import magellan.library.rules.*;
+        </pre>
+        <p>
+          Der angesprochene Iterator funktioniert (im Gegensatz zum echten Java)
+          auch ohne Cast und kann direkt aufgerufen werden. Zum Beispiel:
+        </p>
+        <pre class="example">
+        
+Map luxuryPrices = region.getPrices();
+for (LuxuryPrice price : luxuryPrices.values()) {
+  ...
+}
+        </pre>
+        <p>
+         Das vereinfacht das Scriptschreiben doch enorm.
+        </p>
+        <p>
+         Bevor ich aber anfange, alle Einzelheiten der Sprache auseinanderzunehmen,
+         verweise ich liebe auf die externe Dokumentation zu dieser Sprache von den
+         Entwicklern. Ihr findet sie auf der Website 
+         <a class="externalLink" href="http://www.beanshell.org/manual/">www.beanshell.org/manual/</a>
+        </p>
       </div>
     </div>
   </body>
