@@ -38,6 +38,9 @@
           sinnvoll funktioniert und zum anderen gibt es hier einige (vielleicht)
           nützliche Scriptbeispiele.
         </p>
+        <p align="center">
+          <img src="../images/plugin_extcmds.png" alt="Extended Commands"/>
+        </p>
       </div>
     </div>
   </body>
