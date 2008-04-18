@@ -488,6 +488,7 @@ for (i = 0; i < nodeList.size(); i++) {
  }
 }
         </pre>
+        <hr/>
         <a name="script11"></a>
         <h3>Schilder mit Anzahl der Pferde aufstellen</h3>
         <p>
