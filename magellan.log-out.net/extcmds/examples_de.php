@@ -53,6 +53,7 @@
           das Selbe tun und keine Interaktion benötigen - z.B. Wahrnehmung lernen.
         </p>
         <pre class="example">
+
 if (!unit.isOrdersConfirmed()) {
   unit.setOrdersConfirmed(true);
 }
@@ -78,6 +79,7 @@ if (!unit.isOrdersConfirmed()) {
           Ansonsten wird einfach Pferdedressur gelernt.
         </p>
         <pre class="example">
+
 if (!unit.isOrdersConfirmed()) {
 
   if (unit.getRegion().getHorses()>=50) {
@@ -109,6 +111,7 @@ if (!unit.isOrdersConfirmed()) {
           aufsammelt und von A nach B transportiert (siehe unten).
         </p>
         <pre class="example">
+
 if (!unit.isOrdersConfirmed()) {
   if (helper.unitSeesOtherUnit("i2de")) {
     helper.addOrder(unit,"; Kräuterübergabe an Transporter:");
@@ -130,6 +133,7 @@ if (!unit.isOrdersConfirmed()) {
           pendeln und pro Region bestimmte Dinge entladen.
         </p>
         <pre class="example">
+
 if (!unit.isOrdersConfirmed()) {
 
   // ------- Nordende --------
@@ -187,6 +191,7 @@ if (!unit.isOrdersConfirmed()) {
          Transporter übergeben. Hier wird das Gewicht nicht beachtet.
         </p>
         <pre class="example">
+
 if (!unit.isOrdersConfirmed()) {
 
   boolean bihaender = (helper.getItemCount(unit,"Bihänder") > 0);
@@ -244,6 +249,7 @@ if (!unit.isOrdersConfirmed()) {
           Ein Beispielaufruf ist weiter unten beschrieben.
         </p>
         <pre class="example">
+
 soldier(Unit unit, int level, String talent, String waffe, 
         boolean taktiker, boolean held, boolean lerne, boolean bewache) {
   if (helper.getLevel(unit,"Taktik") < level && taktiker && lerne) {
@@ -284,6 +290,7 @@ soldier(Unit unit, int level, String talent, String waffe,
           langweilig ist, auch noch T5 Steuereintreiben.
         </p>
         <pre class="example">
+
 if (!unit.isOrdersConfirmed()) {
   String talent = "Stangenwaffen";
   String waffe  = "Speer";
@@ -307,6 +314,7 @@ if (!unit.isOrdersConfirmed()) {
           auch regeln....aber wozu zweimal klicken, wenn einmal reicht.
         </p>
         <pre class="example">
+
 import magellan.library.*;
 
 clearRegion(Region region, String partei) {
@@ -320,6 +328,7 @@ clearRegion(Region region, String partei) {
          Pro Region ruft man diese Funktion dann wie folgt auf.
         </p>
         <pre class="example">
+
 clearRegion((Region)container,"ntc");
         </pre>
         <p>
@@ -343,6 +352,7 @@ clearRegion((Region)container,"ntc");
          um nichts mehr kümmern - außer das gewonnen Silber ausgeben.
         </p>
         <pre class="example">
+
 import magellan.library.*;
 import magellan.library.rules.*;
 
@@ -413,6 +423,7 @@ haendler(Unit haendler, int kaufenFaktor, Map transporters) {
          um eine Art Alias für "GIB ALLES".
         </p>
         <pre class="example">
+
 if (!unit.isOrdersConfirmed()) {
 
   HashMap transporters = new HashMap();
@@ -433,6 +444,7 @@ if (!unit.isOrdersConfirmed()) {
          man mit anderen Sprachen außer Deutsch arbeitet.
         </p>
         <pre class="example">
+
 if (!unit.isOrdersConfirmed()) {
   int silver = helper.getItemCount(unit,"Silver");
   if (silver == 0) silver = helper.getItemCount(unit,"Silber");
@@ -452,6 +464,7 @@ if (!unit.isOrdersConfirmed()) {
           der aktuelle Luxuswarenpreis steht.
         </p>
         <pre class="example">
+
 import magellan.library.*;
 
 for (i = 0; i < nodeList.size(); i++) {
@@ -475,6 +488,7 @@ for (i = 0; i < nodeList.size(); i++) {
          in einer Region stehen.
         </p>
         <pre class="example">
+
 import magellan.library.*;
         
 for (Region region : world.regions().values()) {
