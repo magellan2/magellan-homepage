@@ -9,3 +9,7 @@ tr.plugin {
 td.plugin {
 
 }
+
+pre {
+  padding-left: 10px;
+}
