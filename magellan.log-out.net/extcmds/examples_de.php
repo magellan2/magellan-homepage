@@ -27,15 +27,182 @@
           der Welt kundtun will, soll sich bei mir melden. Schreib mir ne 
           Mail an thoralf at m84 de.
         </p>
-        <h3>Einheit automatisch best&auml;tigen</h3>
         <p>
-          Hier ein Beispiel, wie man ganz einfach eine Einheit bestÃ¤tigt.
+          Hier also einige Scriptbeispiele:
+          <ul>
+            <li><a href="#script1">Einheit automatisch bestätigen</a></li>
+            <li><a href="#script2">Pferdedressur</a></li>
+            <li><a href="#script3">Kräuter übergeben</a></li>
+            <li><a href="#script4">Transporter automatisieren</a></li>
+            <li><a href="#script5">Schmiede automatisieren</a></li>
+            <li><a href="#script6">Einheiten ausbilden</a></li>
+            <li><a href="#script7">Ganze Regionen bestätigen</a></li>
+            <li><a href="#script8">Händler automatisieren</a></li>
+            <li><a href="#script9">Silber horten</a></li>
+            <li><a href="#script10">Schilder mit Luxusgütern aufstellen</a></li>
+            <li><a href="#script11">Schilder mit Anzahl der Pferde aufstellen</a></li>
+          </ul>
+        </p>
+        <a name="script1"></a>
+        <h3>Einheit automatisch bestätigen</h3>
+        <p>
+          Hier ein Beispiel, wie man ganz einfach eine Einheit bestätigt.
+          Wird der Script ausgeführt, wird die Einheit bestätigt. Das macht
+          zum Beispiel bei Einheiten Sinn, die bis ans Lebensende immer
+          das Selbe tun und keine Interaktion benötigen - z.B. Wahrnehmung lernen.
         </p>
         <pre>
 if (!unit.isOrdersConfirmed()) {
   unit.setOrdersConfirmed(true);
 }
         </pre>
+        <a name="script2"></a>
+        <h3>Pferdedressur</h3>
+        <p>
+          Mit Hilfe des folgenden Scripts kann man einer Einheit, die das Talent 
+          Pferdedressur besitzt sagen, dass sie nur dann Pferde aus der Region
+          dressieren soll, wenn es mehr als 50 Pferde in der aktuellen Region gibt.
+        </p>
+        <pre>
+if (!unit.isOrdersConfirmed()) {
+
+  if (unit.getRegion().getHorses()>=50) {
+    helper.setOrder("MACHEN Pferd");
+  } else {
+    helper.setOrder("LERNEN Pferdedressur");
+  }
+
+  if (helper.getItemCount(unit,"Pferd")==0) {
+    unit.setOrdersConfirmed(true);
+  }
+}
+        </pre>
+        <a name="script3"></a>
+        <h3>Kräuter übergeben</h3>
+        <p>
+          Der folgende Script überprüft, ob die aktuelle Einheit...
+        </p>
+        <pre>
+if (!unit.isOrdersConfirmed()) {
+
+  if (helper.unitSeesOtherUnit("i2de")) {
+    helper.addOrder("GIB i2de KRÄUTER ; nach Rolkos");
+    helper.addOrder("; Kräuterübergabe an Transporter:");
+    unit.setOrdersConfirmed(true);
+
+  }
+}
+        </pre>
+        <a name="script4"></a>
+        <h3>Transporter automatisieren</h3>
+        <p>
+        </p>
+        <pre>
+if (!unit.isOrdersConfirmed()) {
+
+  // ------- Nordende --------
+  if (helper.unitIsInRegion("Nordende")) {
+    if (helper.getItemCount(unit,"Öl") > 0 || helper.getItemCount(unit,"Oil") > 0) {
+      helper.addOrder("GIB djm1 ALLES Öl ; Madam Kuranha");
+    }
+    if (helper.getItemCount(unit,"Weihrauch") > 0) {
+      helper.addOrder("GIB djm1 ALLES Weihrauch ; Madam Kuranha");
+    }
+    if (helper.getItemCount(unit,"Gewürz") > 0) {
+      helper.addOrder("GIB djm1 ALLES Gewürz ; Madam Kuranha");
+    }
+    if (helper.getItemCount(unit,"Holz") > 0) {
+      helper.addOrder("GIB 5u5k ALLES Holz ; Burgenbauer Archito");
+    }
+    if (helper.getItemCount(unit,"Silver") > 0 || helper.getItemCount(unit,"Silber") > 0) {
+      helper.addOrder("GIB d7b4 ALLES Silber; Magistrat Klaus von Nordende");
+    }
+    helper.addOrder("; Übergabe in Nordende:");
+    unit.setOrdersConfirmed(true);
+
+  // ------- Rolkos --------
+  } else if (helper.unitIsInRegion("Rolkos")) {
+    if (helper.getItemCount(unit,"Balsam") > 0) {
+      if (helper.unitSeesOtherUnit("e4Lx")) {
+        helper.addOrder("GIB e4Lx ALLES Balsam ; Kutscher nach Dovin");
+      } else {
+        helper.addOrder("GIB ym52 ALLES Balsam ; Madam Rhian");
+      }
+    }
+    if (helper.getItemCount(unit,"Eisen") > 0) {
+      helper.addOrder("GIB 8sxu ALLES Eisen ; Schmied Hebel");
+    }
+    if (helper.unitSeesOtherUnit("e4Lx")) {
+      helper.addOrder("GIB e4Lx KRÄUTER ; Kutscher nach Dovin");
+    } else {
+      helper.addOrder("GIB j8sn KRÄUTER ; Lehrling Pfurx");
+    }
+    helper.addOrder("; Übergabe in Rolkos:");
+    unit.setOrdersConfirmed(true);
+  }
+}
+        </pre>
+        <a name="script5"></a>
+        <h3>Schmiede automatisieren</h3>
+        <p>
+        </p>
+        <pre>
+if (!unit.isOrdersConfirmed()) {
+
+  boolean bihaender = (helper.getItemCount(unit,"Bihänder") > 0);
+  boolean schwert = (helper.getItemCount(unit,"Schwert") > 0);
+  boolean bogen = (helper.getItemCount(unit,"Bogen") > 0);
+  boolean armbrust = (helper.getItemCount(unit,"Armbrust") > 0);
+  boolean speer = (helper.getItemCount(unit,"Speer") > 0);
+  boolean kettenhemd = (helper.getItemCount(unit,"Kettenhemd") > 0);
+  boolean plattenpanzer = (helper.getItemCount(unit,"Plattenpanzer") > 0);
+  boolean transfer = false;
+
+  ArrayList transporters = new ArrayList();
+  transporters.add("x6ct");
+
+  for (String transporter : transporters) {
+    if (helper.unitSeesOtherUnit(transporter)) {
+      if (bihaender) {
+        helper.addOrder("GIB "+transporter+" ALLES Bihänder ; nach Dovin");
+        transfer = true;
+      }
+      if (schwert) {
+        helper.addOrder("GIB "+transporter+" ALLES Schwert ; nach Dovin");
+        transfer = true;
+      }
+      if (bogen) {
+        helper.addOrder("GIB "+transporter+" ALLES Bogen ; nach Dovin");
+        transfer = true;
+      }
+      if (armbrust) {
+        helper.addOrder("GIB "+transporter+" ALLES Armbrust ; nach Dovin");
+        transfer = true;
+      }
+      if (speer) {
+        helper.addOrder("GIB "+transporter+" ALLES Speer ; nach Dovin");
+        transfer = true;
+      }
+      if (kettenhemd) {
+        helper.addOrder("GIB "+transporter+" ALLES Kettenhemd ; nach Dovin");
+        transfer = true;
+      }
+      if (plattenpanzer) {
+        helper.addOrder("GIB "+transporter+" ALLES Plattenpanzer ; nach Dovin");
+        transfer = true;
+      }
+
+      if (transfer) {
+        helper.addOrder("; Transfer nach Dovin ");
+      }
+      break;
+    }
+  }
+
+  unit.setOrdersConfirmed(true);
+}
+        </pre>
+        <a name="script6"></a>
         <h3>Einheiten ausbilden</h3>
         <p>
         </p>
@@ -82,7 +249,8 @@ if (!unit.isOrdersConfirmed()) {
   soldier(unit, 5, talent, waffe, taktiker , held , lerne , bewache);
 }
         </pre>
-        <h3>Ganze Regionen bestÃ¤tigen</h3>
+        <a name="script7"></a>
+        <h3>Ganze Regionen bestätigen</h3>
         <p>
         </p>
         <pre>
@@ -96,7 +264,8 @@ clearRegion(Region region, String partei) {
 <pre>
 clearRegion((Region)container,"ntc");
         </pre>
-        <h3>HÃ¤ndler automatisieren</h3>
+        <a name="script8"></a>
+        <h3>Händler automatisieren</h3>
         <p>
         </p>
         <pre>
@@ -170,144 +339,7 @@ if (!unit.isOrdersConfirmed()) {
   haendler(unit, kaufenFaktor, transporters);
 }
         </pre>
-        <h3>KrÃ¤uter Ã¼bergeben</h3>
-        <p>
-        </p>
-        <pre>
-if (!unit.isOrdersConfirmed()) {
-
-  if (helper.unitSeesOtherUnit("i2de")) {
-    helper.addOrder("GIB i2de KRÄUTER ; nach Rolkos");
-    helper.addOrder("; Kräuterübergabe an Transporter:");
-    unit.setOrdersConfirmed(true);
-
-  }
-}
-        </pre>
-        <h3>Schmiede automatisieren</h3>
-        <p>
-        </p>
-        <pre>
-if (!unit.isOrdersConfirmed()) {
-
-  boolean bihaender = (helper.getItemCount(unit,"Bihänder") > 0);
-  boolean schwert = (helper.getItemCount(unit,"Schwert") > 0);
-  boolean bogen = (helper.getItemCount(unit,"Bogen") > 0);
-  boolean armbrust = (helper.getItemCount(unit,"Armbrust") > 0);
-  boolean speer = (helper.getItemCount(unit,"Speer") > 0);
-  boolean kettenhemd = (helper.getItemCount(unit,"Kettenhemd") > 0);
-  boolean plattenpanzer = (helper.getItemCount(unit,"Plattenpanzer") > 0);
-  boolean transfer = false;
-
-  ArrayList transporters = new ArrayList();
-  transporters.add("x6ct");
-
-  for (String transporter : transporters) {
-    if (helper.unitSeesOtherUnit(transporter)) {
-      if (bihaender) {
-        helper.addOrder("GIB "+transporter+" ALLES Bihänder ; nach Dovin");
-        transfer = true;
-      }
-      if (schwert) {
-        helper.addOrder("GIB "+transporter+" ALLES Schwert ; nach Dovin");
-        transfer = true;
-      }
-      if (bogen) {
-        helper.addOrder("GIB "+transporter+" ALLES Bogen ; nach Dovin");
-        transfer = true;
-      }
-      if (armbrust) {
-        helper.addOrder("GIB "+transporter+" ALLES Armbrust ; nach Dovin");
-        transfer = true;
-      }
-      if (speer) {
-        helper.addOrder("GIB "+transporter+" ALLES Speer ; nach Dovin");
-        transfer = true;
-      }
-      if (kettenhemd) {
-        helper.addOrder("GIB "+transporter+" ALLES Kettenhemd ; nach Dovin");
-        transfer = true;
-      }
-      if (plattenpanzer) {
-        helper.addOrder("GIB "+transporter+" ALLES Plattenpanzer ; nach Dovin");
-        transfer = true;
-      }
-
-      if (transfer) {
-        helper.addOrder("; Transfer nach Dovin ");
-      }
-      break;
-    }
-  }
-
-  unit.setOrdersConfirmed(true);
-}
-        </pre>
-        <h3>Transporter automatisieren</h3>
-        <p>
-        </p>
-        <pre>
-if (!unit.isOrdersConfirmed()) {
-
-  // ------- Nordende --------
-  if (helper.unitIsInRegion("Nordende")) {
-    if (helper.getItemCount(unit,"Öl") > 0 || helper.getItemCount(unit,"Oil") > 0) {
-      helper.addOrder("GIB djm1 ALLES Öl ; Madam Kuranha");
-    }
-    if (helper.getItemCount(unit,"Weihrauch") > 0) {
-      helper.addOrder("GIB djm1 ALLES Weihrauch ; Madam Kuranha");
-    }
-    if (helper.getItemCount(unit,"Gewürz") > 0) {
-      helper.addOrder("GIB djm1 ALLES Gewürz ; Madam Kuranha");
-    }
-    if (helper.getItemCount(unit,"Holz") > 0) {
-      helper.addOrder("GIB 5u5k ALLES Holz ; Burgenbauer Archito");
-    }
-    if (helper.getItemCount(unit,"Silver") > 0 || helper.getItemCount(unit,"Silber") > 0) {
-      helper.addOrder("GIB d7b4 ALLES Silber; Magistrat Klaus von Nordende");
-    }
-    helper.addOrder("; Übergabe in Nordende:");
-    unit.setOrdersConfirmed(true);
-
-  // ------- Rolkos --------
-  } else if (helper.unitIsInRegion("Rolkos")) {
-    if (helper.getItemCount(unit,"Balsam") > 0) {
-      if (helper.unitSeesOtherUnit("e4Lx")) {
-        helper.addOrder("GIB e4Lx ALLES Balsam ; Kutscher nach Dovin");
-      } else {
-        helper.addOrder("GIB ym52 ALLES Balsam ; Madam Rhian");
-      }
-    }
-    if (helper.getItemCount(unit,"Eisen") > 0) {
-      helper.addOrder("GIB 8sxu ALLES Eisen ; Schmied Hebel");
-    }
-    if (helper.unitSeesOtherUnit("e4Lx")) {
-      helper.addOrder("GIB e4Lx KRÄUTER ; Kutscher nach Dovin");
-    } else {
-      helper.addOrder("GIB j8sn KRÄUTER ; Lehrling Pfurx");
-    }
-    helper.addOrder("; Übergabe in Rolkos:");
-    unit.setOrdersConfirmed(true);
-  }
-}
-        </pre>
-        <h3>Pferdedressur</h3>
-        <p>
-        </p>
-        <pre>
-if (!unit.isOrdersConfirmed()) {
-
-  if (unit.getRegion().getHorses()>=50) {
-    helper.setOrder("MACHEN Pferd");
-  } else {
-    helper.setOrder("LERNEN Pferdedressur");
-  }
-
-  if (helper.getItemCount(unit,"Pferd")==0) {
-    unit.setOrdersConfirmed(true);
-  }
-}
-        </pre>
+        <a name="script9"></a>
         <h3>Silber horten</h3>
         <p>
         </p>
@@ -322,7 +354,8 @@ if (!unit.isOrdersConfirmed()) {
   unit.setOrdersConfirmed(true);
 }
         </pre>
-        <h3>Schilder mit LuxusgÃ¼tern aufstellen</h3>
+        <a name="script10"></a>
+        <h3>Schilder mit Luxusgütern aufstellen</h3>
         <p>
 Where nodeList is a List with RegionIDs.
         </p>
@@ -342,6 +375,7 @@ for (i = 0; i < nodeList.size(); i++) {
  }
 }
         </pre>
+        <a name="script11"></a>
         <h3>Schilder mit Anzahl der Pferde aufstellen</h3>
         <p>
         </p>
