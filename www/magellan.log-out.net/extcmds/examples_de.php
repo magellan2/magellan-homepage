@@ -139,7 +139,8 @@ if (!unit.isOrdersConfirmed()) {
   // ------- Nordende --------
   if (helper.unitIsInRegion("Nordende")) {
     helper.addOrder("; Übergaben in Nordende:");
-    if (helper.getItemCount(unit,"Öl") > 0 || helper.getItemCount(unit,"Oil") > 0) {
+    if (helper.getItemCount(unit,"Öl") > 0 
+        || helper.getItemCount(unit,"Oil") > 0) {
       helper.addOrder("GIB djm1 ALLES Öl ; Madam Kuranha");
     }
     if (helper.getItemCount(unit,"Weihrauch") > 0) {
@@ -151,8 +152,9 @@ if (!unit.isOrdersConfirmed()) {
     if (helper.getItemCount(unit,"Holz") > 0) {
       helper.addOrder("GIB 5u5k ALLES Holz ; Burgenbauer Archito");
     }
-    if (helper.getItemCount(unit,"Silver") > 0 || helper.getItemCount(unit,"Silber") > 0) {
-      helper.addOrder("GIB d7b4 ALLES Silber; Magistrat Klaus von Nordende");
+    if (helper.getItemCount(unit,"Silver") > 0 
+        || helper.getItemCount(unit,"Silber") > 0) {
+      helper.addOrder("GIB d7b4 ALLES Silber; Magistrat");
     }
     unit.setOrdersConfirmed(true);
 
@@ -161,7 +163,7 @@ if (!unit.isOrdersConfirmed()) {
     helper.addOrder("; Übergabe in Rolkos:");
     if (helper.getItemCount(unit,"Balsam") > 0) {
       if (helper.unitSeesOtherUnit("e4Lx")) {
-        helper.addOrder("GIB e4Lx ALLES Balsam ; Kutscher nach Dovin");
+        helper.addOrder("GIB e4Lx ALLES Balsam ; Kutscher");
       } else {
         helper.addOrder("GIB ym52 ALLES Balsam ; Madam Rhian");
       }
@@ -170,7 +172,7 @@ if (!unit.isOrdersConfirmed()) {
       helper.addOrder("GIB 8sxu ALLES Eisen ; Schmied Hebel");
     }
     if (helper.unitSeesOtherUnit("e4Lx")) {
-      helper.addOrder("GIB e4Lx KRÄUTER ; Kutscher nach Dovin");
+      helper.addOrder("GIB e4Lx KRÄUTER ; Kutscher");
     } else {
       helper.addOrder("GIB j8sn KRÄUTER ; Lehrling Pfurx");
     }
@@ -200,7 +202,6 @@ if (!unit.isOrdersConfirmed()) {
   boolean armbrust = (helper.getItemCount(unit,"Armbrust") > 0);
   boolean speer = (helper.getItemCount(unit,"Speer") > 0);
   boolean kettenhemd = (helper.getItemCount(unit,"Kettenhemd") > 0);
-  boolean plattenpanzer = (helper.getItemCount(unit,"Plattenpanzer") > 0);
 
   ArrayList transporters = new ArrayList();
   transporters.add("x6ct");
@@ -210,25 +211,22 @@ if (!unit.isOrdersConfirmed()) {
   for (String transporter : transporters) {
     if (helper.unitSeesOtherUnit(transporter)) {
       if (bihaender) {
-        helper.addOrder("GIB "+transporter+" ALLES Bihänder ; nach Dovin");
+        helper.addOrder("GIB "+transporter+" ALLES Bihänder");
       }
       if (schwert) {
-        helper.addOrder("GIB "+transporter+" ALLES Schwert ; nach Dovin");
+        helper.addOrder("GIB "+transporter+" ALLES Schwert");
       }
       if (bogen) {
-        helper.addOrder("GIB "+transporter+" ALLES Bogen ; nach Dovin");
+        helper.addOrder("GIB "+transporter+" ALLES Bogen");
       }
       if (armbrust) {
-        helper.addOrder("GIB "+transporter+" ALLES Armbrust ; nach Dovin");
+        helper.addOrder("GIB "+transporter+" ALLES Armbrust");
       }
       if (speer) {
-        helper.addOrder("GIB "+transporter+" ALLES Speer ; nach Dovin");
+        helper.addOrder("GIB "+transporter+" ALLES Speer");
       }
       if (kettenhemd) {
-        helper.addOrder("GIB "+transporter+" ALLES Kettenhemd ; nach Dovin");
-      }
-      if (plattenpanzer) {
-        helper.addOrder("GIB "+transporter+" ALLES Plattenpanzer ; nach Dovin");
+        helper.addOrder("GIB "+transporter+" ALLES Kettenhemd");
       }
 
       break;
@@ -251,7 +249,8 @@ if (!unit.isOrdersConfirmed()) {
         <pre class="example">
 
 soldier(Unit unit, int level, String talent, String waffe, 
-        boolean taktiker, boolean held, boolean lerne, boolean bewache) {
+        boolean taktiker, boolean held, boolean lerne, 
+        boolean bewache) {
   if (helper.getLevel(unit,"Taktik") < level && taktiker && lerne) {
     helper.setOrder("LERNE Taktik");
     unit.setOrdersConfirmed(true);
@@ -269,12 +268,13 @@ soldier(Unit unit, int level, String talent, String waffe,
     unit.setOrdersConfirmed(true);
   }
 
-  helper.addOrder("; Soldat lernt in angegebenr Reihenfolge folgende Talente");
-  if (taktiker && lerne) helper.addOrder("; lernt auf T"+level+" Taktik");
-  if (lerne) helper.addOrder("; lernt auf T"+level+" "+talent);
-  helper.addOrder("; lernt auf T"+level+" Ausdauer");
-  helper.addOrder("; lernt auf T1 Reiten");
-  if (lerne) helper.addOrder("; lernt auf T"+level+" Steuereintreiben");
+  helper.addOrder("; Soldat lernt in angegebener Reihenfolge");
+  helper.addOrder("; folgende Talente:");
+  if (taktiker && lerne) helper.addOrder("; lernt T"+level+" Taktik");
+  if (lerne) helper.addOrder("; lernt T"+level+" "+talent);
+  helper.addOrder("; lernt T"+level+" Ausdauer");
+  helper.addOrder("; lernt T1 Reiten");
+  if (lerne) helper.addOrder("; lernt T"+level+" Steuereintreiben");
 
   if (helper.getItemCount(unit,waffe)>0 && bewache) {
     helper.addOrder("BEWACHEN");
@@ -361,8 +361,6 @@ haendler(Unit haendler, int kaufenFaktor, Map transporters) {
 
     Region region = haendler.getRegion();
     ItemType luxuryItem = helper.getRegionLuxuryItem(region);
-    boolean verkauf = false;
-    boolean einkauf = false;
 
     // gibt es Luxusgüter zu kaufen?
     if (region.maxLuxuries() > 0) {
@@ -371,20 +369,24 @@ haendler(Unit haendler, int kaufenFaktor, Map transporters) {
       helper.addOrder(haendler, "; --- Warenverkauf ---");
       for (LuxuryPrice price : luxuryPrices.values()) {
         if (price.getPrice()<0) continue; // Wareneinkauf
-        List transfer = haendler.getItemTransferRelations(price.getItemType());
+        List transfer = 
+           haendler.getItemTransferRelations(price.getItemType());
 
-        if (haendler.getItem(price.getItemType()) == null && (transfer == null || transfer.size() == 0)) {
+        if (haendler.getItem(price.getItemType()) == null 
+            && (transfer == null || transfer.size() == 0)) {
           // haben wir nicht
-          helper.addOrder(haendler, "; VERKAUFEN ALLES "+price.getItemType().getName());
+          helper.addOrder(haendler, 
+             "; VERKAUFEN ALLES "+price.getItemType().getName());
         } else {
           // haben wir, können wir vertickern
-          helper.addOrder(haendler, "VERKAUFEN ALLES "+price.getItemType().getName());
+          helper.addOrder(haendler, 
+             "VERKAUFEN ALLES "+price.getItemType().getName());
         }
-        verkauf = true;
       }
       helper.addOrder(haendler, "; --- Wareneinkauf ---");
-      helper.addOrder(haendler, "KAUFEN "+(region.maxLuxuries()*kaufenFaktor)+" "+luxuryItem.getName());
-      einkauf = true;
+      helper.addOrder(haendler, 
+         "KAUFEN "+(region.maxLuxuries()*kaufenFaktor)+
+         " "+luxuryItem.getName());
     }
 
     boolean transfer = false;
@@ -400,7 +402,9 @@ haendler(Unit haendler, int kaufenFaktor, Map transporters) {
       
         if (helper.unitSeesOtherUnit(transporterId)) {
           if (amount > itemAmount) amount = itemAmount;
-          helper.addOrder("GIB "+transporterId+" "+amount+" "+luxuryItem.getName()+" ; Transfer");
+          helper.addOrder(haendler,
+             "GIB "+transporterId+" "+amount+
+             " "+luxuryItem.getName()+" ; Transfer");
           itemAmount -= amount;
           transfer = true;
         }
@@ -475,7 +479,9 @@ for (i = 0; i < nodeList.size(); i++) {
      Map.Entry entry = (Map.Entry) keyValuePairs.next();
      Object key = entry.getKey();
      Object value = entry.getValue();
-     Sign sign = new Sign("key:"+key.toString()+" value:"+value.getPrice().toString());
+     String itemName = "key:"+key.toString();
+     String itemValue = "value:"+value.getPrice().toString();
+     Sign sign = new Sign(itemName+" "+itemValue);
      region.addSign(sign);
    }
  }
