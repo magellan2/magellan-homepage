@@ -27,15 +27,19 @@
           der Welt kundtun will, soll sich bei mir melden. Schreib mir ne 
           Mail an thoralf at m84 de.
         </p>
-        <h3>Einheit automatisch best�tigen</h3>
+        <h3>Einheit automatisch best&auml;tigen</h3>
         <p>
+          Hier ein Beispiel, wie man ganz einfach eine Einheit bestätigt.
         </p>
-<pre>
+        <pre>
 if (!unit.isOrdersConfirmed()) {
   unit.setOrdersConfirmed(true);
 }
-</pre>
-<pre>
+        </pre>
+        <h3>Einheiten ausbilden</h3>
+        <p>
+        </p>
+        <pre>
 soldier(Unit unit, int level, String talent, String waffe, boolean taktiker, boolean held, boolean lerne, boolean bewache) {
   if (helper.getLevel(unit,"Taktik") < level && taktiker && lerne) {
     helper.setOrder("LERNE Taktik");
@@ -77,9 +81,11 @@ if (!unit.isOrdersConfirmed()) {
 
   soldier(unit, 5, talent, waffe, taktiker , held , lerne , bewache);
 }
-</pre>
-
-<pre>
+        </pre>
+        <h3>Ganze Regionen bestätigen</h3>
+        <p>
+        </p>
+        <pre>
 clearRegion(Region region, String partei) {
   for (Unit unit : region.units()) {
     if (unit.getFaction().getID().toString().equals(partei)) continue;
@@ -89,9 +95,11 @@ clearRegion(Region region, String partei) {
 </pre>
 <pre>
 clearRegion((Region)container,"ntc");
-</pre>
-
-<pre>
+        </pre>
+        <h3>Händler automatisieren</h3>
+        <p>
+        </p>
+        <pre>
 haendler(Unit haendler, int kaufenFaktor, Map transporters) {
   if (!haendler.isOrdersConfirmed()) {
 
@@ -161,9 +169,11 @@ if (!unit.isOrdersConfirmed()) {
 
   haendler(unit, kaufenFaktor, transporters);
 }
-</pre>
-
-<pre>
+        </pre>
+        <h3>Kräuter übergeben</h3>
+        <p>
+        </p>
+        <pre>
 if (!unit.isOrdersConfirmed()) {
 
   if (helper.unitSeesOtherUnit("i2de")) {
@@ -173,9 +183,11 @@ if (!unit.isOrdersConfirmed()) {
 
   }
 }
-</pre>
-
-<pre>
+        </pre>
+        <h3>Schmiede automatisieren</h3>
+        <p>
+        </p>
+        <pre>
 if (!unit.isOrdersConfirmed()) {
 
   boolean bihaender = (helper.getItemCount(unit,"Bih�nder") > 0);
@@ -230,9 +242,11 @@ if (!unit.isOrdersConfirmed()) {
 
   unit.setOrdersConfirmed(true);
 }
-</pre>
-
-<pre>
+        </pre>
+        <h3>Transporter automatisieren</h3>
+        <p>
+        </p>
+        <pre>
 if (!unit.isOrdersConfirmed()) {
 
   // ------- Nordende --------
@@ -276,9 +290,11 @@ if (!unit.isOrdersConfirmed()) {
     unit.setOrdersConfirmed(true);
   }
 }
-</pre>
-
-<pre>
+        </pre>
+        <h3>Pferdedressur</h3>
+        <p>
+        </p>
+        <pre>
 if (!unit.isOrdersConfirmed()) {
 
   if (unit.getRegion().getHorses()>=50) {
@@ -291,9 +307,11 @@ if (!unit.isOrdersConfirmed()) {
     unit.setOrdersConfirmed(true);
   }
 }
-</pre>
-
-<pre>
+        </pre>
+        <h3>Silber horten</h3>
+        <p>
+        </p>
+        <pre>
 if (!unit.isOrdersConfirmed()) {
   int silver = helper.getItemCount(unit,"Silver");
   if (silver == 0) silver = helper.getItemCount(unit,"Silber");
@@ -303,9 +321,12 @@ if (!unit.isOrdersConfirmed()) {
   }
   unit.setOrdersConfirmed(true);
 }
-</pre>
-
+        </pre>
+        <h3>Schilder mit Luxusgütern aufstellen</h3>
+        <p>
 Where nodeList is a List with RegionIDs.
+        </p>
+        <pre>
 <pre>
 for (i = 0; i < nodeList.size(); i++) {
  Region region = world.getRegion(nodeList.get(i));
@@ -320,9 +341,11 @@ for (i = 0; i < nodeList.size(); i++) {
    }
  }
 }
-</pre>
-
-<pre>
+        </pre>
+        <h3>Schilder mit Anzahl der Pferde aufstellen</h3>
+        <p>
+        </p>
+        <pre>
 import magellan.library.*;
 
 for (Region region : world.regions().values()) {
