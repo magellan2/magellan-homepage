@@ -263,7 +263,8 @@ soldier(Unit unit, int level, String talent, String waffe,
   } else if (helper.getLevel(unit,"Reiten") < 1) {
     helper.setOrder("LERNE Reiten");
     unit.setOrdersConfirmed(true);
-  } else if (helper.getLevel(unit,"Steuereintreiben") < level && lerne) {
+  } else if (helper.getLevel(unit,"Steuereintreiben") < level 
+       && lerne) {
     helper.setOrder("LERNE Steuereintreiben");
     unit.setOrdersConfirmed(true);
   }
