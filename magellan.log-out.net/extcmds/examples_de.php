@@ -52,7 +52,7 @@
           zum Beispiel bei Einheiten Sinn, die bis ans Lebensende immer
           das Selbe tun und keine Interaktion benötigen - z.B. Wahrnehmung lernen.
         </p>
-        <pre>
+        <pre class="example">
 if (!unit.isOrdersConfirmed()) {
   unit.setOrdersConfirmed(true);
 }
@@ -77,7 +77,7 @@ if (!unit.isOrdersConfirmed()) {
           dressieren soll, wenn es mehr als 50 Pferde in der aktuellen Region gibt.
           Ansonsten wird einfach Pferdedressur gelernt.
         </p>
-        <pre>
+        <pre class="example">
 if (!unit.isOrdersConfirmed()) {
 
   if (unit.getRegion().getHorses()>=50) {
@@ -108,7 +108,7 @@ if (!unit.isOrdersConfirmed()) {
           Im Falle von i2de handelt es sich um einen Transporter, der alle Kräuter
           aufsammelt und von A nach B transportiert (siehe unten).
         </p>
-        <pre>
+        <pre class="example">
 if (!unit.isOrdersConfirmed()) {
   if (helper.unitSeesOtherUnit("i2de")) {
     helper.addOrder(unit,"; Kräuterübergabe an Transporter:");
@@ -129,7 +129,7 @@ if (!unit.isOrdersConfirmed()) {
           Scripte für Transporter, die zwischen bestimmten Regionen
           pendeln und pro Region bestimmte Dinge entladen.
         </p>
-        <pre>
+        <pre class="example">
 if (!unit.isOrdersConfirmed()) {
 
   // ------- Nordende --------
@@ -186,7 +186,7 @@ if (!unit.isOrdersConfirmed()) {
          diesen Code in eine Methode gießen und die Liste der möglichen
          Transporter übergeben. Hier wird das Gewicht nicht beachtet.
         </p>
-        <pre>
+        <pre class="example">
 if (!unit.isOrdersConfirmed()) {
 
   boolean bihaender = (helper.getItemCount(unit,"Bihänder") > 0);
@@ -243,7 +243,7 @@ if (!unit.isOrdersConfirmed()) {
           entsprechend ihrer bestehenden Talente auf ein bestimmtes Niveau. 
           Ein Beispielaufruf ist weiter unten beschrieben.
         </p>
-        <pre>
+        <pre class="example">
 soldier(Unit unit, int level, String talent, String waffe, 
         boolean taktiker, boolean held, boolean lerne, boolean bewache) {
   if (helper.getLevel(unit,"Taktik") < level && taktiker && lerne) {
@@ -283,7 +283,7 @@ soldier(Unit unit, int level, String talent, String waffe,
           lernt sie T5 Ausdauer, anschließend T1 Reiten und falls ihr dann
           langweilig ist, auch noch T5 Steuereintreiben.
         </p>
-        <pre>
+        <pre class="example">
 if (!unit.isOrdersConfirmed()) {
   String talent = "Stangenwaffen";
   String waffe  = "Speer";
@@ -306,7 +306,7 @@ if (!unit.isOrdersConfirmed()) {
           bestätigt. Manch einer mag sag, dass kann man mit einem Menüpunkt in Magellan
           auch regeln....aber wozu zweimal klicken, wenn einmal reicht.
         </p>
-        <pre>
+        <pre class="example">
 import magellan.library.*;
 
 clearRegion(Region region, String partei) {
@@ -319,7 +319,7 @@ clearRegion(Region region, String partei) {
         <p>
          Pro Region ruft man diese Funktion dann wie folgt auf.
         </p>
-        <pre>
+        <pre class="example">
 clearRegion((Region)container,"ntc");
         </pre>
         <p>
@@ -342,7 +342,7 @@ clearRegion((Region)container,"ntc");
          ich meinen Handelstransport komplett automatisiert und muss mich 
          um nichts mehr kümmern - außer das gewonnen Silber ausgeben.
         </p>
-        <pre>
+        <pre class="example">
 import magellan.library.*;
 import magellan.library.rules.*;
 
@@ -412,7 +412,7 @@ haendler(Unit haendler, int kaufenFaktor, Map transporters) {
          Region und es wird nur der Wert angenommen. Es handelt sich bei den 1.000 also
          um eine Art Alias für "GIB ALLES".
         </p>
-        <pre>
+        <pre class="example">
 if (!unit.isOrdersConfirmed()) {
 
   HashMap transporters = new HashMap();
@@ -432,7 +432,7 @@ if (!unit.isOrdersConfirmed()) {
          es möglich ist, die englische Schreibweise zu verwenden, wenn
          man mit anderen Sprachen außer Deutsch arbeitet.
         </p>
-        <pre>
+        <pre class="example">
 if (!unit.isOrdersConfirmed()) {
   int silver = helper.getItemCount(unit,"Silver");
   if (silver == 0) silver = helper.getItemCount(unit,"Silber");
@@ -451,8 +451,7 @@ if (!unit.isOrdersConfirmed()) {
           (nodeList ist eine Liste von RegionIDs) ein Schild setzen, auf dem
           der aktuelle Luxuswarenpreis steht.
         </p>
-        <pre>
-<pre>
+        <pre class="example">
 import magellan.library.*;
 
 for (i = 0; i < nodeList.size(); i++) {
@@ -475,7 +474,7 @@ for (i = 0; i < nodeList.size(); i++) {
          Hiermit werden Schilder aufgestellt, die zeigen, wie viele Pferde
          in einer Region stehen.
         </p>
-        <pre>
+        <pre class="example">
 import magellan.library.*;
         
 for (Region region : world.regions().values()) {
