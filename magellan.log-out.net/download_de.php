@@ -93,7 +93,7 @@
         </h3>
         <p>
           Die Entwicklung des bisherigen Magellan Clients wurde eingestellt.
-          Die letzte Version lautet 1.2.5e.
+          Die letzte Version lautet 1.2.5g.
         </p>
         <p>
           Die aktuelle Version kann bei <a class="externalLink" href=
