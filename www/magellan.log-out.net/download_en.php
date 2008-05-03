@@ -96,7 +96,7 @@
           The developing of the old Magellan client has stopped because of the
           huge amount of changes in the new release. It's not possible
           to transfer every necessary patch to this version. The latest
-          version is 1.2.5e.
+          version is 1.2.5g.
         </p>
         <p>
           You can download the latest version at <a class="externalLink" href=
