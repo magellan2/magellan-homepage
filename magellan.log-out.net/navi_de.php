@@ -42,6 +42,7 @@ if( !isset($_SERVER['HTTP_USER_AGENT']) || !preg_match($msie,$_SERVER['HTTP_USER
           <a class="sublink" href="plugins_mapcleaner_de.php">MapCleaner Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br/>
           <a class="sublink" href="plugins_mapedit_de.php">MapEdit Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br/>
           <a class="sublink" href="plugins_memorywatch_de.php">MemWatch Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br/>
+          <a class="sublink" href="plugins_statistics_de.php">Statistics Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br/>
           <a class="sublink" href="plugins_teacher_de.php">Teacher Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br/>
         </p>
         <p>
