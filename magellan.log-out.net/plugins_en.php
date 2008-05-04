@@ -46,6 +46,9 @@
             <a href="plugins_memorywatch_en.php">MemoryWatch Plugin</a>
           </li>
           <li>
+            <a href="plugins_statistics_en.php">Statistics Plugin</a>
+          </li>
+          <li>
             <a href="plugins_teacher_en.php">Teacher Plugin</a>
           </li>
         </ul>
