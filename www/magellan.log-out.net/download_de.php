@@ -46,13 +46,13 @@
         </p>
         <ul>
           <li>
-            <a href="./release/magellan_v2.0.0.jar">JAR installer</a>
+            <a href="./release/magellan_v2.0.1.jar">JAR installer</a>
             (12.9MB)
           </li>
         </ul>
         <ul>
           <li>
-            <a href="./release/magellan_v2.0.0.zip">ZIP</a> (12.3MB)
+            <a href="./release/magellan_v2.0.1.zip">ZIP</a> (12.3MB)
           </li>
           <li>
             <a href="./release/magellan2-src.zip">Source</a> (17.7MB)
@@ -74,13 +74,13 @@
         </p>
         <ul>
           <li>
-            <a href="./nightly-build/magellan_v2.0.0.jar">JAR installer</a>
+            <a href="./nightly-build/magellan_v2.0.1.jar">JAR installer</a>
             (12.9MB)
           </li>
         </ul>
         <ul>
           <li>
-            <a href="./nightly-build/magellan_v2.0.0.zip">ZIP</a> (12.3MB)
+            <a href="./nightly-build/magellan_v2.0.1.zip">ZIP</a> (12.3MB)
           </li>
           <li>
             <a href="./nightly-build/magellan2-src.zip">Source</a> (17.7MB)
@@ -123,6 +123,14 @@
              Zeigt Magellan Speicherverbrauch an<br />
              siehe <a href="plugins_memorywatch_de.php">Beschreibung</a><br />
              Download: <a href="plugins/memorywatch-installer.jar">Installer
+            JAR</a><br />
+            <br />
+          </li>
+          <li>
+            <b>Statistics Plugin</b><br />
+             Zeigten Grafiken und Tabellen für historische Reportdaten<br />
+             see <a href="plugins_statistics_de.php">Description</a><br />
+             Download: <a href="plugins/statistics-installer.jar">Installer
             JAR</a><br />
             <br />
           </li>
