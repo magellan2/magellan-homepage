@@ -36,7 +36,7 @@
               Version:
             </td>
             <td class="plugin">
-              0.1.alpha
+              0.5.alpha
             </td>
           </tr>
           <tr class="plugin">
@@ -84,6 +84,18 @@
           Reports immer einem "Basis-Report" hinzufügen, weil das Plugin die 
           Zusatzdaten in einer Datei speichert, die nur zu dem Namen eines Reports
           passt.
+        </p>
+        <p>
+          <img src="statisticsplugin/talente.png" alt=""/>
+        </p>
+        <p>
+          <img src="statisticsplugin/punktestatistik.png" alt=""/>
+        </p>
+        <p>
+          <img src="statisticsplugin/handelspreise.png" alt=""/>
+        </p>
+        <p>
+          <img src="statisticsplugin/regionsuebersicht.png" alt=""/>
         </p>
         <p>
           Dieses Plugin ist noch in der Entwicklungsphase und ist deshalb noch
