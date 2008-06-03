@@ -46,13 +46,13 @@
         </p>
         <ul>
           <li>
-            <a href="./release/magellan_v2.0.1.jar">JAR installer</a>
+            <a href="./release/magellan_v2.0.2.jar">JAR installer</a>
             (12.9MB)
           </li>
         </ul>
         <ul>
           <li>
-            <a href="./release/magellan_v2.0.1.zip">ZIP</a> (12.3MB)
+            <a href="./release/magellan_v2.0.2.zip">ZIP</a> (12.3MB)
           </li>
           <li>
             <a href="./release/magellan2-src.zip">Source</a> (17.7MB)
