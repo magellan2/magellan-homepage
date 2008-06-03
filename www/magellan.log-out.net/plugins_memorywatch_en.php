@@ -52,7 +52,7 @@
               Autor:
             </td>
             <td class="plugin">
-              -?-
+              Fiete
             </td>
           </tr>
           <tr class="plugin">
