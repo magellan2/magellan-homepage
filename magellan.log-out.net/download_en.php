@@ -75,16 +75,16 @@
         </p>
         <ul>
           <li>
-            <a href="./nightly-build/magellan_v2.0.1.jar">JAR installer</a>
-            (12.9MB)
+            <a href="./nightly-build/magellan_v2.0.2.jar">JAR installer</a>
+            (14MB)
           </li>
         </ul>
         <ul>
           <li>
-            <a href="./nightly-build/magellan_v2.0.1.zip">ZIP</a> (12.3MB)
+            <a href="./nightly-build/magellan_v2.0.2.zip">ZIP</a> (14MB)
           </li>
           <li>
-            <a href="./nightly-build/magellan2-src.zip">Source</a> (17.7MB)
+            <a href="./nightly-build/magellan2-src.zip">Source</a> (19MB)
           </li>
         </ul>
         <br />
