@@ -23,7 +23,8 @@
         </h3>
         <p>
           Magellan is a full-featured client tool for the play-by-e-mail game 
-          <a href="http://www.eressea.de/" class="externalLink">Eressea</a>. 
+          <a href="http://www.eressea.de/" class="externalLink">Eressea</a>, 
+          <a href="http://www.allanon-pbem.de" class="externalLink">Allanon</a> and other PBeM. 
           It displays a map of your part of the Eressea world, supports you 
           in writing orders, performs many complex calculations for you and is 
           available completely in English.
