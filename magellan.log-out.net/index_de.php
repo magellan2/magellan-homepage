@@ -23,7 +23,8 @@
         </h3>
         <p>
           Magellan ist ein vollständiger Client für 
-          <a href="http://www.eressea.de/" class="externalLink">Eressea</a>. 
+          <a href="http://www.eressea.de/" class="externalLink">Eressea</a>, 
+          <a href="http://www.allanon-pbem.de" class="externalLink">Allanon</a> und andere PBeM. 
           Man kann damit seine Karte anzeigen, Suchen, Befehle geben, und 
           überhaupt braucht man das Programm fast nur noch zu verlassen, 
           um Mails an die Verbündeten zu schreiben. Fast.
