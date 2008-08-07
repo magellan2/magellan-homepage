@@ -62,7 +62,7 @@
               Website:
             </td>
             <td class="plugin">
-              <a href="teacher/">http://magellan.log-out.net/teacher</a>
+              ---
             </td>
           </tr>
           <tr class="plugin">
