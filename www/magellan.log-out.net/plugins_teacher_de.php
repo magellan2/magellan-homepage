@@ -36,7 +36,7 @@
               Version:
             </td>
             <td class="plugin">
-              0.5
+              0.92
             </td>
           </tr>
           <tr class="plugin">
@@ -87,25 +87,32 @@
           Befehle einen oder mehrere der folgenden Metabefehle enthalten:
         </p>
 <pre>
-            // $$L Talent1 value1 Talent2 value2
+            // $$L wert Talent1 ziel1 max1 [Talent2 ziel2 max2]...
 </pre>
          
         <p>
           steht für einen Schüler, der zwei unterschiedliche Talente mit 
           unterschiedlichen Werten lernen soll. 
         </p>
-<pre>
-             // $$L ALLES maxVal minVal
-</pre>
-         
         <p>
-          steht für einen Schüler, der alle ihm bekannten Talente lernt. Die
-          Talente erhalten Werte in der Reihenfolge ihrer Stufen. Das Talent
-          mit der höchsten Stufe wird mit maxVal bewertet, das Talent mit der
-          niedrigesten Stufe mit minVal
+     <ul>
+     <li>
+  wert    beeinflusst, wie wichtig diese Einheit ist. Einheiten mit hohem Wert werden bei der 
+          Vergabe von Lehrern bevorzugt.  Sie können für den Anfang einfach alle Werte gleich setzen.
+</li><li>
+  ziel    ist der angestrebte Talentwert. 
+</li><li>
+  max     ist der maximale Talentwert.
+</li></ul>
+
+<p>
+Eine Einheit mit "// $$L 100 Hiebwaffen 10 99 Ausdauer 5 99 Reiten 5 2" wird versuchen das 
+Verhältnis zwischen ihrem Hiebwaffentalent und dem Ausdauertalent bei etwa 2:1 zu halten. Reiten 
+wird sie bis Maximal Stufe 2 lernen.
         </p>
+
 <pre>
-             // $$T Talent1 maxDiff1 Talent2 maxDiff2
+             // $$T Talent1 maxDiff1 [Talent2 maxDiff2]...
 </pre>
          
         <p>
