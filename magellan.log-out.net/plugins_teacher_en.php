@@ -38,7 +38,7 @@
               Version:
             </td>
             <td class="plugin">
-              0.5
+              0.92
             </td>
           </tr>
           <tr class="plugin">
@@ -93,31 +93,32 @@
           adding one or more of the following meta orders to the unit's orders. 
         </p>
 <pre>
-            // $$L Talent1 value1 Talent2 value2
+            // $$L priority Talent1 target1 max1 Talent2 target2 max2
 </pre>
-         
         <p>
           denotes a student learning two skills of different values.
         </p>
-<pre>
-             // $$L ALLES maxVal minVal
-</pre>
+<ul><li>
+  priority denotes the importance of this unit. Units with high priority will be favored when 
+           finding teachers. You can start with equal priorities for all units.
+</li></li>
+  target   denotes the desired skill value
+</li></li>
+  max      denotes the maximum skill value
+</li></ul>
+  
+For example, a unit with "// $$L 100 melee 10 99 endurance 5 99 riding 5 2" will try to keep 
+the ration between "melee" and "endurance" at 2:1 and will learn "riding" up to skill level 2.   
          
-        <p>
-          denotes a student learning all the skills it already knows. Skills are given
-          values proportional to the level of the skill.The unit's skill with
-          the highest level will be given maxVal. The skill with the lowest level will
-          be given minVal.
-        </p>
 <pre>
              // $$T Talent1 maxDiff1 Talent2 maxDiff2
 </pre>
          
         <p>
-          denotes a teacher teaching two skills. Students having a skill
-          differing more than maxDiff from the teachers talent are penalized.
-          maxDiff==0 has the special meaning that there is no such penalty.
-          maxDiff==1 means that the teacher will not teach this talent
+denotes a teacher that may teach two skills. Students having a skill level differing more
+than maxDiff from the teachers skill level are penalized. maxDiff==0 has the special
+meaning that there is no such penalty. maxDiff==1 means that the teacher will
+not teach this talent.
         </p>
 <pre>
             // $$T ALLES maxDiff
@@ -145,8 +146,8 @@
           only to units with certain namespace
         </p>
         <p>
-          It is feasible (in fact, desirable) for a unit to be teacher and
-          student at the same time.
+It is feasible (in fact, desirable) for a unit to be teacher and student at the
+same time. In other words, if a unit has a teaching order it must also have a learning order.
         </p>
       </div>
     </div>
