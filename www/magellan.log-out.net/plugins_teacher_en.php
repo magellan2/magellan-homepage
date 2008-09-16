@@ -38,7 +38,7 @@
               Version:
             </td>
             <td class="plugin">
-              0.92
+              0.10
             </td>
           </tr>
           <tr class="plugin">
@@ -71,7 +71,7 @@
             </td>
             <td class="plugin">
               <a href=
-              "download_de.php#plugins">http://magellan.log-out.net/</a>
+              "download_de.php#teacher">http://magellan.log-out.net/</a>
             </td>
           </tr>
         </table>
