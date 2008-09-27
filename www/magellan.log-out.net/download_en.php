@@ -46,13 +46,13 @@
         </p>
         <ul>
           <li>
-            <a href="./release/magellan_v2.0.2.jar">JAR installer</a>
+            <a href="./release/magellan_v2.0.3.jar">JAR installer</a>
             (12.9MB)
           </li>
         </ul>
         <ul>
           <li>
-            <a href="./release/magellan_v2.0.2.zip">ZIP</a> (12.3MB)
+            <a href="./release/magellan_v2.0.3.zip">ZIP</a> (12.3MB)
           </li>
           <li>
             <a href="./release/magellan2-src.zip">Source</a> (17.7MB)
@@ -75,13 +75,13 @@
         </p>
         <ul>
           <li>
-            <a href="./nightly-build/magellan_v2.0.2.jar">JAR installer</a>
+            <a href="./nightly-build/magellan_v2.0.3.jar">JAR installer</a>
             (14MB)
           </li>
         </ul>
         <ul>
           <li>
-            <a href="./nightly-build/magellan_v2.0.2.zip">ZIP</a> (14MB)
+            <a href="./nightly-build/magellan_v2.0.3.zip">ZIP</a> (14MB)
           </li>
           <li>
             <a href="./nightly-build/magellan2-src.zip">Source</a> (19MB)
@@ -136,7 +136,7 @@
             JAR</a><br />
             <br />
           </li>
-          <li><a name="teacher" />
+          <li><a name="teacher" /></a>
             <b>Teacher Plugin</b><br />
              Simplifies teacher learner relations<br />
              see <a href="plugins_teacher_en.php">Description</a><br />
