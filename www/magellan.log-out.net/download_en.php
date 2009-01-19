@@ -30,6 +30,8 @@
           the plugins are divided into multiple files that can be installed
           in any directory (for example also on a USB stick).
         </p>
+        <p><strong>You need <a href="http://java.sun.com/javase/downloads/" 
+          class="externalLink">Java</a> to use Magellan!</strong></p>
         <a name="magellan2"></a> 
         <h3>
           Download Magellan 2.x

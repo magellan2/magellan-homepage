@@ -30,6 +30,8 @@
           verteilen sich über mehrere Dateien, die in einem beliebigen
           Verzeichnis installiert werden können.
         </p>
+        <p><strong>Du brauchst <a href="http://java.sun.com/javase/downloads/" 
+          class="externalLink">Java</a> um Magellan zu benutzen!</strong></p>
         <a name="magellan2"></a> 
         <h3>
           Download Magellan 2.x
