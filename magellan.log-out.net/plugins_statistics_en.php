@@ -36,7 +36,7 @@
               Version:
             </td>
             <td class="plugin">
-              0.6.alpha
+              0.7.alpha
             </td>
           </tr>
           <tr class="plugin">
