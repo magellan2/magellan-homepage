@@ -38,7 +38,7 @@
               Version:
             </td>
             <td class="plugin">
-              0.10
+              0.10.3
             </td>
           </tr>
           <tr class="plugin">
