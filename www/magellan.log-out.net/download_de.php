@@ -141,7 +141,7 @@
              Vereinfachte Lehrer-Schüler Operation<br />
              siehe <a href="plugins_teacher_de.php">Beschreibung</a><br />
              Download: <a href="plugins/teacher-installer.jar">Installer
-            JAR</a><br />
+            JAR</a> Version 0.10.3<br />
             <br />
           </li>
         </ul>

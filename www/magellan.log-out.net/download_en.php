@@ -143,7 +143,7 @@
              Simplifies teacher learner relations<br />
              see <a href="plugins_teacher_en.php">Description</a><br />
              Download: <a href="plugins/teacher-installer.jar">Installer
-            JAR</a><br />
+            JAR</a> Version 0.10.3<br />
             <br />
           </li>
         </ul>
