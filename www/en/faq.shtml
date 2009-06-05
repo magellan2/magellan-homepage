@@ -18,16 +18,16 @@
 <h3>1. Installation</h3>
 
 <ol>
-	<li><a href="#Dateiname">magellan.jar? Shouldn't the file better be called magellan.exe?</a>
+	<li><a href="#Dateiname">magellan-client.jar? Shouldn't the file better be called magellan.exe?</a>
 	<li><a href="#Verknuepfung">Why does another program or tool (winzip e.g.) start when I double click on Magellan?</a>
-	<li><a href="#keinStart">Why doesn't Magellan start when I click on the magellan.jar?</a>
+	<li><a href="#keinStart">Why doesn't Magellan start when I click on the magellan-client.jar?</a>
 	<li><a href="#CRVerknuepfung">How do I set up a link between CR-Files and Magellan in Windows 2K, XP?</a>
 
     <li><a href="#Kommandozeilenstart">How to start Magellan via the command line?</a>
 	<li><a href="#MacMagellan">How to run Magellan on a Mac?</a>
 	<li><a href="#Speichermangel">I have enough RAM, why does Magellan reporr memory errors?</a>
 </ol>
-<br>
+<br />
 <h3>2. Magellan</h3>
 
 <ol>
@@ -39,9 +39,9 @@
 <a name="Dateiname"></a>
 <p>&nbsp;</p>
 
-<p><b>Q: magellan.jar? Shouldn't the file better be called magellan.exe?</b></p>
+<p><b>Q: magellan-client.jar? Shouldn't the file better be called magellan.exe?</b></p>
 
-<p><b>A:</b>No. Basically, a jar-file is a renamed zip file with some additional information needed by the java virtual machine to start the jar-file. You should not decompress the file. After installing the JRE, a doubleclick on magellan.jar should start Magellan.</p>
+<p><b>A:</b> No. Basically, a jar-file is a renamed zip file with some additional information needed by the java virtual machine to start the jar-file. You should not decompress the file. After installing the JRE, a doubleclick on magellan-client.jar should start Magellan.</p>
 
 <a name="Verknuepfung"></a>
 <p>&nbsp;</p>
@@ -54,16 +54,16 @@
 <li>Enter 'regedit' and press 'Enter'.</li>
 <li>Open the entry 'HKEY_CLASSES_ROOT' in the tree at the left side and select '.jar'.</li>
 <li>Doubleclick on '(Default)' in the right side.</li>
-<li>Enter 'jarfile' (without the ' signs) and select 'OK'.</li>
+<li>Enter 'jarfile' (without the single quotes) and select 'OK'.</li>
 <li>Close regedit - ready.</li>
 
 </ol>
 
 <a name="keinStart"></a>
 <p>&nbsp;</p>
-<p><b>Q: Why doesn't Magellan start when I click on the magellan.jar?</b></p>
+<p><b>Q: Why doesn't Magellan start when I click on the magellan-client.jar?</b></p>
 
-<p><b>A:</b> One possible reason might be that the directory path to <tt>magellan.jar</tt> contains wide spaces. This is not an error in Magellan but an unlucky connection between <tt>.jar</tt>-files and Java.</p>
+<p><b>A:</b> One possible reason might be that the directory path to <tt>magellan-client.jar</tt> contains wide spaces. This is not an error in Magellan but an unlucky connection between <tt>.jar</tt>-files and Java.</p>
 
 <p> The simple solution is to move Magellan into another -better- directory. The other way is this:</p>
 <ol>
@@ -77,10 +77,10 @@
 <li>Close regedit - ready.</li>
 
 </ol>
-<p>Background: if the location of Magellan is the directory <tt>C:\My&nbsp;Documents\magellan.jar</tt>,
-then the entry in regedit results in a call to java like <tt>(Path to Java)\javaw.exe -jar C:\My&nbsp;Documents\magellan.jar</tt>, 
-that means, java tries to start the file <tt>C:\My</tt> with parameter <tt>Documents\magellan.jar</tt> - not good. 
-After our little change it will look like this: <tt>(Path to Java)\javaw.exe -jar "C:\My&nbsp;Documents\magellan.jar"</tt>, so file <tt>magellan.jar</tt> is started for sure.</p>
+<p>Background: if the location of Magellan is the directory <tt>C:\My&nbsp;Documents\magellan-client.jar</tt>,
+then the entry in regedit results in a call to java like <tt>(Path to Java)\javaw.exe -jar C:\My&nbsp;Documents\magellan-client.jar</tt>, 
+that means, java tries to start the file <tt>C:\My</tt> with parameter <tt>Documents\magellan-client.jar</tt> - not good. 
+After our little change it will look like this: <tt>(Path to Java)\javaw.exe -jar "C:\My&nbsp;Documents\magellan-client.jar"</tt>, so file <tt>magellan-client.jar</tt> is started for sure.</p>
 
 <a name="CRVerknuepfung"></a>
 <p>&nbsp;</p>
@@ -92,10 +92,10 @@ After our little change it will look like this: <tt>(Path to Java)\javaw.exe -ja
   <li>Choose the file type &quot;CR&quot;.</li>
   <li>Select the button &quot;Advanced&quot;.</li>
   <li>Choose the button &quot;New&quot; in the frame &quot;edit file type&quot;.</li>
-  <li>Enter the value ' Magellan ' into the field &quot;process &quot;.</li>
-  <li>Enter the value ' &quot;java.exe&quot; -Xmx256M -jar &quot;magellan.jar&quot; &quot;%1&quot; 'into the field &quot;program for this process &quot;. 
-Java.exe and magellan.jar need to have a complete path(e.g. &quot;c:\games\eressea\magellan.jar&quot;).
-    If this path contains wide spaces, the &quot;s are badly needed. For the meaning of the &quot;-Xmx 256M&quot; see <a href="Speichermangel">below</a>.</li>
+  <li>Enter the value &quot;Magellan&quot; (without quotes) into the field &quot;process &quot;.</li>
+  <li>Enter the value <tt>&quot;java.exe&quot; -Xmx256M -jar &quot;magellan-client.jar&quot; &quot;%1&quot;</tt> (including all quotes) into the field &quot;program for this process &quot;. 
+Java.exe and magellan-client.jar need to have a complete path (e.g. &quot;c:\games\eressea\magellan-client.jar&quot;).
+    If this path contains wide spaces, the double quotes are badly needed. For the meaning of the &quot;-Xmx 256M&quot; see <a href="Speichermangel">below</a>.</li>
   <li>Choose the button &quot;OK&quot;</li>
   <li>In window &quot;edit file type &quot;, choose the entry &quot;Magellan&quot; from the list &quot;processes&quot;.</li>
   <li>Choose the option &quot;as standard&quot;. The entry Magellan should now be formatted as bold.</li>
@@ -107,7 +107,7 @@ Java.exe and magellan.jar need to have a complete path(e.g. &quot;c:\games\eress
 <p><b>Q: How to start Magellan via the command line?</b></p>
 <p><b>A:</b> Magellan (and Java) often show their error messages in the command window only. To check these messages it is useful to start Magellan from the command line.</p>
 
-<p> Open a command window (menu start->run and enter <tt>command</tt> and click OK). Now enter the command <tt>javaw -Xmx256M -jar "(Path to Magellan)\magellan.jar"</tt> , e.g. <tt>javaw -Xmx256M -jar "C:\My Documents\magellan.jar"</tt>.</p>
+<p> Open a command window (menu start->run and enter <tt>command</tt> and click OK). Now enter the command <tt>javaw -Xmx256M -jar "(Path to Magellan)\magellan-client.jar"</tt> , e.g. <tt>javaw -Xmx256M -jar "C:\My Documents\magellan-client.jar"</tt>.</p>
 
 <a name="MacMagellan"></a>
 <p>&nbsp;</p>
@@ -121,15 +121,16 @@ Java.exe and magellan.jar need to have a complete path(e.g. &quot;c:\games\eress
 
 <p><b>A:</b> Usually, Java uses only 64MB of RAM, regardless of how much you really have. With some parameters it is possible to increase the amount of memory which is available for Magellan and is managed by the JVM:</p>
 
-<p>Windows:<br>
-Create a connection to Magellan, open properties (with right-click). Edit the "Target" line as follows (use your directory paths were needed):<br>
+<p>Windows:<br />
+Create a connection to Magellan, open properties (with right-click). Edit the "Target" line as follows (use your directory paths where needed):<br />
 
-<tt>C:\WINDOWS\javaw.exe -Xms128MB -Xmx256MB -jar c:\programs\Eressea\Magellan\magellan.jar</tt></p>
+<tt>javaw.exe -Xms128M -Xmx512M -jar &quot;c:\Program Files\Eressea\Magellan\magellan-client.jar&quot;</tt> or <br />
+<tt>&quot;C:\Program Files\Java\jre6\bin\javaw.exe&quot; -Xms128M -Xmx512M -jar &quot;c:\Program Files\Eressea\Magellan\magellan-client.jar&quot;</tt></p>
 
-<p>Linux (shell):<br>
-<tt>java -Xms128MB -Xmx256MB -jar magellan.jar</tt></p>
+<p>Linux (shell, in the magellan directory):<br />
+<tt>java -Xms128M -Xmx512M -jar magellan-client.jar</tt></p>
 
-<p>The Java-VM is told to acquire now min. 128MB and max. 256MB RAM. Depending on your machine you can play around with the values. It does not usually hurt to tell java to use all your memory as a maximum. There will still be enough memory for your other programs. </p>
+<p>The Java-VM is told now to acquire a minimum of 128MB and a maximum of 512MB RAM. Depending on your machine you can play around with the values. It does not usually hurt to tell java to use all your memory as a maximum. There will still be enough memory for your other programs. </p>
 
 <a name="base36nummern"></a>
 <p>&nbsp;</p>
@@ -139,13 +140,13 @@ Create a connection to Magellan, open properties (with right-click). Edit the "T
 
 <a name="VorlageBefehlsbestaetigung"></a>
 <p>&nbsp;</p>
-<p><b>Q: How to automatically acknowledge orders of units with the mighty tool <b>Vorlage</b>?</b></p>
+<p><b>Q: How to automatically acknowledge orders of units with the mighty tool <em>Vorlage</em>?</b></p>
 
 <p><b>A:</b> With <tt>; #tag EINHEIT ejcOrdersConfirmed 1</tt></p>
 
 <a name="ARR"></a>
 <p>&nbsp;</p>
-<p><b>Q: How to deal with these mysterious things like ARR, ATR or tooltips?</b><p>
+<p><b>Q: How to deal with these mysterious things like ARR, ATR or tooltips?</b></p>
 <p><b>A: </b>A quite good collection of information is <a href="http://www.duckstein.net/atranleitung.html">here.</a> (sorry, only german)</p>
 </div>
 </div>
