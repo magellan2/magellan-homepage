@@ -136,7 +136,7 @@
             JAR</a><br />
             <br />
           </li>
-          <li><a name="teacher" /></a>
+          <li><a name="teacher" />
             <b>Teacher Plugin</b><br />
              Vereinfachte Lehrer-Schüler Operation<br />
              siehe <a href="plugins_teacher_de.php">Beschreibung</a><br />

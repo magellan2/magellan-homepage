@@ -138,7 +138,7 @@
             JAR</a><br />
             <br />
           </li>
-          <li><a name="teacher" /></a>
+          <li><a name="teacher" />
             <b>Teacher Plugin</b><br />
              Simplifies teacher learner relations<br />
              see <a href="plugins_teacher_en.php">Description</a><br />
