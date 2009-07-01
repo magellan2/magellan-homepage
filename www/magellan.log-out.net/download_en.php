@@ -41,8 +41,9 @@
           This version is recommended for all users and mostly stable.
           In <a href=
           "./release/CHANGELOG.txt">CHANGELOG</a> you can find all the changes
-          since the last release.<br />
-          <br />
+          since the last release.</p>
+          <p>Does <strong>not</strong> contain support for E3, yet.</p>
+          <p>
            Version: <?php echo $RELEASE_VERSION; ?><br />
            Status: <?php echo $RELEASE; ?><br />
         </p>
@@ -62,7 +63,7 @@
         </ul>
         <br />
          
-        <a name="Nightly Build" id="Nightly Build"/><h3>
+        <a name="Nightly Build" id="Nightly Build"></a><h3>
           Nightly Build
         </h3>
         <p>
@@ -70,8 +71,9 @@
           is compiled every night and may be unstable. So it is recommended
           for developers and beta testers only.
           In <a href="./nightly-build/CHANGELOG.txt">CHANGELOG</a> you can
-          find all changes made since the last night.<br />
-          <br />
+          find all changes made since the last night.</p>
+          <p><strong>Contains (rudimentary) support for E3. We are working on it...</strong></p>
+          <p>
            Version: <?php echo $LATEST_VERSION; ?><br />
            Status: <?php echo $NIGHTLY_BUILD; ?><br />
         </p>
@@ -138,7 +140,7 @@
             JAR</a><br />
             <br />
           </li>
-          <li><a name="teacher" />
+          <li><a name="teacher"></a>
             <b>Teacher Plugin</b><br />
              Simplifies teacher learner relations<br />
              see <a href="plugins_teacher_en.php">Description</a><br />
