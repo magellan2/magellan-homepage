@@ -41,8 +41,11 @@
           Diese Version wird von den Entwicklern freigegeben und bezeichnet
           eine Version, die stabil ist. Im <a href=
           "./release/CHANGELOG.txt">CHANGELOG</a> findest du alle Änderungen,
-          die seit der letzten Release gemacht wurden.<br />
-          <br />
+          die seit der letzten Release gemacht wurden.</p>
+          <p>
+          Enthält noch <strong>keine</strong> Unterstützung für E3.
+          </p>
+          <p>
            Version: <?php echo $RELEASE_VERSION; ?><br />
            Stand: <?php echo $RELEASE; ?><br />
         </p>
@@ -62,15 +65,16 @@
         </ul>
         <br />
          
-        <a name="Nightly Build" id="Nightly Build"/><h3>
+        <a name="Nightly Build" id="Nightly Build"></a><h3>
           Nightly Build
         </h3>
         <p>
           Hier findest Du die aktuellste Version von Magellan 2.x. Sie wird jede
           Nacht neu kompiliert und hier auf dem Server zur Verfügung gestellt.
           Im <a href="./nightly-build/CHANGELOG.txt">CHANGELOG</a> findest du
-          alle Änderungen, die seit der letzten Nacht gemacht wurden.<br />
-          <br />
+          alle Änderungen, die seit der letzten Nacht gemacht wurden.</p>
+          <p><strong>Enthält (rudimentäre) Unterstützung für E3.</strong> Wir arbeiten dran...</p>
+          <p>
            Version: <?php echo $LATEST_VERSION; ?><br />
            Stand: <?php echo $NIGHTLY_BUILD; ?><br />
         </p>
@@ -136,7 +140,7 @@
             JAR</a><br />
             <br />
           </li>
-          <li><a name="teacher" />
+          <li><a name="teacher"></a>
             <b>Teacher Plugin</b><br />
              Vereinfachte Lehrer-Schüler Operation<br />
              siehe <a href="plugins_teacher_de.php">Beschreibung</a><br />
