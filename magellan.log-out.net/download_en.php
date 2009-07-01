@@ -42,7 +42,7 @@
           In <a href=
           "./release/CHANGELOG.txt">CHANGELOG</a> you can find all the changes
           since the last release.</p>
-          <p>Does <strong>not</strong> contain support for E3, yet.</p>
+          <p><strong>Does not contain support for E3, yet!</strong></p>
           <p>
            Version: <?php echo $RELEASE_VERSION; ?><br />
            Status: <?php echo $RELEASE; ?><br />

@@ -43,7 +43,7 @@
           "./release/CHANGELOG.txt">CHANGELOG</a> findest du alle Änderungen,
           die seit der letzten Release gemacht wurden.</p>
           <p>
-          Enthält noch <strong>keine</strong> Unterstützung für E3.
+          <strong>Enthält noch keine Unterstützung für E3!</strong>
           </p>
           <p>
            Version: <?php echo $RELEASE_VERSION; ?><br />
