@@ -42,7 +42,7 @@
           "images/magellan2-preview.png" border="0" alt="Magellan Desktop"/></a>
         </p>
         <p>
-          Magellan2 benötigt, im Gegensatz zu Magellan1 nun Java5 (1.5.0 oder
+          Magellan2 benötigt, im Gegensatz zu Magellan1 nun Java6 (1.6.0 oder
           höher). Außerdem handelt es sich bei der angebotenen JAR Datei nun um
           ein Setup-Programm, das den Client auspackt und auf Deinem PC
           installiert. Das Programm ist nun aufgeteilt in viele Dateien. Das bietet
@@ -77,7 +77,7 @@
           leistungsfähigerer Rechner, gerade wenn die Partei wächst. Die 
           Mindestausstattung liegt bei einem Prozessor mit 450 MHz und 128 MB 
           Hauptspeicher, empfehlenswert sind jedoch 800 MHz und 512 MB 
-          Hauptspeicher. Magellan läuft ab Java 1.5.
+          Hauptspeicher. Magellan läuft ab Java 1.6.
         </p>
         <h3>
           Java? Das kann ich nicht!
