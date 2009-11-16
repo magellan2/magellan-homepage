@@ -42,7 +42,7 @@
           "images/magellan2-preview.png" border="0" alt="Magellan Desktop"/></a>
         </p>
         <p>
-          Magellan 2.x now needs, contrary to Magellan 1.x, Java5 (1.5.0 or
+          Magellan 2.x now needs, contrary to Magellan 1.x, Java6 (1.6.0 or
           higher). Additionally it is now a JAR file that has a setup that
           unpacks and installs the whole application on your computer. The
           application is now split into multiple files, so you're able to
@@ -77,7 +77,7 @@
           systems. However, it requires a rather powerful machine, especially 
           when your faction grows bigger. The minimum system requirements are 
           a 450 MHz processor and 128 MB RAM, but 800 MHz and 512 MB RAM are 
-          recommended. For Magellan, Java 1.5 or newer is required.
+          recommended. For Magellan, Java 1.6 or newer is required.
         </p>
         <h3>
           Java? What's That?
