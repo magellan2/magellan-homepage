@@ -36,7 +36,7 @@
               Version:
             </td>
             <td class="plugin">
-              1.0
+              1.1
             </td>
           </tr>
           <tr class="plugin">
@@ -74,8 +74,15 @@
         </table>
         <p>
           Mit Hilfe des MapCleaners lässt sich die Karte eines geladenen
-          Reports aufräumen. Im Moment bedeutet das, dass bei allen
-          Ozeanregionen die Namen entfernt werden.
+          Reports aufräumen.<br>
+          Version 1.1:<br><ul>
+          <li>Inselzuordnung bei Feuerwandregionen werden gelöscht.</li>
+          <li>Inseln ohne zugeordnete Regionen werden gelöscht</li> 
+          </ul>
+          Version 1.0:<br>
+          <ul>
+          <li>Namen von Ozeanregionen werden gelöscht.</li>
+          </ul>
         </p>
       </div>
     </div>
