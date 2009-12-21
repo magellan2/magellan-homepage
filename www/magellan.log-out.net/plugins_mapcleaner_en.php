@@ -36,7 +36,7 @@
               Version:
             </td>
             <td class="plugin">
-              1.0
+              1.1
             </td>
           </tr>
           <tr class="plugin">
@@ -44,7 +44,7 @@
               Kurzbeschreibung:
             </td>
             <td class="plugin">
-              Repariert Reports
+              Repairs Reports
             </td>
           </tr>
           <tr class="plugin">
@@ -73,12 +73,15 @@
           </tr>
         </table>
         <p>
-          <b>English version currently not available...coming soon...</b>
-        </p>
-        <p>
-          Mit Hilfe des MapCleaners lässt sich die Karte eines geladenen
-          Reports aufräumen. Im Moment bedeutet das, dass bei allen
-          Ozeanregionen die Namen entfernt werden.
+          The MapCleaner cleans up the data of the map of an loaded report.<br>
+          Version 1.1:<br><ul>
+          <li>No more islands with Firewall (Feuerwand) regions.</li>
+          <li>Empty Islands are deleted</li> 
+          </ul>
+          Version 1.0:<br>
+          <ul>
+          <li>Names from ocean-regions are deleted.</li>
+          </ul>
         </p>
       </div>
     </div>
