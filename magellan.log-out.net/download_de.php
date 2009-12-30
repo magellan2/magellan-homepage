@@ -149,6 +149,25 @@
             <br />
           </li>
         </ul>
+        
+        <br />
+         <a name="tools"></a> 
+        <h3>
+          Download Tools
+        </h3>
+        <p>
+          Hier findet ihr eine Reihe von Tools, die wir euch hier direkt zum
+          Download anbieten können.
+        </p>
+        <ul>
+          <li>
+            <b>Console Merger</b><br />
+             Fügt 2 Reports zusammen, benötigt dazu kein Magellan2<br />
+             siehe <a href="tools_consolemerger_de.php">Beschreibung</a><br />
+             Download: <a href="tools/consolemerger.jar">ausführbare JAR</a><br />
+            <br />
+          </li>
+        </ul>
       </div>
     </div>
   </body>
