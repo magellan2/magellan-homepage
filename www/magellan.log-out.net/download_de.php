@@ -47,7 +47,7 @@
           </p>
           <p>
            Version: 2.0.5 (build 386)<br />
-           Stand: 05.02.2010 2:03:00 +02:00<br />
+           Stand: 06.02.2010 00:50:00 +02:00<br />
 <!--           Version: <?php echo $RELEASE_VERSION; ?><br />
            Stand: <?php echo $RELEASE; ?><br /> -->
         </p>
