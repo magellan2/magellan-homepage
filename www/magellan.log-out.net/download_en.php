@@ -40,26 +40,28 @@
           Here you can find the current stable release of Magellan 2.x.
           This version is recommended for all users and mostly stable.
           In <a href=
-          "./release/CHANGELOG.txt">CHANGELOG</a> you can find all the changes
+          "./extra/CHANGELOG.txt">CHANGELOG</a> you can find all the changes
           since the last release.</p>
-          <p><strong>Does not contain support for E3, yet!</strong></p>
+          <p><strong>Now with support for <a href="http://wiki.eressea.de/en/The_third_age">E3</a>!</strong></p>
           <p>
-           Version: <?php echo $RELEASE_VERSION; ?><br />
-           Status: <?php echo $RELEASE; ?><br />
+           Version: 2.0.5 (build 385)<br />
+           Status: 05.02.2010 2:03:00 +02:00<br />
+<!--           Version: <?php echo $RELEASE_VERSION; ?><br />
+           Status: <?php echo $RELEASE; ?><br /> -->
         </p>
         <ul>
           <li>
-            <a href="./release/magellan_v2.0.4.jar">JAR installer</a>
-            (14 MB)
+            <a href="./extra/magellan_v2.0.5.jar">JAR installer</a>
+            (15 MB)
           </li>
         </ul>
         <ul>
           <li>
-            <a href="./release/magellan_v2.0.4.zip">ZIP</a> (13 MB)
+            <a href="./extra/magellan_v2.0.5.zip">ZIP</a> (14 MB)
           </li>
-          <li>
+<!--          <li>
             <a href="./release/magellan2-src.zip">Source</a> (19 MB)
-          </li>
+          </li> -->
         </ul>
         <br />
          
@@ -79,13 +81,13 @@
         </p>
         <ul>
           <li>
-            <a href="./nightly-build/magellan_v2.0.4.jar">JAR installer</a>
+            <a href="./nightly-build/magellan_v2.0.5.jar">JAR installer</a>
             (14 MB)
           </li>
         </ul>
         <ul>
           <li>
-            <a href="./nightly-build/magellan_v2.0.4.zip">ZIP</a> (13 MB)
+            <a href="./nightly-build/magellan_v2.0.5.zip">ZIP</a> (13 MB)
           </li>
           <li>
             <a href="./nightly-build/magellan2-src.zip">Source</a> (19 MB)
