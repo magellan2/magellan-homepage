@@ -15,35 +15,59 @@
 
 <!-- Inhalt -->
 
-<h2>Feedback und Support</h2>
+<h2>Feedback and Support</h2>
 
-<h3>Bugs in Magellan</h3>
+<h2>Bugs in Magellan</h2>
 
-<p>A good starting point in searching for bugs are the error messages produced by Magellan. They are in the file errors.txt in the Magellan directory. Please provide us with this file. We need to reproduce your problem and this file can help a lot. Sometimes we also need CRs to reproduce a problem - we will keep them save and warm and will delete them after solving the problem.</p>
+<p>For us as Developers the error messages are a good start when
+tackling a problem. These can be found in the errors.txt file in
+the Magellan folder; please include these error messages if you
+have a problem with Magellan. To reproduce an error it may prove
+necessary to send in (an excerpt of) the used CR. These CRs are of
+course handled confidentially, and will be deleted after the issue
+has been resolved.</p>
 
-<h4>Bugs and Feature-requests = Development</h4>
-<p>We try to use the wishes of Magelan-users to keep a good direction in the Magellan development process. For this reason we installed a bugtracker named <a href="http://magellan-client.sourceforge.net/mantis/">Mantis</a>. This is the right place for bugs and feature request - allthough it is in German, feel free to post in English, we will be able to read your mind ;-) </p>
+<a name="mantis"></a> 
 
+<p>Please refer to this page if you want to report errors:
+<a href="https://sourceforge.net/projects/magellan-client/support">https://sourceforge.net/projects/magellan-client/support</a>
+</p>
 
-<h3>Newsgroup</h3>
-<p>Via the <a href="news://eressea.upb.de/">Eressea News-Server</a> (news://eressea.upb.de) it is possible to take part in another part of the community. For authorization you need<br>
-Username: Number of your eressea-faction<br>
-Password: password of your eressea-faction</p>
+<br>
+ 
 
-<h3>IRC-Channel</h3>
-<p>In IRC-Net in Channel #magellan are allways some guys to help you out, answer some questions or just to talk about eressea and the other part of life. Some more common names are :</p>
-<ul>
-	<li>Thulai: Sebastian Tusk, Developer</li>
-	<li>NoOneElse: Stefan G&ouml;tz, Developer</li>
-	<li>LordBones: Sebastian Pappert, Developer</li>
+<h3>Feature wishes = further development</h3>
 
-	<li>Toran: Ulrich K&uuml;ster, Developer</li>
-	<li>Nugman: Roland Behme, Doc-Writer</li>
-	<li>SirRollo: Matthias M&uuml;ller, Doc-Writer</li>
+<p>We try to develop Magellan according to the wishes of its users.
+Our bug tracker helps enermously in this, because all feature wishes are
+centrally and publicly available.</p>
 
-	<li>Fiete: Alexander Fietz, Developer</li>
+<a name="mailinglist"></a> 
 
-</ul>
+<h2>Mailing list</h2>
+
+<p>There is a mailing list for Eressea Clients, <a href=
+"http://groups.google.com/group/eressea-client">http://groups.google.com/group/eressea-client</a>,
+where all changes to Magellan are announced. Through the mailing list anyone that is interested can
+join in the discussion about the program, ask questions about its
+use or request help with problems.</p>
+
+<p>If you send a mail to the list without being subscribed to it
+you should mention this, because otherwise the answer will most
+likely just be sent to the list again, and not to the sender.</p>
+
+<p>To subscribe to the list, you need a Google Account. The website
+above helps you creating this account.</p>
+
+ 
+
+<h2>IRC-Channel</h2>
+
+<p>On IRC-Net in channel #eressea you can often find developers
+and users. If not, you can always take comfort in our channelbot
+Magrathea.</p>
+
+<!-- Inhalt - Ende -->
 
 
 </div>

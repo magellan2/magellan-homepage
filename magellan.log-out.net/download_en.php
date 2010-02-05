@@ -75,7 +75,7 @@
           for developers and beta testers only.
           In <a href="./nightly-build/CHANGELOG.txt">CHANGELOG</a> you can
           find all changes made since the last night.</p>
-          <p><strong>Contains (rudimentary) support for E3. We are working on it...</strong></p>
+          <p>Supports E3.</strong></p>
           <p>
            Version: <?php echo $LATEST_VERSION; ?><br />
            Status: <?php echo $NIGHTLY_BUILD; ?><br />

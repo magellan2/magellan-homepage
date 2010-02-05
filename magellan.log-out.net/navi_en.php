@@ -53,7 +53,7 @@ if( !isset($_SERVER['HTTP_USER_AGENT']) || !preg_match($msie,$_SERVER['HTTP_USER
           <a href="./javadoc/">JavaDoc</a>
         </p>
         <p>
-          <a class="externalLink" href="http://magellan-client.sourceforge.net/mantis/">Report a bug</a>
+          <a class="externalLink" href="http://sourceforge.net/apps/trac/magellan-client/">Report a bug</a>
         </p>
         <p>
           <a class="externalLink" href="http://sourceforge.net/projects/magellan-client">SourceForge</a>

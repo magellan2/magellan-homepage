@@ -161,7 +161,7 @@
           </li>
           <li><a name="shiploader"></a>
             <b>ShipLoader Plugin</b><br />
-             Schiffe bequem beladen<...br />
+             Schiffe bequem beladen...<br />
              siehe <a href="plugins/README.shiploader.txt">Beschreibung</a><br />
              Download für 2.0.5: <a href="plugins/shiploader-installer-for2.0.5.jar">Installer
             JAR</a> Version 0.1.1<br />
