@@ -123,6 +123,8 @@
             <b>MapCleaner Plugin</b><br />
              Repariert Reports<br />
              siehe <a href="plugins_mapcleaner_de.php">Beschreibung</a><br />
+<!--             Download: <a href="plugins/mapcleaner-installer-for2.0.5.jar">Installer
+            JAR</a><br /> -->
              Download: <a href="plugins/mapcleaner-installer.jar">Installer
             JAR</a><br />
             <br />
@@ -131,6 +133,8 @@
             <b>MemoryWatch Plugin</b><br />
              Zeigt Magellan Speicherverbrauch an<br />
              siehe <a href="plugins_memorywatch_de.php">Beschreibung</a><br />
+<!--             Download: <a href="plugins/memorywatch-installer-for2.0.5.jar">Installer
+            JAR</a><br /> -->
              Download: <a href="plugins/memorywatch-installer.jar">Installer
             JAR</a><br />
             <br />
@@ -139,7 +143,9 @@
             <b>Statistics Plugin</b><br />
              Zeigten Grafiken und Tabellen für historische Reportdaten<br />
              see <a href="plugins_statistics_de.php">Description</a><br />
-             Download: <a href="plugins/statistics-installer.jar">Installer
+<!--             Download für 2.0.5: <a href="plugins/statistics-installer-for2.0.5.jar">Installer
+            JAR</a><br /> -->
+             Download für nightly build: <a href="plugins/statistics-installer.jar">Installer
             JAR</a><br />
             <br />
           </li>
@@ -147,8 +153,20 @@
             <b>Teacher Plugin</b><br />
              Vereinfachte Lehrer-Schüler Operation<br />
              siehe <a href="plugins_teacher_de.php">Beschreibung</a><br />
-             Download: <a href="plugins/teacher-installer.jar">Installer
-            JAR</a> Version 0.10.3<br />
+             Download für 2.0.5: <a href="plugins/teacher-installer-for2.0.5.jar">Installer
+            JAR</a> Version 0.10.4<br />
+             Download für "nightly": <a href="plugins/teacher-installer.jar">Installer
+            JAR</a> Version 0.10.4<br />
+            <br />
+          </li>
+          <li><a name="shiploader"></a>
+            <b>ShipLoader Plugin</b><br />
+             Schiffe bequem beladen<...br />
+             siehe <a href="plugins/README.shiploader.txt">Beschreibung</a><br />
+             Download für 2.0.5: <a href="plugins/shiploader-installer-for2.0.5.jar">Installer
+            JAR</a> Version 0.1.1<br />
+             Download für "nightly": <a href="plugins/shiploader-installer.jar">Installer
+            JAR</a> Version 0.1.1<br />
             <br />
           </li>
         </ul>

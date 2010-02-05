@@ -51,13 +51,14 @@
         </p>
         <ul>
           <li>
-            <a href="./extra/magellan_v2.0.5.jar">JAR installer</a>
-            (15 MB)
+            <a href="https://sourceforge.net/projects/magellan-client/files/Magellan/2.0.5/magellan_v2.0.5.jar/download">JAR installer</a> (15 MB)
+<!--            <a href="./release/magellan_v2.0.5.jar">JAR installer</a> (15 MB) -->
           </li>
         </ul>
         <ul>
           <li>
-            <a href="./extra/magellan_v2.0.5.zip">ZIP</a> (14 MB)
+            <a href="https://sourceforge.net/projects/magellan-client/files/Magellan/2.0.5/magellan_v2.0.5.zip/download">ZIP</a> (14 MB)
+<!--            <a href="./release/magellan_v2.0.5.zip">ZIP</a> (14 MB) -->
           </li>
 <!--          <li>
             <a href="./release/magellan2-src.zip">Source</a> (19 MB)
@@ -82,12 +83,12 @@
         <ul>
           <li>
             <a href="./nightly-build/magellan_v2.0.5.jar">JAR installer</a>
-            (14 MB)
+            (15 MB)
           </li>
         </ul>
         <ul>
           <li>
-            <a href="./nightly-build/magellan_v2.0.5.zip">ZIP</a> (13 MB)
+            <a href="./nightly-build/magellan_v2.0.5.zip">ZIP</a> (14 MB)
           </li>
           <li>
             <a href="./nightly-build/magellan2-src.zip">Source</a> (19 MB)
@@ -146,8 +147,39 @@
             <b>Teacher Plugin</b><br />
              Simplifies teacher learner relations<br />
              see <a href="plugins_teacher_en.php">Description</a><br />
-             Download: <a href="plugins/teacher-installer.jar">Installer
-            JAR</a> Version 0.10.3<br />
+             Download for 2.0.5: <a href="plugins/teacher-installer-for2.0.5.jar">Installer
+            JAR</a> Version 0.10.4<br />
+             Download for "nightly": <a href="plugins/teacher-installer.jar">Installer
+            JAR</a> Version 0.10.4<br />
+            <br />
+          </li>
+          <li><a name="shiploader"></a>
+            <b>ShipLoader Plugin</b><br />
+             Load your ships with ease...<br />
+             see <a href="plugins/README.shiploader.txt">Description</a><br />
+             Download for 2.0.5: <a href="plugins/shiploader-installer-for2.0.5.jar">Installer
+            JAR</a> Version 0.1.1<br />
+             Download for "nightly": <a href="plugins/shiploader-installer.jar">Installer
+            JAR</a> Version 0.1.1<br />
+            <br />
+          </li>
+        </ul>
+        
+        <br />
+         <a name="tools"></a> 
+        <h3>
+          Download Tools
+        </h3>
+        <p>
+          Hier findet ihr eine Reihe von Tools, die wir euch hier direkt zum
+          Download anbieten können.
+        </p>
+        <ul>
+          <li>
+            <b>Console Merger</b><br />
+             Fügt 2 Reports zusammen, benötigt dazu kein Magellan2<br />
+             siehe <a href="tools_consolemerger_de.php">Beschreibung</a><br />
+             Download: <a href="tools/consolemerger.jar">ausführbare JAR</a><br />
             <br />
           </li>
         </ul>
