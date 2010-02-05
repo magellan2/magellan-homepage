@@ -40,28 +40,31 @@
           Hier findest Du die aktuelle installierbare Version von Magellan2.x.
           Diese Version wird von den Entwicklern freigegeben und bezeichnet
           eine Version, die stabil ist. Im <a href=
-          "./release/CHANGELOG.txt">CHANGELOG</a> findest du alle Änderungen,
+          "./extra/CHANGELOG.txt">CHANGELOG</a> findest du alle Änderungen,
           die seit der letzten Release gemacht wurden.</p>
           <p>
-          <strong>Enthält noch keine Unterstützung für E3!</strong>
+          <strong>Jetzt mit Unterstützung für <a href="http://wiki.eressea.de/de/Das_dritte_Zeitalter">E3</a>!</strong>
           </p>
           <p>
-           Version: <?php echo $RELEASE_VERSION; ?><br />
-           Stand: <?php echo $RELEASE; ?><br />
+           Version: 2.0.5 (build 385)<br />
+           Stand: 05.02.2010 2:03:00 +02:00<br />
+<!--           Version: <?php echo $RELEASE_VERSION; ?><br />
+           Stand: <?php echo $RELEASE; ?><br /> -->
         </p>
         <ul>
           <li>
-            <a href="./release/magellan_v2.0.4.jar">JAR installer</a>
-            (14 MB)
+            <a href="https://sourceforge.net/projects/magellan-client/files/Magellan/2.0.5/magellan_v2.0.5.jar/download">JAR installer</a> (15 MB)
+<!--            <a href="./release/magellan_v2.0.5.jar">JAR installer</a> (15 MB) -->
           </li>
         </ul>
         <ul>
           <li>
-            <a href="./release/magellan_v2.0.4.zip">ZIP</a> (13 MB)
+            <a href="https://sourceforge.net/projects/magellan-client/files/Magellan/2.0.5/magellan_v2.0.5.zip/download">ZIP</a> (14 MB)
+<!--            <a href="./release/magellan_v2.0.5.zip">ZIP</a> (14 MB) -->
           </li>
-          <li>
-            <a href="./release/magellan2-src.zip">Source</a> (19 MB)
-          </li>
+<!--          <li>
+            <a href="./release/magellan2-src.zip">Source</a> (19 MB) 
+          </li> -->
         </ul>
         <br />
          
@@ -73,20 +76,20 @@
           Nacht neu kompiliert und hier auf dem Server zur Verfügung gestellt.
           Im <a href="./nightly-build/CHANGELOG.txt">CHANGELOG</a> findest du
           alle Änderungen, die seit der letzten Nacht gemacht wurden.</p>
-          <p><strong>Enthält (rudimentäre) Unterstützung für E3.</strong> Wir arbeiten dran...</p>
+          <p>Enthält Unterstützung für E3.</p>
           <p>
            Version: <?php echo $LATEST_VERSION; ?><br />
            Stand: <?php echo $NIGHTLY_BUILD; ?><br />
         </p>
         <ul>
           <li>
-            <a href="./nightly-build/magellan_v2.0.4.jar">JAR installer</a>
-            (14 MB)
+            <a href="./nightly-build/magellan_v2.0.5.jar">JAR installer</a>
+            (15 MB)
           </li>
         </ul>
         <ul>
           <li>
-            <a href="./nightly-build/magellan_v2.0.4.zip">ZIP</a> (13 MB)
+            <a href="./nightly-build/magellan_v2.0.5.zip">ZIP</a> (14 MB)
           </li>
           <li>
             <a href="./nightly-build/magellan2-src.zip">Source</a> (19 MB)
