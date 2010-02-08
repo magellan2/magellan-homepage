@@ -50,6 +50,10 @@ if( !isset($_SERVER['HTTP_USER_AGENT']) || !preg_match($msie,$_SERVER['HTTP_USER
           <a class="sublink" href="plugins_teacher_en.php">Teacher Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br/>
         </p>
         <p>
+          <a href="tools_en.php">tools</a><br/>
+          <a class="sublink" href="tools_consolemerger_en.php">Console Merger</a>&nbsp;&middot;&nbsp;&nbsp;<br/>
+        </p>
+        <p>
           <a href="./javadoc/">JavaDoc</a>
         </p>
         <p>

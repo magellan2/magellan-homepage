@@ -123,7 +123,9 @@
             <b>MapCleaner Plugin</b><br />
              Repairs Reports<br />
              see <a href="plugins_mapcleaner_en.php">Description</a><br />
-             Download: <a href="plugins/mapcleaner-installer.jar">Installer
+             Download for 2.0.5: <a href="plugins/mapcleaner-installer-for2.0.5.jar">Installer
+            JAR</a><br />
+             Download for nightly: <a href="plugins/mapcleaner-installer.jar">Installer
             JAR</a><br />
             <br />
           </li>
@@ -131,7 +133,9 @@
             <b>MemoryWatch Plugin</b><br />
              Shows Magellan memory usage<br />
              see <a href="plugins_memorywatch_en.php">Description</a><br />
-             Download: <a href="plugins/memorywatch-installer.jar">Installer
+             Download for 2.0.5: <a href="plugins/memorywatch-installer-for2.0.5.jar">Installer
+            JAR</a><br />
+             Download for "nightly: <a href="plugins/memorywatch-installer.jar">Installer
             JAR</a><br />
             <br />
           </li>
@@ -171,15 +175,15 @@
           Download Tools
         </h3>
         <p>
-          Hier findet ihr eine Reihe von Tools, die wir euch hier direkt zum
-          Download anbieten können.
+          Next is our tools-section. As for now, these tools available for download:
         </p>
         <ul>
           <li>
             <b>Console Merger</b><br />
-             Fügt 2 Reports zusammen, benötigt dazu kein Magellan2<br />
-             siehe <a href="tools_consolemerger_de.php">Beschreibung</a><br />
-             Download: <a href="tools/consolemerger.jar">ausführbare JAR</a><br />
+             Merges 2 reports, needs an Magellan2 installation, but no running Magellan2 application.<br />
+             see <a href="tools_consolemerger_en.php">Description</a><br />
+             Download (Built like Mag 2.0.5): <a href="tools/consolemerger-for2.0.5.jar">executable JAR</a><br />
+             Download (Built like "nightly): <a href="tools/consolemerger.jar">executable JAR</a><br />
             <br />
           </li>
         </ul>

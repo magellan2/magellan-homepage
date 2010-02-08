@@ -123,9 +123,9 @@
             <b>MapCleaner Plugin</b><br />
              Repariert Reports<br />
              siehe <a href="plugins_mapcleaner_de.php">Beschreibung</a><br />
-<!--             Download: <a href="plugins/mapcleaner-installer-for2.0.5.jar">Installer
-            JAR</a><br /> -->
-             Download: <a href="plugins/mapcleaner-installer.jar">Installer
+             Download für 2.0.5: <a href="plugins/mapcleaner-installer-for2.0.5.jar">Installer
+            JAR</a><br />
+             Download für nightly: <a href="plugins/mapcleaner-installer.jar">Installer
             JAR</a><br />
             <br />
           </li>
@@ -133,9 +133,9 @@
             <b>MemoryWatch Plugin</b><br />
              Zeigt Magellan Speicherverbrauch an<br />
              siehe <a href="plugins_memorywatch_de.php">Beschreibung</a><br />
-<!--             Download: <a href="plugins/memorywatch-installer-for2.0.5.jar">Installer
-            JAR</a><br /> -->
-             Download: <a href="plugins/memorywatch-installer.jar">Installer
+             Download für 2.0.5: <a href="plugins/memorywatch-installer-for2.0.5.jar">Installer
+            JAR</a><br />
+             Download für "nightly: <a href="plugins/memorywatch-installer.jar">Installer
             JAR</a><br />
             <br />
           </li>
@@ -183,9 +183,10 @@
         <ul>
           <li>
             <b>Console Merger</b><br />
-             Fügt 2 Reports zusammen, benötigt dazu kein Magellan2<br />
+             Fügt 2 Reporte zusammen, benötigt dazu lediglich eine Magellan2 Installation, kein gestartetes Magellan2.<br />
              siehe <a href="tools_consolemerger_de.php">Beschreibung</a><br />
-             Download: <a href="tools/consolemerger.jar">ausführbare JAR</a><br />
+             Download (Stand Magellan 2.0.5): <a href="tools/consolemerger_for2.0.5.jar">ausführbare JAR</a><br />
+             Download (Stand Nightly): <a href="tools/consolemerger.jar">ausführbare JAR</a><br />
             <br />
           </li>
         </ul>
