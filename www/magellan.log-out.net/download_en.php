@@ -44,8 +44,8 @@
           since the last release.</p>
           <p><strong>Now with support for <a href="http://wiki.eressea.de/en/The_third_age">E3</a>!</strong></p>
           <p>
-           Version: 2.0.5 (build 386)<br />
-           Status: 06.02.2010 0:50:00 +02:00<br />
+           Version: 2.0.5 (build 387)<br />
+           Status: 08.02.2010 22:14:00 +01:00<br />
 <!--           Version: <?php echo $RELEASE_VERSION; ?><br />
            Status: <?php echo $RELEASE; ?><br /> -->
         </p>
@@ -149,7 +149,7 @@
           </li>
           <li><a name="teacher"></a>
             <b>Teacher Plugin</b><br />
-             Simplifies teacher learner relations<br />
+             Simplifies teacher learner relations.<br />
              see <a href="plugins_teacher_en.php">Description</a><br />
              Download for 2.0.5: <a href="plugins/teacher-installer-for2.0.5.jar">Installer
             JAR</a> Version 0.10.4<br />
@@ -175,15 +175,15 @@
           Download Tools
         </h3>
         <p>
-          Next is our tools-section. As for now, these tools available for download:
+          Next is our tools-section. For now, these tools are available for download:
         </p>
         <ul>
           <li>
             <b>Console Merger</b><br />
-             Merges 2 reports, needs an Magellan2 installation, but no running Magellan2 application.<br />
+             Merges two reports. needs an Magellan2 installation, but no running Magellan2 application.<br />
              see <a href="tools_consolemerger_en.php">Description</a><br />
-             Download (Built like Mag 2.0.5): <a href="tools/consolemerger-for2.0.5.jar">executable JAR</a><br />
-             Download (Built like "nightly): <a href="tools/consolemerger.jar">executable JAR</a><br />
+             Download (for Magellan 2.0.5): <a href="tools/consolemerger-for2.0.5.jar">executable JAR</a><br />
+             Download (for Magellan "nightly): <a href="tools/consolemerger.jar">executable JAR</a><br />
             <br />
           </li>
         </ul>

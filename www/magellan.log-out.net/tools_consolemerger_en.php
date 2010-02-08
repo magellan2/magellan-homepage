@@ -44,7 +44,7 @@
               Kurzbeschreibung:
             </td>
             <td class="plugin">
-              This tool is a commandline tool for merging Eressea reports together. This tool needs Java6 and at least 2 reports.
+              This is a command line tool for merging Eressea reports together. This tool needs Java6 and at least 2 reports.
             </td>
           </tr>
           <tr class="plugin">
@@ -76,7 +76,7 @@
           Syntax:<br>
 		  java magellan.ext.console.merge.ConsoleMerger Parameter<br>
 		  Parameter: magellan_dir base_report merge_report result_report<br>
-  		  magellan_dir  - the directory that contains the magellan settings (rules and resources).<br>
+  		  magellan_dir  - the directory that contains the Magellan settings (rules and resources).<br>
           base_report   - the original report. <br>
   		  merge_report  - the report that should be merged to <base_report><br>
   		  result_report - the destination file. If the file exists, it'll be overwritten.<br>
