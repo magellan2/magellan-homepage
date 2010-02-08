@@ -44,7 +44,7 @@
               Kurzbeschreibung:
             </td>
             <td class="plugin">
-              Dieses Tool ist ein java-Programm, welches über die Kommandozeile aufgerufen wird und 2 Eressea-reporte zusammenfügt. Es benötigt mindestens Java 6 (Java 1.6).
+              This tool is a commandline tool for merging Eressea reports together. This tool needs Java6 and at least 2 reports.
             </td>
           </tr>
           <tr class="plugin">
@@ -68,7 +68,7 @@
               Download
             </td>
             <td class="plugin">
-              <a href="download_en.php#tools">http://magellan.log-out.net</a>
+              <a href="download_de.php#tools">http://magellan.log-out.net</a>
             </td>
           </tr>
         </table>
@@ -76,14 +76,14 @@
           Syntax:<br>
 		  java magellan.ext.console.merge.ConsoleMerger Parameter<br>
 		  Parameter: magellan_dir base_report merge_report result_report<br>
-  		  magellan_dir  - das Verzeichnis, welches benötigte Magellan2-Dateien enthält. (Regeln und Ressourcen).<br>
-          base_report   - der Oroginal-Report. <br>
-  		  merge_report  - der zum <base_report> hinzuzufügende Report<br>
-  		  result_report - Zieldatei. Falls diese existiert, wird sie überschrieben.<br>
+  		  magellan_dir  - the directory that contains the magellan settings (rules and resources).<br>
+          base_report   - the original report. <br>
+  		  merge_report  - the report that should be merged to <base_report><br>
+  		  result_report - the destination file. If the file exists, it'll be overwritten.<br>
   		  <br>
-  		  möglicher anderer Aufruf:<br>
+  		  other possible syntax:<br>
   		  java -jar consolemerger.jar Parameter <br><br>
-		  Das Programm berücksichtigt Dateiendungen und lädt und speichert im entsprechenden Format.<br>
+		  This program is aware of the file name extension and loads and saves the file in the given format.<br>
         </p>
       </div>
     </div>
