@@ -22,8 +22,8 @@
           Tools
         </h3>
         <p>
-          Tools are extrernal programs connected in some way to the magellan development. 
-          And we think that they might be useful.
+          Tools are external programs that are connected in some way to the Magellan development  
+          and we think that they might be useful.
             
         </p>
         <p>

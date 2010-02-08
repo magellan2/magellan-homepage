@@ -22,7 +22,7 @@
           Tools
         </h3>
         <p>
-          Tools sind externe Programme, die entweder dirket mit der 
+          Tools sind externe Programme, die entweder direkt mit der 
           Entwicklung von Magellan zusammenhängen oder von den Entwicklern 
           nebenbei erstellt worden sind und für nützlich gehalten werden.  
         </p>
