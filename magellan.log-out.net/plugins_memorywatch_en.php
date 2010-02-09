@@ -41,15 +41,15 @@
           </tr>
           <tr class="plugin">
             <td class="plugin">
-              Kurzbeschreibung:
+              Description:
             </td>
             <td class="plugin">
-              Zeigt Magellan Speicherverbrauch an
+              Makes the memory consumption of Magellan visisble 
             </td>
           </tr>
           <tr class="plugin">
             <td class="plugin">
-              Autor:
+              Author:
             </td>
             <td class="plugin">
               Fiete
@@ -74,12 +74,10 @@
           </tr>
         </table>
         <p>
-          <b>English version currently not available...coming soon...</b>
-        </p>
-        <p>
-          Das MemoryWatch Plugin ist eher was für neugierige. Es wurde primär
-          für die Entwickler gebaut, um den Speicherverbrauch von Magellan
-          während der Laufzeit zu prüfen und sichtbar zu machen.
+          
+          The MemoryWatch plugin is a small helper tool for the curious. It was
+          designed for developer to monitor the memory usage of Magellan.
+          
         </p>
       </div>
     </div>

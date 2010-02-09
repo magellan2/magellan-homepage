@@ -41,15 +41,15 @@
           </tr>
           <tr class="plugin">
             <td class="plugin">
-              Kurzbeschreibung:
+              Description:
             </td>
             <td class="plugin">
-              Regionen anlegen und bearbeiten
+              Creation of regions and other changes on the map.
             </td>
           </tr>
           <tr class="plugin">
             <td class="plugin">
-              Autor:
+              Author:
             </td>
             <td class="plugin">
               Fiete
@@ -65,22 +65,21 @@
           </tr>
           <tr class="plugin">
             <td class="plugin">
-              Download
+              Download:
             </td>
             <td class="plugin">
-              Bestandteil des Magellan Clients.
+              In the Magellan Client.
             </td>
           </tr>
         </table>
+        
         <p>
-          <b>English version currently not available...coming soon...</b>
+          With this plugin the map of the report becomes editable. For each region the 
+          region type and name are changeble. Of couse you can create new regions and
+          delete existing ones. Changing of herb-information is supported.
         </p>
         <p>
-          Mit Hilfe dieses Plugins lässt sich die Karte eines geladenen Reports
-          bearbeiten. Man kann für jede einzelne Region den Regionstyp
-          festlegen, ihm fest einen Namen geben, die Region komplett löschen
-          oder eine neue Region erstellen. Damit lässt sich die Karte nach
-          belieben gestalten und modifizieren.
+          I´m sorry that until now the plugin is available in german only.
         </p>
         <p>
           <img src="images/plugin_mapedit.png" alt="MapEdit" border="0" />

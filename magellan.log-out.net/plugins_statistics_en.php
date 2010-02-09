@@ -41,7 +41,7 @@
           </tr>
           <tr class="plugin">
             <td class="plugin">
-              Kurzbeschreibung:
+              Description:
             </td>
             <td class="plugin">
               Shows statistics for historic report data
@@ -49,7 +49,7 @@
           </tr>
           <tr class="plugin">
             <td class="plugin">
-              Autor:
+              Author:
             </td>
             <td class="plugin">
               Thoralf Rickert
@@ -65,7 +65,7 @@
           </tr>
           <tr class="plugin">
             <td class="plugin">
-              Download
+              Download:
             </td>
             <td class="plugin">
               <a href=

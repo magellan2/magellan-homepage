@@ -66,7 +66,7 @@
           </tr>
           <tr class="plugin">
             <td class="plugin">
-              Download
+              Download:
             </td>
             <td class="plugin">
               <a href="http://odyssey.log-out.net/download.php" class=

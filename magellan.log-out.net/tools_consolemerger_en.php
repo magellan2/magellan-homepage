@@ -41,7 +41,7 @@
           </tr>
           <tr class="plugin">
             <td class="plugin">
-              Kurzbeschreibung:
+              Description:
             </td>
             <td class="plugin">
               This is a command line tool for merging Eressea reports together. This tool needs Java6 and at least 2 reports.
@@ -49,7 +49,7 @@
           </tr>
           <tr class="plugin">
             <td class="plugin">
-              Autor:
+              Author:
             </td>
             <td class="plugin">
               Thoralf  
@@ -65,7 +65,7 @@
           </tr>
           <tr class="plugin">
             <td class="plugin">
-              Download
+              Download:
             </td>
             <td class="plugin">
               <a href="download_de.php#tools">http://magellan.log-out.net</a>
