@@ -41,7 +41,7 @@
           </tr>
           <tr class="plugin">
             <td class="plugin">
-              Kurzbeschreibung:
+              Description:
             </td>
             <td class="plugin">
               Scriptbasierte Bearbeitung von Einheiten
@@ -49,7 +49,7 @@
           </tr>
           <tr class="plugin">
             <td class="plugin">
-              Autor:
+              Author:
             </td>
             <td class="plugin">
               Thoralf Rickert

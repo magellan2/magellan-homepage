@@ -43,15 +43,15 @@
           </tr>
           <tr class="plugin">
             <td class="plugin">
-              Kurzbeschreibung:
+              Description:
             </td>
             <td class="plugin">
-              Vereinfachte Lehrer-Schüler Operation
+              Automatic assignment of teachers to students
             </td>
           </tr>
           <tr class="plugin">
             <td class="plugin">
-              Autor:
+              Author:
             </td>
             <td class="plugin">
               stm
@@ -67,7 +67,7 @@
           </tr>
           <tr class="plugin">
             <td class="plugin">
-              Download
+              Download:
             </td>
             <td class="plugin">
               <a href=
