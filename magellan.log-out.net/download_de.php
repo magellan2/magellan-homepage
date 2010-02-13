@@ -46,8 +46,8 @@
           <strong>Jetzt mit Unterstützung für <a href="http://wiki.eressea.de/de/Das_dritte_Zeitalter">E3</a>!</strong>
           </p>
           <p>
-           Version: 2.0.5 (build 387)<br />
-           Stand: 08.02.2010 22:14:00 +01:00<br />
+           Version: 2.0.5 (build 388)<br />
+           Stand: 13.02.2010 20:06:00 +01:00<br />
 <!--           Version: <?php echo $RELEASE_VERSION; ?><br />
            Stand: <?php echo $RELEASE; ?><br /> -->
         </p>
