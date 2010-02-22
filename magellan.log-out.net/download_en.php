@@ -44,8 +44,8 @@
           since the last release.</p>
           <p><strong>Now with support for <a href="http://wiki.eressea.de/en/The_third_age">E3</a>!</strong></p>
           <p>
-           Version: 2.0.5 (build 388)<br />
-           Status: 13.02.2010 20:06:00 +01:00<br />
+           Version: 2.0.5 (build 389)<br />
+           Status: 22.02.2010 13:13:00 +01:00<br />
 <!--           Version: <?php echo $RELEASE_VERSION; ?><br />
            Status: <?php echo $RELEASE; ?><br /> -->
         </p>
