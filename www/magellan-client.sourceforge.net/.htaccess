@@ -1,0 +1,6 @@
+Order Allow,Deny
+allow from all
+
+ErrorDocument 404 /errorpages/404page.html
+ErrorDocument 500 /errorpages/500page.html
+
