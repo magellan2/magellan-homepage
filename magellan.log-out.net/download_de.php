@@ -46,10 +46,10 @@
           <strong>Jetzt mit Unterstützung für <a href="http://wiki.eressea.de/de/Das_dritte_Zeitalter">E3</a>!</strong>
           </p>
           <p>
-           Version: 2.0.5 (build 389)<br />
-           Status: 22.02.2010 13:13:00 +01:00<br />
-<!--           Version: <?php echo $RELEASE_VERSION; ?><br />
-           Stand: <?php echo $RELEASE; ?><br /> -->
+<!--            Version: 2.0.5 (build 389)<br />
+           Status: 22.02.2010 13:13:00 +01:00<br /> -->
+           Version: <?php echo $RELEASE_VERSION; ?><br />
+           Stand: <?php echo $RELEASE; ?><br />
         </p>
         <ul>
           <li>
@@ -185,7 +185,7 @@
             <b>Console Merger</b><br />
              Fügt 2 Reporte zusammen, benötigt dazu lediglich eine Magellan2 Installation, kein gestartetes Magellan2.<br />
              siehe <a href="tools_consolemerger_de.php">Beschreibung</a><br />
-             Download (Stand Magellan 2.0.5): <a href="tools/consolemerger_for2.0.5.jar">ausführbare JAR</a><br />
+             Download (Stand Magellan 2.0.5): <a href="tools/consolemerger-for2.0.5.jar">ausführbare JAR</a><br />
              Download (Stand Nightly): <a href="tools/consolemerger.jar">ausführbare JAR</a><br />
             <br />
           </li>
