@@ -169,6 +169,17 @@
             JAR</a> Version 0.1.1<br />
             <br />
           </li>
+          
+          <li><a name="mapicons"></a>
+            <b>MapIcons Plugin</b><br />
+             Wichtige Nachrichten einfach sehen<br />
+             siehe <a href="plugins_mapicons_de.php">Beschreibung</a><br />
+             Download (alle Versionen): <a href="plugins/mapicons-installer.jar">Installer
+            JAR</a> Version 0.3<br />
+             
+            <br />
+          </li>
+          
         </ul>
         
         <br />
