@@ -180,6 +180,17 @@
             <br />
           </li>
           
+           <li><a name="lighthouseicons"></a>
+            <b>LightHouseIcons Plugin</b><br />
+             Aktuell überwachte Regionen und Reichweite visualisieren<br />
+             siehe <a href="plugins_lighthouseicons_de.php">Beschreibung folgt</a><br />
+             Download (alle Versionen): <a href="plugins/lighthouseicons-installer.jar">Installer
+            JAR</a> Version 0.1<br />
+             
+            <br />
+          </li>
+          
+          
         </ul>
         
         <br />

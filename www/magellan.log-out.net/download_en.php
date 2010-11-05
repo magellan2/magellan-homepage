@@ -176,6 +176,19 @@
              
             <br />
           </li>
+          
+          </li>
+          
+           <li><a name="lighthouseicons"></a>
+            <b>LightHouseIcons Plugin</b><br />
+             Current by lighthouse controlled regions and the maximum range of all lighthouse are visible<br />
+             see <a href="plugins_lighthouseicons_en.php">Description follows</a><br />
+             Download (all versions): <a href="plugins/lighthouseicons-installer.jar">Installer
+            JAR</a> Version 0.1<br />
+             
+            <br />
+          </li>
+          
         </ul>
         
         <br />
