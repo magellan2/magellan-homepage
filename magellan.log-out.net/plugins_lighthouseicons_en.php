@@ -36,7 +36,7 @@
               Version:
             </td>
             <td class="plugin">
-              0.1
+              0.2
             </td>
           </tr>
           <tr class="plugin">
@@ -75,6 +75,8 @@
         <p>
           Planing your shiproutes seeing the range of the lighthouses will be easy.<br>
           Additional, oceanregions seen directly by a lighthouse are marked.
+          <br>
+          Since version 0.2: toggle icons with CTRL+L 
         </p><hr>
         <table border=0>
         	<tr>
