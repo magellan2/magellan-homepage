@@ -36,7 +36,7 @@
               Version:
             </td>
             <td class="plugin">
-              0.1
+              0.2
             </td>
           </tr>
           <tr class="plugin">
@@ -75,6 +75,8 @@
         <p>
           Die Möglichkeit, sich die Reichweite der Leuchttürme anzeigen zu lassen, vereinfacht die Routenplanung und gibt Aufschluss über die Aufklärungsdichte an der Küste.<br>
           Zusätzlich wird angezeigt, welche Regionen tatsächlich durch einen Leuchtturm aufgeklärt worden sind.
+          <br>
+          Ab Version 0.2: Ein/Ausschalten mit ShortCut CTRL+L
         </p><hr>
         <table border=0>
         	<tr>

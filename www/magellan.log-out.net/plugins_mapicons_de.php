@@ -36,7 +36,7 @@
               Version:
             </td>
             <td class="plugin">
-              0.3
+              0.4
             </td>
           </tr>
           <tr class="plugin">
@@ -76,7 +76,7 @@
           Dieses Plugin visualisiert wichtige Meldungen aus den Regionen mit auffallend 
           großen Icons in der Übersichtskarte.<br>
           Die erfassten Meldungen sind unten in einer Tabelle zusammengefasst.<br>
-          Mit Hilfe des PlugIn-Menus und/oder der Tastenkombination ALT + M lassen 
+          Mit Hilfe des PlugIn-Menus und/oder der Tastenkombination CTRL + M lassen 
           sich die Icons jederzeit aus- und einblenden.
         </p><hr>
         <table border=0>

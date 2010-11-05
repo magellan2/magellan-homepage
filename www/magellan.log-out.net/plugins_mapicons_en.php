@@ -36,7 +36,7 @@
               Version:
             </td>
             <td class="plugin">
-              0.3
+              0.4
             </td>
           </tr>
           <tr class="plugin">
@@ -76,7 +76,7 @@
           This plugin searches the region- and factionmessages and displays bigger sized
           icons over the proper regions on the map.<br>
           The icons and according messages are shown below.<br>
-          Using the plugin-menu or the shortcut ALT + M the icons can be toggled.
+          Using the plugin-menu or the shortcut CTRL + M the icons can be toggled.
           
         </p><hr>
         <table border=0>
