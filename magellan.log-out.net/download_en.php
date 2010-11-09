@@ -172,7 +172,7 @@
              Important messages seen on the map<br />
              see <a href="plugins_mapicons_en.php">Description</a><br />
              Download (all versions): <a href="plugins/mapicons-installer.jar">Installer
-            JAR</a> Version 0.3<br />
+            JAR</a> Version 0.4<br />
              
             <br />
           </li>
@@ -182,9 +182,18 @@
            <li><a name="lighthouseicons"></a>
             <b>LightHouseIcons Plugin</b><br />
              Current by lighthouse controlled regions and the maximum range of all lighthouse are visible<br />
-             see <a href="plugins_lighthouseicons_en.php">Description follows</a><br />
+             see <a href="plugins_lighthouseicons_en.php">Description</a><br />
              Download (all versions): <a href="plugins/lighthouseicons-installer.jar">Installer
-            JAR</a> Version 0.1<br />
+            JAR</a> Version 0.2<br />
+             
+            <br />
+          </li>
+          <li><a name="fow_update"></a>
+            <b>FogOfWar-Update Plugin</b><br />
+             Changes lifting of the Fog of War<br />
+             see <a href="plugins_fow_update_de.php">Description</a><br />
+             Download (all versions): <a href="plugins/fow_update-installer.jar">Installer
+            JAR</a> Version 0.2<br />
              
             <br />
           </li>
