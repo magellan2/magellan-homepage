@@ -175,7 +175,7 @@
              Wichtige Nachrichten einfach sehen<br />
              siehe <a href="plugins_mapicons_de.php">Beschreibung</a><br />
              Download (alle Versionen): <a href="plugins/mapicons-installer.jar">Installer
-            JAR</a> Version 0.3<br />
+            JAR</a> Version 0.4<br />
              
             <br />
           </li>
@@ -183,9 +183,19 @@
            <li><a name="lighthouseicons"></a>
             <b>LightHouseIcons Plugin</b><br />
              Aktuell überwachte Regionen und Reichweite visualisieren<br />
-             siehe <a href="plugins_lighthouseicons_de.php">Beschreibung folgt</a><br />
+             siehe <a href="plugins_lighthouseicons_de.php">Beschreibung</a><br />
              Download (alle Versionen): <a href="plugins/lighthouseicons-installer.jar">Installer
-            JAR</a> Version 0.1<br />
+            JAR</a> Version 0.2<br />
+             
+            <br />
+          </li>
+          
+           <li><a name="fow_update"></a>
+            <b>FogOfWar-Update Plugin</b><br />
+             Ändert die Ansicht des Nebel des Kriegs<br />
+             siehe <a href="plugins_fow_update_de.php">Beschreibung</a><br />
+             Download (alle Versionen): <a href="plugins/fow_update-installer.jar">Installer
+            JAR</a> Version 0.2<br />
              
             <br />
           </li>

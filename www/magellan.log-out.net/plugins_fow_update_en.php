@@ -8,7 +8,7 @@
       include_once "head.php";
     ?>
     <title>
-      Magellan Plugins - LightHouseIcons Plugin
+      Magellan Plugins - FogOfWar-Update Plugin
     </title>
   </head>
   <body>
@@ -19,7 +19,7 @@
       ?>
       <div id="center">
         <h3>
-          LightHouseIcons Plugin
+          FogOfWar-Update Plugin
         </h3>
         <table summary="" cellspacing="0" cellpadding="1" border="0" class=
         "plugin">
@@ -28,7 +28,7 @@
               Name:
             </td>
             <td class="plugin">
-              LightHouseIcons Plugin
+              FogOfWar-Update Plugin
             </td>
           </tr>
           <tr class="plugin">
@@ -44,7 +44,7 @@
               Description:
             </td>
             <td class="plugin">
-              Shows maximal range of friendly and unfriendly lighthouses. Marks regions which are seen by a lighthouse only.
+              Changes the lifting of the Fog of War (FoW), ignores sources of information.
             </td>
           </tr>
           <tr class="plugin">
@@ -68,45 +68,46 @@
               Download:
             </td>
             <td class="plugin">
-              <a href="download_en.php#lighthouseicons">http://magellan.log-out.net</a>
+              <a href="download_en.php#fow_update">http://magellan.log-out.net</a>
             </td>
           </tr>
         </table>
         <p>
-          Planing your shiproutes seeing the range of the lighthouses will be easy.<br>
-          Additional, oceanregions seen directly by a lighthouse are marked.
-          <br>
-          Since version 0.2: toggle icons with CTRL+L 
-        </p><hr>
+        	"Normal" Magellan will lift the FoW only, if units of priviliged factions have passed a region.<br>
+        	If a report from a non-priviliged faction is added to the main report, regions for which we have full information in the added report will
+        	have the FoW not lifted, because of the priviliged-status.<br>
+        	With this plugin a region, for which we have enough information, will loose it´s FoW. That´s independent from the source of the information.  
+        	
+        	<p>
+        	From Version 2.0.6 probably Magellan 2 will have this behaviour too. If soo, this plugin is not needed for versions 2.0.6 and later.<br>
+        	It will only change something in older versions (2.0.5 and before).
+        	</p>   
+        </p>
+        <hr>
         <table border=0>
         	<tr>
-        		<td bgcolor=blue>
-        			<img src="images/LHIplugin_lh.gif" alt="MapIcon Leuchtturm" border="0" />
+        		<td>
+        			<img src="images/plugins_fow_update_exa_1.gif" alt="FoW Update Example 1" border="0" />
         		</td>
         		<td>
-        			Region seen by a lighthouse, in which a trusted person sits in.
+        			
+        			Old behaviour:<br>
+        			The white cross marks the way of a friendly ship. Allthough we have full information after report merging
+        			about the 2 ocean regions in the south, the FoW of these regions is not liftet. 
+        			
         		</td>
         	</tr>
         	<tr>
-        		<td bgcolor=blue>
-        			<img src="images/LHIplugin_lh_range.gif" alt="MapIcon Range" border="0" />
+        		<td>
+        			<img src="images/plugins_fow_update_exa_0.gif" alt="FoW Update Example 2" border="0" />
         		</td>
         		<td>
-        			This Region is in range of an friendly lighthouse.
+        			New behaviour:<br>
+        			If we have the information - we lift the FoW. It´s not important, from which source we have this information.
+        			
         		</td>
         	</tr>
-        	<tr>
-        		<td bgcolor=blue>
-        			<img src="images/LHIplugin_lh_range_other.gif" alt="MapIcon Range Other" border="0" />
-        		</td>
-        		<td>
-        			This Region is in range of an unfriendly (or empty) lighthouse.
-        		</td>
-        	</tr>
-        	
         </table>
-        
-      
       </div>
     </div>
   </body>
