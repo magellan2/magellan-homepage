@@ -84,7 +84,7 @@
         			<img src="images/LHIplugin_lh.gif" alt="MapIcon Leuchtturm" border="0" />
         		</td>
         		<td>
-        			Diese Region wurde durch einen "eigenen" Leuchtturm aufgeklärt, eine eigene Durchschiffung fand nicht statt.
+        			Diese Region wurde durch einen "eigenen" Leuchtturm aufgeklärt. Eine andere Quelle (eine eigene Durchschiffung oder ein eigenes Schiff zum jetzigen Zeitpunkt) existiert nicht.
         		</td>
         	</tr>
         	<tr>
@@ -92,7 +92,14 @@
         			<img src="images/LHIplugin_lh_range.gif" alt="MapIcon Monster" border="0" />
         		</td>
         		<td>
-        			Diese Region liegt in Reichweite eines "freundlichen" Leuchtturms.
+        			Diese Region liegt in Reichweite eines "freundlichen" Leuchtturms, allerdings findet sich im Report kein Hinweis darauf, ob diese Region tatsächlich von einem freundlichen Leuchtturm aus gesehen wurde. Mögliche Ursachen:
+        			<ul>
+        				<li>freundliche Durchschiffung</li>
+        				<li>eigene Einheit jetzt in der Region</li>
+        				<li>Leuchtturm nicht funktionsfähig</li>
+        				<li>Einheit nicht talentiert genug oder nicht "im" Leuchtturm</li>
+        			</ul> 
+        			(In den ersten beiden Fällen hat die Sichtbarkeit durch Durchschiffung oder durch Anwesenheit einer eigenen Einheit höhere Aussagekraft und verdrängt einen eventuellen Hinweis auf den Leuchtturm aus dem Report.) 
         		</td>
         	</tr>
         	<tr>
@@ -100,7 +107,7 @@
         			<img src="images/LHIplugin_lh_range_other.gif" alt="MapIcon Monster" border="0" />
         		</td>
         		<td>
-        			Diese Region liegt in Reichweite eines "unfreundlichen" Leuchtturms.
+        			Diese Region liegt in Reichweite eines "unfreundlichen" Leuchtturms. Ob allerdings dieser besetzt ist, oder funktioniert, kann nicht gesagt werden. Es wird lediglich die Reichweite eines in der Karte vorhandenen, leeren oder unfreundlich besetzten Leuchtturms angezeigt. 
         		</td>
         	</tr>
         	

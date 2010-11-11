@@ -36,7 +36,7 @@
               Version:
             </td>
             <td class="plugin">
-              0.4
+              0.6
             </td>
           </tr>
           <tr class="plugin">
@@ -124,6 +124,32 @@
         			Alert! Some thiefs managed to steal silver - or at least had tried to do so.
         		</td>
         	</tr>
+        	
+        	<tr>
+        		<td>
+        			<img src="images/MIplugin_guard_friend.gif" alt="MapIcon Bewachung Freund" border="0" />
+        		</td>
+        		<td>
+        			This region is guarded by friendly forces. Great!
+        		</td>
+        	</tr>
+        	<tr>
+        		<td>
+        			<img src="images/MIplugin_guard_enemy.gif" alt="MapIcon Bewachung Feind" border="0" />
+        		</td>
+        		<td>
+        			Some unfriendly people guarding this region (at least none of the priviliged factions has HELP GUARD to them). Take care!
+        		</td>
+        	</tr>
+        	<tr>
+        		<td>
+        			<img src="images/MIplugin_empty_tower.gif" alt="MapIcon Leere Burg" border="0" />
+        		</td>
+        		<td>
+        			Here is an empty castle. Should we enter ?!
+        		</td>
+        	</tr>
+        	
         </table>
         <hr>
         Some examples:

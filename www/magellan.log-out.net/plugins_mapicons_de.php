@@ -36,7 +36,7 @@
               Version:
             </td>
             <td class="plugin">
-              0.4
+              0.6
             </td>
           </tr>
           <tr class="plugin">
@@ -77,7 +77,9 @@
           großen Icons in der Übersichtskarte.<br>
           Die erfassten Meldungen sind unten in einer Tabelle zusammengefasst.<br>
           Mit Hilfe des PlugIn-Menus und/oder der Tastenkombination CTRL + M lassen 
-          sich die Icons jederzeit aus- und einblenden.
+          sich die Icons jederzeit aus- und einblenden.<br>
+          Ab Version 0.5: Per Auswahl im Menü ist die Bewachung der Regionen visualisierbar.<br>
+          Ab Version 0.6: Per Auswahl im Menü kann das Vorhandensein einer unbesetzten Burg angezeigt werden.<br> 
         </p><hr>
         <table border=0>
         	<tr>
@@ -124,6 +126,31 @@
         			Man will uns Böses: wir wurden beklaut oder es wurde zumindest versucht, uns zu beklauen!
         		</td>
         	</tr>
+        	<tr>
+        		<td>
+        			<img src="images/MIplugin_guard_friend.gif" alt="MapIcon Bewachung Freund" border="0" />
+        		</td>
+        		<td>
+        			Diese Region wird von freundlichen Kräften bewacht. Gut so.
+        		</td>
+        	</tr>
+        	<tr>
+        		<td>
+        			<img src="images/MIplugin_guard_enemy.gif" alt="MapIcon Bewachung Feind" border="0" />
+        		</td>
+        		<td>
+        			Uns nicht freundlich gesinnte Kräfte (keine der priviligierten Parteien hat HELFE BEWACHE zu diesen) bewachen die Region.
+        		</td>
+        	</tr>
+        	<tr>
+        		<td>
+        			<img src="images/MIplugin_empty_tower.gif" alt="MapIcon Leere Burg" border="0" />
+        		</td>
+        		<td>
+        			Hier steht eine Burg leer. Rein da!?
+        		</td>
+        	</tr>
+        	
         </table>
         
         <hr>
