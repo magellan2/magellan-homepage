@@ -75,7 +75,7 @@
           for developers and beta testers only.
           In <a href="./nightly-build/CHANGELOG.txt">CHANGELOG</a> you can
           find all changes made since the last night.</p>
-          <p>Supports E3.</strong></p>
+          <p>Supports E3.</p>
           <p>
            Version: <?php echo $LATEST_VERSION; ?><br />
            Status: <?php echo $NIGHTLY_BUILD; ?><br />
@@ -154,7 +154,7 @@
              Download for 2.0.5: <a href="plugins/teacher-installer-for2.0.5.jar">Installer
             JAR</a> Version 0.10.4<br />
              Download for "nightly": <a href="plugins/teacher-installer.jar">Installer
-            JAR</a> Version 0.10.4<br />
+            JAR</a> Version 0.10.5<br />
             <br />
           </li>
           <li><a name="shiploader"></a>
@@ -175,8 +175,6 @@
             JAR</a> Version 0.6<br />
              
             <br />
-          </li>
-          
           </li>
           
            <li><a name="lighthouseicons"></a>
