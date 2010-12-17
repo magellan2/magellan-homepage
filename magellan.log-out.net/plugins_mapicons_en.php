@@ -36,7 +36,7 @@
               Version:
             </td>
             <td class="plugin">
-              0.6
+              0.7
             </td>
           </tr>
           <tr class="plugin">
