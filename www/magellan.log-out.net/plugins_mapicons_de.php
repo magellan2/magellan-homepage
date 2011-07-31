@@ -36,7 +36,7 @@
               Version:
             </td>
             <td class="plugin">
-              0.7
+              0.8
             </td>
           </tr>
           <tr class="plugin">
@@ -80,7 +80,8 @@
           sich die Icons jederzeit aus- und einblenden.<br>
           Ab Version 0.5: Per Auswahl im Menü ist die Bewachung der Regionen visualisierbar.<br>
           Ab Version 0.6: Per Auswahl im Menü kann das Vorhandensein einer unbesetzten Burg angezeigt werden.<br>
-          Ab Version 0.7: Auch Vulkanausbrüche werden angezeigt, Juju-Zombies werden als Monster erkannt.<br> 
+          Ab Version 0.7: Auch Vulkanausbrüche werden angezeigt, Juju-Zombies werden als Monster erkannt.<br>
+          Ab Version 0.8: Eine Liste feindlicher Parteien wird per Icon angezeigt.<br> 
         </p><hr>
         <table border=0>
         	<tr>
