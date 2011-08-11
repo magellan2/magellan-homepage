@@ -88,7 +88,7 @@
             (15 MB)
           </li>
           <li>
-            <a href="./nightly-build/magellan_v2.0.6_macos.jar">MacOS app</a>
+            <a href="./nightly-build/magellan_v2.0.6_macos.zip">MacOS app</a>
             (15 MB)
           </li>
         </ul>
