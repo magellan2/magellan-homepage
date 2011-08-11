@@ -44,25 +44,23 @@
           since the last release.</p>
           <p><strong>Now with support for <a href="http://wiki.eressea.de/en/The_third_age">E3</a>!</strong></p>
           <p>
-<!--            Version: 2.0.5 (build 389)<br />
-           Status: 22.02.2010 13:13:00 +01:00<br /> -->
            Version: <?php echo $RELEASE_VERSION; ?><br />
            Status: <?php echo $RELEASE; ?><br />
         </p>
         <ul>
           <li>
-            <a href="https://sourceforge.net/projects/magellan-client/files/Magellan/2.0.5/magellan_v2.0.5.jar/download">JAR installer</a> (15 MB)
-<!--            <a href="./release/magellan_v2.0.5.jar">JAR installer</a> (15 MB) -->
+<!--            <a href="https://sourceforge.net/projects/magellan-client/files/Magellan/2.0.5/magellan_v2.0.5.jar/download">JAR installer</a> (15 MB) -->
+            <a href="./release/magellan_v2.0.5.jar">JAR installer</a> (15 MB)
           </li>
         </ul>
         <ul>
           <li>
-            <a href="https://sourceforge.net/projects/magellan-client/files/Magellan/2.0.5/magellan_v2.0.5.zip/download">ZIP</a> (14 MB)
-<!--            <a href="./release/magellan_v2.0.5.zip">ZIP</a> (14 MB) -->
+<!--            <a href="https://sourceforge.net/projects/magellan-client/files/Magellan/2.0.5/magellan_v2.0.5.zip/download">ZIP</a> (14 MB) -->
+            <a href="./release/magellan_v2.0.5.zip">ZIP</a> (14 MB)
           </li>
-<!--          <li>
+          <li>
             <a href="./release/magellan2-src.zip">Source</a> (19 MB)
-          </li> -->
+          </li>
         </ul>
         <br />
          
@@ -82,13 +80,13 @@
         </p>
         <ul>
           <li>
-            <a href="./nightly-build/magellan_v2.0.5.jar">JAR installer</a>
+            <a href="./nightly-build/magellan_v2.0.6.jar">JAR installer</a>
             (15 MB)
           </li>
         </ul>
         <ul>
           <li>
-            <a href="./nightly-build/magellan_v2.0.5.zip">ZIP</a> (14 MB)
+            <a href="./nightly-build/magellan_v2.0.6.zip">ZIP</a> (14 MB)
           </li>
           <li>
             <a href="./nightly-build/magellan2-src.zip">Source</a> (19 MB)
@@ -134,9 +132,9 @@
              Shows Magellan memory usage<br />
              see <a href="plugins_memorywatch_en.php">Description</a><br />
              Download for 2.0.5: <a href="plugins/memorywatch-installer-for2.0.5.jar">Installer
-            JAR</a><br />
+             JAR</a><br />
              Download for "nightly: <a href="plugins/memorywatch-installer.jar">Installer
-            JAR</a><br />
+             JAR</a><br />
             <br />
           </li>
           <li>
@@ -144,7 +142,7 @@
              Shows graphs and tables for historic data of a report<br />
              see <a href="plugins_statistics_en.php">Description</a><br />
              Download: <a href="plugins/statistics-installer.jar">Installer
-            JAR</a><br />
+             JAR</a><br />
             <br />
           </li>
           <li><a name="teacher"></a>
@@ -152,9 +150,9 @@
              Simplifies teacher learner relations.<br />
              see <a href="plugins_teacher_en.php">Description</a><br />
              Download for 2.0.5: <a href="plugins/teacher-installer-for2.0.5.jar">Installer
-            JAR</a> Version 0.10.4<br />
+             JAR</a> Version 0.10.4<br />
              Download for "nightly": <a href="plugins/teacher-installer.jar">Installer
-            JAR</a> Version 0.10.5<br />
+             JAR</a> Version 0.10.5<br />
             <br />
           </li>
           <li><a name="shiploader"></a>
@@ -172,7 +170,7 @@
              Important messages seen on the map<br />
              see <a href="plugins_mapicons_en.php">Description</a><br />
              Download (all versions): <a href="plugins/mapicons-installer.jar">Installer
-            JAR</a> Version 0.8<br />
+             JAR</a> Version 0.8<br />
              
             <br />
           </li>
@@ -182,7 +180,7 @@
              Current by lighthouse controlled regions and the maximum range of all lighthouse are visible<br />
              see <a href="plugins_lighthouseicons_en.php">Description</a><br />
              Download (all versions): <a href="plugins/lighthouseicons-installer.jar">Installer
-            JAR</a> Version 0.2<br />
+             JAR</a> Version 0.2<br />
              
             <br />
           </li>
@@ -191,7 +189,7 @@
              Changes lifting of the Fog of War<br />
              see <a href="plugins_fow_update_de.php">Description</a><br />
              Download (all versions): <a href="plugins/fow_update-installer.jar">Installer
-            JAR</a> Version 0.2<br />
+             JAR</a> Version 0.2<br />
              
             <br />
           </li>
