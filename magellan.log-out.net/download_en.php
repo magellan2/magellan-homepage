@@ -40,7 +40,7 @@
           Here you can find the current stable release of Magellan 2.x.
           This version is recommended for all users and mostly stable.
           In <a href=
-          "./extra/CHANGELOG.txt">CHANGELOG</a> you can find all the changes
+          "./release/CHANGELOG.txt">CHANGELOG</a> you can find all the changes
           since the last release.</p>
           <p><strong>Now with support for <a href="http://wiki.eressea.de/en/The_third_age">E3</a>!</strong></p>
           <p>
