@@ -40,7 +40,7 @@
           Hier findest Du die aktuelle installierbare Version von Magellan2.x.
           Diese Version wird von den Entwicklern freigegeben und bezeichnet
           eine Version, die stabil ist. Im <a href=
-          "./extra/CHANGELOG.txt">CHANGELOG</a> findest du alle Änderungen,
+          "./release/CHANGELOG.txt">CHANGELOG</a> findest du alle Änderungen,
           die seit der letzten Release gemacht wurden.</p>
           <p>
           <strong>Jetzt mit Unterstützung für <a href="http://wiki.eressea.de/de/Das_dritte_Zeitalter">E3</a>!</strong>
