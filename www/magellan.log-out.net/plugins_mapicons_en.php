@@ -36,7 +36,7 @@
               Version:
             </td>
             <td class="plugin">
-              0.8
+              0.92
             </td>
           </tr>
           <tr class="plugin">
@@ -147,6 +147,24 @@
         		</td>
         		<td>
         			Here is an empty castle. Should we enter ?!
+        		</td>
+        	</tr>
+        	<tr>
+        		<td>
+        			<img src="images/MIplugin_enemy_present.gif" alt="MapIcon Enemy" border="0" />
+        		</td>
+        		<td>
+        			In this region are units from a faction on the List of enemies.<br>
+        			The List of enemies can be formed from a plain text file in the Magellan-directory (file name is MIPlugin_Enemies.ini, each line a faction number), or
+        			from orders given to any unit (// EnemyFaction=abcd). 
+        		</td>
+        	</tr>
+        	<tr>
+        		<td>
+        			<img src="images/MIplugin_message.gif" alt="MapIcon Message" border="0" />
+        		</td>
+        		<td>
+        			At least one message from a unit in this region was detected. 
         		</td>
         	</tr>
         	
