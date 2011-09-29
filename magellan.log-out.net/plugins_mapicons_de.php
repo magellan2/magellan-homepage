@@ -36,7 +36,7 @@
               Version:
             </td>
             <td class="plugin">
-              0.8
+              0.92
             </td>
           </tr>
           <tr class="plugin">
@@ -82,6 +82,8 @@
           Ab Version 0.6: Per Auswahl im Menü kann das Vorhandensein einer unbesetzten Burg angezeigt werden.<br>
           Ab Version 0.7: Auch Vulkanausbrüche werden angezeigt, Juju-Zombies werden als Monster erkannt.<br>
           Ab Version 0.8: Eine Liste feindlicher Parteien wird per Icon angezeigt.<br> 
+          Ab Version 0.9: Die Liste feindlicher Einheiten kann per Datei und per Einheiten befehl gefüllt werden.<br>
+          Ab Version 0.92: Botschaften werden in der Region angezeigt, aus der sie gesendet wurden.<br>
         </p><hr>
         <table border=0>
         	<tr>
@@ -150,6 +152,24 @@
         		</td>
         		<td>
         			Hier steht eine Burg leer. Rein da!?
+        		</td>
+        	</tr>
+        	<tr>
+        		<td>
+        			<img src="images/MIplugin_enemy_present.gif" alt="MapIcon Feind" border="0" />
+        		</td>
+        		<td>
+        			In dieser Region sind Einheiten von Völkern, die auf der Liste feindlicher Parteien stehen<br>
+        			Die anzuzeigenden Parteien können entweder in einer Datei im Magellanverzeichnis aufgeführt werden (Dateiname MIPlugin_Enemies.ini, jede Zeile eine Parteinummer), oder 
+        			aber in den Befehlen beliebiger Einheiten (// EnemyFaction=abcd).
+        		</td>
+        	</tr>
+        	<tr>
+        		<td>
+        			<img src="images/MIplugin_message.gif" alt="MapIcon Botschaft" border="0" />
+        		</td>
+        		<td>
+        			Es wurde mindestens eine Botschaft von einer Einheit in dieser Region aus abgesetzt.
         		</td>
         	</tr>
         	

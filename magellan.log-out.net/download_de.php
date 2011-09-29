@@ -178,7 +178,7 @@
              Wichtige Nachrichten einfach sehen<br />
              siehe <a href="plugins_mapicons_de.php">Beschreibung</a><br />
              Download (alle Versionen): <a href="plugins/mapicons-installer.jar">Installer
-            JAR</a> Version 0.8<br />
+            JAR</a> Version 0.92<br />
              
             <br />
           </li>
