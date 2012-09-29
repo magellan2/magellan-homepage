@@ -178,7 +178,7 @@
              Important messages seen on the map<br />
              see <a href="plugins_mapicons_en.php">Description</a><br />
              Download (all versions): <a href="plugins/mapicons-installer.jar">Installer
-             JAR</a> Version 0.02<br />
+             JAR</a> Version 0.96<br />
              
             <br />
           </li>

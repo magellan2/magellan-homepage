@@ -36,7 +36,7 @@
               Version:
             </td>
             <td class="plugin">
-              0.92
+              0.96
             </td>
           </tr>
           <tr class="plugin">
@@ -84,6 +84,7 @@
           Ab Version 0.8: Eine Liste feindlicher Parteien wird per Icon angezeigt.<br> 
           Ab Version 0.9: Die Liste feindlicher Einheiten kann per Datei und per Einheiten befehl gefüllt werden.<br>
           Ab Version 0.92: Botschaften werden in der Region angezeigt, aus der sie gesendet wurden.<br>
+          Ab Version 0.96: Anzeige der maximalen Talente, Kennzeichnung der Regionen mit Fehlern.<br>
         </p><hr>
         <table border=0>
         	<tr>
