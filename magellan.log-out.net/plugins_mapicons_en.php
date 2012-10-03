@@ -98,6 +98,14 @@
         	</tr>
         	<tr>
         		<td>
+        			<img src="images/MIplugin_badmonster.gif" alt="MapIcon Bad Monster" border="0" />
+        		</td>
+        		<td>
+        			Extremely dangerous and bad monsters or/and undeads are here!
+        		</td>
+        	</tr>
+        	<tr>
+        		<td>
         			<img src="images/MIplugin_hunger.gif" alt="MapIcon Hunger" border="0" />
         		</td>
         		<td>
@@ -167,7 +175,14 @@
         			At least one message from a unit in this region was detected. 
         		</td>
         	</tr>
-        	
+        	<tr>
+        		<td>
+        			<img src="images/MIplugin_errors.gif" alt="MapIcon Fehler" border="0" />
+        		</td>
+        		<td>
+        			At least one error message or warning from the eressea-server was detected in this region.
+        		</td>
+        	</tr>
         </table>
         <hr>
         Some examples:
@@ -195,6 +210,14 @@
         		</td>
         		<td>
         			I must not forget to look into that region.... (was a disease here)
+        		</td>
+        	</tr>
+        	<tr>
+        		<td>
+        			<img src="images/plugins_mapicons_example4.gif" alt="MapIcon Example 4" border="0" />
+        		</td>
+        		<td>
+        			View of the known maximum levels of an small island - which kind of level and which island, is top secret. 
         		</td>
         	</tr>
         </table>

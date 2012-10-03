@@ -105,6 +105,14 @@
         	</tr>
         	<tr>
         		<td>
+        			<img src="images/MIplugin_badmonster.gif" alt="MapIcon Bad Monster" border="0" />
+        		</td>
+        		<td>
+        			In dieser Region treiben bespnders böse Monster und/oder ganz fiese Untote ihr Unwesen.
+        		</td>
+        	</tr>
+        	<tr>
+        		<td>
         			<img src="images/MIplugin_hunger.gif" alt="MapIcon Hunger" border="0" />
         		</td>
         		<td>
@@ -173,6 +181,14 @@
         			Es wurde mindestens eine Botschaft von einer Einheit in dieser Region aus abgesetzt.
         		</td>
         	</tr>
+        	<tr>
+        		<td>
+        			<img src="images/MIplugin_errors.gif" alt="MapIcon Fehler" border="0" />
+        		</td>
+        		<td>
+        			In dieser Region wurde mindestens eine Fehlermeldung / Warnung vom Eressea Server kommend entdeckt.
+        		</td>
+        	</tr>
         	
         </table>
         
@@ -202,6 +218,14 @@
         		</td>
         		<td>
         			Nicht vergessen, hier genauer reinzuschauen. (War diesmal "nur" die Pest)
+        		</td>
+        	</tr>
+        	<tr>
+        		<td>
+        			<img src="images/plugins_mapicons_example4.gif" alt="MapIcon Example 4" border="0" />
+        		</td>
+        		<td>
+        			Ansicht aller maximalen bekannten Talentwerte auf einer kleiner Insel. Welche Insel, und welches Talent, ist natürlich geheim.
         		</td>
         	</tr>
         </table>
