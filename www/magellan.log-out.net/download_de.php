@@ -159,7 +159,7 @@
              Download für 2.0.5: <a href="plugins/teacher-installer-for2.0.5.jar">Installer
              JAR</a> Version 0.10.4<br />
              Download für "nightly": <a href="plugins/teacher-installer.jar">Installer
-             JAR</a> Version 0.10.5<br />
+             JAR</a> Version 0.14<br />
             <br />
           </li>
           <li><a name="shiploader"></a>
@@ -169,7 +169,7 @@
              Download für 2.0.5: <a href="plugins/shiploader-installer-for2.0.5.jar">Installer
             JAR</a> Version 0.1.1<br />
              Download für "nightly": <a href="plugins/shiploader-installer.jar">Installer
-            JAR</a> Version 0.1.1<br />
+            JAR</a> Version 0.1.2<br />
             <br />
           </li>
           
