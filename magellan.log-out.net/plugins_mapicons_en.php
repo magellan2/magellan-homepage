@@ -36,7 +36,8 @@
               Version:
             </td>
             <td class="plugin">
-              0.97
+              0.96 (Magellan 2.0.5)<br>
+              0.98 (Magellan nightly)
             </td>
           </tr>
           <tr class="plugin">
