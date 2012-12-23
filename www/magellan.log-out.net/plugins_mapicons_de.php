@@ -86,6 +86,7 @@
           Ab Version 0.92: Botschaften werden in der Region angezeigt, aus der sie gesendet wurden.<br>
           Ab Version 0.96: Anzeige der maximalen Talente, Kennzeichnung der Regionen mit Fehlern.<br>
           Ab Version 0.97: Alle Icons optional zuschaltbar, CTRL+M funktioniert wieder.<br>
+          Ab Version 0.98: Anpassungen an Magellan-nightly, funktioniert nicht mehr mit Magellan 2.0.5!<br>
         </p><hr>
         <table border=0>
         	<tr>

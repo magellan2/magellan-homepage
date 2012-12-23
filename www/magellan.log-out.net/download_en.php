@@ -177,8 +177,10 @@
             <b>MapIcons Plugin</b><br />
              Important messages seen on the map<br />
              see <a href="plugins_mapicons_en.php">Description</a><br />
-             Download (all versions): <a href="plugins/mapicons-installer.jar">Installer
+             Download (Magellan 2.0.5): <a href="plugins/mapicons-installer.jar">Installer
              JAR</a> Version 0.96<br />
+             Download (Magellan - nightly): <a href="plugins/mapicons-installer_0_98.jar">Installer
+            JAR</a> Version 0.98<br />
              
             <br />
           </li>
