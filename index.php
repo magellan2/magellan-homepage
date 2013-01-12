@@ -27,5 +27,5 @@
     <a href="de/">Hier klicken</a> um zu den deutschen Seiten zu gelangen.<br>
     </tt>
   </body>
-</html> 
+</html>
 
