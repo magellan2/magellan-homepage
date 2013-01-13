@@ -37,7 +37,7 @@
             </td>
             <td class="plugin">
               0.96 (Magellan 2.0.5)<br>
-              0.98 (Magellan nightly)
+              0.99 (Magellan nightly)
             </td>
           </tr>
           <tr class="plugin">
