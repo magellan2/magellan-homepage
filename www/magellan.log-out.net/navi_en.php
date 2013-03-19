@@ -57,7 +57,7 @@ if( !isset($_SERVER['HTTP_USER_AGENT']) || !preg_match($msie,$_SERVER['HTTP_USER
           <a class="sublink" href="tools_consolemerger_en.php">Console Merger</a>&nbsp;&middot;&nbsp;&nbsp;<br/>
         </p>
         <p>
-          <a href="./javadoc/">JavaDoc</a>
+          <a href="nightly-build/api/">JavaDoc</a>
         </p>
         <p>
           <a class="externalLink" href="http://sourceforge.net/apps/trac/magellan-client/">Report a bug</a>
