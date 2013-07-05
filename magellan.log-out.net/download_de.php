@@ -75,7 +75,7 @@
           Nacht neu kompiliert und hier auf dem Server zur Verfügung gestellt.
           Im <a href="./nightly-build/CHANGELOG.txt">CHANGELOG</a> findest du
           alle Änderungen, die seit der letzten Nacht gemacht wurden.</p>
-          <p>Enthält Unterstützung für E3.</p>
+          <p>Enthält Unterstützung für E3 und Atlantis.</p>
           <p>
            Version: <?php echo $LATEST_VERSION; ?><br />
            Stand: <?php echo $NIGHTLY_BUILD; ?><br />
