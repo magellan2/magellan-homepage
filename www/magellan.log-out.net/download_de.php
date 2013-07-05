@@ -155,9 +155,9 @@
              Vereinfachte Lehrer-Schüler Operation<br />
              siehe <a href="plugins_teacher_de.php">Beschreibung</a><br />
              Download für 2.0.5: <a href="plugins/teacher-installer-for2.0.5.jar">Installer
-             JAR</a> Version 0.10.4<br />
+             JAR</a> Version 0.10.5<br />
              Download für "nightly": <a href="plugins/teacher-installer.jar">Installer
-             JAR</a> Version 0.14<br />
+             JAR</a> Version 0.15<br />
             <br />
           </li>
           <li><a name="shiploader"></a>
