@@ -75,7 +75,7 @@
           for developers and beta testers only.
           In <a href="./nightly-build/CHANGELOG.txt">CHANGELOG</a> you can
           find all changes made since the last night.</p>
-          <p>Supports E3.</p>
+          <p>Supports E3 and Atlantis.</p>
           <p>
            Version: <?php echo $LATEST_VERSION; ?><br />
            Status: <?php echo $NIGHTLY_BUILD; ?><br />
@@ -104,7 +104,7 @@
           Download Magellan 1.x
         </h3>
         <p>
-          The developing of the old Magellan client has stopped because of the
+          The development of the old Magellan client has stopped because of the
           huge amount of changes in the new release. It's not possible
           to transfer every necessary patch to this version. The latest
           version is 1.2.5h.
