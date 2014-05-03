@@ -175,10 +175,10 @@
             <b>MapIcons Plugin</b><br />
              Wichtige Nachrichten einfach sehen<br />
              siehe <a href="plugins_mapicons_de.php">Beschreibung</a><br />
-             Download (für Magellan 2.0.5): <a href="plugins/mapicons-installer.jar">Installer
+             Download (für Magellan 2.0.5): <a href="plugins/mapicons-installer_2_0_5.jar">Installer
             JAR</a> Version 0.96<br />
-            Download (für Magellan - nightly): <a href="plugins/mapicons-installer_0_99.jar">Installer
-            JAR</a> Version 0.99<br />
+            Download (für Magellan - nightly): <a href="plugins/mapicons-installer.jar">Installer
+            JAR</a> Version 1.3<br />
              
             <br />
           </li>
