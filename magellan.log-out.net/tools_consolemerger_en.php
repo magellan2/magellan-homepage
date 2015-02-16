@@ -68,7 +68,7 @@
               Download:
             </td>
             <td class="plugin">
-              <a href="download_de.php#tools">http://magellan.log-out.net</a>
+              <a href="download_de.php#tools">http://magellan.narabi.de</a>
             </td>
           </tr>
         </table>

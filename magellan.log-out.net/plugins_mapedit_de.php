@@ -60,7 +60,7 @@
               Website:
             </td>
             <td class="plugin">
-              <a href="mapedit/">http://magellan.log-out.net/mapedit</a>
+              <a href="mapedit/">http://magellan.narabi.de/mapedit</a>
             </td>
           </tr>
           <tr class="plugin">
