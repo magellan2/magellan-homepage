@@ -61,7 +61,7 @@
             </td>
             <td class="plugin">
               <a href="extcmds/" class=
-              "externalLink">http://magellan.log-out.net/extcmds/</a>
+              "externalLink">http://magellan.narabi.de/extcmds/</a>
             </td>
           </tr>
           <tr class="plugin">

@@ -69,7 +69,7 @@
             </td>
             <td class="plugin">
               <a href=
-              "download_de.php#teacher">http://magellan.log-out.net/</a>
+              "download_de.php#teacher">http://magellan.narabi.de/</a>
             </td>
           </tr>
         </table>
