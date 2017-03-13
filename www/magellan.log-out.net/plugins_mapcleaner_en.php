@@ -36,7 +36,7 @@
               Version:
             </td>
             <td class="plugin">
-              1.1
+              1.3
             </td>
           </tr>
           <tr class="plugin">
@@ -74,6 +74,9 @@
         </table>
         <p>
           The MapCleaner cleans up the data of the map of an loaded report.<br>
+           Version 1.3:<br><ul>
+          <li>Removes faulty ressources (Baum,Stein,Pferd).</li>
+          </ul>
           Version 1.1:<br><ul>
           <li>No more islands with Firewall (Feuerwand) regions.</li>
           <li>Empty Islands are deleted</li> 
