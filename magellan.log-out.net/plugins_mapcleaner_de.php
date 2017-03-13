@@ -36,7 +36,7 @@
               Version:
             </td>
             <td class="plugin">
-              1.1
+              1.3
             </td>
           </tr>
           <tr class="plugin">
@@ -75,6 +75,9 @@
         <p>
           Mit Hilfe des MapCleaners lässt sich die Karte eines geladenen
           Reports aufräumen.<br>
+           Version 1.3:<br><ul>
+          <li>Fehlerhafte Ressourcen (Baum,Stein,Pferd) werden entfernt.</li>
+          </ul>
           Version 1.1:<br><ul>
           <li>Inselzuordnung bei Feuerwandregionen werden gelöscht.</li>
           <li>Inseln ohne zugeordnete Regionen werden gelöscht</li> 
