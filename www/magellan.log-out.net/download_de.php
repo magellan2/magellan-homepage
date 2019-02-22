@@ -178,7 +178,7 @@
              Download (für Magellan 2.0.5): <a href="plugins/mapicons-installer_2_0_5.jar">Installer
             JAR</a> Version 0.96<br />
             Download (für Magellan - nightly): <a href="plugins/mapicons-installer.jar">Installer
-            JAR</a> Version 1.3<br />
+            JAR</a> Version 1.41<br />
              
             <br />
           </li>

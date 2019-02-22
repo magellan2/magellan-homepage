@@ -37,7 +37,7 @@
             </td>
             <td class="plugin">
               0.96 (Magellan 2.0.5)<br>
-              1.3 (Magellan 2.0.6 (nightly))
+              1.41 (Magellan 2.0.6 (nightly))
             </td>
           </tr>
           <tr class="plugin">
@@ -90,6 +90,7 @@
           Ab Version 0.98: Anpassungen an Magellan-nightly, funktioniert nicht mehr mit Magellan 2.0.5!<br>
           Ab Version 0.99: Anzeige der Silberbestände nach selbst festgelegten Kategorien<br>
           Ab Version 1.3: Einstellungen der verschiedenen Anzeigen werden gespeichert<br>
+          Ab Version 1.41: Ergänzung der Anzeige der Anzahl von Gegenständen bei befreundeten Einheiten in 10 farbcodierten Stufen<br></br>
           
         </p><hr>
         <table border=0>
