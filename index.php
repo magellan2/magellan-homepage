@@ -11,7 +11,7 @@
     </title>
     <?php
     $acceptLang=(($_SERVER["HTTP_ACCEPT_LANGUAGE"] == '') ? '*' :
-                                    
+
     $_SERVER["HTTP_ACCEPT_LANGUAGE"]);
     $alparts=@preg_split("/,/",$acceptLang);
     foreach($alparts as $part) {
@@ -33,4 +33,3 @@
     </tt>
   </body>
 </html>
-

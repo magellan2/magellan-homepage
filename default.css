@@ -1,12 +1,21 @@
-body { 
+body {
   background: url(images/background.jpg);
   background-repeat: repeat-x;
-  background-color: #D5A983; 
+  background-color: #D5A983;
+  font-family: Cabin, Tahoma, Open Sans, "Lucida Grande", Verdana, Helvetica, sans-serif;
 }
 
 p, blockquote, li, input, td, th, select {
-  font-family: Verdana, "Lucida Grande", Tahoma, Helvetica;
-  font-size: 11px;
+  font-size: 1.01em;
+  font-size: 100%;
+}
+
+p, h2, h3, h4 {
+  font-family: Cabin, Tahoma, Open Sans, "Lucida Grande", Verdana, Helvetica, sans-serif;
+}
+
+#center p, li {
+  font-family: Open Sans, Cabin, Tohoma, "Lucida Grande", Verdana, Helvetica, sans-serif;
 }
 
 p, blockquote, li, h1, h2, h3, h4 {
@@ -23,12 +32,13 @@ blockquote {
 
 #right p, #left p {
   line-height: 15px;
-  font-size: 10px;
+  font-size: 1.01em;
+  font-size: 100%;
   margin: 0;
 }
 
-#left p { 
-  text-align: right; 
+#left p {
+  text-align: right;
 }
 
 #head {
@@ -36,8 +46,8 @@ blockquote {
   text-align: center;
 }
 
-#head a { 
-  border: 0; 
+#head a {
+  border: 0;
 }
 
 #container {
@@ -94,29 +104,30 @@ a {
 h2 {
   border: 0px;
   font-weight: normal;
-  font-family: Georgia, Times, Serif;
-  font-size: 16px;
+  font-size: 1.8em;
+  font-size: 180%;
 }
 
 h3 {
   border: 0px;
   font-weight: normal;
-  font-family: Georgia, Times, Serif;
-  font-size: 14px;
+  font-size: 1.4em;
+  font-size: 140%;
 }
 
 h4 {
   border: 0px;
   font-weight: normal;
-  font-family: Georgia, Times, Serif;
-  font-size: 12px;
+  font-size: 1.2em;
+  font-size: 120%;
 }
 
 p.caps {
   letter-spacing: 0.1em;
   margin-top: 10px;
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 1.01em;
+  font-size: 100%;
   padding-top: 20px;
 }
 
