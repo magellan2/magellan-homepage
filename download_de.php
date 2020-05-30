@@ -99,7 +99,7 @@
                 eingestellt. Die letzte Version lautet 1.2.5h.</p>
             <p>
                 Die aktuelle Version kann bei <a class="externalLink"
-                    href="http://sourceforge.net/project/showfiles.php?group_id=174030/">SourceForge</a>
+                    href="https://sourceforge.net/project/showfiles.php?group_id=174030/">SourceForge</a>
                 heruntergeladen werden.
             </p>
             <br /> <a name="plugins"></a>

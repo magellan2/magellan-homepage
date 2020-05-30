@@ -33,7 +33,7 @@
             <a id="bugs" name="bugs"></a>
             <p>
                 Wo man Fehler melden kann, erfährt man hier: <br />
-                <a href="http://magellan2.github.io/bugs">http://magellan2.github.io/bugs</a>
+                <a href="https://magellan2.github.io/bugs">https://magellan2.github.io/bugs</a>
             </p>
 
             <h3>Featurewünsche = Weiterentwicklung</h3>

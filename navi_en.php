@@ -65,15 +65,15 @@ if (! isset($_SERVER['HTTP_USER_AGENT']) || ! preg_match($msie, $_SERVER['HTTP_U
         <a href="nightly-build/api/">JavaDoc</a>
     </p>
     <p>
-        <a class="externalLink" href="https://github.com/bugs/">Report a
+        <a class="externalLink" href="https://magellan2.github.io/bugs/">Report a
             bug</a>
     </p>
     <p>
-        <a class="externalLink" href="https://github.com/magellan2">Code
+        <a class="externalLink" href="https://github.com/magellan2/magellan2">Code
             at Github</a>
     </p>
     <p>
         <a class="externalLink"
-            href="http://sourceforge.net/projects/magellan-client">SourceForge</a>
+            href="https://sourceforge.net/projects/magellan-client">SourceForge</a>
     </p>
 </div>

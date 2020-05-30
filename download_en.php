@@ -100,7 +100,7 @@
             <p>
                 You can download the latest version at <a
                     class="externalLink"
-                    href="http://sourceforge.net/project/showfiles.php?group_id=174030/">SourceForge</a>.
+                    href="https://sourceforge.net/project/showfiles.php?group_id=174030/">SourceForge</a>.
             </p>
             <br /> <a name="plugins"></a>
             <h3>Download Plugins</h3>
