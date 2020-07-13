@@ -68,23 +68,23 @@
               Download
             </td>
             <td class="plugin">
-              <a href="download_de.php#plugins">http://magellan.narabi.de</a>
+              <a href="download_de.php#plugins">https://magellan.narabi.de</a>
             </td>
           </tr>
         </table>
         <p>
-          Mit Hilfe des MapCleaners lässt sich die Karte eines geladenen
-          Reports aufräumen.<br>
+          Mit Hilfe des MapCleaners lÃ¤sst sich die Karte eines geladenen
+          Reports aufrÃ¤umen.<br>
            Version 1.3:<br><ul>
           <li>Fehlerhafte Ressourcen (Baum,Stein,Pferd) werden entfernt.</li>
           </ul>
           Version 1.1:<br><ul>
-          <li>Inselzuordnung bei Feuerwandregionen werden gelöscht.</li>
-          <li>Inseln ohne zugeordnete Regionen werden gelöscht</li> 
+          <li>Inselzuordnung bei Feuerwandregionen werden gelÃ¶scht.</li>
+          <li>Inseln ohne zugeordnete Regionen werden gelÃ¶scht</li> 
           </ul>
           Version 1.0:<br>
           <ul>
-          <li>Namen von Ozeanregionen werden gelöscht.</li>
+          <li>Namen von Ozeanregionen werden gelÃ¶scht.</li>
           </ul>
         </p>
       </div>

@@ -21,10 +21,8 @@
         <h3>
           Teacher Plugin
         </h3>
-        <p>
-        </p>
-        <table summary="" cellspacing="0" cellpadding="1" border="0" style=
-        "margin-left:10px;">
+        <table summary="" cellspacing="0" cellpadding="1" border="0" class=
+        "plugin">
           <tr class="plugin">
             <td class="plugin">
               Name:
@@ -71,7 +69,7 @@
             </td>
             <td class="plugin">
               <a href=
-              "download_de.php#teacher">http://magellan.narabi.de/</a>
+              "download_en.php#teacher">https://magellan.narabi.de/</a>
             </td>
           </tr>
         </table>

@@ -68,13 +68,13 @@
               Download:
             </td>
             <td class="plugin">
-              <a href="download_en.php#lighthouseicons">http://magellan.narabi.de</a>
+              <a href="download_en.php#lighthouseicons">https://magellan.narabi.de</a>
             </td>
           </tr>
         </table>
         <p>
-          Planing your shiproutes seeing the range of the lighthouses will be easy.<br>
-          Additional, oceanregions seen directly by a lighthouse are marked.
+          Planing your ship routes seeing the range of the lighthouses will be easy.<br>
+          Additional, ocean regions seen directly by a lighthouse are marked.
           <br>
           Since version 0.2: toggle icons with CTRL+L 
         </p><hr>
@@ -92,7 +92,7 @@
         			<img src="images/LHIplugin_lh_range.gif" alt="MapIcon Range" border="0" />
         		</td>
         		<td>
-        			This Region is in range of an friendly lighthouse.
+        			This region is in range of an friendly lighthouse.
         		</td>
         	</tr>
         	<tr>
@@ -100,7 +100,7 @@
         			<img src="images/LHIplugin_lh_range_other.gif" alt="MapIcon Range Other" border="0" />
         		</td>
         		<td>
-        			This Region is in range of an unfriendly (or empty) lighthouse.
+        			This region is in range of an unfriendly (or empty) lighthouse.
         		</td>
         	</tr>
         	

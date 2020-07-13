@@ -44,7 +44,7 @@
               Kurzbeschreibung:
             </td>
             <td class="plugin">
-              Vereinfachte Lehrer-Schüler Operation
+              Vereinfachte Lehrer-SchÃ¼ler Operation
             </td>
           </tr>
           <tr class="plugin">
@@ -69,21 +69,21 @@
             </td>
             <td class="plugin">
               <a href=
-              "download_de.php#teacher">http://magellan.narabi.de/</a>
+              "download_de.php#teacher">https://magellan.narabi.de/</a>
             </td>
           </tr>
         </table>
         <p>
-          Das Teacher-Plugin berechnet automatisch eine Zuweisung von Schülern
+          Das Teacher-Plugin berechnet automatisch eine Zuweisung von SchÃ¼lern
           zu Lehrern. Um an diesem Prozess teilzunehmen, muss die Einheit
-          bestimmte Befehle erhalten, die für jedes Talent, das die Einheit lernen
-          soll einen Wert definieren. Teacher versucht Schülern so Lehrern zuzuweisen,
-          dass die Summe der Werte aller gelernten Talente maximiert wird. Schüler, die 
-          einen Lehrer haben, werden dabei (ungefähr) doppelt bewertet, da sie Talente
+          bestimmte Befehle erhalten, die fÃ¼r jedes Talent, das die Einheit lernen
+          soll einen Wert definieren. Teacher versucht SchÃ¼lern so Lehrern zuzuweisen,
+          dass die Summe der Werte aller gelernten Talente maximiert wird. SchÃ¼ler, die 
+          einen Lehrer haben, werden dabei (ungefÃ¤hr) doppelt bewertet, da sie Talente
           doppelt so schnell lernen.
         </p>
         <p>
-          Damit eine Einheit in diesem Prozess abgearbeitet werden kann, müssen ihre
+          Damit eine Einheit in diesem Prozess abgearbeitet werden kann, mÃ¼ssen ihre
           Befehle einen oder mehrere der folgenden Metabefehle enthalten:
         </p>
 <pre>
@@ -91,14 +91,14 @@
 </pre>
          
         <p>
-          steht für einen Schüler, der zwei unterschiedliche Talente mit 
+          steht fÃ¼r einen SchÃ¼ler, der zwei unterschiedliche Talente mit 
           unterschiedlichen Werten lernen soll. 
         </p>
         <p>
      <ul>
      <li>
   wert    beeinflusst, wie wichtig diese Einheit ist. Einheiten mit hohem Wert werden bei der 
-          Vergabe von Lehrern bevorzugt.  Sie können für den Anfang einfach alle Werte gleich setzen.
+          Vergabe von Lehrern bevorzugt.  Sie kÃ¶nnen fÃ¼r den Anfang einfach alle Werte gleich setzen.
 </li><li>
   ziel    ist der angestrebte Talentwert. 
 </li><li>
@@ -107,7 +107,7 @@
 
 <p>
 Eine Einheit mit "// $$L 100 Hiebwaffen 10 99 Ausdauer 5 99 Reiten 5 2" wird versuchen das 
-Verhältnis zwischen ihrem Hiebwaffentalent und dem Ausdauertalent bei etwa 2:1 zu halten. Reiten 
+VerhÃ¤ltnis zwischen ihrem Hiebwaffentalent und dem Ausdauertalent bei etwa 2:1 zu halten. Reiten 
 wird sie bis Maximal Stufe 2 lernen.
         </p>
 
@@ -116,7 +116,7 @@ wird sie bis Maximal Stufe 2 lernen.
 </pre>
          
         <p>
-          steht für einen Lehrer, der zwei Talente lehrt. Schüler, deren Talentwert
+          steht fÃ¼r einen Lehrer, der zwei Talente lehrt. SchÃ¼ler, deren Talentwert
           um mehr als maxDiff vom Talentwert des Lehrers abweicht, werden gering
           bewertet. maxDiff==0 bedeutet, dass der Talentunterschied egal ist. 
           maxDiff==1 bedeutet, dass der Lehrer dieses Talent nicht lehren wird.
@@ -126,14 +126,14 @@ wird sie bis Maximal Stufe 2 lernen.
 </pre>
          
         <p>
-          steht für einen Lehrer, der alle ihm bekannten Talente lehrt
+          steht fÃ¼r einen Lehrer, der alle ihm bekannten Talente lehrt
         </p>
 <pre>
             // $$T ALLES 0 Hiebwaffen 2
 </pre>
          
         <p>
-          ist auch zulässig.
+          ist auch zulÃ¤ssig.
         </p>
 <pre>
             // $namespace1$T ...
@@ -143,7 +143,7 @@ wird sie bis Maximal Stufe 2 lernen.
 </pre>
          
         <p>
-          definiert einen Metabefehl, der zu einem sog. Namensraum gehört. Man kann
+          definiert einen Metabefehl, der zu einem sog. Namensraum gehÃ¶rt. Man kann
           den Einflussbereich der automatischen Lehre auf Einheiten in einem bestimmten
           Namensraum eingrenzen.  
         </p>

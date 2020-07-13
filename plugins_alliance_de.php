@@ -21,8 +21,7 @@
         <h3>
           Alliance Plugin
         </h3>
-        <table summary="" cellspacing="0" cellpadding="1" border="0" class=
-        "plugin">
+        <table summary="" cellspacing="0" cellpadding="1" border="0" class="plugin">
           <tr class="plugin">
             <td class="plugin">
               Name:
@@ -60,8 +59,7 @@
               Website:
             </td>
             <td class="plugin">
-              <a href="http://odyssey.log-out.net/" class=
-              "externalLink">http://odyssey.log-out.net/</a>
+              ?
             </td>
           </tr>
           <tr class="plugin">
@@ -69,15 +67,15 @@
               Download:
             </td>
             <td class="plugin">
-              <a href="http://odyssey.log-out.net/download.php" class=
-              "externalLink">http://odyssey.log-out.net/download.php</a>
+              <a href="download_de.php" class=
+              "externalLink">???</a>
             </td>
           </tr>
         </table>
          
         <p>
-          Dieses Plugin ermöglicht es, das mehrere Parteien einen einzelnen
-          Report verwenden, um ihre Befehle Partei-übergreifend zu verwalten.
+          Dieses Plugin ermÃ¶glicht es, das mehrere Parteien einen einzelnen
+          Report verwenden, um ihre Befehle Partei-Ã¼bergreifend zu verwalten.
           Auf diese Weise kann z.B. eine Person alle Einheiten der Allianz auf
           einer Insel oder in einer Region bedienen. Alle anderen Parteien
           verbinden dann diese Befehle mit den eigenen in anderen Regionen und
@@ -86,20 +84,20 @@
         <p>
           Achtung: Dieses Plugin liegt ein kleines bisschen in der Grauzone der
           Regeln von Eressea. Normalerweise sollte eine Person nur die Befehle
-          für eine Partei machen. Die Befehle für alle andere Parteien sollen
-          der entsprechenden Person via Mail oder Sprache mitgeteilt werrden,
-          um den Rollenspielcharakter zu erhalten. Dieses Plugin kürzt dieses
+          fÃ¼r eine Partei machen. Die Befehle fÃ¼r alle andere Parteien sollen
+          der entsprechenden Person via Mail oder Sprache mitgeteilt werden,
+          um den Rollenspielcharakter zu erhalten. Dieses Plugin kÃ¼rzt dieses
           Prozess 'etwas' ab.
         </p>
         <p>
-          Außerdem ist anzumerken, dass dieses Plugin nur dann genutzt werden
+          AuÃŸerdem ist anzumerken, dass dieses Plugin nur dann genutzt werden
           kann, wenn alle ihren kompletten Report mit den anderen teilen. So
-          sieht jeder alles. Zurzeit ist es nicht möglich, diese Sichtbarkeit
-          für einzelne Parteien einzuschränken. Dieses Feature ist geplant,
+          sieht jeder alles. Zurzeit ist es nicht mÃ¶glich, diese Sichtbarkeit
+          fÃ¼r einzelne Parteien einzuschrÃ¤nken. Dieses Feature ist geplant,
           aber die Umsetzung gestaltet sich schwierig. Denk mal alleine an die
-          möglichlichen Berechtigungsstufen für eine Partei, eine Insel, eine
-          Region oder eine Einheit. Außerdem ist wichtig anzumerken, dass der
-          Serverbetreiber naturgemäß immer alle Reportdetails sehen könnte,
+          mÃ¶glichen Berechtigungsstufen fÃ¼r eine Partei, eine Insel, eine
+          Region oder eine Einheit. AuÃŸerdem ist wichtig anzumerken, dass der
+          Serverbetreiber naturgemÃ¤ÃŸ immer alle Reportdetails sehen kÃ¶nnte,
           weil auf seinem Rechner der Gesamtreport liegt.
         </p>
       </div>

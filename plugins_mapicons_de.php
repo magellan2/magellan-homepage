@@ -19,7 +19,7 @@
       ?>
       <div id="center">
         <h3>
-          MapIcon Plugin
+          MapIcons Plugin
         </h3>
         <table summary="" cellspacing="0" cellpadding="1" border="0" class=
         "plugin">
@@ -45,7 +45,7 @@
               Kurzbeschreibung:
             </td>
             <td class="plugin">
-              Bestimmte Meldungen mit grösseren Icons in der Karte anzeigen
+              Bestimmte Meldungen mit grÃ¶ÃŸeren Icons in der Karte anzeigen
             </td>
           </tr>
           <tr class="plugin">
@@ -69,28 +69,28 @@
               Download:
             </td>
             <td class="plugin">
-              <a href="download_de.php#mapicons">http://magellan.narabi.de</a>
+              <a href="download_de.php#mapicons">https://magellan.narabi.de</a>
             </td>
           </tr>
         </table>
         <p>
           Dieses Plugin visualisiert wichtige Meldungen aus den Regionen mit auffallend 
-          großen Icons in der Übersichtskarte.<br>
+          groÃŸen Icons in der Ãœbersichtskarte.<br>
           Die erfassten Meldungen sind unten in einer Tabelle zusammengefasst.<br>
           Mit Hilfe des PlugIn-Menus und/oder der Tastenkombination CTRL + M lassen 
           sich die Icons jederzeit aus- und einblenden.<br>
-          Ab Version 0.5: Per Auswahl im Menü ist die Bewachung der Regionen visualisierbar.<br>
-          Ab Version 0.6: Per Auswahl im Menü kann das Vorhandensein einer unbesetzten Burg angezeigt werden.<br>
-          Ab Version 0.7: Auch Vulkanausbrüche werden angezeigt, Juju-Zombies werden als Monster erkannt.<br>
+          Ab Version 0.5: Per Auswahl im MenÃ¼ ist die Bewachung der Regionen visualisierbar.<br>
+          Ab Version 0.6: Per Auswahl im MenÃ¼ kann das Vorhandensein einer unbesetzten Burg angezeigt werden.<br>
+          Ab Version 0.7: Auch VulkanausbrÃ¼che werden angezeigt, Juju-Zombies werden als Monster erkannt.<br>
           Ab Version 0.8: Eine Liste feindlicher Parteien wird per Icon angezeigt.<br> 
-          Ab Version 0.9: Die Liste feindlicher Einheiten kann per Datei und per Einheiten befehl gefüllt werden.<br>
+          Ab Version 0.9: Die Liste feindlicher Einheiten kann per Datei und per Einheiten befehl gefÃ¼llt werden.<br>
           Ab Version 0.92: Botschaften werden in der Region angezeigt, aus der sie gesendet wurden.<br>
           Ab Version 0.96: Anzeige der maximalen Talente, Kennzeichnung der Regionen mit Fehlern.<br>
           Ab Version 0.97: Alle Icons optional zuschaltbar, CTRL+M funktioniert wieder.<br>
           Ab Version 0.98: Anpassungen an Magellan-nightly, funktioniert nicht mehr mit Magellan 2.0.5!<br>
-          Ab Version 0.99: Anzeige der Silberbestände nach selbst festgelegten Kategorien<br>
+          Ab Version 0.99: Anzeige der SilberbestÃ¤nde nach selbst festgelegten Kategorien<br>
           Ab Version 1.3: Einstellungen der verschiedenen Anzeigen werden gespeichert<br>
-          Ab Version 1.41: Ergänzung der Anzeige der Anzahl von Gegenständen bei befreundeten Einheiten in 10 farbcodierten Stufen<br></br>
+          Ab Version 1.41: ErgÃ¤nzung der Anzeige der Anzahl von GegenstÃ¤nden bei befreundeten Einheiten in 10 farbcodierten Stufen<br></br>
           
         </p><hr>
         <table border=0>
@@ -115,7 +115,7 @@
         			<img src="images/MIplugin_badmonster.gif" alt="MapIcon Bad Monster" border="0" />
         		</td>
         		<td>
-        			In dieser Region treiben bespnders böse Monster und/oder ganz fiese Untote ihr Unwesen.
+        			In dieser Region treiben bespnders bÃ¶se Monster und/oder ganz fiese Untote ihr Unwesen.
         		</td>
         	</tr>
         	<tr>
@@ -123,7 +123,7 @@
         			<img src="images/MIplugin_hunger.gif" alt="MapIcon Hunger" border="0" />
         		</td>
         		<td>
-        			Hungernde Einheiten benötigen Hilfe.
+        			Hungernde Einheiten benÃ¶tigen Hilfe.
         		</td>
         	</tr>
         	<tr>
@@ -133,9 +133,9 @@
         		<td>
         			Man achte auf Regionsmeldungen! 
         			<br>
-        			(Wurmlöcher, Einheiten erscheinen und verschwinden)
+        			(WurmlÃ¶cher, Einheiten erscheinen und verschwinden)
         			<br>
-        			(Pestausbrüche u.v.m)
+        			(PestausbrÃ¼che u.v.m)
         		</td>
         	</tr>
         	<tr>
@@ -143,7 +143,7 @@
         			<img src="images/MIplugin_dieb.gif" alt="MapIcon Dieb" border="0" />
         		</td>
         		<td>
-        			Man will uns Böses: wir wurden beklaut oder es wurde zumindest versucht, uns zu beklauen!
+        			Man will uns BÃ¶ses: wir wurden beklaut oder es wurde zumindest versucht, uns zu beklauen!
         		</td>
         	</tr>
         	<tr>
@@ -151,7 +151,7 @@
         			<img src="images/MIplugin_guard_friend.gif" alt="MapIcon Bewachung Freund" border="0" />
         		</td>
         		<td>
-        			Diese Region wird von freundlichen Kräften bewacht. Gut so.
+        			Diese Region wird von freundlichen KrÃ¤ften bewacht. Gut so.
         		</td>
         	</tr>
         	<tr>
@@ -159,7 +159,7 @@
         			<img src="images/MIplugin_guard_enemy.gif" alt="MapIcon Bewachung Feind" border="0" />
         		</td>
         		<td>
-        			Uns nicht freundlich gesinnte Kräfte (keine der priviligierten Parteien hat HELFE BEWACHE zu diesen) bewachen die Region.
+        			Uns nicht freundlich gesinnte KrÃ¤fte (keine der priviligierten Parteien hat HELFE BEWACHE zu diesen) bewachen die Region.
         		</td>
         	</tr>
         	<tr>
@@ -175,8 +175,8 @@
         			<img src="images/MIplugin_enemy_present.gif" alt="MapIcon Feind" border="0" />
         		</td>
         		<td>
-        			In dieser Region sind Einheiten von Völkern, die auf der Liste feindlicher Parteien stehen<br>
-        			Die anzuzeigenden Parteien können entweder in einer Datei im Magellanverzeichnis aufgeführt werden (Dateiname MIPlugin_Enemies.ini, jede Zeile eine Parteinummer), oder 
+        			In dieser Region sind Einheiten von VÃ¶lkern, die auf der Liste feindlicher Parteien stehen<br>
+        			Die anzuzeigenden Parteien kÃ¶nnen entweder in einer Datei im Magellanverzeichnis aufgefÃ¼hrt werden (Dateiname MIPlugin_Enemies.ini, jede Zeile eine Parteinummer), oder 
         			aber in den Befehlen beliebiger Einheiten (// EnemyFaction=abcd).
         		</td>
         	</tr>
@@ -208,7 +208,7 @@
         		</td>
         		<td>
         			Ooh, schlechte Neuigkeiten. Ein Kampf im Berg und diese Runde Monster bei meinen Schiffen!<br>
-        			(Ja, tatsächlich attackierten die Monster den Berg und bewegten sich dann in die Ebene)
+        			(Ja, tatsÃ¤chlich attackierten die Monster den Berg und bewegten sich dann in die Ebene)
         		</td>
         	</tr>
         	<tr>
@@ -216,7 +216,7 @@
         			<img src="images/plugins_mapicons_example2.gif" alt="MapIcon Example 2" border="0" />
         		</td>
         		<td>
-        			Das passiert leider so häufig: Mein armer (untalentierter) Spion wird gefasst und ist zum Sterben durch Verhungern verurteilt.
+        			Das passiert leider so hÃ¤ufig: Mein armer (untalentierter) Spion wird gefasst und ist zum Sterben durch Verhungern verurteilt.
         		</td>
         	</tr>
         	<tr>
@@ -232,7 +232,7 @@
         			<img src="images/plugins_mapicons_example4.gif" alt="MapIcon Example 4" border="0" />
         		</td>
         		<td>
-        			Ansicht aller maximalen bekannten Talentwerte auf einer kleiner Insel. Welche Insel, und welches Talent, ist natürlich geheim.
+        			Ansicht aller maximalen bekannten Talentwerte auf einer kleiner Insel. Welche Insel, und welches Talent, ist natÃ¼rlich geheim.
         		</td>
         	</tr>
         </table>

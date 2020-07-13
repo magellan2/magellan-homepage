@@ -21,7 +21,7 @@
         <h3>
           Alliance Plugin
         </h3>
-        <table summary="" cellspacing="0" cellpadding="1" border="0"  class="plugin">
+        <table summary="" cellspacing="0" cellpadding="1" border="0" class="plugin">
           <tr class="plugin">
             <td class="plugin">
               Name:
@@ -43,7 +43,7 @@
               Description:
             </td>
             <td class="plugin">
-              Serverbased management of alliance reports and commands
+              Server based management of alliance reports and commands
             </td>
           </tr>
           <tr class="plugin">
@@ -59,8 +59,7 @@
               Website:
             </td>
             <td class="plugin">
-              <a href="http://odyssey.log-out.net/" class=
-              "externalLink">http://odyssey.log-out.net/</a>
+              ?
             </td>
           </tr>
           <tr class="plugin">
@@ -68,8 +67,8 @@
               Download:
             </td>
             <td class="plugin">
-              <a href="http://odyssey.log-out.net/download.php" class=
-              "externalLink">http://odyssey.log-out.net/download.php</a>
+              <a href="download_de.php" class=
+              "externalLink">???</a>
             </td>
           </tr>
         </table>

@@ -28,7 +28,7 @@
     ?>
   </head>
   <body bgcolor="#D5A983">
-    <tt><a href="index_en.php">Click here</a> to get to the english pages.<br>
+    <tt><a href="index_en.php">Click here</a> to get to the English pages.<br>
     <a href="index_de.php">Hier klicken</a> um zu den deutschen Seiten zu gelangen.<br>
     </tt>
   </body>

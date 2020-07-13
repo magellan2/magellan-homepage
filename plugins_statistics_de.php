@@ -69,16 +69,16 @@
             </td>
             <td class="plugin">
               <a href=
-              "download_de.php#plugins">http://magellan.narabi.de/</a>
+              "download_de.php#plugins">https://magellan.narabi.de/</a>
             </td>
           </tr>
         </table>
         <p>
           Mit Hilfe des Statistik Plugins kann man sich den historischen Verlauf
-          seiner Einheiten, Regionen, Schiffe und Gebäude anschauen. Das Plugin
-          sammelt über die Zeit alle Informationen von Runde zu Runde und zeigt
-          diese in einem Dock an. Einzige Vorraussetzung: Man muss die neuen 
-          Reports immer einem "Basis-Report" hinzufügen, weil das Plugin die 
+          seiner Einheiten, Regionen, Schiffe und GebÃ¤ude anschauen. Das Plugin
+          sammelt Ã¼ber die Zeit alle Informationen von Runde zu Runde und zeigt
+          diese in einem Dock an. Einzige Voraussetzung: Man muss die neuen 
+          Reports immer einem "Basis-Report" hinzufÃ¼gen, weil das Plugin die 
           Zusatzdaten in einer Datei speichert, die nur zu dem Namen eines Reports
           passt.
         </p>

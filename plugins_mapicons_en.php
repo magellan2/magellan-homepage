@@ -8,7 +8,7 @@
       include_once "head.php";
     ?>
     <title>
-      Magellan Plugins - MapIcon Plugin
+      Magellan Plugins - MapIcons Plugin
     </title>
   </head>
   <body>
@@ -69,15 +69,15 @@
               Download:
             </td>
             <td class="plugin">
-              <a href="download_en.php#mapicons">http://magellan.narabi.de</a>
+              <a href="download_en.php#mapicons">https://magellan.narabi.de</a>
             </td>
           </tr>
         </table>
         <p>
-          This plugin searches the region- and factionmessages and displays bigger sized
+          This plugin searches the region- and faction messages and displays bigger-sized
           icons over the proper regions on the map.<br>
           The icons and according messages are shown below.<br>
-          Using the plugin-menu or the shortcut CTRL + M the icons can be toggled.
+          Using the plugin menu or the shortcut CTRL + M the icons can be toggled.
           
         </p><hr>
         <table border=0>
@@ -94,7 +94,7 @@
         			<img src="images/MIplugin_monster.gif" alt="MapIcon Monster" border="0" />
         		</td>
         		<td>
-        			Monsters or/and undeads are moving around.
+        			Monsters or/and undead are moving around.
         		</td>
         	</tr>
         	<tr>
@@ -102,7 +102,7 @@
         			<img src="images/MIplugin_badmonster.gif" alt="MapIcon Bad Monster" border="0" />
         		</td>
         		<td>
-        			Extremely dangerous and bad monsters or/and undeads are here!
+        			Extremely dangerous and bad monsters or/and undead are here!
         		</td>
         	</tr>
         	<tr>
@@ -120,7 +120,7 @@
         		<td>
         			Take care of region-messages! 
         			<br>
-        			(Wormholes, units appear and disappear)
+        			(Worm holes, units appear and disappear)
         			<br>
         			(Diseases... and a lot more)
         		</td>
@@ -147,7 +147,7 @@
         			<img src="images/MIplugin_guard_enemy.gif" alt="MapIcon Bewachung Feind" border="0" />
         		</td>
         		<td>
-        			Some unfriendly people guarding this region (at least none of the priviliged factions has HELP GUARD to them). Take care!
+        			Some unfriendly people guarding this region (at least none of the privileged factions has HELP GUARD to them). Be careful!
         		</td>
         	</tr>
         	<tr>
@@ -163,7 +163,7 @@
         			<img src="images/MIplugin_enemy_present.gif" alt="MapIcon Enemy" border="0" />
         		</td>
         		<td>
-        			In this region are units from a faction on the List of enemies.<br>
+        			In this region there are units from a faction on the List of enemies.<br>
         			The List of enemies can be formed from a plain text file in the Magellan-directory (file name is MIPlugin_Enemies.ini, each line a faction number), or
         			from orders given to any unit (// EnemyFaction=abcd). 
         		</td>
@@ -181,7 +181,7 @@
         			<img src="images/MIplugin_errors.gif" alt="MapIcon Fehler" border="0" />
         		</td>
         		<td>
-        			At least one error message or warning from the eressea-server was detected in this region.
+        			At least one error message or warning from the Eressea server was detected in this region.
         		</td>
         	</tr>
         </table>
@@ -202,7 +202,7 @@
         			<img src="images/plugins_mapicons_example2.gif" alt="MapIcon Example 2" border="0" />
         		</td>
         		<td>
-        			That´s so typical. My poor (low level) spy is catched by local thiefs and is going to die...
+        			That's so typical! My poor (low level) spy is caught by local thieves and is going to die...
         		</td>
         	</tr>
         	<tr>

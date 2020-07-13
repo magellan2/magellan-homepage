@@ -1,50 +1,40 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
+<head>
     <?php
-      $page = "home";
-      $language = "en";
-      include_once "head.php";
+    $page = "home";
+    $language = "en";
+    include_once "head.php";
     ?>
-    <title>
-      Magellan Extended Commands
-    </title>
-  </head>
-  <body>
+    <title>Magellan Extended Commands</title>
+</head>
+<body>
     <div id="container">
-      <?php 
-        include_once "navi_".$language.".php";
-        include_once "header.php"; 
-      ?>
+      <?php
+    include_once "navi_" . $language . ".php";
+    include_once "header.php";
+    ?>
       <div id="center">
-        <h3>
-          What are Extended Commands?
-        </h3>
-        <p>
-          <b>English version currently not available...coming soon...</b>
-        </p>
-        <p>
-          Bei den Extended Commands (kurz ExtCmds) handelt es sich um ein Plugin
-          für Magellan 2.x mit dem man seine Einheiten Script-basiert Befehle
-          geben kann. Es ähnelt in gewisser Weise dem <a class="externalLink" href="http://www.gulrak.net/wiki/view/Gulrak/EresseaTools#vorlage">Vorlage-Tool</a>.
-          Allerdings verwenden die ExtCmds eine Java-ähnliche Syntax, die meiner
-          Meinung nach etwas verständlicher ist. Aber das ist Geschmackssache!
-          Ein wirkliches Plus von ExtCmds ist, dass man direkten Zugriff auf
-          die Fähigkeiten von Magellan hat und so zum Beispiel auch die geladene
-          Karte scriptbasiert manipulieren kann (Setzen von Schildern usw.).
-        </p>
-        <p>
-          Diese Webseite teilt sich grob in zwei Bereiche. Zum Einen geht es um die
-          Nutzung des Plugins an sich. Also wie mache ich wo was, damit das Plugin
-          sinnvoll funktioniert und zum anderen gibt es hier einige (vielleicht)
-          nützliche Scriptbeispiele.
-        </p>
-        <p align="center">
-          <img src="../images/plugin_extcmds.png" alt="Extended Commands"/>
-        </p>
-      </div>
+            <h3>What are Extended Commands?</h3>
+            <p>
+                The Extended Commands (or ExtCmds, for short) are a plugin allowing you to automate
+                your or units' orders (or "script" them). I resembles <a
+                    href="http://www.gulrak.net/wiki/view/Gulrak/EresseaTools#vorlage"
+                    class="externalLink">Vorlage</a>, but there are two important differences:
+                First, scripts are more focused on units. That is, you may chose a unit, write a
+                script for it, and execute it later. Second, ExtCmds use JShell, so they are very
+                Java-like. You can access all the functionality available to Magellan to analyze
+                your report.
+            </p>
+            <p>
+                <b>English version, unfortunately, currently not available!</b>
+            </p>
+            <p>
+                <img src="../images/plugin_extcmds.png" alt="Extended Commands" />
+            </p>
+        </div>
     </div>
-  </body>
+</body>
 </html>
 

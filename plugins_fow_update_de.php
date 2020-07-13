@@ -44,7 +44,7 @@
               Kurzbeschreibung:
             </td>
             <td class="plugin">
-              Ändert die Aufdeckung des Nebels des Kriegs, ignoriert die Herkunft der Informationen.
+              Ã„ndert die Aufdeckung des Nebels des Kriegs, ignoriert die Herkunft der Informationen.
             </td>
           </tr>
           <tr class="plugin">
@@ -68,21 +68,21 @@
               Download:
             </td>
             <td class="plugin">
-              <a href="download_de.php#fow_update">http://magellan.narabi.de</a>
+              <a href="download_de.php#fow_update">https://magellan.narabi.de</a>
             </td>
           </tr>
         </table>
         <p>
-        	Der alte Standard lüftete den FoW nur dann, wenn Informationen über eine Region
+        	Der alte Standard lÃ¼ftete den FoW nur dann, wenn Informationen Ã¼ber eine Region
         	von einer priviligierten Partei stammten.<br>
-        	Wurde aber ein Report hinzugefügt von einer nicht priviligierten Partei, wurden die in diesem
-        	Report vollständig aufgeklärten Regionen nach dem Hinzufügen nicht auch im "neuen"
-        	Report als aufgeklärt angezeigt.<br>
-        	Mit diesem Update wird eine Region, über die genügend Informationen existieren, als "aufgeklärt"
-        	angezeigt, egal woher die Informationen stammen (von "eigenen" Einheiten oder hinzugefügten).
+        	Wurde aber ein Report hinzugefÃ¼gt von einer nicht priviligierten Partei, wurden die in diesem
+        	Report vollstÃ¤ndig aufgeklÃ¤rten Regionen nach dem HinzufÃ¼gen nicht auch im "neuen"
+        	Report als aufgeklÃ¤rt angezeigt.<br>
+        	Mit diesem Update wird eine Region, Ã¼ber die genÃ¼gend Informationen existieren, als "aufgeklÃ¤rt"
+        	angezeigt, egal woher die Informationen stammen (von "eigenen" Einheiten oder hinzugefÃ¼gten).
         	<p>
         	Ab Version 2.0.6 wird nach heutigem Stand auch Magellan 2 dieses Verhalten aufweisen. In diesem Fall ist dieses
-        	PlugIn für Version 2.0.6 und neuer nicht sinnvoll, sondern verändert lediglich das Verhalten der älteren Versionen.
+        	PlugIn fÃ¼r Version 2.0.6 und neuer nicht sinnvoll, sondern verÃ¤ndert lediglich das Verhalten der Ã¤lteren Versionen.
         	</p>   
         </p>
         <hr>
@@ -93,9 +93,9 @@
         		</td>
         		<td>
         			Altes Verhalten:<br>
-        			Das weiße Kreuz zeigt an, dass ein befreundetes Schiff auch die unteren Ozeanfelder passiert hat.
-        			Durch das Einfügen des Reports liegen auch alle Informationen über diese Felder vor.<br>
-        			Der Nebel des Krieges wird trotzdem nicht gelüftet.
+        			Das weiÃŸe Kreuz zeigt an, dass ein befreundetes Schiff auch die unteren Ozeanfelder passiert hat.
+        			Durch das EinfÃ¼gen des Reports liegen auch alle Informationen Ã¼ber diese Felder vor.<br>
+        			Der Nebel des Krieges wird trotzdem nicht gelÃ¼ftet.
         		</td>
         	</tr>
         	<tr>
@@ -104,7 +104,7 @@
         		</td>
         		<td>
         			Neues Verhalten:<br>
-        			Egal woher die Infos kommen, sowie ausreichend Infos vorhanden sind, wird der Nebel des Krieges gelüftet. 
+        			Egal woher die Infos kommen, sowie ausreichend Infos vorhanden sind, wird der Nebel des Krieges gelÃ¼ftet. 
         			So auch in den beiden unteren Ozeanregionen.
         		</td>
         	</tr>

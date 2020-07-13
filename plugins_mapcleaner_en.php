@@ -68,14 +68,14 @@
               Download:
             </td>
             <td class="plugin">
-              <a href="download_de.php#plugins">http://magellan.narabi.de</a>
+              <a href="download_en.php#plugins">https://magellan.narabi.de</a>
             </td>
           </tr>
         </table>
         <p>
           The MapCleaner cleans up the data of the map of an loaded report.<br>
            Version 1.3:<br><ul>
-          <li>Removes faulty ressources (Baum,Stein,Pferd).</li>
+          <li>Removes faulty resources (Baum, Stein, Pferd).</li>
           </ul>
           Version 1.1:<br><ul>
           <li>No more islands with Firewall (Feuerwand) regions.</li>

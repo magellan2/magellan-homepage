@@ -62,9 +62,6 @@ if (! isset($_SERVER['HTTP_USER_AGENT']) || ! preg_match($msie, $_SERVER['HTTP_U
             href="tools_consolemerger_en.php">Console Merger</a>&nbsp;&middot;&nbsp;&nbsp;<br />
     </p>
     <p>
-        <a href="nightly-build/api/">JavaDoc</a>
-    </p>
-    <p>
         <a class="externalLink" href="https://magellan2.github.io/bugs/">Report a
             bug</a>
     </p>

@@ -44,7 +44,7 @@
               Description:
             </td>
             <td class="plugin">
-              Makes the memory consumption of Magellan visisble 
+              Makes the memory consumption of Magellan visible 
             </td>
           </tr>
           <tr class="plugin">
@@ -65,11 +65,11 @@
           </tr>
           <tr class="plugin">
             <td class="plugin">
-              Download
+              Download:
             </td>
             <td class="plugin">
               <a href=
-              "download_de.php#plugins">http://magellan.narabi.de/</a>
+              "download_en.php#plugins">https://magellan.narabi.de/</a>
             </td>
           </tr>
         </table>

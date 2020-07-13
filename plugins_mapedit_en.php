@@ -60,7 +60,7 @@
               Website:
             </td>
             <td class="plugin">
-              <a href="mapedit/">http://magellan.narabi.de/mapedit</a>
+              -
             </td>
           </tr>
           <tr class="plugin">
@@ -68,18 +68,18 @@
               Download:
             </td>
             <td class="plugin">
-              In the Magellan Client.
+              In the Magellan client.
             </td>
           </tr>
         </table>
         
         <p>
           With this plugin the map of the report becomes editable. For each region the 
-          region type and name are changeble. Of couse you can create new regions and
+          region type and name are changeable. Of course you can create new regions and
           delete existing ones. Changing of herb-information is supported.
         </p>
         <p>
-          I´m sorry that until now the plugin is available in german only.
+          I'm sorry that until now the plugin is available in German only.
         </p>
         <p>
           <img src="images/plugin_mapedit.png" alt="MapEdit" border="0" />

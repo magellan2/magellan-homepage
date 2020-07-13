@@ -69,14 +69,14 @@
             </td>
             <td class="plugin">
               <a href=
-              "download_de.php#plugins">http://magellan.narabi.de/</a>
+              "download_de.php#plugins">https://magellan.narabi.de/</a>
             </td>
           </tr>
         </table>
         <p>
-          Das MemoryWatch Plugin ist eher was für neugierige. Es wurde primär
-          für die Entwickler gebaut, um den Speicherverbrauch von Magellan
-          während der Laufzeit zu prüfen und sichtbar zu machen.
+          Das MemoryWatch Plugin ist eher was fÃ¼r neugierige. Es wurde primÃ¤r
+          fÃ¼r die Entwickler gebaut, um den Speicherverbrauch von Magellan
+          wÃ¤hrend der Laufzeit zu prÃ¼fen und sichtbar zu machen.
         </p>
       </div>
     </div>

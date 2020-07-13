@@ -60,7 +60,7 @@
               Website:
             </td>
             <td class="plugin">
-              <a href="mapedit/">http://magellan.narabi.de/mapedit</a>
+              -
             </td>
           </tr>
           <tr class="plugin">
@@ -73,10 +73,10 @@
           </tr>
         </table>
         <p>
-          Mit Hilfe dieses Plugins lässt sich die Karte eines geladenen Reports
-          bearbeiten. Man kann für jede einzelne Region den Regionstyp
-          festlegen, ihm fest einen Namen geben, die Region komplett löschen
-          oder eine neue Region erstellen. Damit lässt sich die Karte nach
+          Mit Hilfe dieses Plugins lÃ¤sst sich die Karte eines geladenen Reports
+          bearbeiten. Man kann fÃ¼r jede einzelne Region den Regionstyp
+          festlegen, ihm fest einen Namen geben, die Region komplett lÃ¶schen
+          oder eine neue Region erstellen. Damit lÃ¤sst sich die Karte nach
           belieben gestalten und modifizieren.
         </p>
         <p>
