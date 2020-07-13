@@ -1,7 +1,8 @@
-body { background-color: #D5A983; }
+body {
+  background-color: #D5A983;
+}
 
-p, blockquote, li, input, td, th, select
-{
+p, blockquote, li, input, td, th, select {
   font-family: Arial, Helvetica, sans-serif;
   font-size: small;
   font-weight: medium;
@@ -9,16 +10,14 @@ p, blockquote, li, input, td, th, select
   color: #584635;
 }
 
-p, blockquote, li, h1, h2, h3, h4
-{
+p, blockquote, li, h1, h2, h3, h4 {
   padding-left: 10px;
   padding-right: 10px;
   line-height: 18px;
   text-align: left;
 }
 
-input, select
-{
+input, select {
   background-color: #F7F7F7;
   border-top: 1px solid #797979;
   border-bottom: 1px solid #797979;
@@ -26,20 +25,17 @@ input, select
   border-right: 1px solid #797979;
 }
 
-input.nobg
-{
+input.nobg {
   background-color: #FFFFFF;
   border: 0px;
 }
 
-blockquote
-{
+blockquote {
   margin-left: 20px;
   margin-right: 0px;
 }
 
-#right p, #left p
-{
+#right p, #left p {
   line-height: 15px;
   font-size: 10px;
   margin: 0;
@@ -54,16 +50,16 @@ blockquote
   color: #584635;
 }
 
-#head
-{
+#head {
   padding: 0;
   text-align: center;
 }
 
-#head a { border: 0; }
+#head a {
+  border: 0;
+}
 
-#container
-{
+#container {
   width: 760px;
   \width: 770px;
   w\idth: 760px;
@@ -73,8 +69,7 @@ blockquote
   padding: 10px;
 }
 
-#left
-{
+#left {
   float: left;
   width: 150px;
   \width: 150px;
@@ -85,16 +80,14 @@ blockquote
   padding-top: 80px;
 }
 
-#center
-{
+#center {
   padding: 0;
   margin-left: 180px;
   margin-right: 180px;
   padding-top: 30px;
 }
 
-#right
-{
+#right {
   float: right;
   width: 150px;
   \width: 150px;
@@ -105,53 +98,46 @@ blockquote
   padding-top: 80px;
 }
 
-#foot
-{
+#foot {
   clear: both;
   padding: 0;
   margin-top: 5px;
   text-align: center;
 }
 
-a
-{
+a {
   color: black;
   text-decoration: none;
   border-bottom: 1px black solid;
 }
 
-#right a, #left a
-{
+#right a, #left a {
   border: 0px;
   color: #C00;
 }
 
-h2
-{
+h2 {
   border: 0px;
   font-weight: normal;
   font-family: Georgia, Times, Serif;
   font-size: 16px;
 }
 
-h3
-{
+h3 {
   border: 0px;
   font-weight: normal;
   font-family: Georgia, Times, Serif;
   font-size: 14px;
 }
 
-h4
-{
+h4 {
   border: 0px;
   font-weight: normal;
   font-family: Georgia, Times, Serif;
   font-size: 12px;
 }
 
-p.caps
-{
+p.caps {
   letter-spacing: 0.1em;
   margin-top: 10px;
   text-transform: uppercase;
@@ -159,9 +145,7 @@ p.caps
   padding-top: 20px;
 }
 
-#right a.external, #left a.external
-{
+#right a.external, #left a.external {
   border: 0px;
   color: #700;
 }
-

@@ -22,8 +22,7 @@
           <iframe src="help/de/magellan/faq.html" width="100%" height="550"
           frameborder="0" marginheight="0" marginwidth="0">
           <p>
-            Die F.A.Q. ist <a href="help/de/magellan/faq.html">hier</a>
-            erreichbar.
+            Zu den <a href="help/de/magellan/faq.html">FAQ</a> (Häufige Fragen).
           </p>
           </iframe>
         </p>
