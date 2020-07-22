@@ -75,9 +75,9 @@
             </ul>
             <p>Additionally, you should make the following changes:</p>
             <ul>
-                <li>line 3 - change the comment</li>
-                <li>line 68 - change the output</li>
-                <li>line 76 - set the author</li>
+                <li>line 3 and 7 - insert your plugin's name</li>
+                <li>line 8 - insert the filename here (without any extensions) </li>
+                <li>line 9 - insert the author</li>
             </ul>
             <p>
                 In

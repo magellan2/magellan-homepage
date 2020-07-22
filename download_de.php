@@ -136,11 +136,6 @@
                     href="plugins_lighthouseicons_de.php">Beschreibung</a><br /> Download (alle
                     Versionen): <a href="plugins/lighthouseicons-installer.jar">Installer JAR</a>
                     Version 0.2<br /> <br /></li>
-
-                <li><a name="fow_update"></a> <b>FogOfWar-Update Plugin</b><br /> Ändert die Ansicht
-                    des Nebel des Kriegs<br /> siehe <a href="plugins_fow_update_de.php">Beschreibung</a><br />
-                    Download (alle Versionen): <a href="plugins/fow_update-installer.jar">Installer
-                        JAR</a> Version 0.2<br /> <br /></li>
             </ul>
 
             <br /> <a name="tools"></a>

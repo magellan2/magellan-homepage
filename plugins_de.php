@@ -81,9 +81,9 @@
             </ul>
             <p>Außerdem sollte man Folgendes machen</p>
             <ul>
-                <li>Zeile 3 - den Kommentar �ndern und</li>
-                <li>Zeile 68 - die Ausgabe �ndern und</li>
-                <li>Zeile 76 - Autor entsprechend gesetzt werden.</li>
+                <li>Zeile 3 und 7 - den Namen des Plugins einsetzen</li>
+                <li>Zeile 8 - den Dateinamen (ohne irgendwelche Erweiterungen) einsetzen</li>
+                <li>Zeile 9 - den Autor einsetzen</li>
             </ul>
             <p>
                 In
@@ -92,7 +92,7 @@
             </p>
             <ul>
                 <li>Zeile 4 - Name des Plugins setzen</li>
-                <li>Zeile 8 - Author(en) setzen</li>
+                <li>Zeile 8 - Autor(en) setzen</li>
                 <li>Zeile 37 - Name des Plugins setzen</li>
                 <li>Zeile 38 - Beschreibung des Plugins setzen</li>
             </ul>
