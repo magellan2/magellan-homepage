@@ -72,6 +72,14 @@
               "download_en.php#plugins">https://magellan.narabi.de/</a>
             </td>
           </tr>
+          <tr class="plugin">
+            <td class="plugin">
+              Anmerkung:
+            </td>
+            <td class="plugin">
+              untested with Magellan version 2.1
+            </td>
+          </tr>
         </table>
         <p>
           <b>English version currently not available ... not coming soon ...</b>

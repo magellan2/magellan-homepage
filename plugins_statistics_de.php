@@ -72,6 +72,14 @@
               "download_de.php#plugins">https://magellan.narabi.de/</a>
             </td>
           </tr>
+          <tr class="plugin">
+            <td class="plugin">
+              Anmerkung:
+            </td>
+            <td class="plugin">
+              nicht getestet mit Magellanversion 2.1
+            </td>
+          </tr>
         </table>
         <p>
           Mit Hilfe des Statistik Plugins kann man sich den historischen Verlauf
