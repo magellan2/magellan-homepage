@@ -46,7 +46,7 @@
                 ) or in the source code available on GitHub.
             </p>
             <p>Here's a short HOWTO for creating the installer:</p>
-            <p>We assume that your plugin is its own project in eclipse and you have Magellan as a
+            <p>If you are using Eclipse, we assume that your plugin is its own project and you have Magellan as a
                 second project. Your directory structure could look like this:</p>
             <pre>
 - src
@@ -60,8 +60,8 @@
 - lib
    - ...optional libraries...
 - build.installer.xml
-- izpack-install.xml
-- README.txt
+- izpack-install.template.xml
+- README.md
 </pre>
             <p>
                 You should start with
@@ -69,27 +69,19 @@
                 from another plugin and change a few things:
             </p>
             <ul>
-                <li><code>$plugin.name</code> - name of the plugin</li>
+                <li><code>plugin.displayname</code> - name of the plugin</li>
+                <li><code>plugin.basename</code> - base name of directories and the installer</li>
+                <li><code>plugin.author</code> - author's name</li>
+                <li><code>plugin.author.email</code> - and email</li>
+                <li><code>plugin.version</code> - current version (a build number is generated additionally)</li>
+                <li><code>plugin.description</code> - short description of what the plugin does</li>
                 <li><code>$magellan2</code> - magellan source directory, typically <code>${basedir}/../Magellan2</code>
                 </li>
             </ul>
-            <p>Additionally, you should make the following changes:</p>
-            <ul>
-                <li>line 3 and 7 - insert your plugin's name</li>
-                <li>line 8 - insert the filename here (without any extensions) </li>
-                <li>line 9 - insert the author</li>
-            </ul>
             <p>
-                In
-                <code>izpack-install.xml</code>
-                you should make the following changes:
+                You usually do not need to touch the 
+                <code>izpack-install.template.xml</code>.
             </p>
-            <ul>
-                <li>line 4 - set the name of the plugin</li>
-                <li>line 8 - insert author(s)</li>
-                <li>line 37 - set the name of the plugin</li>
-                <li>line 38 - set the plugin description</li>
-            </ul>
             <p>
                 That's about it. You should execute the target "create-installer". After this is
                 done, you will find the plugin with installer in the directory

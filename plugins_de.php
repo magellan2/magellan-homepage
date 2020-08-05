@@ -50,9 +50,9 @@
                 oder im Quellcode auf GitHub.
             </p>
             <p>Hier nun eine kurze Beschreibung (HowTo) für den Installer.</p>
-            <p>Wir gehen davon aus, dass das Plugin ein eigenes Projekt in Eclipse ist. Das
-                Magellan2 Projekt MUSS ausgecheckt sein. Die Verzeichnisstruktur des Plugin Projekts
-                sollte idealerweise so aussehen:</p>
+            <p>Für die Entwicklung mit Eclipse muss das Plugin ein eigenes Projekt in Eclipse sein.
+                Das Magellan2-Projekt muss ebenfalls vorhanden sein. Die Verzeichnisstruktur des
+                Plugin-Projekts sollte etwa so aussehen:</p>
             <pre>
 - src
    - ...Source files...
@@ -65,8 +65,8 @@
 - lib
    - ...optionale Bibliotheken...
 - build.installer.xml
-- izpack-install.xml
-- README.txt
+- izpack-install.template.xml
+- README.md
 </pre>
             <p>
                 In
@@ -75,38 +75,32 @@
                 geändert werden:
             </p>
             <ul>
-                <li><code>$plugin.name</code> - Name des Plugins</li>
-                <li><code>$magellan2</code> - Verzeichnis von Magellan2-src (normalerweise <code>${basedir}/../Magellan2</code>
+                <li><code>plugin.displayname</code> - Name des Plugins</li>
+                <li><code>plugin.basename</code> - Namensbestandteil von Verzeichnissen und des
+                    installers</li>
+                <li><code>plugin.author</code> - Name des Autors</li>
+                <li><code>plugin.author.email</code> - Mailadresse</li>
+                <li><code>plugin.version</code> - Aktuelle Versionsnummer (Buildnummer wird
+                    außerdem automatisch erzeugt)</li>
+                <li><code>plugin.description</code> - Kurzbeschreibung, was das Plugin macht</li>
+                <li><code>magellan2</code> - Verzeichnis von Magellan2-src (normalerweise <code>${basedir}/../Magellan2</code>
                 </li>
             </ul>
-            <p>Außerdem sollte man Folgendes machen</p>
-            <ul>
-                <li>Zeile 3 und 7 - den Namen des Plugins einsetzen</li>
-                <li>Zeile 8 - den Dateinamen (ohne irgendwelche Erweiterungen) einsetzen</li>
-                <li>Zeile 9 - den Autor einsetzen</li>
-            </ul>
             <p>
-                In
-                <code>izpack-install.xml</code>
-                muss Folgendes gemacht werden
+                Die Datei
+                <code>izpack-install.template.xml</code>
+                muss in der Regeln nicht angefasst werden.
             </p>
-            <ul>
-                <li>Zeile 4 - Name des Plugins setzen</li>
-                <li>Zeile 8 - Autor(en) setzen</li>
-                <li>Zeile 37 - Name des Plugins setzen</li>
-                <li>Zeile 38 - Beschreibung des Plugins setzen</li>
-            </ul>
             <p>
                 Ja, das war's auch schon. Wenn man die beiden Dateien aus einem anderen Projekt
                 kopiert, die Verzeichnisstruktur beibehält und die obigen Daten ändert, ist das eine
-                Sache von 'ner knappen Minute. Gestartet wird das Target create-installer. Wenn man
-                das macht, wird ein Verzeichnis release angelegt und darin ist das Plugin mit
-                Installer.<br /> ACHTUNG: Direkt im Hauptverzeichnis wird bei der Ausführung des
-                Scripts auch ein JAR erzeugt, das ist aber nur der kompilierte Source des Plugins
-                (kein Installer). Der befindet sich immer im Verzeichnis 'release'.
+                Sache von 'ner knappen Minute. Gestartet wird das Target create-installer (das
+                default target). Wenn man das macht, wird ein Verzeichnis release angelegt und darin
+                ist das Plugin mit Installer.<br /> ACHTUNG: Direkt im Hauptverzeichnis wird bei der
+                Ausführung des Scripts auch ein JAR erzeugt, das ist aber nur der kompilierte Source
+                des Plugins (kein Installer). Der befindet sich immer im Verzeichnis 'release'.
             </p>
         </div>
     </div>
 </body>
 </html>
-

@@ -96,42 +96,46 @@
             </p>
             <br /> <a name="plugins"></a>
             <h3>Download Plugins</h3>
-            <p>Here you can find some plugins that are available directly from this server.</p>
+            <p>Here you can find some plugins that are available directly from this server. Additional versions might be available
+                <a href="https://github.com/magellan2/magellan2-extensions-plugins/releases">on
+                    GitHub</a>
+            </p>
             <ul>
                 <li><b>MapCleaner Plugin</b><br /> Repairs Reports<br /> see <a
                     href="plugins_mapcleaner_en.php">Description</a><br /> Download for 2.0.5: <a
                     href="plugins/mapcleaner-installer-for2.0.5.jar">Installer JAR</a><br />
-                    Download for nightly: <a href="plugins/mapcleaner-installer.jar">Installer JAR</a><br />
+                    Download for nightly: <?php latest_plugin_release_link('mapcleaner', 'Installer JAR', true); ?><br />
                     <br /></li>
                 <li><b>MemoryWatch Plugin</b><br /> Shows Magellan memory usage<br /> see <a
                     href="plugins_memorywatch_en.php">Description</a><br /> Download for 2.0.5: <a
                     href="plugins/memorywatch-installer-for2.0.5.jar">Installer JAR</a><br />
-                    Download for "nightly: <a href="plugins/memorywatch-installer.jar">Installer JAR</a><br />
+                    Download for nightly: <?php latest_plugin_release_link('memorywatch', 'Installer JAR', true); ?><br />
                     <br /></li>
                 <li><b>Statistics Plugin</b><br /> Shows graphs and tables for historic data of a
                     report<br /> see <a href="plugins_statistics_en.php">Description</a><br />
-                    Download: <a href="plugins/statistics-installer.jar">Installer JAR</a><br /> <br /></li>
+                    Download for nightly: <?php latest_plugin_release_link('statistics', 'Installer JAR', true); ?><br />
+                    <br /></li>
                 <li><a name="teacher"></a> <b>Teacher Plugin</b><br /> Simplifies teacher learner
                     relations.<br /> see <a href="plugins_teacher_en.php">Description</a><br />
                     Download for 2.0.5: <a href="plugins/teacher-installer-for2.0.5.jar">Installer
-                        JAR</a> Version 0.10.4<br /> Download for "nightly": <a
-                    href="plugins/teacher-installer.jar">Installer JAR</a> Version 0.14<br /> <br /></li>
+                        JAR</a> Version 0.10.4<br /> Download for nightly: <?php latest_plugin_release_link('teacher', 'Installer JAR', true); ?><br />
+                    <br /></li>
                 <li><a name="shiploader"></a> <b>ShipLoader Plugin</b><br /> Load your ships with
                     ease...<br /> see <a href="plugins/README.shiploader.txt">Description</a><br />
                     Download for 2.0.5: <a href="plugins/shiploader-installer-for2.0.5.jar">Installer
-                        JAR</a> Version 0.1.1<br /> Download for "nightly": <a
-                    href="plugins/shiploader-installer.jar">Installer JAR</a> Version 0.1.2<br /> <br /></li>
+                        JAR</a> Version 0.1.1<br /> Download for nightly: <?php latest_plugin_release_link('shiploader', 'Installer JAR', true); ?><br />
+                    <br /></li>
                 <li><a name="mapicons"></a> <b>MapIcons Plugin</b><br /> Important messages seen on
                     the map<br /> see <a href="plugins_mapicons_en.php">Description</a><br />
                     Download (Magellan 2.0.5): <a href="plugins/mapicons-installer_2_0_5.jar">Installer
-                        JAR</a> Version 0.96<br /> Download (Magellan - nightly): <a
-                    href="plugins/mapicons-installer.jar">Installer JAR</a> Version 1.41<br /> <br /></li>
+                        JAR</a> Version 0.96<br /> Download for nightly: <?php latest_plugin_release_link('mapicons', 'Installer JAR', true); ?><br />
+                    <br /></li>
 
                 <li><a name="lighthouseicons"></a> <b>LightHouseIcons Plugin</b><br /> Current by
                     lighthouse controlled regions and the maximum range of all lighthouse are
                     visible<br /> see <a href="plugins_lighthouseicons_en.php">Description</a><br />
-                    Download (all versions): <a href="plugins/lighthouseicons-installer.jar">Installer
-                        JAR</a> Version 0.2<br /> <br /></li>
+                    Download (all versions): <?php latest_plugin_release_link('lighthouseicons', 'Installer JAR', true); ?><br />
+                    <br /></li>
             </ul>
 
             <br /> <a name="tools"></a>
@@ -149,4 +153,3 @@
     </div>
 </body>
 </html>
-

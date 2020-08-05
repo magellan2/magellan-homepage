@@ -159,7 +159,7 @@ function parse_version(string $tag)
 /**
  * Sets the 'version' property of $release.
  *
- * If the properties file 'version_file' is given, the version is taken from the 
+ * If the properties file 'version_file' is given, the version is taken from the
  * SEMANTIC_VERSION property if present, otherwise the VERSION property.
  * If neither is present, the version is taken from the 'tag' property.
  *
@@ -185,14 +185,20 @@ function get_version(array &$release)
     $release['version'] = $version;
 }
 
+$json_buffer = array();
+
 /**
  * Gets all magellan releases from the github api and stores them in an array.
- * 
+ *
  * @return string[][]
  */
-function get_releases()
+function get_releases(string $repo = 'magellan2/magellan2', string $prefix = 'magellan_v')
 {
-    $json = get_api_content("https://api.github.com/repos/magellan2/magellan2/releases");
+    global $json_buffer;
+    if (! isset($json_buffer[$repo])) {
+        $json_buffer[$repo] = get_api_content("https://api.github.com/repos/$repo/releases");
+    }
+    $json = $json_buffer[$repo];
 
     $releases = array();
     foreach ($json as $json_release) {
@@ -223,11 +229,11 @@ function get_releases()
         $release['zip'] = "";
         $release['changelog'] = "";
         foreach ($release['assets'] as $asset) {
-            if (preg_match("/^magellan_v.*\.jar$/", $asset['name']))
+            if (preg_match("/^$prefix.*\.jar$/", $asset['name']))
                 $release['jar'] = $asset['url'];
-            if (preg_match("/^magellan_v.*_macos\.tgz$/", $asset['name']))
+            if (preg_match("/^$prefix.*_macos\.tgz$/", $asset['name']))
                 $release['mac'] = $asset['url'];
-            if (preg_match("/^magellan_v.*\.zip$/", $asset['name']))
+            if (preg_match("/^$prefix.*\.zip$/", $asset['name']))
                 $release['zip'] = $asset['url'];
             if (preg_match("/^CHANGELOG.txt$/", $asset['name']))
                 $release['changelog'] = $asset['url'];
@@ -245,7 +251,7 @@ function get_releases()
 
 /**
  * Reads a properties file and stores it in an array.
- * 
+ *
  * @param string $filename
  * @return string[]
  */
@@ -271,7 +277,34 @@ function download_link($url, string $text, bool $external = false)
         echo "<li><a href=\"{$url}\"$ext>{$text}</a></li>\n";
 }
 
-/** get the releases from github, sort them and store the latest stable and nightly release */
+function latest_plugin_release_link(string $plugin_prefix, string $text, bool $external = false)
+{
+    $ext = $external ? " class=\"externalLink\"" : "";
+
+    $releases = get_releases('magellan2/magellan2-extensions-plugins', $plugin_prefix . "_v");
+    usort($releases, 'compare_release_version');
+
+    foreach ($releases as $release) {
+        if (! $release['prerelease'] && ($release['version']['type'] == '' || $release['version']['type'] == 'stable')) {
+            $RELEASE = $release;
+        }
+    }
+    $LATEST = $RELEASE;
+    foreach ($releases as $release) {
+        if (isset($RELEASE))
+            if ($release['version']['type'] == 'latest' || $release['version']['type'] == 'alpha' || $release['version']['type'] == 'beta' || $release['version']['type'] == 'rc') {
+                $LATEST = $release;
+            }
+    }
+
+    $url = $LATEST['jar'];
+
+    echo "<a href=\"{$url}\"$ext>{$text}</a>\n";
+}
+
+/**
+ * get the releases from github, sort them and store the latest stable and nightly release
+ */
 
 $releases = get_releases();
 usort($releases, 'compare_release_version');
