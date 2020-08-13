@@ -23,10 +23,12 @@
             <ul>
                 <li><a href="plugins_alliance_de.php">Alliance Plugin</a></li>
                 <li><a href="plugins_extcmds_de.php">Extended Commands Plugin</a></li>
+                <li><a href="plugins_lighthouseicons_de.php">LightHouseIcons Plugin</a></li>
                 <li><a href="plugins_mapcleaner_de.php">MapCleaner Plugin</a></li>
                 <li><a href="plugins_mapedit_de.php">MapEdit Plugin</a></li>
                 <li><a href="plugins_memorywatch_de.php">MemoryWatch Plugin</a></li>
                 <li><a href="plugins_mapicons_de.php">MapIcons Plugin</a></li>
+                <li><a href="plugins_shiploader_de.php">ShipLoader Plugin</a></li>
                 <li><a href="plugins_statistics_de.php">Statistics Plugin</a></li>
                 <li><a href="plugins_teacher_de.php">Teacher Plugin</a></li>
             </ul>

@@ -38,14 +38,15 @@ if (! isset($_SERVER['HTTP_USER_AGENT']) || ! preg_match($msie, $_SERVER['HTTP_U
         <a href="help_en.php">Documentation</a>
     </p>
     <p>
-        <a href="plugins_en.php">Plugins</a><br /> <a class="sublink" href="plugins_alliance_en.php">Alliance
-            Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br /> <a class="sublink"
-            href="plugins_extcmds_en.php">Extended Commands</a>&nbsp;&middot;&nbsp;&nbsp;<br /> <a
-            class="sublink" href="plugins_lighthouseicons_en.php">Lighthouse Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br />
+        <a href="plugins_en.php">Plugins</a><br /> 
+        <a class="sublink" href="plugins_alliance_en.php">Alliance Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br />
+        <a class="sublink" href="plugins_extcmds_en.php">Extended Commands</a>&nbsp;&middot;&nbsp;&nbsp;<br />
+        <a class="sublink" href="plugins_lighthouseicons_en.php">Lighthouse Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br />
         <a class="sublink" href="plugins_mapcleaner_en.php">MapCleaner Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br />
         <a class="sublink" href="plugins_mapedit_en.php">MapEdit Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br />
         <a class="sublink" href="plugins_mapicons_en.php">MapIcons Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br />
         <a class="sublink" href="plugins_memorywatch_en.php">MemoryWatch Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br />
+        <a class="sublink" href="plugins_shiploader_en.php">ShipLoader Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br />
         <a class="sublink" href="plugins_statistics_en.php">Statistics Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br />
         <a class="sublink" href="plugins_teacher_en.php">Teacher Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br />
     </p>
