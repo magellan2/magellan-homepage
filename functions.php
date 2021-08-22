@@ -192,7 +192,8 @@ $json_buffer = array();
  *
  * @return string[][]
  */
-function get_releases(string $repo = 'magellan2/magellan2', string $prefix = 'magellan_v')
+function get_releases(string $repo = 'magellan2/magellan2', string $prefix = 'magellan_v', 
+    string $installer_prefix = 'Magellan_installer_')
 {
     global $json_buffer;
     if (! isset($json_buffer[$repo])) {
@@ -228,13 +229,22 @@ function get_releases(string $repo = 'magellan2/magellan2', string $prefix = 'ma
         $release['mac'] = "";
         $release['zip'] = "";
         $release['changelog'] = "";
+        $platforms = array('jar', 'windows-x64', 'unix', 'macos');
         foreach ($release['assets'] as $asset) {
-            if (preg_match("/^$prefix.*\.jar$/", $asset['name']))
-                $release['jar'] = $asset['url'];
-            if (preg_match("/^$prefix.*_macos\.tgz$/", $asset['name']))
-                $release['mac'] = $asset['url'];
-            if (preg_match("/^$prefix.*\.zip$/", $asset['name']))
-                $release['zip'] = $asset['url'];
+            if (! empty($installer_prefix))
+                foreach ($platforms as $platform) {
+                    if (preg_match("/^${installer_prefix}${platform}_v.*$/", $asset['name']))
+                        $release[$platform] = $asset['url'];
+                }
+
+            if (! empty($prefix)) {
+                if (preg_match("/^$prefix.*\.jar$/", $asset['name']))
+                    $release['jar'] = $asset['url'];
+                if (preg_match("/^$prefix.*_macos\.tgz$/", $asset['name']))
+                    $release['mac'] = $asset['url'];
+                if (preg_match("/^$prefix.*\.zip$/", $asset['name']))
+                    $release['zip'] = $asset['url'];
+            }
             if (preg_match("/^CHANGELOG.txt$/", $asset['name']))
                 $release['changelog'] = $asset['url'];
             if (preg_match("/^VERSION$/", $asset['name']))
@@ -281,7 +291,7 @@ function latest_plugin_release_link(string $plugin_prefix, string $text, bool $e
 {
     $ext = $external ? " class=\"externalLink\"" : "";
 
-    $releases = get_releases('magellan2/magellan2-extensions-plugins', $plugin_prefix . "_v");
+    $releases = get_releases('magellan2/magellan2-extensions-plugins', $plugin_prefix . "_v", '');
     usort($releases, 'compare_release_version');
 
     foreach ($releases as $release) {

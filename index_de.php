@@ -70,7 +70,8 @@
                 gerade wenn die Partei wächst. Die Mindestausstattung liegt bei einem Prozessor mit
                 450 MHz und 128 MB Hauptspeicher, empfehlenswert sind jedoch 800 MHz und 512 MB
                 Hauptspeicher. Magellan läuft ab Java 11.</p>
-            <h2>Java? Das kann ich nicht!</h2>
+
+            <h2 id="java">Java? Das kann ich nicht!</h2>
             <p>
                 Kein Problem, das ist auch nicht nötig. Nach der einmaligen Installation von Java
                 braucht man nur noch Magellan herunter zu laden - eine Datei, die man im
@@ -82,6 +83,108 @@
                     href="https://openjdk.java.net/" class="externalLink">Open JDK</a> oder <a
                     href="https://www.oracle.com/java/" class="externalLink">Oracle Java SE</a>.
             </p>
+
+            <h3>Welche Version sollte ich genau herunterladen?</h3>
+            <p>Im Moment (Sommer 2021) haben wir die folgende Empfehlung, die für die meisten passen
+                sollte:</p>
+            <ul>
+                <li>AdoptOpenJDK</li>
+                <li>Natürlich die für dein Betriebssystem (Windows für die meisten)</li>
+                <li>OpenJDK 11 (LTS), ab Herbst OpenJDK 17 (LTS)</li>
+                <li>HotSpot JVM</li>
+                <li>in der Regel x64</li>
+            </ul>
+
+            <h3>JRE oder JDK?</h3>
+            <p>JDK ist normalerweise nur für Entwickler, JRE eher für Endbenutzer. Falls du die
+                ExtendedCommands von Magellan benutzen willst, brauchst du ein JDK! Der einzige
+                Nachteil des JDK ist die Größe. Wenn du also nicht besonders knapp an
+                Festplattenplatz bist, nimm lieber ein JDK.</p>
+
+            <h3>Welche Java-Version habe ich?</h3>
+            <ol>
+                <li>Öffne die Kommandozeile
+                    <ul>
+                        <li><b>Unter Windows: </b>Drücke die Windowstaste um das Startmenü
+                            aufzumachen. Tippe dann 'cmd' um die 'Kommandozeile zu öffnen</li>
+                        <li><b>Unter MacOsX: </b>Öffne Spotlight (Command + Leertaste oder klick auf
+                            die Lupe rechts oben), dann gibt 'terminal' ein.</li>
+                        <li><b>Unter Linux: </b>Öffne ein Terminal (je nach Linuxdistribution drücke
+                            zum Beispiel die Windowstaste und gib Terminal ein).</li>
+                    </ul>
+                </li>
+                <li>Tippe <code>java -version</code> und drücke <code>Enter</code>. Eine Ausgabe wie <code>'openjdk
+                        version "11.0.10" 2021-04-20'</code> heißt zum Beispiel, dass du Version 11
+                    hast. Eine Ausgabe wie "Befehl java nicht erkannt" heißt, dass du vermutlich
+                    keine Java hast.
+                </li>
+            </ol>
+
+            <h3>Ich bekomme folgende Fehlermeldung: 'Error: A JNI Error has occured, please check
+                your installation and try again.'</h3>
+
+            <p>Du hast wahrscheinlich nicht Java 11 sondern Java 8! Installiere Java 11 (siehe
+                oben).</p>
+
+            <h3>Die neueste Version auf java.com ist aber Version 8!</h3>
+            <p>
+                Seit dem Übergang von Java von Sun Microsystems an Oracle haben diese ein neues
+                Lizenzmodell etabliert. Das hat die Herausgabe und Benutzung neuer
+                Java-Implementationen verkompliziert. Deshalb ist für aktuelle Versionen <a
+                    href="https://java.com">java.com</a> nicht mehr der Ort der Wahl. Stattdessen
+                gibt es die oben genannten Alternativen.
+            </p>
+
+            <h3>Ich brauche aber Java 8 für ein anderes Program.</h3>
+
+            <p>Du kannst Magellan trotzdem benutzen, aber du musst ein bisschen tricksen.</p>
+
+            <p>
+                <b>Unter Windows: </b>
+                <ol>
+                    <li>Installiere erst Java 11, dann wieder Java 8. Dein anderes Programm sollte
+                        jetzt weiterhin funktionieren.</li>
+                    <li>Finde den Installationspfad von Java 11 (zum Beispiel:
+                        C:\Programme\jdk-11.0.1).</li>
+                    <li>Finde die Datei magellan.bat (in der Regel in
+                        C:\Programme\Magellan\magellan.bat).</li>
+                    <li>Ändere diese Datei als Administrator. Gehe dazu etwa wie folgt vor: Finde im
+                        Startmenü den Eintrag für "notepad". Mache einen Rechstklick darauf und
+                        wähle "Mehr ... Als Administrator ausführen".</li>
+                    <li>Öffne die Datei magellan.bat im Notepad.</li>
+                    <li>Füge folgende Zeile am Anfang ein (angepasst an deinen Pfad in Schritt 2):<br />
+                        <code>SET JAVA_HOME=C:\Programme\jdk-11.0.1</code>
+                    </li>
+                    <li>Speichere die Datei magellan.bat.</li>
+                    <li>Jetzt solltest du Magellan mit Java 11 ausführen können.</li>
+                </ol>
+            </p>
+
+            <p>
+                <b>Unter Linux:</b>
+            </p>
+            <ol>
+                <li>Installiere sowohl Java 8 als auch Java 11.</li>
+                <li>Führe in der Kommandozeile folgendes Kommando aus: <code>update-alternatives
+                        --config java</code>. Wähle die Version aus, die du für das andere Programm
+                    benötigst.
+                </li>
+                <li>Notiere dir den Pfad zu Java 11 (zum Beispiel <code>/usr/lib/jvm/java-11-openjkd-amd64</code>).
+                </li>
+                <li>Finde die Datei magellan.sh (in der Regel $HOME/Magellan/magellan.sh).</li>
+                <li>Ändere die Datei wie folgt: Füge die Zeile <code>export
+                        JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64</code> am Anfang ein (angepasst
+                    an deine Installation).
+                    <li>Ändere die letzte Zeile von <code>java -Xmx1200m -jar "magellan-client.jar"
+                            "$@"</code> auf <code>$JAVA_HOME/bin/java -Xmx1200m -jar
+                            "magellan-client.jar" "$@"</code> ab.
+                </li>
+                    <li>Speichere die Datei magellan.sh.</li>
+                
+                <li>Jetzt sollte Magellan mit Java 11 ausgeführt werden.</li>
+            </ol>
+
+
 
             <h2>Ist Magellan gut?</h2>
             <!-- <img style="float: right; margin-left: 1em;"

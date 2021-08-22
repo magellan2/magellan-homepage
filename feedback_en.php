@@ -21,7 +21,7 @@
             <p>
                 For us as developers the error messages are a good start
                 when tackling a problem. These can be found in the
-                <tt>errors.txt</tt>
+                <code>errors.txt</code>
                 file in the Magellan folder; please include these error
                 messages if you have a problem with Magellan. To
                 reproduce an error it may prove necessary to send in (an

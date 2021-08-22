@@ -21,7 +21,7 @@
                 Für uns Entwickler sind bei Problemen die
                 Fehlermeldungen von Magellan immer ein guter
                 Anhaltspunkt. Sie sind in der Datei
-                <tt>errors.txt</tt>
+                <code>errors.txt</code>
                 im Magellanverzeichnis zu finden; bitte schickt uns
                 diese Fehlermeldungen mit, wenn ihr ein Problem mit
                 Magellan habt. Oft kann es zur Reproduktion des Fehlers

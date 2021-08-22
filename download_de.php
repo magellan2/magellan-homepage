@@ -23,9 +23,40 @@
                 Installationsroutine ausgeführt, die dich durch die erste Konfiguration führt.
                 Magellan 2.x und seine Plugins verteilen sich über mehrere Dateien, die in einem
                 beliebigen Verzeichnis installiert werden können.</p>
+
+            <h2>Installation</h2>
             <p>
-                <strong>Du brauchst Java um Magellan zu benutzen!</strong> Mehr Informationen zu
-                Java gibt es auf der <a href="index_de.php">Hauptseite</a>.
+                Ab Version 2.1.0 (Build 752) kannst du nach dem Download einfach die Datei
+                <code>magellan_installer...</code>
+                ausführen.
+            </p>
+            <p>
+                Damit werden alle nötigen Dateien installiert und nach Wunsch ein Link auf dem
+                Desktop oder im Startmenü erstellt. Um Magellan auszuführen, nutze diesen Link oder
+                führe die Datei magellan_launcher aus. Die Datei
+                <code>magellan_launcher.vmoptions</code>
+                kannst du verändern, um zum Beispiel Magellan mehr Speicher zu geben. Dies ist aber
+                nur in speziellen Szenarien notwendig.
+            </p>
+            <p>
+                Bis einschließlich Version 2.0.9 musst du erst <a href="index_de.php#java">Java</a>
+                installieren, dann die Installationsdatei magellan_vX.Y.Z.jar durch Doppelklick oder
+                das Ausführen des Kommandos
+                <code>java -jar magellan_vX.Y.Z.jar</code>
+                aufrufen.
+            </p>
+            <p>Das installierte Magellan startet man über die angelegten Links oder über die Dateien
+                magellan.bat (Windows) bzw. magellan.sh (Linux) und ändert bei Bedarf diese Datei
+                direkt.</p>
+            <p>
+                Mehr Informationen zu Java gibt es auf der <a href="index_de.php#java">Hauptseite</a>.
+            </p>
+            <p>
+                <!-- Link required in exchange for open source license for install4j! -->
+                Unser Der Installationsprogramm wurde mit Hilfe des
+                Multiplattform-Installationsgenerators <a
+                    href=https://www.ej-technologies.com/products/install4j/overview.html>install4j</a>
+                generiert.
             </p>
             <a name="magellan2"></a>
             <h3>Download Magellan 2.x</h3>
@@ -54,7 +85,9 @@
             <ul>
             <?php
             download_link($RELEASE['jar'], "Installationsprogramm (Windows, Linux)");
-            download_link($RELEASE['mac'], "MacOS app");
+            download_link($RELEASE['windows-x64'], "Windows");
+            download_link($RELEASE['unix'], "Linux");
+            download_link($RELEASE['macos'], "MacOS");
             download_link($RELEASE['zip'], "ZIP-Datei");
             download_link($RELEASE['url'], "Quellcode bei github (für Entwickler)", true);
             ?>
@@ -81,7 +114,9 @@
             <ul>
             <?php
             download_link($LATEST['jar'], "Installationsprogramm (Windows, Linux)");
-            download_link($LATEST['mac'], "MacOS app");
+            download_link($LATEST['windows-x64'], "Windows");
+            download_link($LATEST['unix'], "Linux");
+            download_link($LATEST['macos'], "MacOS");
             download_link($LATEST['zip'], "ZIP-Datei");
             download_link("https://github.com/magellan2/magellan2/releases", "Alle Releases bei github (für Entwickler)", true);
             ?>
@@ -142,7 +177,7 @@
                     <br /> <br /></li>
             </ul>
 
-            <br /> <a name="tools"></a>
+            <a name="tools"></a>
             <h3>Download Tools</h3>
             <p>Hier findet ihr eine Reihe von Tools, die wir euch hier direkt zum Download anbieten
                 können.</p>
