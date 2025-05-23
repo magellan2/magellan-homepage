@@ -1,16 +1,17 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="{{- site.LanguageCode | default "de" -}}">
 <head>
   <title>Magellan | PbeM Client</title>
+{{- if .Params.keywords }}
+  <meta name="keywords" content="{{ delimit .Params.keywords `, ` }}" />
+{{- end }}
+  <meta charset="utf-8" />
   <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Tahoma' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Verdana' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Helvetica' rel='stylesheet'>
   <link rel="icon" type="image/png" href="{{ relURL "favicon.ico" }}" />
-  <link rel="alternate stylesheet" href="{{ relURL "classic.css" }}" type="text/css" />
-  <link rel="stylesheet" href="{{ relURL "default.css" }}" type="text/css" />
-  <link rel="stylesheet" href="{{ relURL "theme.css" }}" type="text/css" />
+  <link rel="alternate stylesheet" type="text/css" href="{{ relURL "classic.css" }}" />
+  <link rel="stylesheet" type="text/css" href="{{ relURL "default.css" }}"/>
+  <link rel="stylesheet" type="text/css" href="{{ relURL "theme.css" }}" />
 </head>
 <body>
   <div id="container">
