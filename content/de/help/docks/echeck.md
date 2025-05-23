@@ -8,20 +8,20 @@
       downloaden. Eine Anleitung findet sich ebenfalls dort.
     </p>
     <p>
-      Bei Klick auf den Menüpunkt erscheint folgender Dialog:
+      Bei Klick auf den Menï¿½punkt erscheint folgender Dialog:
     </p>
     <p style="text-align: center">
-      <img src="../images/menu_extras_echeck.gif" alt="" border="0" />
+      <img src="/images/help/magellan/menu_extras_echeck.gif" alt="" border="0" />
     </p>
     <p>
-      Oben kann man den Pfad zu E-Check angeben. Zusätzliche Optionen können
-      direkt übergeben werden. Die Liste der möglichen Optionen findet man in
+      Oben kann man den Pfad zu E-Check angeben. Zusï¿½tzliche Optionen kï¿½nnen
+      direkt ï¿½bergeben werden. Die Liste der mï¿½glichen Optionen findet man in
       der Dokumentation zu E-Check.
     </p>
     <p>
-      Mit Klick auf <b><i>Ausführen</i></b> werden die Befehle durch E-Check
-      geprüft. Die Fehler und Warnungen, die E-Check ausgibt, werden im linken
+      Mit Klick auf <b><i>Ausfï¿½hren</i></b> werden die Befehle durch E-Check
+      geprï¿½ft. Die Fehler und Warnungen, die E-Check ausgibt, werden im linken
       Fenster aufgelistet. Mit Klick auf einen Fehler bzw. eine Warnung springt
       das Hauptfenster zu der entsprechenden Einheit und man kann die Befehle
-      nochmals überprüfen.
+      nochmals ï¿½berprï¿½fen.
     </p>

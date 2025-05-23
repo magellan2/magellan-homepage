@@ -49,7 +49,7 @@ id="seiten"></a>
 </h2>
 <p>
   Mit dem Befehl <a
-  href="orders_list.html#ATTACKIERE"><tt>ATTACKIERE</tt></a> startet man
+  href="orders_list#ATTACKIERE"><tt>ATTACKIERE</tt></a> startet man
   den Angriff gegen den Gegner. Die <tt>ATTACKIERE</tt>-Befehle werden in
   einer zufälligen Reihenfolge ausgeführt. Bei einer Attacke sammeln sich
   die Einheiten aller Seiten in der Region und kämpfen als Einzelpersonen
@@ -69,7 +69,7 @@ id="seiten"></a>
   kampfbereit sind (also <tt>KÄMPFE</tt>, <tt>KÄMPFE AGGRESSIV</tt>,
   <tt>KÄMPFE HINTEN</tt> oder <tt>KÄMPFE DEFENSIV</tt> gesetzt haben).
   Außerdem helfen alle kampfbereiten Einheiten alliierter Parteien, also
-  jener, die <a href="orders_list.html#HELFE"><tt>HELFE KÄMPFE</tt></a> für
+  jener, die <a href="orders_list#HELFE"><tt>HELFE KÄMPFE</tt></a> für
   die angegriffene Partei gesetzt haben.
 </p>
 <p>
@@ -85,7 +85,7 @@ id="seiten"></a>
     Die Einheit wird von einer anderen Einheit angegriffen. Dann gliedert
     sie sich entsprechend ihres Kampfstatus in die <a
     href="#rows">Kampfreihen</a> ein. (s.a. <a
-    href="orders_list.html#KAEMPFE"><tt>KÄMPFE</tt></a>).
+    href="orders_list#KAEMPFE"><tt>KÄMPFE</tt></a>).
   </li>
   <li>
     Eine Einheit aus der eigenen Partei wird von jemandem attackiert. Dann
@@ -180,7 +180,7 @@ Beispiel 4:
   langen Befehle ausführen können. Ausnahmen sind <a
   href="#schiffkampf">Kämpfe auf See</a> und Kämpfe in Regionen, die zu
   Kampfbeginn von mindestens einer Einheit, die dem Kämpfer <a
-  href="orders_list.html#BEWACHE">HELFE BEWACHE</a> gesetzt hat, oder aus
+  href="orders_list#BEWACHE">HELFE BEWACHE</a> gesetzt hat, oder aus
   der eigenen Partei ist, bewacht wird. In diesem Fall sind weitere lange
   Befehle möglich.
 </p>
@@ -192,7 +192,7 @@ Beispiel 4:
   Im Kampf gibt es vier Kampfreihen, diese bestehen nur aus den Einheiten,
   die auch wirklich am kampf teilnehmen (<a href="#seiten">s.o.</a>). Für
   weitere Informationen über die Kampfstati siehe <a
-  href="orders_list.html#KAEMPFE"><tt>KÄMPFE</tt></a>.
+  href="orders_list#KAEMPFE"><tt>KÄMPFE</tt></a>.
 </p>
 <p>
   1. Reihe: Hier stehen alle Einheiten, die <tt>KÄMPFE</tt> oder <tt>KÄMPFE
@@ -301,7 +301,7 @@ name="INDEX-Kampf_Musterung"></a>
 </h3>
 <p>
   Helden sind besonders starke Kämpfer. Sie müssen zuvor mit dem Befehl <a
-  href="orders_list.html#BEFOERDERUNG"><tt>BEFÖRDERUNG</tt></a> ernannt
+  href="orders_list#BEFOERDERUNG"><tt>BEFÖRDERUNG</tt></a> ernannt
   worden sein.
 </p>
 <p>
@@ -313,7 +313,7 @@ name="INDEX-Kampf_Musterung"></a>
 </p>
 <p>
   Für nähere Informationen siehe <a
-  href="orders_list.html#BEFOERDERUNG"><tt>BEFÖRDERUNG</tt></a>.
+  href="orders_list#BEFOERDERUNG"><tt>BEFÖRDERUNG</tt></a>.
 </p>
 <a name="melee" id="melee"></a> 
 <h3>
@@ -421,7 +421,7 @@ name="INDEX-Kampf_Musterung"></a>
 </p>
 <p>
   Katapulte benötigen Munition. Diese kann mittels <a
-  href="orders_list.html#MACHE"><tt>MACHE</tt></a>
+  href="orders_list#MACHE"><tt>MACHE</tt></a>
   <tt>katapultmunition</tt> durch einen Steinbauer mit Talent 3 aus Steinen
   produziert werden und wiegt 10 Gewichtseinheiten. Eine Munitionseinheit
   entspricht dabei einer Salve.
@@ -702,9 +702,9 @@ name="INDEX-Kampf_Musterung"></a>
   Die Flucht
 </h3>
 <p>
-  Personen, die <a href="orders_list.html#KAEMPFE"><tt>KÄMPFE</tt></a>
+  Personen, die <a href="orders_list#KAEMPFE"><tt>KÄMPFE</tt></a>
   <tt>FLIEHE</tt> gesetzt haben und <a
-  href="orders_list.html#ATTACKIERE"><tt>ATTACKIER</tt></a>t werden,
+  href="orders_list#ATTACKIERE"><tt>ATTACKIER</tt></a>t werden,
   versuchen zu fliehen. Dies tun sie vor jeder Kampfrunde, es kann also
   sein, daß sie erst (weitere) Treffer hinnehmen müssen.
 </p>
@@ -757,9 +757,9 @@ name="schiffkampf" id="schiffkampf"></a>
 </p>
 <p>
   Will man mit einem Schiff Truppen in einer bewachten (siehe <a
-  href="orders_list.html#BEWACHE"><tt>BEWACHE</tt></a>) Region anlanden, so
+  href="orders_list#BEWACHE"><tt>BEWACHE</tt></a>) Region anlanden, so
   müssen diese erst das Schiff <a
-  href="orders_list.html#VERLASSE"><tt>VERLASSEN</tt></a> und können erst
+  href="orders_list#VERLASSE"><tt>VERLASSEN</tt></a> und können erst
   in der folgenden Runde den Angriff starten. Dadurch hat der Gegner die
   Möglichkeit, entsprechend zu reagieren.
 </p>
@@ -780,10 +780,10 @@ name="schiffkampf" id="schiffkampf"></a>
   Der Kapitän legt sich auf die Lauer nach Schiffen, die nach ihrer
   Bewegung in einer Nachbarregion liegen. Er wird sich dann automatisch
   dorthin begeben, wenn sich die Partei nach dem Befehl <a
-  href="orders_list.html#PIRATERIE"><tt>PIRATERIE "parteinummer"</tt></a>
+  href="orders_list#PIRATERIE"><tt>PIRATERIE "parteinummer"</tt></a>
   in seiner "Suchliste" befindet. Dort angekommen, kann die Mannschaft in
   der kommenden Runde ganz normal agieren. Mit Hilfe von <a
-  href="orders_list.html#FOLGE"><tt>FOLGE SCHIFF</tt></a> kann man seine
+  href="orders_list#FOLGE"><tt>FOLGE SCHIFF</tt></a> kann man seine
   Opfer auch erstmal verfolgen.
 </p>
 Bei der ganzen Geschichte sind einige Sachen zu beachten: 
@@ -805,7 +805,7 @@ Bei der ganzen Geschichte sind einige Sachen zu beachten:
   </li>
   <li>
     Hat bereits ein alliiertes Schiff (also eines, dessen Partei <a
-    href="orders_list.html#HELFE"><tt>HELFE KÄMPFE</tt></a> zur eigenen
+    href="orders_list#HELFE"><tt>HELFE KÄMPFE</tt></a> zur eigenen
     Partei gesetzt hat) mit Piraterie-Befehl, welches sich in derselben
     Region befindet, ein Opfer erkannt, so wird sich ein Schiff mit
     Piraterie-Befehl ebenfalls in die betreffende Region, vorausgesetzt,
@@ -1567,13 +1567,13 @@ abgezogen werden<br />
 Hälfte additiv zu normaler Rüstung. 
 <ul>
   <li>
-    <a href="battle_weapons.html">Waffen</a>
+    <a href="battle_weapons">Waffen</a>
   </li>
   <li>
-    <a href="battle_hitpoints.html">Trefferpunkte</a>
+    <a href="battle_hitpoints">Trefferpunkte</a>
   </li>
   <li>
-    <a href="battle_armors.html">Rüstungen</a>
+    <a href="battle_armors">Rüstungen</a>
   </li>
 </ul>
 

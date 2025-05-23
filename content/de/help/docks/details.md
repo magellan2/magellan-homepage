@@ -7,7 +7,7 @@
       Hier werden Details zu den gerade aktiven Objekten angezeigt.
     </p>
     <p style="text-align: center">
-      <img src="../images/windows_detail.gif" alt="" border="0" />
+      <img src="/images/help/magellan/windows_detail.gif" alt="" border="0" />
     </p>
     <p>
       Im oberen Bereich werden permanent die wichtigsten Daten einer Region

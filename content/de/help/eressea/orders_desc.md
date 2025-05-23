@@ -56,7 +56,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#ARBEITE">ARBEITE</a></tt>
+        <tt><a href="orders_list#ARBEITE">ARBEITE</a></tt>
       </td>
       <td>
         verdient 10 Silber oder mehr
@@ -67,7 +67,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#ATTACKIERE">ATTACKIERE
+        <tt><a href="orders_list#ATTACKIERE">ATTACKIERE
         einheit-nr</a></tt>
       </td>
       <td>
@@ -79,7 +79,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#BANNER">BANNER "text</a></tt>
+        <tt><a href="orders_list#BANNER">BANNER "text</a></tt>
       </td>
       <td>
         Setzt Text für Adress-Liste
@@ -90,7 +90,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#BEANSPRUCHE">BEANSPRUCHE anzahl
+        <tt><a href="orders_list#BEANSPRUCHE">BEANSPRUCHE anzahl
         gegenstand</a></tt>
       </td>
       <td>
@@ -102,7 +102,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#BEFOERDERUNG">BEFÖRDERUNG</a></tt>
+        <tt><a href="orders_list#BEFOERDERUNG">BEFÖRDERUNG</a></tt>
       </td>
       <td>
         macht Einheit zu Helden
@@ -113,7 +113,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#BEKLAUE">BEKLAUE einheit-nr</a></tt>
+        <tt><a href="orders_list#BEKLAUE">BEKLAUE einheit-nr</a></tt>
       </td>
       <td>
         klaut 50 Silber oder mehr
@@ -124,7 +124,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#BELAGERE">BELAGERE burg-nr</a></tt>
+        <tt><a href="orders_list#BELAGERE">BELAGERE burg-nr</a></tt>
       </td>
       <td>
         belagert die Burg
@@ -135,7 +135,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#BENENNE">BENENNE EINHEIT
+        <tt><a href="orders_list#BENENNE">BENENNE EINHEIT
         "name"</a></tt>
       </td>
       <td>
@@ -147,7 +147,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#BENENNE">BENENNE PARTEI
+        <tt><a href="orders_list#BENENNE">BENENNE PARTEI
         "name"</a></tt>
       </td>
       <td>
@@ -159,7 +159,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#BENENNE">BENENNE GEBÄUDE
+        <tt><a href="orders_list#BENENNE">BENENNE GEBÄUDE
         "name"</a></tt>
       </td>
       <td>
@@ -171,7 +171,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#BENENNE">BENENNE SCHIFF
+        <tt><a href="orders_list#BENENNE">BENENNE SCHIFF
         "name"</a></tt>
       </td>
       <td>
@@ -183,7 +183,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#BENENNE">BENENNE REGION
+        <tt><a href="orders_list#BENENNE">BENENNE REGION
         "name"</a></tt>
       </td>
       <td>
@@ -195,7 +195,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#BENENNE">BENENNE FREMDE EINHEIT
+        <tt><a href="orders_list#BENENNE">BENENNE FREMDE EINHEIT
         einheit "name"</a></tt>
       </td>
       <td>
@@ -207,7 +207,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#BENENNE">BENENNE FREMDES SCHIFF
+        <tt><a href="orders_list#BENENNE">BENENNE FREMDES SCHIFF
         schiff "name"</a></tt>
       </td>
       <td>
@@ -219,7 +219,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#BENENNE">BENENNE FREMDES GEBÄUDE
+        <tt><a href="orders_list#BENENNE">BENENNE FREMDES GEBÄUDE
         gebäude "name"</a></tt>
       </td>
       <td>
@@ -231,7 +231,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#BENENNE">BENENNE FREMDE PARTEI partei
+        <tt><a href="orders_list#BENENNE">BENENNE FREMDE PARTEI partei
         "name"</a></tt>
       </td>
       <td>
@@ -243,7 +243,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#BENUTZE">BENUTZE [anzahl]
+        <tt><a href="orders_list#BENUTZE">BENUTZE [anzahl]
         trank</a></tt>
       </td>
       <td>
@@ -255,7 +255,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#BESCHREIBE">BESCHREIBE EINHEIT
+        <tt><a href="orders_list#BESCHREIBE">BESCHREIBE EINHEIT
         "text"</a></tt>
       </td>
       <td>
@@ -267,7 +267,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#BESCHREIBE">BESCHREIBE PRIVAT
+        <tt><a href="orders_list#BESCHREIBE">BESCHREIBE PRIVAT
         "text"</a></tt>
       </td>
       <td>
@@ -279,7 +279,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#BESCHREIBE">BESCHREIBE GEBÄUDE
+        <tt><a href="orders_list#BESCHREIBE">BESCHREIBE GEBÄUDE
         "text"</a></tt>
       </td>
       <td>
@@ -291,7 +291,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#BESCHREIBE">BESCHREIBE SCHIFF
+        <tt><a href="orders_list#BESCHREIBE">BESCHREIBE SCHIFF
         "text"</a></tt>
       </td>
       <td>
@@ -303,7 +303,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#BESCHREIBE">BESCHREIBE REGION
+        <tt><a href="orders_list#BESCHREIBE">BESCHREIBE REGION
         "text"</a></tt>
       </td>
       <td>
@@ -315,7 +315,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#BETRETE">BETRETE GEBÄUDE
+        <tt><a href="orders_list#BETRETE">BETRETE GEBÄUDE
         gebäude</a></tt>
       </td>
       <td>
@@ -327,7 +327,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#BETRETE">BETRETE SCHIFF
+        <tt><a href="orders_list#BETRETE">BETRETE SCHIFF
         schiff-nr</a></tt>
       </td>
       <td>
@@ -339,7 +339,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#BEWACHE">BEWACHE [NICHT]</a></tt>
+        <tt><a href="orders_list#BEWACHE">BEWACHE [NICHT]</a></tt>
       </td>
       <td>
         bewacht die Region
@@ -350,7 +350,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#BOTSCHAFT">BOTSCHAFT REGION
+        <tt><a href="orders_list#BOTSCHAFT">BOTSCHAFT REGION
         "text"</a></tt>
       </td>
       <td>
@@ -362,7 +362,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#BOTSCHAFT">BOTSCHAFT SCHIFF schiff-nr
+        <tt><a href="orders_list#BOTSCHAFT">BOTSCHAFT SCHIFF schiff-nr
         "text"</a></tt>
       </td>
       <td>
@@ -374,7 +374,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#BOTSCHAFT">BOTSCHAFT GEBÄUDE
+        <tt><a href="orders_list#BOTSCHAFT">BOTSCHAFT GEBÄUDE
         gebäude-nr "text"</a></tt>
       </td>
       <td>
@@ -386,7 +386,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#BOTSCHAFT">BOTSCHAFT EINHEIT einh-nr
+        <tt><a href="orders_list#BOTSCHAFT">BOTSCHAFT EINHEIT einh-nr
         "text"</a></tt>
       </td>
       <td>
@@ -398,7 +398,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#BOTSCHAFT">BOTSCHAFT PARTEI partei-nr
+        <tt><a href="orders_list#BOTSCHAFT">BOTSCHAFT PARTEI partei-nr
         "text"</a></tt>
       </td>
       <td>
@@ -410,7 +410,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#DEFAULT">DEFAULT befehl</a></tt>
+        <tt><a href="orders_list#DEFAULT">DEFAULT befehl</a></tt>
       </td>
       <td>
         Setzt Default-Befehl für die nächste Runde.
@@ -421,7 +421,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#EINHEIT">EINHEIT einheit-nr</a></tt>
+        <tt><a href="orders_list#EINHEIT">EINHEIT einheit-nr</a></tt>
       </td>
       <td>
         beginnt Befehle für eine Einheit
@@ -432,7 +432,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#EMAIL">EMAIL email@adresse</a></tt>
+        <tt><a href="orders_list#EMAIL">EMAIL email@adresse</a></tt>
       </td>
       <td>
         setzt die eMail-Adresse
@@ -443,7 +443,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#ENDE">ENDE</a></tt>
+        <tt><a href="orders_list#ENDE">ENDE</a></tt>
       </td>
       <td>
         beendet <tt>MACHE TEMP</tt>
@@ -454,7 +454,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#ERESSEA">ERESSEA partei-nr
+        <tt><a href="orders_list#ERESSEA">ERESSEA partei-nr
         "passwort"</a></tt>
       </td>
       <td>
@@ -466,7 +466,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#FAHRE">FAHRE einheit-nr</a></tt>
+        <tt><a href="orders_list#FAHRE">FAHRE einheit-nr</a></tt>
       </td>
       <td>
         sich transportieren lassen
@@ -477,7 +477,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#FOLGE">FOLGE EINHEIT
+        <tt><a href="orders_list#FOLGE">FOLGE EINHEIT
         einheit-nr</a></tt>
       </td>
       <td>
@@ -489,7 +489,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#FOLGE">FOLGE SCHIFF
+        <tt><a href="orders_list#FOLGE">FOLGE SCHIFF
         schiff-nr</a></tt>
       </td>
       <td>
@@ -501,7 +501,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#FORSCHE">FORSCHE KRÄUTER</a></tt>
+        <tt><a href="orders_list#FORSCHE">FORSCHE KRÄUTER</a></tt>
       </td>
       <td>
         sucht Kräuter
@@ -512,7 +512,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#GIB">GIB einheit-nr KRÄUTER</a></tt>
+        <tt><a href="orders_list#GIB">GIB einheit-nr KRÄUTER</a></tt>
       </td>
       <td>
         gibt einer Einheit alle Kräuter
@@ -523,7 +523,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#GIB">GIB einheit-nr KOMMANDO</a></tt>
+        <tt><a href="orders_list#GIB">GIB einheit-nr KOMMANDO</a></tt>
       </td>
       <td>
         übergibt Kommando über Schiff/Gebäude
@@ -534,7 +534,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#GIB">GIB einheit-nr anzahl
+        <tt><a href="orders_list#GIB">GIB einheit-nr anzahl
         SILBER</a></tt>
       </td>
       <td>
@@ -546,7 +546,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#GIB">GIB einheit-nr anzahl
+        <tt><a href="orders_list#GIB">GIB einheit-nr anzahl
         PERSONEN</a></tt>
       </td>
       <td>
@@ -558,7 +558,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#GIB">GIB einheit-nr EINHEIT</a></tt>
+        <tt><a href="orders_list#GIB">GIB einheit-nr EINHEIT</a></tt>
       </td>
       <td>
         übergibt Einheit an fremde Partei
@@ -569,7 +569,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#GIB">GIB einheit-nr anzahl
+        <tt><a href="orders_list#GIB">GIB einheit-nr anzahl
         gegenstand</a></tt>
       </td>
       <td>
@@ -581,7 +581,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#GIB">GIB 0 anzahl SILBER</a></tt>
+        <tt><a href="orders_list#GIB">GIB 0 anzahl SILBER</a></tt>
       </td>
       <td>
         wegwerfen von Gegenständen
@@ -592,7 +592,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#GIB">GIB 0 anzahl PERSONEN</a></tt>
+        <tt><a href="orders_list#GIB">GIB 0 anzahl PERSONEN</a></tt>
       </td>
       <td>
         &nbsp;
@@ -603,7 +603,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#GIB">GIB 0 anzahl gegenstand</a></tt>
+        <tt><a href="orders_list#GIB">GIB 0 anzahl gegenstand</a></tt>
       </td>
       <td>
         &nbsp;
@@ -614,7 +614,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#GRUPPE">GRUPPE ["name"]</a></tt>
+        <tt><a href="orders_list#GRUPPE">GRUPPE ["name"]</a></tt>
       </td>
       <td>
         Gruppieren von Einheiten
@@ -625,7 +625,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#HELFE">HELFE partei-nr ALLES
+        <tt><a href="orders_list#HELFE">HELFE partei-nr ALLES
         [NICHT]</a></tt>
       </td>
       <td>
@@ -637,7 +637,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#HELFE">HELFE partei-nr GIB
+        <tt><a href="orders_list#HELFE">HELFE partei-nr GIB
         [NICHT]</a></tt>
       </td>
       <td>
@@ -649,7 +649,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#HELFE">HELFE partei-nr KÄMPFE
+        <tt><a href="orders_list#HELFE">HELFE partei-nr KÄMPFE
         [NICHT]</a></tt>
       </td>
       <td>
@@ -661,7 +661,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#HELFE">HELFE partei-nr BEWACHE
+        <tt><a href="orders_list#HELFE">HELFE partei-nr BEWACHE
         [NICHT]</a></tt>
       </td>
       <td>
@@ -673,7 +673,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#HELFE">HELFE partei-nr SILBER
+        <tt><a href="orders_list#HELFE">HELFE partei-nr SILBER
         [NICHT]</a></tt>
       </td>
       <td>
@@ -685,7 +685,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#HELFE">HELFE partei-nr PARTEITARNUNG
+        <tt><a href="orders_list#HELFE">HELFE partei-nr PARTEITARNUNG
         [NICHT]</a></tt>
       </td>
       <td>
@@ -697,7 +697,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#KAEMPFE">KÄMPFE</a></tt>
+        <tt><a href="orders_list#KAEMPFE">KÄMPFE</a></tt>
       </td>
       <td>
         setzt Verhalten im Kampf
@@ -708,7 +708,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#KAEMPFE">KÄMPFE AGGRESSIV</a></tt>
+        <tt><a href="orders_list#KAEMPFE">KÄMPFE AGGRESSIV</a></tt>
       </td>
       <td>
         &nbsp;
@@ -719,7 +719,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#KAEMPFE">KÄMPFE DEFENSIV</a></tt>
+        <tt><a href="orders_list#KAEMPFE">KÄMPFE DEFENSIV</a></tt>
       </td>
       <td>
         &nbsp;
@@ -730,7 +730,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#KAEMPFE">KÄMPFE FLIEHE</a></tt>
+        <tt><a href="orders_list#KAEMPFE">KÄMPFE FLIEHE</a></tt>
       </td>
       <td>
         &nbsp;
@@ -741,7 +741,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#KAEMPFE">KÄMPFE HELFE
+        <tt><a href="orders_list#KAEMPFE">KÄMPFE HELFE
         [nicht]</a></tt>
       </td>
       <td>
@@ -753,7 +753,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#KAEMPFE">KÄMPFE HINTEN</a></tt>
+        <tt><a href="orders_list#KAEMPFE">KÄMPFE HINTEN</a></tt>
       </td>
       <td>
         &nbsp;
@@ -764,7 +764,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#KAEMPFE">KÄMPFE NICHT</a></tt>
+        <tt><a href="orders_list#KAEMPFE">KÄMPFE NICHT</a></tt>
       </td>
       <td>
         &nbsp;
@@ -775,7 +775,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#KAMPFZAUBER">KAMPFZAUBER
+        <tt><a href="orders_list#KAMPFZAUBER">KAMPFZAUBER
         "zauberspruch"</a></tt>
       </td>
       <td>
@@ -787,7 +787,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#KAUFE">KAUFE anzahl luxusgut</a></tt>
+        <tt><a href="orders_list#KAUFE">KAUFE anzahl luxusgut</a></tt>
       </td>
       <td>
         kaufe Luxusgüter
@@ -798,7 +798,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#KONTAKTIERE">KONTAKTIERE
+        <tt><a href="orders_list#KONTAKTIERE">KONTAKTIERE
         einheit-nr</a></tt>
       </td>
       <td>
@@ -810,7 +810,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#LEHRE">LEHRE einheit-nr [einheit-nr
+        <tt><a href="orders_list#LEHRE">LEHRE einheit-nr [einheit-nr
         etc.]</a></tt>
       </td>
       <td>
@@ -822,7 +822,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#LERNE">LERNE talent</a></tt>
+        <tt><a href="orders_list#LERNE">LERNE talent</a></tt>
       </td>
       <td>
         Talent lernen
@@ -833,7 +833,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#MACHE">MACHE TEMP unit-alias-nr
+        <tt><a href="orders_list#MACHE">MACHE TEMP unit-alias-nr
         ["name"]</a></tt>
       </td>
       <td>
@@ -845,7 +845,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#MACHE">MACHE [stufe] gebäude-typ
+        <tt><a href="orders_list#MACHE">MACHE [stufe] gebäude-typ
         [gebäude-nr]</a></tt>
       </td>
       <td>
@@ -857,7 +857,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#MACHE">MACHE [stufe] SCHIFF
+        <tt><a href="orders_list#MACHE">MACHE [stufe] SCHIFF
         [schiff-nr]</a></tt>
       </td>
       <td>
@@ -869,7 +869,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#MACHE">MACHE</a></tt>
+        <tt><a href="orders_list#MACHE">MACHE</a></tt>
       </td>
       <td>
         baue weiter an Gebäude/Schiff
@@ -880,7 +880,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#MACHE">MACHE [stufe] BOOT</a></tt>
+        <tt><a href="orders_list#MACHE">MACHE [stufe] BOOT</a></tt>
       </td>
       <td>
         baue neue Schiffe
@@ -891,7 +891,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#MACHE">MACHE [stufe]
+        <tt><a href="orders_list#MACHE">MACHE [stufe]
         LANGBOOT</a></tt>
       </td>
       <td>
@@ -903,7 +903,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#MACHE">MACHE [stufe]
+        <tt><a href="orders_list#MACHE">MACHE [stufe]
         DRACHENSCHIFF</a></tt>
       </td>
       <td>
@@ -915,7 +915,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#MACHE">MACHE [stufe]
+        <tt><a href="orders_list#MACHE">MACHE [stufe]
         KARAVELLE</a></tt>
       </td>
       <td>
@@ -927,7 +927,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#MACHE">MACHE [stufe] TRIREME</a></tt>
+        <tt><a href="orders_list#MACHE">MACHE [stufe] TRIREME</a></tt>
       </td>
       <td>
         &nbsp;
@@ -938,7 +938,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#MACHE">MACHE [stufe] STRASSE
+        <tt><a href="orders_list#MACHE">MACHE [stufe] STRASSE
         richtung</a></tt>
       </td>
       <td>
@@ -950,7 +950,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#MACHE">MACHE [anzahl]
+        <tt><a href="orders_list#MACHE">MACHE [anzahl]
         KRÄUTER</a></tt>
       </td>
       <td>
@@ -962,7 +962,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#MACHE">MACHE [anzahl] trank</a></tt>
+        <tt><a href="orders_list#MACHE">MACHE [anzahl] trank</a></tt>
       </td>
       <td>
         mache einen alchemistischen Trank
@@ -973,7 +973,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#MACHE">MACHE [anzahl]
+        <tt><a href="orders_list#MACHE">MACHE [anzahl]
         gegenstand</a></tt>
       </td>
       <td>
@@ -985,7 +985,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#NACH">NACH richtung [richtung
+        <tt><a href="orders_list#NACH">NACH richtung [richtung
         etc.]</a></tt>
       </td>
       <td>
@@ -997,7 +997,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#NAECHSTER">NÄCHSTER</a></tt>
+        <tt><a href="orders_list#NAECHSTER">NÄCHSTER</a></tt>
       </td>
       <td>
         Beendet Befehle
@@ -1008,7 +1008,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#NEUSTART">NEUSTART rasse
+        <tt><a href="orders_list#NEUSTART">NEUSTART rasse
         "passwort"</a></tt>
       </td>
       <td>
@@ -1020,7 +1020,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#NUMMER">NUMMER EINHEIT
+        <tt><a href="orders_list#NUMMER">NUMMER EINHEIT
         [neue_nr]</a></tt>
       </td>
       <td>
@@ -1032,7 +1032,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#NUMMER">NUMMER GEBÄUDE
+        <tt><a href="orders_list#NUMMER">NUMMER GEBÄUDE
         [neue_nr]</a></tt>
       </td>
       <td>
@@ -1044,7 +1044,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#NUMMER">NUMMER PARTEI
+        <tt><a href="orders_list#NUMMER">NUMMER PARTEI
         [neue_nr]</a></tt>
       </td>
       <td>
@@ -1056,7 +1056,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#NUMMER">NUMMER SCHIFF
+        <tt><a href="orders_list#NUMMER">NUMMER SCHIFF
         [neue_nr]</a></tt>
       </td>
       <td>
@@ -1068,7 +1068,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#OPTION">OPTION AUSWERTUNG
+        <tt><a href="orders_list#OPTION">OPTION AUSWERTUNG
         [NICHT]</a></tt>
       </td>
       <td>
@@ -1080,7 +1080,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#OPTION">OPTION COMPUTER
+        <tt><a href="orders_list#OPTION">OPTION COMPUTER
         [NICHT]</a></tt>
       </td>
       <td>
@@ -1092,7 +1092,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#OPTION">OPTION ZIPPED
+        <tt><a href="orders_list#OPTION">OPTION ZIPPED
         [NICHT]</a></tt>
       </td>
       <td>
@@ -1104,7 +1104,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#OPTION">OPTION BZIP2 [NICHT]</a></tt>
+        <tt><a href="orders_list#OPTION">OPTION BZIP2 [NICHT]</a></tt>
       </td>
       <td>
         &nbsp;
@@ -1115,7 +1115,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#OPTION">OPTION SILBERPOOL
+        <tt><a href="orders_list#OPTION">OPTION SILBERPOOL
         [NICHT]</a></tt>
       </td>
       <td>
@@ -1127,31 +1127,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#OPTION">OPTION MATERIALPOOL
-        [NICHT]</a></tt>
-      </td>
-      <td>
-        &nbsp;
-      </td>
-      <td align="center">
-        K
-      </td>
-    </tr>
-    <tr bgcolor="#DDDDDD">
-      <td>
-        <tt><a href="orders_list.html#OPTION">OPTION ADRESSEN
-        [NICHT]</a></tt>
-      </td>
-      <td>
-        &nbsp;
-      </td>
-      <td align="center">
-        K
-      </td>
-    </tr>
-    <tr bgcolor="#EEEEEE">
-      <td>
-        <tt><a href="orders_list.html#OPTION">OPTION ZUGVORLAGE
+        <tt><a href="orders_list#OPTION">OPTION MATERIALPOOL
         [NICHT]</a></tt>
       </td>
       <td>
@@ -1163,7 +1139,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#OPTION">OPTION STATISTIK
+        <tt><a href="orders_list#OPTION">OPTION ADRESSEN
         [NICHT]</a></tt>
       </td>
       <td>
@@ -1175,7 +1151,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#OPTION">OPTION TALENTVERSCHIEBUNG
+        <tt><a href="orders_list#OPTION">OPTION ZUGVORLAGE
         [NICHT]</a></tt>
       </td>
       <td>
@@ -1187,7 +1163,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#OPTION">OPTION PUNKTE
+        <tt><a href="orders_list#OPTION">OPTION STATISTIK
         [NICHT]</a></tt>
       </td>
       <td>
@@ -1199,7 +1175,31 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#PASSWORT">PASSWORT
+        <tt><a href="orders_list#OPTION">OPTION TALENTVERSCHIEBUNG
+        [NICHT]</a></tt>
+      </td>
+      <td>
+        &nbsp;
+      </td>
+      <td align="center">
+        K
+      </td>
+    </tr>
+    <tr bgcolor="#DDDDDD">
+      <td>
+        <tt><a href="orders_list#OPTION">OPTION PUNKTE
+        [NICHT]</a></tt>
+      </td>
+      <td>
+        &nbsp;
+      </td>
+      <td align="center">
+        K
+      </td>
+    </tr>
+    <tr bgcolor="#EEEEEE">
+      <td>
+        <tt><a href="orders_list#PASSWORT">PASSWORT
         "neues-passwort"</a></tt>
       </td>
       <td>
@@ -1211,7 +1211,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#PFLANZE">PFLANZE [anzahl]
+        <tt><a href="orders_list#PFLANZE">PFLANZE [anzahl]
         KRÄUTER</a></tt>
       </td>
       <td>
@@ -1223,7 +1223,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#PFLANZE">PFLANZE [anzahl]
+        <tt><a href="orders_list#PFLANZE">PFLANZE [anzahl]
         BÄUME</a></tt>
       </td>
       <td>
@@ -1235,7 +1235,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#PFLANZE">PFLANZE [anzahl]
+        <tt><a href="orders_list#PFLANZE">PFLANZE [anzahl]
         MALLORNSAMEN</a></tt>
       </td>
       <td>
@@ -1247,7 +1247,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#PFLANZE">PFLANZE [anzahl]
+        <tt><a href="orders_list#PFLANZE">PFLANZE [anzahl]
         SAMEN</a></tt>
       </td>
       <td>
@@ -1259,7 +1259,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#PIRATERIE">PIRATERIE [partei_1
+        <tt><a href="orders_list#PIRATERIE">PIRATERIE [partei_1
         [partei_2 [...]]]</a></tt>
       </td>
       <td>
@@ -1271,7 +1271,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#PRAEFIX">PRÄFIX [präfix]</a></tt>
+        <tt><a href="orders_list#PRAEFIX">PRÄFIX [präfix]</a></tt>
       </td>
       <td>
         gibt der Rassenbezeichnung ein Präfix
@@ -1282,7 +1282,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#REGION">REGION x,y</a></tt>
+        <tt><a href="orders_list#REGION">REGION x,y</a></tt>
       </td>
       <td>
         keine Funktion (nur für Tools)
@@ -1293,7 +1293,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#REKRUTIERE">REKRUTIERE
+        <tt><a href="orders_list#REKRUTIERE">REKRUTIERE
         anzahl</a></tt>
       </td>
       <td>
@@ -1305,7 +1305,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#RESERVIERE">RESERVIERE anzahl
+        <tt><a href="orders_list#RESERVIERE">RESERVIERE anzahl
         "gegenstand"</a></tt>
       </td>
       <td>
@@ -1317,7 +1317,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#RESERVIERE">RESERVIERE anzahl
+        <tt><a href="orders_list#RESERVIERE">RESERVIERE anzahl
         SILBER</a></tt>
       </td>
       <td>
@@ -1329,7 +1329,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#ROUTE">ROUTE richtung [richtung
+        <tt><a href="orders_list#ROUTE">ROUTE richtung [richtung
         etc.]</a></tt>
       </td>
       <td>
@@ -1341,7 +1341,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#SABOTIERE">SABOTIERE SCHIFF</a></tt>
+        <tt><a href="orders_list#SABOTIERE">SABOTIERE SCHIFF</a></tt>
       </td>
       <td>
         Schiff versenken
@@ -1352,7 +1352,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#SPIONIERE">SPIONIERE
+        <tt><a href="orders_list#SPIONIERE">SPIONIERE
         einheit-nr</a></tt>
       </td>
       <td>
@@ -1364,7 +1364,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#SORTIERE">SORTIERE VOR
+        <tt><a href="orders_list#SORTIERE">SORTIERE VOR
         einheit-nr</a></tt>
       </td>
       <td>
@@ -1376,7 +1376,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#SORTIERE">SORTIERE HINTER
+        <tt><a href="orders_list#SORTIERE">SORTIERE HINTER
         einheit-nr</a></tt>
       </td>
       <td>
@@ -1388,7 +1388,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#STIRB">STIRB "passwort"</a></tt>
+        <tt><a href="orders_list#STIRB">STIRB "passwort"</a></tt>
       </td>
       <td>
         aus dem Spiel ausscheiden
@@ -1399,7 +1399,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#TARNE">TARNE [stufe]</a></tt>
+        <tt><a href="orders_list#TARNE">TARNE [stufe]</a></tt>
       </td>
       <td>
         Tarnstufe setzen
@@ -1410,7 +1410,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#TARNE">TARNE rasse</a></tt>
+        <tt><a href="orders_list#TARNE">TARNE rasse</a></tt>
       </td>
       <td>
         Dämonen: als andere Rasse tarnen
@@ -1421,7 +1421,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#TARNE">TARNE PARTEI [NICHT]</a></tt>
+        <tt><a href="orders_list#TARNE">TARNE PARTEI [NICHT]</a></tt>
       </td>
       <td>
         Parteizugehörigkeit verbergen
@@ -1432,7 +1432,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#TARNE">TARNE PARTEI NUMMER
+        <tt><a href="orders_list#TARNE">TARNE PARTEI NUMMER
         nummer</a></tt>
       </td>
       <td>
@@ -1444,7 +1444,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#TRANSPORTIERE">TRANSPORTIERE
+        <tt><a href="orders_list#TRANSPORTIERE">TRANSPORTIERE
         einheit-nr</a></tt>
       </td>
       <td>
@@ -1456,7 +1456,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#TREIBE">TREIBE [betrag]</a></tt>
+        <tt><a href="orders_list#TREIBE">TREIBE [betrag]</a></tt>
       </td>
       <td>
         Steuern eintreiben (max. 20 S/Talentstufe)
@@ -1467,7 +1467,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#UNTERHALTE">UNTERHALTE
+        <tt><a href="orders_list#UNTERHALTE">UNTERHALTE
         [betrag]</a></tt>
       </td>
       <td>
@@ -1479,7 +1479,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#URSPRUNG">URSPRUNG [x y]</a></tt>
+        <tt><a href="orders_list#URSPRUNG">URSPRUNG [x y]</a></tt>
       </td>
       <td>
         setzt den Koordinaten-Ursprung
@@ -1490,7 +1490,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#VERGESSE">VERGESSE talent</a></tt>
+        <tt><a href="orders_list#VERGESSE">VERGESSE talent</a></tt>
       </td>
       <td>
         vergißt das Talent
@@ -1501,7 +1501,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#VERKAUFE">VERKAUFE anzahl
+        <tt><a href="orders_list#VERKAUFE">VERKAUFE anzahl
         luxusgut</a></tt>
       </td>
       <td>
@@ -1513,7 +1513,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#VERLASSE">VERLASSE</a></tt>
+        <tt><a href="orders_list#VERLASSE">VERLASSE</a></tt>
       </td>
       <td>
         Schiff oder Gebäude verlassen
@@ -1524,7 +1524,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#ZAUBERE">ZAUBERE
+        <tt><a href="orders_list#ZAUBERE">ZAUBERE
         "zauberspruch"</a></tt>
       </td>
       <td>
@@ -1536,7 +1536,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#ZEIGE">ZEIGE "zauberspruch"</a></tt>
+        <tt><a href="orders_list#ZEIGE">ZEIGE "zauberspruch"</a></tt>
       </td>
       <td>
         Zeige Beschreibung des Zaubers
@@ -1547,7 +1547,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#ZERSTOERE">ZERSTÖRE</a></tt>
+        <tt><a href="orders_list#ZERSTOERE">ZERSTÖRE</a></tt>
       </td>
       <td>
         Gebäude, Schiff oder Straße
@@ -1558,7 +1558,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#ZUECHTE">ZÜCHTE PFERDE</a></tt>
+        <tt><a href="orders_list#ZUECHTE">ZÜCHTE PFERDE</a></tt>
       </td>
       <td>
         Pferde züchten - nur in Pferdezucht
@@ -1569,7 +1569,7 @@
     </tr>
     <tr bgcolor="#EEEEEE">
       <td>
-        <tt><a href="orders_list.html#ZUECHTE">ZÜCHTE KRÄUTER</a></tt>
+        <tt><a href="orders_list#ZUECHTE">ZÜCHTE KRÄUTER</a></tt>
       </td>
       <td>
         Kräuter züchten
@@ -1580,7 +1580,7 @@
     </tr>
     <tr bgcolor="#DDDDDD">
       <td>
-        <tt><a href="orders_list.html#ZUECHTE">ZÜCHTE BÄUME</a></tt>
+        <tt><a href="orders_list#ZUECHTE">ZÜCHTE BÄUME</a></tt>
       </td>
       <td>
         Samen pflanzen

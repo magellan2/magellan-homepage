@@ -22,14 +22,14 @@
       </li>
     </ol>
     <p style="text-align: center">
-      <img src="../images/windows_region.gif" alt="" border="0" />
+      <img src="/images/help/magellan/windows_region.gif" alt="" border="0" />
     </p>
     <p>
       Knotenpunkte, unterhalb denen sich noch Einheiten mit <a
-      href="orders.html">unbest‰tigten Befehlen</a> befinden, werden in
+      href="orders">unbest‰tigten Befehlen</a> befinden, werden in
       Fettschrift dargestellt andere in normaler. Die Anzeige im Regionsfenster
       l‰sst sich in den <a
-      href="../menus/extras/options_region.html">Optionen</a> in weiten
+      href="../menus/extras/options_region">Optionen</a> in weiten
       Bereichen an den jeweiligen persˆnlichen Geschmack anpassen.
     </p>
     <p>

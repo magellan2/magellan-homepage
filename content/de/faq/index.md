@@ -125,7 +125,7 @@ Magellan (bzw. Java) gibt Fehlermeldungen oft nur in der Eingabeaufforderung aus
 
 Dazu startet man zunächst die MS-DOS-Eingabeaufforderung (unter Windows ME im Startmenü den Punkt 'Ausführen' öffnen, `command` eingeben und auf OK klicken, bei Windows 2000/XP lautet das Kommando `cmd`). Danach gibt man folgenden Befehl ein: `javaw -jar "(Pfad zu Magellan)\magellan-client.jar"` also z.B. `javaw -jar "C:\Eigene Dateien\magellan-client.jar"`.
 
-Die Kommandozeilen-Parameter von Magellan sind in der <a href="reference/commandline.html">Referenz</a> beschrieben.
+Die Kommandozeilen-Parameter von Magellan sind in der <a href="/de/help/reference/commandline">Referenz</a> beschrieben.
 
 
 <a id="MacMagellan" name="MacMagellan"></a>
@@ -139,7 +139,7 @@ Leider hat Apple erst mit dem Mac OS X eine aktuelle Java-Version veröffentlich
 
 ### F: Wie gehe ich mit Resourcenpfaden um?
 
-Die Resourcenpfade sind auf einer <a href="reference/ressources.html">eigenen Seite</a> beschrieben.
+Die Resourcenpfade sind auf einer <a href="/de/help/reference/ressources">eigenen Seite</a> beschrieben.
 
 
 <a id="Speichermangel" name="Speichermangel"></a>

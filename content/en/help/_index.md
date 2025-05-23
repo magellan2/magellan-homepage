@@ -7,11 +7,11 @@
     program to send mails to your allies. Almost...</p>
 <p>This documentation is built up around the following chapters:</p>
 <ul>
-    <li><a href="menus/index.html">The menus</a>
-    <li><a href="docks/index.html">The docks</a>
-    <li><a href="reference/index.html">Reference</a>
-    <li><a href="faq.html">FAQ</a>
-    <li><a href="feedback.html">Feedback and Support</a>
+    <li><a href="menus/">The menus</a>
+    <li><a href="docks/">The docks</a>
+    <li><a href="reference/">Reference</a>
+    <li><a href="/en/faq/">FAQ</a>
+    <li><a href="/en/feedback/">Feedback and Support</a>
 </ul>
 
 <p>
@@ -27,7 +27,7 @@
     this documentation is not completely up-to-date, since Magellan
     is under constant development. If you miss anything, leave us a note
     at the <a
-  href="feedback.html#bugs">Magellan bug tracker</a>. Of course any kind of help is welcome. The most
+  href="feedback/#bugs">Magellan bug tracker</a>. Of course any kind of help is welcome. The most
     important resource for recent information is our Website: <br />
     <a href="https://magellan2.github.io">https://magellan2.github.io</a>
 </p>
@@ -50,7 +50,7 @@
 
 <p>
     This documentation is distributed under the <a
-        href="license.html">GNU Public License (GPL)</a>.
+        href="license/">GNU Public License (GPL)</a>.
 </p>
 
 <p>Mark Gerritsen (english translation), Doetinchem, the

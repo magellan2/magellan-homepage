@@ -3,15 +3,15 @@
       Objekt-Name/-Beschreibung
     </h1>
     <p style="text-align: center">
-      <img src="../images/windows_name.gif" alt="" border="0" />
+      <img src="/images/help/magellan/windows_name.gif" alt="" border="0" />
     </p>
     <p>
       In diesem Fenster werden Namen und Beschreibung des jeweils aktuellen
-      Objektes angezeigt, also von Inseln, Regionen, Gebäuden, Schiffen,
+      Objektes angezeigt, also von Inseln, Regionen, Gebï¿½uden, Schiffen,
       Einheiten und Parteien. Name und Beschreibung sind jeweils editierbar,
-      d.h. Änderungen werden automatische als BENENNE oder BESCHREIBE bei den
-      entsprechenden Einheiten eingefügt. Wird der Name oder die Beschreibung
-      eines Gebäudes und Schiffes geändert, werden automatisch die
+      d.h. ï¿½nderungen werden automatische als BENENNE oder BESCHREIBE bei den
+      entsprechenden Einheiten eingefï¿½gt. Wird der Name oder die Beschreibung
+      eines Gebï¿½udes und Schiffes geï¿½ndert, werden automatisch die
       entsprechenden Befehle bei der Befehlshabenden Einheit erzeugt. Bei
-      Regionen entsprechend beim Besitzer der größten Burg, usw.
+      Regionen entsprechend beim Besitzer der grï¿½ï¿½ten Burg, usw.
     </p>

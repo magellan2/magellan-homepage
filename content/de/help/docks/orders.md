@@ -6,26 +6,26 @@
       Dieses Fenster dient dazu seinen Einheiten, neue Anweisungen zu geben.
     </p>
     <p style="text-align: center">
-      <img src="../images/windows_orders.gif" alt="" border="0" />
+      <img src="/images/help/magellan/windows_orders.gif" alt="" border="0" />
     </p>
     <p>
       Ist eine Einheit angew‰hlt, werden die Befehle der Einheit hier
       dargestellt und kˆnnen ver‰ndert werden. Magellan zeigt nur Befehle von
       Einheiten an, wenn f¸r die entsprechende Partei ein Password gesetzt
       wurde. Wenn hier also keine Befehle auftauchen, muﬂ man in der <a
-      href="../menus/extras/factionstatistics.html">Parteistatistik</a> f¸r
+      href="../menus/extras/factionstatistics">Parteistatistik</a> f¸r
       seine Partei zuerst ein Password angeben.
     </p>
     <p>
       Die Befehlseingabe wird durch eine komfortable
       Auto-Vervollst‰ndigen-Funktion unterst¸tzt, die flexibel an die eigenen
-      Bed¸rfnisse <a href="../menus/extras/options_detail.html">angepasst</a>
+      Bed¸rfnisse <a href="../../menus/extras/options_detail">angepasst</a>
       werden kann. Um einen Befehl einzugeben muﬂ man nur dessen
       Anfangsbuchstaben eingeben. Aus der nun erscheinenden Vorschlagsliste
       kann man nun mittels der Cursortasten oder STRG-up bzw. STRG-down den
       passenden Befehl ausw‰hlen und mit der TAB-Taste einf¸gen. Die
       Auto-Vervollst‰ndigen-Funktion kann im Men¸ <a
-      href="../menus/extras/options_detail.html">Extras/Optionen/Detailanzeige</a>
+      href="../../menus/extras/options_detail">Extras/Optionen/Detailanzeige</a>
       konfiguriert werden.
     </p>
     <p>
@@ -55,7 +55,7 @@
       TEMP-Einheiten erschaffen
     </h3>
     <p>
-      <img src="../images/windows_orders_button_maketemp.gif" alt=""
+      <img src="/images/help/magellan/windows_orders_button_maketemp.gif" alt=""
       border="0" />
     </p>
     <p>
@@ -64,14 +64,14 @@
       Die ensprechenden Befehle werden dabei automatisch erzeugt.
     </p>
     <p>
-      <img src="../images/windows_orders_maketemp.gif" alt="" border="0" />
+      <img src="/images/help/magellan/windows_orders_maketemp.gif" alt="" border="0" />
     </p>
     <p>
       Nach einem Klick auf<br />
        <i>Mehr</i> erscheint folgender Dialog:
     </p>
     <p>
-      <img src="../images/windows_orders_maketempmore.gif" alt="" border="0" />
+      <img src="/images/help/magellan/windows_orders_maketempmore.gif" alt="" border="0" />
     </p>
     <p>
       Hier kann zus‰tzlich die Anzahl der zu rekrutierenden Personen, ein
@@ -83,7 +83,7 @@
       TEMP-Einheiten lˆschen
     </h3>
     <p>
-      <img src="../images/windows_orders_button_deltemp.gif" alt=""
+      <img src="/images/help/magellan/windows_orders_button_deltemp.gif" alt=""
       border="0" />
     </p>
     <p>

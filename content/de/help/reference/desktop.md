@@ -15,4 +15,4 @@
   kann man schnell von einer Pr�sentationsansicht f�r Freunde und Mitspieler
   auf eine Ansicht zum Bearbeiten der Befehle einer bestimmten Region wechseln.
 
-  F�r eine genauere Betrachtung dessen, schaut in das <a href="../menus/desktop/index.html">Desktop-Men�</a>.
+  F�r eine genauere Betrachtung dessen, schaut in das <a href="../menus/desktop/">Desktop-Men�</a>.

@@ -3,7 +3,7 @@
       History
     </h1>
     <p style="text-align: center">
-      <img src="../images/windows_history.gif" alt="" border="0" />
+      <img src="/images/help/magellan/windows_history.gif" alt="" border="0" />
     </p>
     <p>
       Klickt man auf der Karte, im Regionsfenster oder im Befehlsfenster eine

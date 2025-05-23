@@ -3,7 +3,7 @@
       MiniMap
     </h1>
     <p style="text-align: center">
-      <img src="../images/windows_minimap.gif" alt="" border="0" />
+      <img src="/images/help/magellan/windows_minimap.gif" alt="" border="0" />
     </p>
     <p>
       Die ‹bersichtskarte stellt eine stark verkleinerte Karte dar, so dass man
@@ -11,5 +11,5 @@
       Region aus, so wird die Karte auf die ausgew‰hlte Region zentriert und
       der Regionsbaum an der Region geˆffnet. Ebenso wie bei der groﬂen Karte
       hat man hier eine Vielzahl von <a
-      href="../menus/extras/options_map.html">Einstellmˆglichkeiten</a>.
+      href="../../menus/extras/options_map">Einstellmˆglichkeiten</a>.
     </p>

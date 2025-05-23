@@ -6,7 +6,7 @@
       Hier wird eine Karte der bekannten Welt dargestellt.
     </p>
     <p style="text-align: center">
-      <img src="../images/windows_map.gif" alt="" border="0" />
+      <img src="/images/help/magellan/windows_map.gif" alt="" border="0" />
     </p>
     <p>
       Bei eingeschaltetem "Fog of War" (FOW) werden Regionen, in denen sich

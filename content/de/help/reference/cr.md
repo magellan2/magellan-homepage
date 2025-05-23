@@ -7,8 +7,8 @@
   Option trotzdem gesetzt werden, um weiterhin einen zu beziehen. Möglich
   ist dies unter [Extras -&gt; Eressea Optionen...](../../menus/extras/factionstatistics/#eresseaoptions).
 
-Bekommt man die Auswertung auch als CR gesandt, so sollte man [Magellan starten](/de/faq#Kommandozeilenstart) und per [Datei -&gt; öffnen...](../menus/file/open.html) den CR laden.
-  Als nächstes muss man unter in der [Parteistatistik](../menus/extras/factionstatistics.html) seine
+Bekommt man die Auswertung auch als CR gesandt, so sollte man [Magellan starten](/de/faq#Kommandozeilenstart) und per [Datei -&gt; öffnen...](../menus/file/open) den CR laden.
+  Als nächstes muss man unter in der [Parteistatistik](../menus/extras/factionstatistics) seine
   Partei auswählen und mittels der Schaltfläche <b><i>Password setzen</i></b> Magellan sein Passwort mitteilen, da es erst mit gesetztem
   Passwort möglich ist, seine Befehle zu schreiben.
 

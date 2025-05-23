@@ -6,7 +6,7 @@
       Hier tauchen die einzelnen Meldungen auf.
     </p>
     <p style="text-align: center">
-      <img src="../images/windows_messages.gif" alt="" border="0" />
+      <img src="/images/help/magellan/windows_messages.gif" alt="" border="0" />
     </p>
     <p>
       Je nach Kontext werden hier die entsprechenden Meldungen angezeigt. Hat

@@ -13,7 +13,7 @@
 
 ##  Ressourcenpfade
 
-  Die <a href="ressources.html">Resourcenseite</a> enth�lt grundlegenede
+  Die <a href="ressources">Resourcenseite</a> enth�lt grundlegenede
   Informationen zu Resourcen und Resourcenpfaden.
 
   Magellan l�dt Dateien (z.B. Grafiken) immer aus bestimmten
