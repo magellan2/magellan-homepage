@@ -1,10 +1,11 @@
-# baseURL = 'https://magellan.jaatho.de/'
-baseURL = 'https://magellan2.github.io/magellan-homepage/'
+baseURL = 'https://magellan.jaatho.de/'
 title = 'Magellan'
 theme = "magellan"
 
 defaultContentLanguage = 'de'
 DefaultContentLanguageInSubdir = true
+
+canonifyURLs = true
 
 [languages]
   [languages.de]
