@@ -1,4 +1,5 @@
-baseURL = 'https://magellan.jaatho.de/'
+# baseURL = 'https://magellan.jaatho.de/'
+baseURL = 'https://magellan2.github.io/magellan-homepage/'
 title = 'Magellan'
 theme = "magellan"
 
